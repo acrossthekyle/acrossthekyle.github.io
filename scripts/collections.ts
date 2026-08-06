@@ -106,43 +106,47 @@ export async function go() {
 
       const cover = photos.find((photo) => photo.type === 'cover');
 
-      collections.push({
-        category: uppercaseFirst(data.category),
-        coordinates: reduceCoordinates(data.coordinates),
-        count: data.images.length,
-        cover: {
-          src: cover?.id || null,
-          thumb: cover?.thumb || null,
-        },
-        header: data.header,
-        id: data.id,
-        location: data.location,
-        notes: data.notes,
-        timestamp: data.timestamp,
-        title: data.title,
-        type: data.type,
-        when,
-      });
-
-      data.images.map(({ date, elevation, location, notes, src, title }) => {
-        const foundImage = photos.find((photo) => photo.type === 'image' && photo.id === src);
-
-        images.push({
-          camera: foundImage?.exif?.camera || null,
+      if (cover) {
+        collections.push({
           category: uppercaseFirst(data.category),
-          collectionId: data.id,
-          elevation: {
-            imperial: formatNumber(elevation),
-            metric: formatNumber(elevation / 3.281),
+          coordinates: reduceCoordinates(data.coordinates),
+          count: data.images.length,
+          cover: {
+            src: cover.id,
+            thumb: cover.thumb,
           },
-          id: (foundImage?.id || '').split('/').pop(),
-          location,
-          notes: notes ? (Array.isArray(notes) ? notes : [notes]) : [],
-          src: foundImage?.id || null,
-          thumb: foundImage?.thumb || null,
-          title,
-          when: date ? getWhen(date) : null,
+          header: data.header,
+          id: data.id,
+          location: data.location,
+          notes: data.notes,
+          timestamp: data.timestamp,
+          title: data.title,
+          type: data.type,
+          when,
         });
+      }
+
+      data.images.map(({ date, elevation, location, notes, id, title }) => {
+        const foundImage = photos.find((photo) => photo.type === 'image' && photo.id.includes(id));
+
+        if (foundImage) {
+          images.push({
+            camera: foundImage.exif?.camera || null,
+            category: uppercaseFirst(data.category),
+            collectionId: data.id,
+            elevation: {
+              imperial: formatNumber(elevation),
+              metric: formatNumber(elevation / 3.281),
+            },
+            id: foundImage.id.split('/').pop(),
+            location,
+            notes: notes ? (Array.isArray(notes) ? notes : [notes]) : [],
+            src: foundImage.id,
+            thumb: foundImage.thumb,
+            title,
+            when: date ? getWhen(date) : null,
+          });
+        }
       });
     }
   }

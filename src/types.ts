@@ -28,7 +28,7 @@ export type Image = {
 
 export type Cover = {
   src: string;
-  thumb: string | null;
+  thumb: string;
 };
 
 export type Collection = {

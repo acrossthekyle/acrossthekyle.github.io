@@ -17,7 +17,7 @@
   "category": "backpacking",
   "type": "thru-hike",
   "coordinates": "55.943977° N, 4.319957° W",
-  "cover": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
+  "cover": "e8dd9fed-56e4-45bf-aee4-d1bc44a5363c",
   "notes": [
     "This was one of my shorter thru-hikes, taking only 6 days to complete an overland trek that extends for 97 miles between Glasgow in the south and Fort William in the northern highlands.",
     "I camped every night in fields, on stony beaches, and under bridges. The first two days had clear skies, but the rest of the hike was filled with nearly endless rain. The highlands were truly spectacular, despite the constant downpours."
@@ -28,9 +28,10 @@
     "scotland along the",
     "west highland way"
   ],
+  "uploads": "2022/05/07",
   "images": [
     {
-      "src": "2022/05/07/75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg",
+      "id": "75a8c027-07cd-4184-9157-d48dd5d1a32e",
       "title": "Drymen",
       "location": {
         "region": "Glasgow",
@@ -42,7 +43,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/747eb0e7-6974-4ed6-b192-405ac0b2921e.jpeg",
+      "id": "747eb0e7-6974-4ed6-b192-405ac0b2921e",
       "title": "Gartness Road",
       "location": {
         "region": "Glasgow",
@@ -54,7 +55,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/c4762ec0-727f-475c-a781-1f2a155229ae.jpeg",
+      "id": "c4762ec0-727f-475c-a781-1f2a155229ae",
       "title": "Conic Hill",
       "location": {
         "region": "Glasgow",
@@ -66,7 +67,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/4e6508e2-a253-4eec-b184-e00dc4c49137.jpeg",
+      "id": "4e6508e2-a253-4eec-b184-e00dc4c49137",
       "title": "Loch Lomond",
       "location": {
         "region": "Glasgow",
@@ -78,7 +79,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/19db3d7d-c471-4795-8f86-f9822eb9928d.jpeg",
+      "id": "19db3d7d-c471-4795-8f86-f9822eb9928d",
       "title": "Sallochy",
       "location": {
         "region": "Glasgow",
@@ -90,7 +91,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg",
+      "id": "e610c340-2b8c-481c-8442-dc4543db3f2c",
       "title": "Stirling",
       "location": {
         "region": "Inverarnan",
@@ -102,7 +103,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/4cbae836-e836-478f-8122-e3eb83942de8.jpeg",
+      "id": "4cbae836-e836-478f-8122-e3eb83942de8",
       "title": "Doune Byre",
       "location": {
         "region": "Inverarnan",
@@ -114,7 +115,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/566b8b5b-0b61-41ae-9ea8-50a8a94c98af.jpeg",
+      "id": "566b8b5b-0b61-41ae-9ea8-50a8a94c98af",
       "title": "Crianlarich",
       "location": {
         "region": "Glen Orchy",
@@ -126,7 +127,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg",
+      "id": "b7df127a-0f69-4b29-843f-e1a7c6f858bf",
       "title": "Beinn Dorain",
       "location": {
         "region": "Glen Orchy",
@@ -138,7 +139,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/20bc433d-7e8e-48b7-8b66-e9a2052b4e71.jpeg",
+      "id": "20bc433d-7e8e-48b7-8b66-e9a2052b4e71",
       "title": "Bridge of Orchy",
       "location": {
         "region": "Glen Orchy",
@@ -150,7 +151,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/0875b9ee-128e-403b-83b7-a2b5718bbb33.jpeg",
+      "id": "0875b9ee-128e-403b-83b7-a2b5718bbb33",
       "title": "Taynuilt",
       "location": {
         "region": "Lochaber",
@@ -162,7 +163,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/ff646f60-28e7-4f67-984c-c0f79d66ff17.jpeg",
+      "id": "ff646f60-28e7-4f67-984c-c0f79d66ff17",
       "title": "Mam Carraigh",
       "location": {
         "region": "Lochaber",
@@ -174,7 +175,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/df8e1220-01e4-40b2-81c9-e7254d9a5958.jpeg",
+      "id": "df8e1220-01e4-40b2-81c9-e7254d9a5958",
       "title": "Highlands",
       "location": {
         "region": "Lochaber",
@@ -186,7 +187,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/7fc21efe-eaa8-4e65-bb54-bb9aa2fbfc21.jpeg",
+      "id": "7fc21efe-eaa8-4e65-bb54-bb9aa2fbfc21",
       "title": "Ballachulish",
       "location": {
         "region": "Lochaber",
@@ -198,7 +199,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/7b2f184a-0718-4ed2-8354-f8734f19660f.jpeg",
+      "id": "7b2f184a-0718-4ed2-8354-f8734f19660f",
       "title": "Stob Ghabhar",
       "location": {
         "region": "Lochaber",
@@ -210,7 +211,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
+      "id": "191dbf48-61aa-47f6-bbd7-cad7f3fc06e7",
       "title": "Glen Etive",
       "location": {
         "region": "Lochaber",
@@ -222,7 +223,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/8487ff91-7ceb-455b-90cc-2802aabae33b.jpeg",
+      "id": "8487ff91-7ceb-455b-90cc-2802aabae33b",
       "title": "Kingshouse",
       "location": {
         "region": "Lochaber",
@@ -234,7 +235,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/12874d6b-f438-4744-8e8b-2456cf878a1a.jpeg",
+      "id": "12874d6b-f438-4744-8e8b-2456cf878a1a",
       "title": "Kinlochleven",
       "location": {
         "region": "Corrour",
@@ -246,7 +247,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg",
+      "id": "07741eea-d85e-42cf-a2d4-d0f87102bffc",
       "title": "Allt Nathrach",
       "location": {
         "region": "Fort William",
@@ -258,7 +259,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/9f643782-1b01-4fb0-b3cc-eb476afb27fd.jpeg",
+      "id": "9f643782-1b01-4fb0-b3cc-eb476afb27fd",
       "title": "Tigh-na-sleubhalch",
       "location": {
         "region": "Fort William",
@@ -270,7 +271,7 @@
       "notes": ""
     },
     {
-      "src": "2022/05/07/edea9c01-5a15-4813-a87c-d74cd4e191f6.jpeg",
+      "id": "edea9c01-5a15-4813-a87c-d74cd4e191f6",
       "title": "Fort William",
       "location": {
         "region": "Fort William",

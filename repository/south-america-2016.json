@@ -17,7 +17,7 @@
   "category": "destination",
   "type": "vacation",
   "coordinates": "33.448890° S, 70.669265° W",
-  "cover": "2016/03/18/9742d413-6fdd-4474-a4a2-59ada5ddab14.jpeg",
+  "cover": "9742d413-6fdd-4474-a4a2-59ada5ddab14",
   "notes": [
     "This was my second time visiting South America. We explored Santiago and Valparaiso for a few days with visits to wineries, Lollapalooza, and a hike to a glacier in the Andes mountains.",
     "We also took a few days to head down to Patagonia where we did a day hike up to the base of the Towers of Patagonia, took a cruise to see some glaciers, and stepped into a deep Ice Age cave."
@@ -28,9 +28,10 @@
     "Santiago, and the Patagonia",
     "region, of chile"
   ],
+  "uploads": "2016/03/18",
   "images": [
     {
-      "src": "2016/03/18/a3205d70-0fc8-416a-b383-eb08e9e612a5.jpeg",
+      "id": "a3205d70-0fc8-416a-b383-eb08e9e612a5",
       "title": "Cerro San Cristóbal",
       "location": {
         "region": "Pedro de Valdivia Norte",
@@ -42,7 +43,7 @@
       "notes": ""
     },
     {
-      "src": "2016/03/18/dd0b9008-fbc2-4916-a33c-303a406e8fa5.jpeg",
+      "id": "dd0b9008-fbc2-4916-a33c-303a406e8fa5",
       "title": "Valparaíso",
       "location": {
         "region": "Cerro Mariposa",
@@ -54,7 +55,7 @@
       "notes": ""
     },
     {
-      "src": "2016/03/18/1f5577cc-e0c2-4c66-987e-903a9b6be02c.jpeg",
+      "id": "1f5577cc-e0c2-4c66-987e-903a9b6be02c",
       "title": "Andian Glacier Hike",
       "location": {
         "region": "San Jose de Maipo",
@@ -66,7 +67,7 @@
       "notes": ""
     },
     {
-      "src": "2016/03/18/b941c594-5218-449f-b79d-cb9936f56ad5.jpeg",
+      "id": "b941c594-5218-449f-b79d-cb9936f56ad5",
       "title": "Cousino Macul",
       "location": {
         "region": "Hacienda Macul",
@@ -78,7 +79,7 @@
       "notes": ""
     },
     {
-      "src": "2016/03/18/fb45dc07-e4fe-4d90-b39a-f54e50142d5a.jpeg",
+      "id": "fb45dc07-e4fe-4d90-b39a-f54e50142d5a",
       "title": "Torres del Paine",
       "location": {
         "region": "Sarmiento",
@@ -90,7 +91,7 @@
       "notes": ""
     },
     {
-      "src": "2016/03/18/9e9e78a3-a2ad-4a09-962c-fc1866ccfbd4.jpeg",
+      "id": "9e9e78a3-a2ad-4a09-962c-fc1866ccfbd4",
       "title": "Cueva del Milodon",
       "location": {
         "region": "Torres del Paine",
@@ -102,7 +103,7 @@
       "notes": ""
     },
     {
-      "src": "2016/03/18/9742d413-6fdd-4474-a4a2-59ada5ddab14.jpeg",
+      "id": "9742d413-6fdd-4474-a4a2-59ada5ddab14",
       "title": "Glacier Cruise",
       "location": {
         "region": "Magallanes and Antarica Region",

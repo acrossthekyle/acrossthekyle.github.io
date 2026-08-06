@@ -1,10 +1,124 @@
 const data = [
   {
+    "category": "Destination",
+    "coordinates": "12.5933° S, 69.1891° W",
+    "count": 15,
+    "cover": {
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/c1f7edf9-dbe5-4692-a967-a4922f294b51.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA//EACMQAQACAQIGAwEAAAAAAAAAAAECEQADIRIiMUFRYRMycfH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AN8z0q/eAOtNPtX5ignrLHhkH7iiITY0n9wF1J8QqmAS2Lrv4yK1bmETIt94Cx5Su2ALeUdmaiIdcw2XUfBiAJ03RiCdSVsdtsuJpuNnKYV//9k="
+    },
+    "header": [
+      "exploring the peruvian amazon",
+      "jungle from the finca sachavacayoc lodge",
+      "in the tambopata national reserve"
+    ],
+    "id": "puerto-maldonado",
+    "location": {
+      "region": "Amazon Rain Forest",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [
+      ""
+    ],
+    "title": [
+      "Puerto",
+      "Maldonado"
+    ],
+    "type": "excursion",
+    "when": {
+      "long": [
+        "July 19th",
+        "22nd, 2026"
+      ],
+      "short": [
+        "07/19/26",
+        "07/22/26"
+      ]
+    }
+  },
+  {
+    "category": "Backpacking",
+    "coordinates": "13.1632° S, 72.5453° W",
+    "count": 30,
+    "cover": {
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/11/927ce0b1-f63d-4a58-9fd4-47fc8c577978.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDBP/EACEQAAICAQQCAwAAAAAAAAAAAAABAhEhEhMxcTJRQVKB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDppVjIcezm3uyqbfEnZJvpvlEcUvgxc5fZk3Z+xgrX8rsHNKTk8uwMZqtZJn2AZbTW/G8E1YAHAl5AAp//2Q=="
+    },
+    "header": [
+      "thru-hiking in the",
+      "mountains of peru",
+      "along the inca trail",
+      "to Macchu Pichu"
+    ],
+    "id": "salkantay-trek",
+    "location": {
+      "region": "Vilcabamba Range, The Andes",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [
+      ""
+    ],
+    "title": [
+      "Salkantay",
+      "Trek"
+    ],
+    "type": "thru-hike",
+    "when": {
+      "long": [
+        "July 11th",
+        "17th, 2026"
+      ],
+      "short": [
+        "07/11/26",
+        "07/17/26"
+      ]
+    }
+  },
+  {
+    "category": "Destination",
+    "coordinates": "13.5320° S, 71.9675° W",
+    "count": 14,
+    "cover": {
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/08/af04785a-2aa7-45b1-839e-04ee0819a4fb.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAkEAACAgEDAgcAAAAAAAAAAAAAAQIREgMhQSIxQlFhcYGhsf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ANYBxfXfbZoRpOg/HXKAlSiklX2RKcVXr5GajLn9LRjVX33YorLUk9owfyDQAZy1cXVFMnJtNvdAEDGNc+9kZS06t3TAKOhAAD//2Q=="
+    },
+    "header": [
+      "exploring the region",
+      "of cusco and the",
+      "sacred valley in peru"
+    ],
+    "id": "cusco",
+    "location": {
+      "region": "Cusco + Sacred Valley",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [
+      ""
+    ],
+    "title": [
+      "Cusco"
+    ],
+    "type": "vacation",
+    "when": {
+      "long": [
+        "July 8th",
+        "10th, 2026"
+      ],
+      "short": [
+        "07/08/26",
+        "07/10/26"
+      ]
+    }
+  },
+  {
     "category": "Backpacking",
     "coordinates": "40.0080° N, 87.5717° W",
     "count": 6,
     "cover": {
-      "src": "2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EACEQAAIBAwMFAAAAAAAAAAAAAAABERJSoQIhkSIxUVOC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDokSSSd74RpJ3YFwmqbCfBP7wN/Y+EKRQE+q/AFWJyxUAZaExVLACGpx2AAV//2Q=="
     },
     "header": [
@@ -43,7 +157,7 @@ const data = [
     "coordinates": "43.1713° N, 91.2594° W",
     "count": 6,
     "cover": {
-      "src": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCAf/EAB8QAAIBAwUBAAAAAAAAAAAAAAABEQISQQMTITFRkf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBAP/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/ACaNqCcc9YNJOcfSS4tmqKg0qSb1LVClslfVnkXVDmRZtN+AjfmQRRppTJyHan236AE2dx9BajmABDW71UnNMsAGR//Z"
     },
     "header": [
@@ -83,7 +197,7 @@ const data = [
     "coordinates": "45.8902° N, 6.7978° E",
     "count": 22,
     "cover": {
-      "src": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EACAQAAICAQUAAwAAAAAAAAAAAAABAhExAxIhQWFxgbH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAwD/xAAXEQEBAQEAAAAAAAAAAAAAAAAAAREh/9oADAMBAAIRAxEAPwC3H5+yGilOOJKvQaV8fpXUMZsRbjWRbbMyANHptZQGLJym5Vy0Uo6i6SLTUcLklyJyKUNSWdt+CipvpCsMiOtJRlTtpugIirYBsOV//9k="
     },
     "header": [
@@ -123,7 +237,7 @@ const data = [
     "coordinates": "46.2044° N, 6.1432° E",
     "count": 6,
     "cover": {
-      "src": "2024/07/24/f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2024/07/24/f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EACIQAAIBAgYDAQAAAAAAAAAAAAABEgIhAxETMWGRQVFSYv/EABYBAQEBAAAAAAAAAAAAAAAAAAADAv/EABcRAQEBAQAAAAAAAAAAAAAAAAASAQL/2gAMAwEAAhEDEQA/AKiZEalfldm6vtLs3SW8piIlan4ZsqvhX5FEaiIKddSeTpSfLArCNcpNtcDEbhsrvwASXbht12zaKb6AAPe+dvQAA//Z"
     },
     "header": [
@@ -161,7 +275,7 @@ const data = [
     "coordinates": "41.9267° N, 8.7369° E",
     "count": 5,
     "cover": {
-      "src": "2023/07/05/4901532f-a283-4e4c-a93e-1b9cc3f9b13e.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2023/07/05/4901532f-a283-4e4c-a93e-1b9cc3f9b13e.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAgEAACAgICAgMAAAAAAAAAAAAAAQIRAxIhYSIxQVGh/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABkRAQEBAQEBAAAAAAAAAAAAAAARARICMf/aAAwDAQACEQMRAD8ARy4pLyWr7LnpnfOLHCLrgtSYaq+BSGq7CQ1X0CMlJ/P4c3ZYskkqT4LUmJ4pt7bNlxn0nsjTJsuwMdmHQcqAlDK4v0PhuVpi7Xonacuuh2cv/9k="
     },
     "header": [
@@ -201,7 +315,7 @@ const data = [
     "coordinates": "42.5074° N, 8.8554° E",
     "count": 33,
     "cover": {
-      "src": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAgEDBAD/xAAeEAEAAgMBAQADAAAAAAAAAAABABECEiExURNhcf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARQf/aAAwDAQACEQMRAD8Ao2f6waLG/b7JNWGV47LFmOcr8biB2xWrtkmMsmW1mLx+wK1yPxBi9fYs6IvxIFBz9MUjbvSCI1yKqmSMxAqSBdaQvvbih3dk++QT/9k="
     },
     "header": [
@@ -242,7 +356,7 @@ const data = [
     "coordinates": "30.0333° N, 31.2333° E",
     "count": 30,
     "cover": {
-      "src": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAfEAACAgICAwEAAAAAAAAAAAAAAQIRAyEScRMxQTP/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQMC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oADAMBAAIRAxEAPwDXLNY2rvZHkg/tdmeeSlk07SRmKZehU3ppkrcUyMM1Ge/pNtSaTa2NJlpQGOXJO/aB1UjCT2cb2wDNoRb5rs7l/SXYBRcX48tXYAIP/9k="
     },
     "header": [
@@ -282,7 +396,7 @@ const data = [
     "coordinates": "43.1126° N, 89.6480° W",
     "count": 5,
     "cover": {
-      "src": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDAv/EACIQAAICAQIHAQAAAAAAAAAAAAABAhEhAxIiMTJBQnGBYf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AM1jVixLsR4nGzppsy0nj9Oe8vRpKVQSaRm/LDKLHqfoEi+L4ANI6Vyu8mmzbi7AIqOK/TjbG8XYAFUE1zYACP/Z"
     },
     "header": [
@@ -322,7 +436,7 @@ const data = [
     "coordinates": "55.9440° N, 4.3200° W",
     "count": 21,
     "cover": {
-      "src": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIBAwT/xAAiEAEAAQMDBAMAAAAAAAAAAAABAAISQREhUQMTMTJhobH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAMAwEAAhEDEQA/AO5tECjgkmXBFFwygqV4kC/4g0l6hxEBWOJIa6eJIvOGSeTxMNL7qGn5GhZVU5hoxui+28NKGgY+5Ux//9k="
     },
     "header": [
@@ -362,7 +476,7 @@ const data = [
     "coordinates": "18.4663° N, 66.1057° W",
     "count": 6,
     "cover": {
-      "src": "2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAfEAADAQABBQEBAAAAAAAAAAAAAQIREgMhMVFxQWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCIpJ92U5mvHZfDBcvRpNPw9A3npzhczhlNJfmFql7JVjV5gIqmp1S38BB4taO628AKL3ji/hU0ARV11OE7m6AAP//Z"
     },
     "header": [
@@ -401,7 +515,7 @@ const data = [
     "coordinates": "46.7666° N, 89.7502° W",
     "count": 5,
     "cover": {
-      "src": "2020/07/01/d2eed074-7e71-44c6-9f3a-1bf375430ab3.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2020/07/01/d2eed074-7e71-44c6-9f3a-1bf375430ab3.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAQACAwT/xAAfEAACAgEEAwAAAAAAAAAAAAAAARESAgMTQVEhYXH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAbEQEBAQACAwAAAAAAAAAAAAAAARECEiFBUf/aAAwDAQACEQMRAD8A27y6HQlrY8lqw7mL5IYrrsliui1Y5LJGWlb0OUbDL+DOLN5fDI+IPNNjFs9NyX2xSaUthvxowPaxnrA/AXlaZxgmWBLBP//Z"
     },
     "header": [
@@ -441,7 +555,7 @@ const data = [
     "coordinates": "50.9652° S, 72.8635° W",
     "count": 18,
     "cover": {
-      "src": "2020/02/18/380820b8-520a-49fa-8f01-651ca63fd84f.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2020/02/18/380820b8-520a-49fa-8f01-651ca63fd84f.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAeEAACAgMAAwEAAAAAAAAAAAAAAQIRAxIhQVFhcf/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAgP/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQES/9oADAMBAAIRAxEAPwC9G89A3SEeROte/SRtQUSMczttt/hWGRTXOMLpmNa+AMA0Rxucmkm269iuTXkfqoKU78HPoxJzN3Zko6unXBWaoXhnaYHPbAU//9k="
     },
     "header": [
@@ -481,7 +595,7 @@ const data = [
     "coordinates": "28.2096° N, 83.9856° E",
     "count": 7,
     "cover": {
-      "src": "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCAQT/xAAfEAEBAAICAgMBAAAAAAAAAAABAAIRITESEwMiQVH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AN4/KNQyG8wj0Db4OiC+5ul5mu9XPYfrqC3lKJmPAkgh7D+WjNfziSDhmdpzbfqbQ5kg4ZbkkR//2Q=="
     },
     "header": [
@@ -520,7 +634,7 @@ const data = [
     "coordinates": "28.5300° N, 83.8780° E",
     "count": 11,
     "cover": {
-      "src": "2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EACIQAAIBAwQCAwAAAAAAAAAAAAABAgMRIRIxQVEEE3GBsf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAQEBAQEAAAAAAAAAAAAAAAABEQIS/9oADAMBAAIRAxEAPwC1CKxNWfBDpSXBClVWLux0jUmt3c1tY8wdJ8Grx3y18Fe5byWTJVUs3+kTas5iZ0bZjt+AidWVTGy6BZaXmJ1WDbAIuKV30Y9Ns9gAVpSAAH//2Q=="
     },
     "header": [
@@ -560,7 +674,7 @@ const data = [
     "coordinates": "28.2391° N, 84.3693° E",
     "count": 20,
     "cover": {
-      "src": "2019/10/19/8e6f1186-0022-490e-9a78-1e010c478e7c.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2019/10/19/8e6f1186-0022-490e-9a78-1e010c478e7c.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAQACAwT/xAAhEAABBAEEAwEAAAAAAAAAAAABAAIRIUEDEjFREyJhgf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAYEQEBAQEBAAAAAAAAAAAAAAAAERIBAv/aAAwDAQACEQMRAD8AhqYcbWmUHAU6FaznhlkxKVO+eNbB2rowtg7TRjryjKw6OjRu9XcjgpSCDMAJSN2wXXaVYAZ5JhSrC7RjNKVYTptLzU/qVIfJGFFEF4B+pQEEiKpB/9k="
     },
     "header": [
@@ -600,7 +714,7 @@ const data = [
     "coordinates": "39.7392° N, 104.9903° W",
     "count": 9,
     "cover": {
-      "src": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAhEAACAQMDBQAAAAAAAAAAAAAAARESQVECEzEDIVJhkf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAMAwEAAhEDEQA/AOz6aXLRqsZShZX0tTJQnw0KZNtehpMm0KZeSX5Ga6Ql5QpCXbuKsVahUhWKRmmCNNJLBBZmwCNLsBmkD//Z"
     },
     "header": [
@@ -640,7 +754,7 @@ const data = [
     "coordinates": "46.6992° N, 12.0852° E",
     "count": 19,
     "cover": {
-      "src": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBAv/EAB0QAAMBAAMAAwAAAAAAAAAAAAABAhEDEkEhMVH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAMC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AKzapvPBpDjblfOlO/1voSpWWjdRKa7LTtM6CiQIvlUvPQBSbMpavxgGJYm0lnhkctKn7oBpA4vs6dNgAk//2Q=="
     },
     "header": [
@@ -680,7 +794,7 @@ const data = [
     "coordinates": "45.8902° N, 6.7983° E",
     "count": 23,
     "cover": {
-      "src": "2018/09/02/0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2018/09/02/0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAfEAADAAICAgMAAAAAAAAAAAAAAQIRIQMSMVFBYZH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAgMA/8QAFxEBAQEBAAAAAAAAAAAAAAAAABESAf/aAAwDAQACEQMRAD8AXBqk2ueF4nJKuWqeFr6RemWOrKGapJLvp0u2fbGXJ1etJfDO0cRVSBq5p9L9AKY48ex5mVh4ACGiyFqE9rTAAJOjl6eAABoj/9k="
     },
     "header": [
@@ -721,7 +835,7 @@ const data = [
     "coordinates": "43.1634° N, 1.2358° W",
     "count": 32,
     "cover": {
-      "src": "2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAhEAACAQQCAgMAAAAAAAAAAAAAARECEjFRISIjQXGBof/EABYBAQEBAAAAAAAAAAAAAAAAAAABA//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwD0Zw4OdsMzVUPhQXfztfAoONohpPf0XdS8wOhakZVUTjILdm/0CpGQAMGimvHdPsiWvbAKrkvYAA//2Q=="
     },
     "header": [
@@ -761,7 +875,7 @@ const data = [
     "coordinates": "33.4489° S, 70.6693° W",
     "count": 7,
     "cover": {
-      "src": "2016/03/18/9742d413-6fdd-4474-a4a2-59ada5ddab14.jpeg",
+      "src": "https://ik.imagekit.io/acrossthekyle/uploads/2016/03/18/9742d413-6fdd-4474-a4a2-59ada5ddab14.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAwABAgT/xAAkEAABBAEDAwUAAAAAAAAAAAABAAIDESEEEjETQYEiUmGRof/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ALlmo03J7qozFKTJRODwgQyMB9TggOTUcCMeSgyNRIBW/wDEBbs4woq225/byg6iI9tEfSVICUMaKBPwEqwSBjA33FBpsQacOKFJWOVIUToQclxVKnRbXJQf/9k="
     },
     "header": [

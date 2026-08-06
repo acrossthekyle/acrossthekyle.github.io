@@ -16,7 +16,7 @@
   "category": "destination",
   "type": "vacation",
   "coordinates": "28.209600° N, 83.985600° E",
-  "cover": "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
+  "cover": "0a6730d7-113b-4bca-b9d1-71ecf8e69713",
   "notes": [
     "After completing my trekking in the Annapurna Region of Nepal I spent a few days exploring Pokhara. The bustling city is situated next a body of water called Phewa Lake, and has one main shopping avenue with cafes and restaurants that runs perpendicular to it.",
     "There's also a great outdoor movie theater nestled next to a bit of the jungle. I also decided to take advantage of the numerous outdoor activity companies in the city and tried something new: a paragliding excursion."
@@ -27,9 +27,10 @@
     "gateway to the",
     "himalayas — in Nepal"
   ],
+  "uploads": "2019/11/06",
   "images": [
     {
-      "src": "2019/11/06/a00dcb55-664a-4db7-b71e-382f6ac14684.jpeg",
+      "id": "a00dcb55-664a-4db7-b71e-382f6ac14684",
       "title": "Phewa Lake",
       "location": {
         "region": "Pokhara",
@@ -41,7 +42,7 @@
       "notes": ""
     },
     {
-      "src": "2019/11/06/a9cf40fc-77bd-4f63-a3c6-7c1d6cc3bca8.jpeg",
+      "id": "a9cf40fc-77bd-4f63-a3c6-7c1d6cc3bca8",
       "title": "Phewa Lake",
       "location": {
         "region": "Pokhara",
@@ -53,7 +54,7 @@
       "notes": ""
     },
     {
-      "src": "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
+      "id": "0a6730d7-113b-4bca-b9d1-71ecf8e69713",
       "title": "Phewa Lake",
       "location": {
         "region": "Pokhara",
@@ -65,7 +66,7 @@
       "notes": ""
     },
     {
-      "src": "2019/11/06/4286cd26-eaad-47b1-96f7-2dff5ea38352.jpeg",
+      "id": "4286cd26-eaad-47b1-96f7-2dff5ea38352",
       "title": "World Peace Pagoda",
       "location": {
         "region": "Pokhara",
@@ -77,7 +78,7 @@
       "notes": ""
     },
     {
-      "src": "2019/11/06/b9fbb54b-5103-4145-afbb-84828ecdc104.jpeg",
+      "id": "b9fbb54b-5103-4145-afbb-84828ecdc104",
       "title": "World Peace Pagoda",
       "location": {
         "region": "Pokhara",
@@ -89,7 +90,7 @@
       "notes": ""
     },
     {
-      "src": "2019/11/06/6087e410-15a0-4a8f-8781-e7e780d35c33.jpeg",
+      "id": "6087e410-15a0-4a8f-8781-e7e780d35c33",
       "title": "World Peace Pagoda",
       "location": {
         "region": "Pokhara",
@@ -101,7 +102,7 @@
       "notes": ""
     },
     {
-      "src": "2019/11/06/9bbcf55a-54e8-4a7e-8c6f-12d718bc0da0.jpeg",
+      "id": "9bbcf55a-54e8-4a7e-8c6f-12d718bc0da0",
       "title": "Sarangkot",
       "location": {
         "region": "Pokhara",

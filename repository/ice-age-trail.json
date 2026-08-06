@@ -17,7 +17,7 @@
   "category": "backpacking",
   "type": "section-hike",
   "coordinates": "43.112640° N, 89.648026° W",
-  "cover": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
+  "cover": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89",
   "notes": [
     "A place of kettles and moraines from mile-thick glaciers long ago in Wisconsin, this trail is an ideal option for weekend backpacking due to its proximity to Chicago.",
     "The terrain isn't too demanding, and I don't know if I'll ever complet all sections of the 1,200 mile national scenic trail, but it's very ideal for overnight backpacking trips thanks to the reservable Adirondack-style shelters. It's not the distance on this trail that gets you; it's the constant up and down over rolling hills."
@@ -28,9 +28,10 @@
     "ice age trail",
     "in wisconsin"
   ],
+  "uploads": "",
   "images": [
     {
-      "src": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
+      "id": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b",
       "title": "Stony Ridge",
       "location": {
         "region": "Wisconsin",
@@ -42,7 +43,7 @@
       "notes": ""
     },
     {
-      "src": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
+      "id": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687",
       "title": "Parnell Segment",
       "location": {
         "region": "Wisconsin",
@@ -54,7 +55,7 @@
       "notes": ""
     },
     {
-      "src": "2025/05/03/ff7f0ece-3819-4a70-afb5-9f695bc1ec6f.jpeg",
+      "id": "2025/05/03/ff7f0ece-3819-4a70-afb5-9f695bc1ec6f",
       "title": "Greenbush",
       "location": {
         "region": "Wisconsin",
@@ -66,7 +67,7 @@
       "notes": ""
     },
     {
-      "src": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
+      "id": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89",
       "title": "Greenbush Trailhead",
       "location": {
         "region": "Wisconsin",
@@ -78,7 +79,7 @@
       "notes": ""
     },
     {
-      "src": "2025/05/04/6ee17b3f-0835-43be-a071-eed45ef7b5c2.jpeg",
+      "id": "2025/05/04/6ee17b3f-0835-43be-a071-eed45ef7b5c2",
       "title": "Greenbush",
       "location": {
         "region": "Wisconsin",

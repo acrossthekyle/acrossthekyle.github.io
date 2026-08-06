@@ -16,7 +16,7 @@
   "category": "destination",
   "type": "vacation",
   "coordinates": "46.204391° N, 6.143158° E",
-  "cover": "2024/07/24/f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",
+  "cover": "f6f7470b-5e4e-42f7-aa59-ccabe81778bf",
   "notes": [
     "Before beginning our adventure in the Alps on the Tour du Mont blanc my partner and I took the opportunity to explore the city of Geneva.",
     "Our hotel in the art district provided an ideal base of operations as we explored. Old Town and its historic church provided ample historical sights and provided a good view of the surrounding area. The botanical garden was a nice escape from the busy city life, and we also checked out the Patek Phillipe watch museum."
@@ -26,9 +26,10 @@
     "of geneva in",
     "switzerland"
   ],
+  "uploads": "2024/07/24",
   "images": [
     {
-      "src": "2024/07/24/f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",
+      "id": "f6f7470b-5e4e-42f7-aa59-ccabe81778bf",
       "title": "Jet d'Eau",
       "location": {
         "region": "Lake Geneva/Rhône River",
@@ -40,7 +41,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/24/e19b87b3-ff48-499f-a225-3d4d608e9311.jpeg",
+      "id": "e19b87b3-ff48-499f-a225-3d4d608e9311",
       "title": "Cathédrale Saint-Pierre Genève",
       "location": {
         "region": "Geneva",
@@ -52,7 +53,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/24/e6b983b0-e92d-4db0-a731-723a3f996449.jpeg",
+      "id": "e6b983b0-e92d-4db0-a731-723a3f996449",
       "title": "Cathédrale Saint-Pierre Genève",
       "location": {
         "region": "Geneva",
@@ -64,7 +65,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/24/7c3b0975-04c2-4475-b7d5-f7a8e018b71f.jpeg",
+      "id": "7c3b0975-04c2-4475-b7d5-f7a8e018b71f",
       "title": "Cathédrale Saint-Pierre Genève",
       "location": {
         "region": "Geneva",
@@ -76,7 +77,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/24/537b833c-0de9-4788-b9cf-57cbd8af9a26.jpeg",
+      "id": "537b833c-0de9-4788-b9cf-57cbd8af9a26",
       "title": "Cathédrale Saint-Pierre Genève",
       "location": {
         "region": "Geneva",
@@ -88,7 +89,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/24/e38ad9d4-d8b7-433c-bdec-55294d442928.jpeg",
+      "id": "e38ad9d4-d8b7-433c-bdec-55294d442928",
       "title": "Jardin Botanique de Genève",
       "location": {
         "region": "Geneva",

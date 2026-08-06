@@ -12,7 +12,7 @@ async function getExif(src) {
   const privateKey = process.env.IMAGE_KIT_IO_PRIVATE_KEY;
 
   try {
-    const encodedUrl = encodeURIComponent(`https://ik.imagekit.io/acrossthekyle/uploads/${src}`);
+    const encodedUrl = encodeURIComponent(src);
     const auth = `${btoa(privateKey)}Og==`;
 
     const response = await fetch(

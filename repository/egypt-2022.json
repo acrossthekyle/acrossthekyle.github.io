@@ -17,7 +17,7 @@
   "category": "destination",
   "type": "vacation",
   "coordinates": "30.033333° N, 31.233334° E",
-  "cover": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
+  "cover": "9799718c-81f7-460d-9f0a-7ddd2dffb060",
   "notes": [
     "We decided to ring in the new year by doing something special, and chose to visit Cairo, and Luxor, in Egypt. This was one of the more interesting vacations/experiences I've had.",
     "The cities were bustling and full of people vying for our attention, and the same can be said for most of the monuments and historical sites we visited. We had a handful of pleasant experiences at some of the monuments though, with our favorite being Habu Temple."
@@ -28,9 +28,10 @@
     "in the cities of",
     "cairo and luxor"
   ],
+  "uploads": "2022/12/28",
   "images": [
     {
-      "src": "2022/12/28/b645dadb-e6b9-41ef-a797-8ea11c0de22c.jpeg",
+      "id": "b645dadb-e6b9-41ef-a797-8ea11c0de22c",
       "title": "Pyramids of Giza",
       "location": {
         "region": "Giza",
@@ -42,7 +43,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/4a450c11-fa71-4501-83de-95cf248aeecc.jpeg",
+      "id": "4a450c11-fa71-4501-83de-95cf248aeecc",
       "title": "Pyramid of Menkaure",
       "location": {
         "region": "Giza Plateau",
@@ -54,7 +55,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/20b4a5e3-bdde-4eee-a650-46a368ab6767.jpeg",
+      "id": "20b4a5e3-bdde-4eee-a650-46a368ab6767",
       "title": "Pyramid of Khafre",
       "location": {
         "region": "Giza Plateau",
@@ -66,7 +67,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/b3275967-68fd-4c69-ad40-df15b2a697b5.jpeg",
+      "id": "b3275967-68fd-4c69-ad40-df15b2a697b5",
       "title": "The Sphinx",
       "location": {
         "region": "Giza Plateau",
@@ -78,7 +79,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/d9a7b01b-5915-493c-8c25-5a8ebd77ac58.jpeg",
+      "id": "d9a7b01b-5915-493c-8c25-5a8ebd77ac58",
       "title": "Bent Pyramid",
       "location": {
         "region": "Saqqara",
@@ -90,7 +91,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/fe1acec1-a2b8-4d00-9e2f-7a42c4431323.jpeg",
+      "id": "fe1acec1-a2b8-4d00-9e2f-7a42c4431323",
       "title": "Temple ruins",
       "location": {
         "region": "Saqqara",
@@ -102,7 +103,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/4b67e6e3-2592-4aca-9074-dc6e6c3ff668.jpeg",
+      "id": "4b67e6e3-2592-4aca-9074-dc6e6c3ff668",
       "title": "Red Pyramid",
       "location": {
         "region": "Saqqara",
@@ -114,7 +115,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/2db07918-d67a-41a1-a2e1-e65e051343ca.jpeg",
+      "id": "2db07918-d67a-41a1-a2e1-e65e051343ca",
       "title": "Step Pyramid",
       "location": {
         "region": "Dahshur",
@@ -126,7 +127,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/0826806c-c673-49a1-a9ae-79cfa77633e4.jpeg",
+      "id": "0826806c-c673-49a1-a9ae-79cfa77633e4",
       "title": "Tower of Cairo",
       "location": {
         "region": "Cairo",
@@ -138,7 +139,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/4613d11e-789b-4962-a169-f5057946ecd6.jpeg",
+      "id": "4613d11e-789b-4962-a169-f5057946ecd6",
       "title": "Sphinx avenue",
       "location": {
         "region": "Luxor",
@@ -150,7 +151,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/154f7375-154e-4888-bc7b-81fbe9fffffc.jpeg",
+      "id": "154f7375-154e-4888-bc7b-81fbe9fffffc",
       "title": "Colossi of Memnon",
       "location": {
         "region": "Luxor",
@@ -162,7 +163,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/5f93fbaf-0c30-4f70-959d-a5e4384eff83.jpeg",
+      "id": "5f93fbaf-0c30-4f70-959d-a5e4384eff83",
       "title": "Tomb of Ramses V-VI",
       "location": {
         "region": "Valley of the Kings",
@@ -174,7 +175,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/d8ebe864-7209-44ae-b426-a05337965b8d.jpeg",
+      "id": "d8ebe864-7209-44ae-b426-a05337965b8d",
       "title": "Tomb of Ramses III",
       "location": {
         "region": "Valley of the Kings",
@@ -186,7 +187,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/12a42c7a-6b58-4356-a873-35d8cb66314a.jpeg",
+      "id": "12a42c7a-6b58-4356-a873-35d8cb66314a",
       "title": "Tutankhamun's Tomb",
       "location": {
         "region": "Valley of the Kings",
@@ -198,7 +199,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/9fb7c062-5816-4154-b8cd-525a81f82be0.jpeg",
+      "id": "9fb7c062-5816-4154-b8cd-525a81f82be0",
       "title": "Unmarked tomb",
       "location": {
         "region": "Valley of the Queens",
@@ -210,7 +211,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/44f2c787-1209-4e11-a2fe-64030e0c472c.jpeg",
+      "id": "44f2c787-1209-4e11-a2fe-64030e0c472c",
       "title": "Habu Temple I",
       "location": {
         "region": "Luxor West Bank",
@@ -222,7 +223,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/76407100-56bf-4672-9b2c-416e2877c154.jpeg",
+      "id": "76407100-56bf-4672-9b2c-416e2877c154",
       "title": "Habu Temple II",
       "location": {
         "region": "Luxor West Bank",
@@ -234,7 +235,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/41aea55c-b043-4b4d-8ab7-05d97adbd873.jpeg",
+      "id": "41aea55c-b043-4b4d-8ab7-05d97adbd873",
       "title": "Habu Temple III",
       "location": {
         "region": "Luxor West Bank",
@@ -246,7 +247,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
+      "id": "b7e2eeb1-90d3-49cb-bdb8-41acf2162f78",
       "title": "Hatshepsut's Temple Exterior",
       "location": {
         "region": "Luxor West Bank",
@@ -258,7 +259,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/eee38045-1d4f-4bbd-b6f3-17eb34db5191.jpeg",
+      "id": "eee38045-1d4f-4bbd-b6f3-17eb34db5191",
       "title": "Hatshepsut's Temple Interior",
       "location": {
         "region": "Luxor West Bank",
@@ -270,7 +271,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/0707fa9e-8d4c-475c-ab8b-1649dfcc2964.jpeg",
+      "id": "0707fa9e-8d4c-475c-ab8b-1649dfcc2964",
       "title": "Hatshepsut's Temple Spinx",
       "location": {
         "region": "Luxor West Bank",
@@ -282,7 +283,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
+      "id": "9799718c-81f7-460d-9f0a-7ddd2dffb060",
       "title": "Luxor Temple",
       "location": {
         "region": "Luxor Temple",
@@ -294,7 +295,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/63dd5017-e9f2-4def-8aa6-2f97f2803ed4.jpeg",
+      "id": "63dd5017-e9f2-4def-8aa6-2f97f2803ed4",
       "title": "Luxor Temple",
       "location": {
         "region": "Luxor Temple",
@@ -306,7 +307,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/7f2020f6-ccd2-4f4a-98a1-44abd2df6911.jpeg",
+      "id": "7f2020f6-ccd2-4f4a-98a1-44abd2df6911",
       "title": "Karnak Temple",
       "location": {
         "region": "Karnak Temple",
@@ -318,7 +319,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/caff8a45-5173-48cd-aa9c-a8cce3489b60.jpeg",
+      "id": "caff8a45-5173-48cd-aa9c-a8cce3489b60",
       "title": "Hypostyle Hall",
       "location": {
         "region": "Karnak Temple",
@@ -330,7 +331,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/3499fb61-f3ca-4a3d-9f5c-e41df689c4dd.jpeg",
+      "id": "3499fb61-f3ca-4a3d-9f5c-e41df689c4dd",
       "title": "Ramses III Temple",
       "location": {
         "region": "Karnak Temple",
@@ -342,7 +343,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/50f9c440-f59d-47ef-95ff-c9363820d1a9.jpeg",
+      "id": "50f9c440-f59d-47ef-95ff-c9363820d1a9",
       "title": "Hot air balloon ride",
       "location": {
         "region": "Luxor",
@@ -354,7 +355,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
+      "id": "b13b3a23-187a-4dc4-912d-e225b21af78a",
       "title": "Soaring over the valley",
       "location": {
         "region": "Luxor",
@@ -366,7 +367,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/85aac278-b95e-4a50-b56c-2f8b1b4a1c13.jpeg",
+      "id": "85aac278-b95e-4a50-b56c-2f8b1b4a1c13",
       "title": "The end of the ride",
       "location": {
         "region": "Luxor",
@@ -378,7 +379,7 @@
       "notes": ""
     },
     {
-      "src": "2022/12/28/a8f4fb49-5258-464a-8731-f4a95ae8e417.jpeg",
+      "id": "a8f4fb49-5258-464a-8731-f4a95ae8e417",
       "title": "Cairo Sunset",
       "location": {
         "region": "Luxor",

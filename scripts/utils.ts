@@ -45,4 +45,12 @@ export function reduceCoordinates(value: string | null, to = 4) {
   });
 };
 
+export function imagePath(id: string, folder: string, extension?: string = 'jpeg') {
+  return [
+    'https://ik.imagekit.io/acrossthekyle/uploads',
+    folder,
+    `${id}.${extension}`,
+  ].filter(Boolean).join('/');
+};
+
 export const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));

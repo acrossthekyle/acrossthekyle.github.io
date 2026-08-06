@@ -17,7 +17,7 @@
   "category": "backpacking",
   "type": "thru-hike",
   "coordinates": "43.163415° N, 1.235811° W",
-  "cover": "2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg",
+  "cover": "50570d33-285a-4561-bc7f-b7e500363359",
   "notes": [
     "Starting high in the Pyrenees mountains between France and Spain, and leading to the Atlantic ocean, the Camino Frances is part of a series of routes collectively called El Camino de Santiago that covers a wide array of landscapes and cultures over hills and mountains, across deserts, through rivers, and in thick forests.",
     "I spent 35 days walking/hiking 600 miles across Northern Spain."
@@ -28,9 +28,10 @@
     "of northern spain",
     "along the Camino Frances"
   ],
+  "uploads": "2018/06/02",
   "images": [
     {
-      "src": "2018/06/02/36c8ce31-ccce-4133-9528-338124462edf.jpeg",
+      "id": "36c8ce31-ccce-4133-9528-338124462edf",
       "title": "Roncesvalles",
       "location": {
         "region": "Navarre",
@@ -42,7 +43,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/259d7373-6f3d-4274-8ff8-440cb2724702.jpeg",
+      "id": "259d7373-6f3d-4274-8ff8-440cb2724702",
       "title": "Zubiri",
       "location": {
         "region": "Navarre",
@@ -54,7 +55,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/94c5e141-580c-483b-91aa-13a88bf0f8fd.jpeg",
+      "id": "94c5e141-580c-483b-91aa-13a88bf0f8fd",
       "title": "Pamplona",
       "location": {
         "region": "Navarre",
@@ -66,7 +67,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/88b734d7-ee6f-437f-a44b-6233d7f86158.jpeg",
+      "id": "88b734d7-ee6f-437f-a44b-6233d7f86158",
       "title": "Puente la Reina",
       "location": {
         "region": "Navarre",
@@ -78,7 +79,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/6de64c25-13b3-441f-96b8-1f80cd4d6bd6.jpeg",
+      "id": "6de64c25-13b3-441f-96b8-1f80cd4d6bd6",
       "title": "Estella",
       "location": {
         "region": "Navarre",
@@ -90,7 +91,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/f3c24aa0-ec3f-4319-9585-e178b9fd7bca.jpeg",
+      "id": "f3c24aa0-ec3f-4319-9585-e178b9fd7bca",
       "title": "Sansol",
       "location": {
         "region": "Navarre",
@@ -102,7 +103,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/71b4d4f4-b9d4-40b9-8902-cef791391428.jpeg",
+      "id": "71b4d4f4-b9d4-40b9-8902-cef791391428",
       "title": "Logrono",
       "location": {
         "region": "La Rioja",
@@ -114,7 +115,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/e5a310be-0e12-45d8-9121-dbac375a4234.jpeg",
+      "id": "e5a310be-0e12-45d8-9121-dbac375a4234",
       "title": "Najera",
       "location": {
         "region": "La Rioja",
@@ -126,7 +127,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg",
+      "id": "50570d33-285a-4561-bc7f-b7e500363359",
       "title": "Santo Domingo",
       "location": {
         "region": "La Rioja",
@@ -138,7 +139,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/009b868c-38ee-43e7-bc1c-90b259306d86.jpeg",
+      "id": "009b868c-38ee-43e7-bc1c-90b259306d86",
       "title": "Belorado",
       "location": {
         "region": "Castile and León",
@@ -150,7 +151,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/678b2b3a-6724-4bca-99b7-f7ed9a4683e7.jpeg",
+      "id": "678b2b3a-6724-4bca-99b7-f7ed9a4683e7",
       "title": "Ages",
       "location": {
         "region": "Castile and León",
@@ -162,7 +163,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/28740c31-9cb0-4952-af50-9f1bab6c1edb.jpeg",
+      "id": "28740c31-9cb0-4952-af50-9f1bab6c1edb",
       "title": "Burgos",
       "location": {
         "region": "Castile and León",
@@ -174,7 +175,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/3ecd42d0-421e-4e3d-a770-830e68e2652c.jpeg",
+      "id": "3ecd42d0-421e-4e3d-a770-830e68e2652c",
       "title": "Hontanas",
       "location": {
         "region": "Castile and León",
@@ -186,7 +187,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/98a7eed4-299d-40e6-a537-779a5bab6c77.jpeg",
+      "id": "98a7eed4-299d-40e6-a537-779a5bab6c77",
       "title": "Fromista",
       "location": {
         "region": "Castile and León",
@@ -198,7 +199,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/2e08d5fe-1711-4768-8ded-f3714e186923.jpeg",
+      "id": "2e08d5fe-1711-4768-8ded-f3714e186923",
       "title": "Carrión de los Condes",
       "location": {
         "region": "Castile and León",
@@ -210,7 +211,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/bcdc06e3-4c95-4138-9779-bc46670a4e1b.jpeg",
+      "id": "bcdc06e3-4c95-4138-9779-bc46670a4e1b",
       "title": "Sahagun",
       "location": {
         "region": "Castile and León",
@@ -222,7 +223,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/2b268d15-bea2-42ae-a15c-1ab6fd5fe4f7.jpeg",
+      "id": "2b268d15-bea2-42ae-a15c-1ab6fd5fe4f7",
       "title": "Reliegos",
       "location": {
         "region": "Castile and León",
@@ -234,7 +235,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/845acb7b-86f3-4768-8ce3-c8be727c50af.jpeg",
+      "id": "845acb7b-86f3-4768-8ce3-c8be727c50af",
       "title": "León",
       "location": {
         "region": "Castile and León",
@@ -246,7 +247,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/f5741d7d-6a86-47ae-a5b1-f1bced05bb00.jpeg",
+      "id": "f5741d7d-6a86-47ae-a5b1-f1bced05bb00",
       "title": "Villar de Mazarife",
       "location": {
         "region": "Castile and León",
@@ -258,7 +259,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/0cf7b647-1681-4b88-be6a-cbba1163f38a.jpeg",
+      "id": "0cf7b647-1681-4b88-be6a-cbba1163f38a",
       "title": "Astorga",
       "location": {
         "region": "Castile and León",
@@ -270,7 +271,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/bf4e84fe-e4ca-4834-ab65-393f965bbdb8.jpeg",
+      "id": "bf4e84fe-e4ca-4834-ab65-393f965bbdb8",
       "title": "Foncebadon",
       "location": {
         "region": "Castile and León",
@@ -282,7 +283,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/2901af55-b7bf-41ec-9471-6ec3699b1f12.jpeg",
+      "id": "2901af55-b7bf-41ec-9471-6ec3699b1f12",
       "title": "Ponferrada",
       "location": {
         "region": "Castile and León",
@@ -294,7 +295,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/7fa41365-3d33-461b-9be5-5a946064923c.jpeg",
+      "id": "7fa41365-3d33-461b-9be5-5a946064923c",
       "title": "Villafranca del Bierzo",
       "location": {
         "region": "Castile and León",
@@ -306,7 +307,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/6349679e-acbf-4f74-ad4a-0d9032c3b293.jpeg",
+      "id": "6349679e-acbf-4f74-ad4a-0d9032c3b293",
       "title": "O Cebreiro",
       "location": {
         "region": "Galicia",
@@ -318,7 +319,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/4e1b42f2-3994-4d1c-ad29-620eab9c80c7.jpeg",
+      "id": "4e1b42f2-3994-4d1c-ad29-620eab9c80c7",
       "title": "Sarria",
       "location": {
         "region": "Galicia",
@@ -330,7 +331,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/3d738e26-0747-447a-98fb-0bb35e1736c3.jpeg",
+      "id": "3d738e26-0747-447a-98fb-0bb35e1736c3",
       "title": "Portomarin",
       "location": {
         "region": "Galicia",
@@ -342,7 +343,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/4e8fd9a9-ed5f-429f-9230-efa731461a5f.jpeg",
+      "id": "4e8fd9a9-ed5f-429f-9230-efa731461a5f",
       "title": "Melide",
       "location": {
         "region": "Galicia",
@@ -354,7 +355,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/2dcb1878-efe7-47d7-b7b5-b031ab143cb6.jpeg",
+      "id": "2dcb1878-efe7-47d7-b7b5-b031ab143cb6",
       "title": "Pedrouzo",
       "location": {
         "region": "Galicia",
@@ -366,7 +367,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg",
+      "id": "1921986b-9cf8-4bf8-b531-3bfe2f098f93",
       "title": "Santiago de Compostela",
       "location": {
         "region": "Galicia",
@@ -378,7 +379,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/7f51e3c4-518e-4147-8e73-c19d6c87ce11.jpeg",
+      "id": "7f51e3c4-518e-4147-8e73-c19d6c87ce11",
       "title": "Negreira",
       "location": {
         "region": "Galicia",
@@ -390,7 +391,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/32011e1d-8075-4b90-9a91-db88c3d66989.jpeg",
+      "id": "32011e1d-8075-4b90-9a91-db88c3d66989",
       "title": "Olveiroa",
       "location": {
         "region": "Galicia",
@@ -402,7 +403,7 @@
       "notes": ""
     },
     {
-      "src": "2018/06/02/aa8b0404-f4d1-44ed-bc96-ce65eae03848.jpeg",
+      "id": "aa8b0404-f4d1-44ed-bc96-ce65eae03848",
       "title": "Fisterra",
       "location": {
         "region": "Galicia",

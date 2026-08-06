@@ -17,7 +17,7 @@
   "category": "backpacking",
   "type": "thru-hike",
   "coordinates": "42.50742° N, 8.85544° E",
-  "cover": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
+  "cover": "f0cd0897-3fc9-47a2-808e-e1627dfb45bc",
   "notes": [
     "The GR 20 is considered to be the most difficult of all trails in Europe, and it truly was. It took me 13 days to hike 131 miles across the mountain range that bisects the island from North to South.",
     "Between the Northern starting point at Calenzana and the end at Conca in the South, there were hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas. The highest point on the trek was 8,554 ft (2,607 m)."
@@ -29,9 +29,10 @@
     "on the island",
     "of corsica in france"
   ],
+  "uploads": "2023/06/21",
   "images": [
     {
-      "src": "2023/06/21/74223fbe-db85-402a-ae25-00fc5e3e75b0.jpeg",
+      "id": "74223fbe-db85-402a-ae25-00fc5e3e75b0",
       "title": "Calenzana",
       "location": {
         "region": "Corsica",
@@ -43,7 +44,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg",
+      "id": "f1d1c83f-941d-4351-aa5e-08d698b78775",
       "title": "Corsican mountains",
       "location": {
         "region": "Corsica",
@@ -55,7 +56,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/ca474c95-0abc-44a4-9f10-677b0e91437c.jpeg",
+      "id": "ca474c95-0abc-44a4-9f10-677b0e91437c",
       "title": "Refuge D'Ortu Di U Piobbu",
       "location": {
         "region": "Corsica",
@@ -67,7 +68,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
+      "id": "e2d0721f-2c3f-4367-8f7b-1176c94b3e2c",
       "title": "Steap peaks",
       "location": {
         "region": "Corsica",
@@ -79,7 +80,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/9f8951e5-f150-413e-9d1e-557324c48acb.jpeg",
+      "id": "9f8951e5-f150-413e-9d1e-557324c48acb",
       "title": "Refuge de Carozzu",
       "location": {
         "region": "Corsica",
@@ -91,7 +92,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/ca6423d0-daea-4b8c-8a75-7eb28a102c85.jpeg",
+      "id": "ca6423d0-daea-4b8c-8a75-7eb28a102c85",
       "title": "Bocca di a Muvrella",
       "location": {
         "region": "Corsica",
@@ -103,7 +104,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/7c9ba05f-905d-4762-9b09-989377182474.jpeg",
+      "id": "7c9ba05f-905d-4762-9b09-989377182474",
       "title": "Ascu Stagnu",
       "location": {
         "region": "Corsica",
@@ -115,7 +116,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/4965a37c-6e06-459e-800d-b8d728cd2ff0.jpeg",
+      "id": "4965a37c-6e06-459e-800d-b8d728cd2ff0",
       "title": "Ruisseau du Tighiettu",
       "location": {
         "region": "Corsica",
@@ -127,7 +128,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg",
+      "id": "8f85de22-b937-4ea5-9dfa-e45eb357e7b8",
       "title": "Monte Cinto",
       "location": {
         "region": "Corsica",
@@ -139,7 +140,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/890e4521-9658-472a-93a6-f94eff46c612.jpeg",
+      "id": "890e4521-9658-472a-93a6-f94eff46c612",
       "title": "Auberge U Vallone",
       "location": {
         "region": "Corsica",
@@ -151,7 +152,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg",
+      "id": "f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b",
       "title": "U Frate",
       "location": {
         "region": "Corsica",
@@ -163,7 +164,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/f62bf484-3e25-41c0-8b99-24fb0ba49778.jpeg",
+      "id": "f62bf484-3e25-41c0-8b99-24fb0ba49778",
       "title": "Swimming hole",
       "location": {
         "region": "Corsica",
@@ -175,7 +176,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/ce157a1c-a855-4ba7-b906-13a1ad4cbbec.jpeg",
+      "id": "ce157a1c-a855-4ba7-b906-13a1ad4cbbec",
       "title": "Castel di Vergio",
       "location": {
         "region": "Corsica",
@@ -187,7 +188,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg",
+      "id": "95b4adaa-bbbe-4de3-b9f8-96365390f142",
       "title": "Lac de Nino",
       "location": {
         "region": "Corsica",
@@ -199,7 +200,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/53aaf0ae-f946-4917-9b7c-46712fa5ee45.jpeg",
+      "id": "53aaf0ae-f946-4917-9b7c-46712fa5ee45",
       "title": "Refuge de Manganu",
       "location": {
         "region": "Corsica",
@@ -211,7 +212,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/82a8777d-51d7-4636-9d0a-f25475516e76.jpeg",
+      "id": "82a8777d-51d7-4636-9d0a-f25475516e76",
       "title": "Ruisseau de Zoicu",
       "location": {
         "region": "Corsica",
@@ -223,7 +224,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
+      "id": "05769f04-5b00-4fd5-a233-55c00c9871c5",
       "title": "Bocca Alle Porte",
       "location": {
         "region": "Corsica",
@@ -235,7 +236,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/4e7bda74-809e-48a9-a904-5645bf2e7dde.jpeg",
+      "id": "4e7bda74-809e-48a9-a904-5645bf2e7dde",
       "title": "Refuge de Petra Piana",
       "location": {
         "region": "Corsica",
@@ -247,7 +248,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/c886ddab-f573-4fbb-a598-942bc54c4990.jpeg",
+      "id": "c886ddab-f573-4fbb-a598-942bc54c4990",
       "title": "Ravin de Gialgo",
       "location": {
         "region": "Corsica",
@@ -259,7 +260,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/9d76c622-0c46-465a-b608-0fe3a79c8544.jpeg",
+      "id": "9d76c622-0c46-465a-b608-0fe3a79c8544",
       "title": "Foret communale de Vivario",
       "location": {
         "region": "Corsica",
@@ -271,7 +272,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/a6a6b3db-d197-404d-b10e-3c35781e5e47.jpeg",
+      "id": "a6a6b3db-d197-404d-b10e-3c35781e5e47",
       "title": "Refuge de l'Onda",
       "location": {
         "region": "Corsica",
@@ -283,7 +284,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
+      "id": "2cc8532b-6441-49fb-927e-ebdb001b78cf",
       "title": "Bocca d'Oreccia",
       "location": {
         "region": "Corsica",
@@ -295,7 +296,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/85f2be7c-e2ab-421a-ab16-c28b671496a0.jpeg",
+      "id": "85f2be7c-e2ab-421a-ab16-c28b671496a0",
       "title": "Vizzavona",
       "location": {
         "region": "Corsica",
@@ -307,7 +308,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/79397086-87c9-454d-ac0d-55222a117a15.jpeg",
+      "id": "79397086-87c9-454d-ac0d-55222a117a15",
       "title": "Foret Communale",
       "location": {
         "region": "Corsica",
@@ -319,7 +320,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
+      "id": "54334c14-8bae-4478-97f7-179f79cd2ca6",
       "title": "Bocca di Verdi",
       "location": {
         "region": "Corsica",
@@ -331,7 +332,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/37e9f8dd-05c9-498b-be6e-86d633715c24.jpeg",
+      "id": "37e9f8dd-05c9-498b-be6e-86d633715c24",
       "title": "Punta della Cappella",
       "location": {
         "region": "Corsica",
@@ -343,7 +344,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
+      "id": "73a5df9e-fefd-43d0-ad5a-7f71dcb003cc",
       "title": "Bocca de Rapari",
       "location": {
         "region": "Corsica",
@@ -355,7 +356,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/4e254b19-0dd2-44fb-8295-fa7992be521c.jpeg",
+      "id": "4e254b19-0dd2-44fb-8295-fa7992be521c",
       "title": "Refuge d'Usciolu",
       "location": {
         "region": "Corsica",
@@ -367,7 +368,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/4f9f9b60-3bb6-47a4-8d0e-218d430742dd.jpeg",
+      "id": "4f9f9b60-3bb6-47a4-8d0e-218d430742dd",
       "title": "Crete d'acqua d'acelli",
       "location": {
         "region": "Corsica",
@@ -379,7 +380,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
+      "id": "d36a683f-4d95-4b0c-987d-d190336c49ee",
       "title": "Ruisseau de Verecolongu",
       "location": {
         "region": "Corsica",
@@ -391,7 +392,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/f48bc918-f442-4f1d-a89d-cb696242b8ba.jpeg",
+      "id": "f48bc918-f442-4f1d-a89d-cb696242b8ba",
       "title": "Bocca Stazzunara",
       "location": {
         "region": "Corsica",
@@ -403,7 +404,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/f43b7753-5052-47b9-9868-1237c0e34828.jpeg",
+      "id": "f43b7753-5052-47b9-9868-1237c0e34828",
       "title": "Refuge de Paliri",
       "location": {
         "region": "Corsica",
@@ -415,7 +416,7 @@
       "notes": ""
     },
     {
-      "src": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
+      "id": "f0cd0897-3fc9-47a2-808e-e1627dfb45bc",
       "title": "Conca",
       "location": {
         "region": "Corsica",

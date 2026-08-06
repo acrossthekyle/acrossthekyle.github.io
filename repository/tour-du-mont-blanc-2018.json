@@ -17,7 +17,7 @@
   "category": "backpacking",
   "type": "thru-hike",
   "coordinates": "45.890196° N, 6.798325° E",
-  "cover": "2018/09/02/0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
+  "cover": "0420d236-d12a-40e8-8d6c-90558e26d304",
   "notes": [
     "My second ever thru-hike that encircled a mountain called Mont Blanc in the European Alps. The trail is considered a classic long-distance hike and it took me 12 days over 106 miles (170 km) to complete it while passing through France, Italy, and Switzerland.",
     "It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
@@ -29,9 +29,10 @@
     "of france, italy, and",
     "switzerland"
   ],
+  "uploads": "2018/09/02",
   "images": [
     {
-      "src": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
+      "id": "135eea74-e1bc-4cab-bfd7-28d17405a744",
       "title": "Auberge Le Truc",
       "location": {
         "region": "Saint-Gervais-les-Bains",
@@ -43,7 +44,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/bcd0580f-84ef-482e-af8c-e72cbe1ffcd8.jpeg",
+      "id": "bcd0580f-84ef-482e-af8c-e72cbe1ffcd8",
       "title": "",
       "location": {
         "region": "Saint-Gervais-les-Bains",
@@ -55,7 +56,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/56d3cc07-47c1-40c8-b7ee-483aa01d777c.jpeg",
+      "id": "56d3cc07-47c1-40c8-b7ee-483aa01d777c",
       "title": "Refuge La Croix du Bonhomme",
       "location": {
         "region": "Bourg-Saint-Maurice",
@@ -67,7 +68,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/5b103c9a-6c03-4f1d-bb80-e6c64cbd63ba.jpeg",
+      "id": "5b103c9a-6c03-4f1d-bb80-e6c64cbd63ba",
       "title": "",
       "location": {
         "region": "Bourg-Saint-Maurice",
@@ -79,7 +80,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
+      "id": "0420d236-d12a-40e8-8d6c-90558e26d304",
       "title": "Refuge Robert Blanc",
       "location": {
         "region": "Glacier des lanchettes",
@@ -91,7 +92,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/6391f8bb-b333-4951-a069-13bf188e132e.jpeg",
+      "id": "6391f8bb-b333-4951-a069-13bf188e132e",
       "title": "",
       "location": {
         "region": "Glacier des lanchettes",
@@ -103,7 +104,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/d3aaae8d-df89-48cb-aea9-9abc33f59d6b.jpeg",
+      "id": "d3aaae8d-df89-48cb-aea9-9abc33f59d6b",
       "title": "Refuge Robert Blanc",
       "location": {
         "region": "Glacier des lanchettes",
@@ -115,7 +116,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/e4cde1a9-8e66-42a7-ad86-24440c73a6ce.jpeg",
+      "id": "e4cde1a9-8e66-42a7-ad86-24440c73a6ce",
       "title": "",
       "location": {
         "region": "Courmayeur",
@@ -127,7 +128,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/488a5815-e763-406d-94e1-5e51ff25cafe.jpeg",
+      "id": "488a5815-e763-406d-94e1-5e51ff25cafe",
       "title": "Rifugio Maison Veille",
       "location": {
         "region": "Courmayeur",
@@ -139,7 +140,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/9cefaedf-2e6b-439a-9512-f1f37d2374eb.jpeg",
+      "id": "9cefaedf-2e6b-439a-9512-f1f37d2374eb",
       "title": "Rifugio Bonatti",
       "location": {
         "region": "Courmayeur",
@@ -151,7 +152,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/548fba84-0027-4a6f-b6ec-9c418d2125b4.jpeg",
+      "id": "548fba84-0027-4a6f-b6ec-9c418d2125b4",
       "title": "",
       "location": {
         "region": "Courmayeur",
@@ -163,7 +164,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/599ca28e-983c-4f49-8b19-fbed23c3fd1b.jpeg",
+      "id": "599ca28e-983c-4f49-8b19-fbed23c3fd1b",
       "title": "",
       "location": {
         "region": "La Fouly",
@@ -175,7 +176,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/891cd8a7-97d2-4251-ac34-6c816c0ec570.jpeg",
+      "id": "891cd8a7-97d2-4251-ac34-6c816c0ec570",
       "title": "Maya Joie",
       "location": {
         "region": "La Fouly",
@@ -187,7 +188,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/8d209b3b-8d40-49b3-b754-fd91466c9708.jpeg",
+      "id": "8d209b3b-8d40-49b3-b754-fd91466c9708",
       "title": "Gîte Bon Abri",
       "location": {
         "region": "Champex-Lac",
@@ -199,7 +200,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/4144a837-c696-4feb-8add-f9a589eb2c5b.jpeg",
+      "id": "4144a837-c696-4feb-8add-f9a589eb2c5b",
       "title": "",
       "location": {
         "region": "Champex-Lac",
@@ -211,7 +212,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/cdbbcf4d-3dd2-44a6-9f2b-7e1f26f9202a.jpeg",
+      "id": "cdbbcf4d-3dd2-44a6-9f2b-7e1f26f9202a",
       "title": "",
       "location": {
         "region": "Le Peuty",
@@ -223,7 +224,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/21248df2-d0b9-41d2-9662-b6215c24c298.jpeg",
+      "id": "21248df2-d0b9-41d2-9662-b6215c24c298",
       "title": "Refuge Le Peuty",
       "location": {
         "region": "Le Peuty",
@@ -235,7 +236,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
+      "id": "ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b",
       "title": "Auberge La Boerne",
       "location": {
         "region": "Chamonix-Mont-Blanc",
@@ -247,7 +248,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/5aa2ad59-cda4-42e9-ba2c-9ee47c88a091.jpeg",
+      "id": "5aa2ad59-cda4-42e9-ba2c-9ee47c88a091",
       "title": "",
       "location": {
         "region": "Chamonix-Mont-Blanc",
@@ -259,7 +260,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/0ea4750a-307a-44be-a466-bb081d137d3c.jpeg",
+      "id": "0ea4750a-307a-44be-a466-bb081d137d3c",
       "title": "Refuge La Flegere",
       "location": {
         "region": "Chamonix-Mont-Blanc",
@@ -271,7 +272,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/7aeffd1f-1df9-4199-a744-2bb83f5d6ed0.jpeg",
+      "id": "7aeffd1f-1df9-4199-a744-2bb83f5d6ed0",
       "title": "Refuge La Flegere",
       "location": {
         "region": "Chamonix-Mont-Blanc",
@@ -283,7 +284,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/3faeb9f8-d262-4c12-869f-4470b0dc0574.jpeg",
+      "id": "3faeb9f8-d262-4c12-869f-4470b0dc0574",
       "title": "Refuge de Bellechat",
       "location": {
         "region": "Chamonix-Mont-Blanc",
@@ -295,7 +296,7 @@
       "notes": ""
     },
     {
-      "src": "2018/09/02/8a0d6d12-a40d-47ba-9d09-6b8d5572bb32.jpeg",
+      "id": "8a0d6d12-a40d-47ba-9d09-6b8d5572bb32",
       "title": "Les Houches",
       "location": {
         "region": "Chamonix",

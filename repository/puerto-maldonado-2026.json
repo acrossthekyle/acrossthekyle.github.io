@@ -17,16 +17,181 @@
   "category": "destination",
   "type": "excursion",
   "coordinates": "12.5933° S, 69.1891° W",
-  "cover": {
-    "src": "",
-    "thumb": null
-  },
+  "cover": "c1f7edf9-dbe5-4692-a967-a4922f294b51",
   "notes": [
     ""
   ],
   "header": [
-    "exploring the amazon",
-    "Jungle in Peru"
+    "exploring the peruvian amazon",
+    "jungle from the finca sachavacayoc lodge",
+    "in the tambopata national reserve"
   ],
-  "images": []
+  "uploads": "2026/07/19",
+  "images": [
+    {
+      "id": "9006d771-fa61-49bb-b976-40d1ec06da1b",
+      "title": "Leaving Puerto Maldonado",
+      "location": {
+        "region": "Tambopata National Reserve",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/19/2026",
+      "elevation": 570
+    },
+    {
+      "id": "e3ceb20e-d42a-43ca-9c0b-b96872b56fb7",
+      "title": "Entering the jungle",
+      "location": {
+        "region": "Tambopata National Reserve",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/19/2026",
+      "elevation": 570
+    },
+    {
+      "id": "cd480d1b-28b8-4245-b5cd-6240453ef5dd",
+      "title": "Finca Lodge",
+      "location": {
+        "region": "Tambopata National Reserve",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/19/2026",
+      "elevation": 570
+    },
+    {
+      "id": "2b5847f7-944f-41b3-b134-782d14acb099",
+      "title": "Sunrise over the Tambopata River",
+      "location": {
+        "region": "Tambopata National Reserve",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/20/2026",
+      "elevation": 570
+    },
+    {
+      "id": "d146dcc3-f448-4155-9a3e-9d33a14591fd",
+      "title": "Early morning",
+      "location": {
+        "region": "Tambopata National Reserve",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/20/2026",
+      "elevation": 570
+    },
+    {
+      "id": "c1f7edf9-dbe5-4692-a967-a4922f294b51",
+      "title": "Macaw Clay Lick",
+      "location": {
+        "region": "Tambopata National Reserve",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/20/2026",
+      "elevation": 570
+    },
+    {
+      "id": "060eab75-3251-4918-8fd4-880776efe424",
+      "title": "Searching for River Otters",
+      "location": {
+        "region": "Tres Chimbadas Lake, Tambopata National Reserve",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/20/2026",
+      "elevation": 570
+    },
+    {
+      "id": "193d90ae-6945-4220-8256-04fe2e64f737",
+      "title": "Tres Chimbadas Lake",
+      "location": {
+        "region": "Tambopata National Reserve",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/20/2026",
+      "elevation": 570
+    },
+    {
+      "id": "7b17c10b-9c5b-4355-8b2f-8dff53f1f9a8",
+      "title": "Machete in the jungle",
+      "location": {
+        "region": "Tambopata National Reserve",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/21/2026",
+      "elevation": 570
+    },
+    {
+      "id": "baf52dad-3d95-40cc-9d90-889b66a9eea9",
+      "title": "Swampy boardwalk",
+      "location": {
+        "region": "Tambopata National Reserve",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/21/2026",
+      "elevation": 570
+    },
+    {
+      "id": "8a8249aa-0373-4771-89c4-8ca7dc4760f0",
+      "title": "Hunting for Anacondas",
+      "location": {
+        "region": "Tambopata National Reserve",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/21/2026",
+      "elevation": 570
+    },
+    {
+      "id": "2ce80aaf-2fbb-48ec-b3e7-be7baf732dfe",
+      "title": "Squirrel Monkeys",
+      "location": {
+        "region": "Tambopata National Reserve",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/21/2026",
+      "elevation": 570
+    },
+    {
+      "id": "64d70cd7-dddb-448b-9982-a21e8f98bad2",
+      "title": "Above the trees",
+      "location": {
+        "region": "Tambopata National Reserve",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/21/2026",
+      "elevation": 570
+    },
+    {
+      "id": "e2ea562d-2700-4f5e-8f77-f55c4a86d58d",
+      "title": "Sunset in the jungle",
+      "location": {
+        "region": "Tambopata National Reserve",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/21/2026",
+      "elevation": 570
+    },
+    {
+      "id": "aaa1df79-45c6-46ba-8494-bdb074118c10",
+      "title": "Pair of Vultures",
+      "location": {
+        "region": "Tambopata National Reserve",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/21/2026",
+      "elevation": 570
+    }
+  ]
 }

@@ -17,7 +17,7 @@
   "category": "backpacking",
   "type": "overnight-hike",
   "coordinates": "40.007973° N, 87.571681° W",
-  "cover": "2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg",
+  "cover": "1e1be596-c236-4cee-9eb2-fac89329e0e6",
   "notes": [
     "The River Ridge Backpack Trail at Forest Glen Preserve in Westville, Illinois, is a relatively moderate 10.5 mile loop designed for beginner backpackers, featuring steep ravines, creek crossings, and ridge-top hiking.",
     "It is widely considered one of the few true backpacking experiences in Illinois, often completed as an overnight trip with two dedicated primitive campsites."
@@ -27,9 +27,10 @@
     "river ridge trail",
     "in central illinois"
   ],
+  "uploads": "2026/03/14",
   "images": [
     {
-      "src": "2026/03/14/8e8fd062-270f-4081-96c3-ee072a81caab.jpeg",
+      "id": "8e8fd062-270f-4081-96c3-ee072a81caab",
       "title": "Trailhead",
       "location": {
         "region": "Central Illinois",
@@ -41,7 +42,7 @@
       "notes": ""
     },
     {
-      "src": "2026/03/14/2665b912-007f-485f-b636-07079e321e20.jpeg",
+      "id": "2665b912-007f-485f-b636-07079e321e20",
       "title": "Forest Glen",
       "location": {
         "region": "Central Illinois",
@@ -53,7 +54,7 @@
       "notes": ""
     },
     {
-      "src": "2026/03/14/91ed5400-2265-4b23-b20e-45bb0c6e36f3.jpeg",
+      "id": "91ed5400-2265-4b23-b20e-45bb0c6e36f3",
       "title": "Forest Glen",
       "location": {
         "region": "Central Illinois",
@@ -65,7 +66,7 @@
       "notes": ""
     },
     {
-      "src": "2026/03/14/3c8c077a-72fd-4319-8faa-7c03ad505b8a.jpeg",
+      "id": "3c8c077a-72fd-4319-8faa-7c03ad505b8a",
       "title": "Forest Glen",
       "location": {
         "region": "Central Illinois",
@@ -77,7 +78,7 @@
       "notes": ""
     },
     {
-      "src": "2026/03/14/bfb02a8a-045d-456f-a389-95aefbff4628.jpeg",
+      "id": "bfb02a8a-045d-456f-a389-95aefbff4628",
       "title": "Forest Glen",
       "location": {
         "region": "Central Illinois",
@@ -89,7 +90,7 @@
       "notes": ""
     },
     {
-      "src": "2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg",
+      "id": "1e1be596-c236-4cee-9eb2-fac89329e0e6",
       "title": "Forest Glen",
       "location": {
         "region": "Central Illinois",

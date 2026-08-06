@@ -17,7 +17,7 @@
   "category": "backpacking",
   "type": "basecamp",
   "coordinates": "28.530000° N, 83.878000° E",
-  "cover": "2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg",
+  "cover": "3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c",
   "notes": [
     "At the end of the Annapurna Circuit I spent a day hiking a series of footpaths leading to the start of the Annapurna Basecamp trek (a 4 day, 38 mile, out-and-back hike) in a village called Chomrong.",
     "After 2 days of pure ascent I made it to basecamp at 13,525 ft (4,110 m) where I read while watching snow fall outside, and woke up early for a sunrise over the mountains. The following day I began the descent, and the end of my Himalayan trekking."
@@ -28,9 +28,10 @@
     "in the kaski region",
     "of nepal"
   ],
+  "uploads": "2019/10/19",
   "images": [
     {
-      "src": "2019/10/19/9967b893-82a1-40b2-85fd-d41b9fa55920.jpeg",
+      "id": "9967b893-82a1-40b2-85fd-d41b9fa55920",
       "title": "Ghorepani",
       "location": {
         "region": "Kaski District",
@@ -42,7 +43,7 @@
       "notes": ""
     },
     {
-      "src": "2019/10/19/44725bb3-f011-4e1d-a3bb-06d8fa52e578.jpeg",
+      "id": "44725bb3-f011-4e1d-a3bb-06d8fa52e578",
       "title": "Deurali Pass",
       "location": {
         "region": "Kaski District",
@@ -54,7 +55,7 @@
       "notes": ""
     },
     {
-      "src": "2019/10/19/749868e9-5d1a-407c-aa24-d2d5741b3c15.jpeg",
+      "id": "749868e9-5d1a-407c-aa24-d2d5741b3c15",
       "title": "Kyumrung Khola",
       "location": {
         "region": "Kaski District",
@@ -66,7 +67,7 @@
       "notes": ""
     },
     {
-      "src": "2019/10/19/e0c0fe7a-065c-449e-9335-669b28fc8a33.jpeg",
+      "id": "e0c0fe7a-065c-449e-9335-669b28fc8a33",
       "title": "Chomrong",
       "location": {
         "region": "Kaski District",
@@ -78,7 +79,7 @@
       "notes": ""
     },
     {
-      "src": "2019/10/19/a052d193-0be9-4288-b017-65d459c3eca1.jpeg",
+      "id": "a052d193-0be9-4288-b017-65d459c3eca1",
       "title": "Deurali",
       "location": {
         "region": "Kaski District",
@@ -90,7 +91,7 @@
       "notes": ""
     },
     {
-      "src": "2019/10/19/3dc0234b-c92e-4a61-bce5-bd922ddaa9bf.jpeg",
+      "id": "3dc0234b-c92e-4a61-bce5-bd922ddaa9bf",
       "title": "Machhapuchare Basecamp",
       "location": {
         "region": "Kaski District",
@@ -102,7 +103,7 @@
       "notes": ""
     },
     {
-      "src": "2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg",
+      "id": "3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c",
       "title": "Annapurna Basecamp",
       "location": {
         "region": "Kaski District",
@@ -114,7 +115,7 @@
       "notes": ""
     },
     {
-      "src": "2019/10/19/488cfa64-0b33-4af3-a127-e0f3cae7175e.jpeg",
+      "id": "488cfa64-0b33-4af3-a127-e0f3cae7175e",
       "title": "Machhapuchare",
       "location": {
         "region": "Kaski District",
@@ -126,7 +127,7 @@
       "notes": ""
     },
     {
-      "src": "2019/10/19/490d1db6-aaad-4ed3-9181-081ca318cd16.jpeg",
+      "id": "490d1db6-aaad-4ed3-9181-081ca318cd16",
       "title": "Upper Sinuwa",
       "location": {
         "region": "Kaski District",
@@ -138,7 +139,7 @@
       "notes": ""
     },
     {
-      "src": "2019/10/19/6bd7587b-78d3-4488-93b5-2694227dd792.jpeg",
+      "id": "6bd7587b-78d3-4488-93b5-2694227dd792",
       "title": "Chomrong",
       "location": {
         "region": "Kaski District",
@@ -150,7 +151,7 @@
       "notes": ""
     },
     {
-      "src": "2019/10/19/f2839e21-063b-4215-be8e-0641741cf2c5.jpeg",
+      "id": "f2839e21-063b-4215-be8e-0641741cf2c5",
       "title": "Sinwai",
       "location": {
         "region": "Kaski District",

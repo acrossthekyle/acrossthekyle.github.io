@@ -17,7 +17,7 @@
   "category": "backpacking",
   "type": "thru-hike",
   "coordinates": "45.890167° N, 6.797842° E",
-  "cover": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
+  "cover": "2ba462f1-18ed-4122-b902-bc0c9554b75d",
   "notes": [
     "This was a repeat of my 2018 thru-hike and a perfect introduction to long-distance hut-to-hut treking for my partner. The trail was much as I had remembered and we even stayed at most of the same places, however this time it only took 11 days, instead of 12, as we travelled 117 miles around the Mont Blanc massif."
   ],
@@ -28,9 +28,10 @@
     "italy, and switzerland",
     "once more"
   ],
+  "uploads": "2024/07/27",
   "images": [
     {
-      "src": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
+      "id": "ac7799bd-b2a8-4f77-8a8d-6d42a8740390",
       "title": "Mont Blanc",
       "location": {
         "region": "Saint-Gervais-les-Bains",
@@ -42,7 +43,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/be372999-42b4-404b-bd64-2cf56f843f25.jpeg",
+      "id": "be372999-42b4-404b-bd64-2cf56f843f25",
       "title": "Auberge Le Truc",
       "location": {
         "region": "Saint-Gervais-les-Bains",
@@ -54,7 +55,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/10146a42-b18d-4318-bc5b-c32279532e4d.jpeg",
+      "id": "10146a42-b18d-4318-bc5b-c32279532e4d",
       "title": "Refuge de la Balme",
       "location": {
         "region": "Bourg-Saint-Maurice",
@@ -66,7 +67,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/04e91698-82d1-49be-b823-768e10dc3423.jpeg",
+      "id": "04e91698-82d1-49be-b823-768e10dc3423",
       "title": "Col du Bonhomme",
       "location": {
         "region": "Bourg-Saint-Maurice",
@@ -78,7 +79,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/be9a961c-fc7d-43dc-b466-29a359d1cd12.jpeg",
+      "id": "be9a961c-fc7d-43dc-b466-29a359d1cd12",
       "title": "Torrent des Glaciers",
       "location": {
         "region": "Glacier des lanchettes",
@@ -90,7 +91,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/7a0ae762-e926-44fe-a2de-660484cca8fc.jpeg",
+      "id": "7a0ae762-e926-44fe-a2de-660484cca8fc",
       "title": "Refuge Robert Blanc",
       "location": {
         "region": "Glacier des lanchettes",
@@ -102,7 +103,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
+      "id": "a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e",
       "title": "Robert Blanc",
       "location": {
         "region": "Glacier des lanchettes",
@@ -114,7 +115,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/9fc630d8-23a0-4ce1-9eb6-ea30088322eb.jpeg",
+      "id": "9fc630d8-23a0-4ce1-9eb6-ea30088322eb",
       "title": "Col de la Seigne",
       "location": {
         "region": "Courmayeur",
@@ -126,7 +127,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/b2a56d4d-998f-41e4-a4e3-f1d8dc472a23.jpeg",
+      "id": "b2a56d4d-998f-41e4-a4e3-f1d8dc472a23",
       "title": "Maison Veille",
       "location": {
         "region": "Courmayeur",
@@ -138,7 +139,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/f1310350-3cb1-4f1b-b591-e08d0971f23b.jpeg",
+      "id": "f1310350-3cb1-4f1b-b591-e08d0971f23b",
       "title": "Val Ferret",
       "location": {
         "region": "Courmayeur",
@@ -150,7 +151,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/5b46b0ae-1497-48bd-acd9-54ea4176d0dd.jpeg",
+      "id": "5b46b0ae-1497-48bd-acd9-54ea4176d0dd",
       "title": "Rifugio Bonatti",
       "location": {
         "region": "Courmayeur",
@@ -162,7 +163,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg",
+      "id": "b70777d8-b89d-4d60-b422-2d2af80483e4",
       "title": "Grand Col Ferret",
       "location": {
         "region": "La Fouly",
@@ -174,7 +175,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/ea0d6edd-6de0-41a6-a0cf-0b79c2ab931a.jpeg",
+      "id": "ea0d6edd-6de0-41a6-a0cf-0b79c2ab931a",
       "title": "Grand Col Ferret",
       "location": {
         "region": "La Fouly",
@@ -186,7 +187,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/22400157-4853-4974-856b-86b1bc986ef9.jpeg",
+      "id": "22400157-4853-4974-856b-86b1bc986ef9",
       "title": "Gite Bon Abri",
       "location": {
         "region": "Champex-Lac",
@@ -198,7 +199,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/8305ad08-4815-4121-8ae9-610b25f3925c.jpeg",
+      "id": "8305ad08-4815-4121-8ae9-610b25f3925c",
       "title": "Col de la Forclaz",
       "location": {
         "region": "Le Peuty",
@@ -210,7 +211,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/6ce63fae-271d-4cdf-a0f6-c090e1c678b4.jpeg",
+      "id": "6ce63fae-271d-4cdf-a0f6-c090e1c678b4",
       "title": "Alpage de Bovine",
       "location": {
         "region": "Le Peuty",
@@ -222,7 +223,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/7169be39-157f-4158-a3c7-fa83503ce67b.jpeg",
+      "id": "7169be39-157f-4158-a3c7-fa83503ce67b",
       "title": "Le Peuty",
       "location": {
         "region": "Chamonix-Mont-Blanc",
@@ -234,7 +235,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/91e2be29-62d0-4be0-a00a-9ebd9d9dc395.jpeg",
+      "id": "91e2be29-62d0-4be0-a00a-9ebd9d9dc395",
       "title": "Auberge La Boerne",
       "location": {
         "region": "Chamonix-Mont-Blanc",
@@ -246,7 +247,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/03898b5a-74c7-44ff-9784-9dcbfa40c366.jpeg",
+      "id": "03898b5a-74c7-44ff-9784-9dcbfa40c366",
       "title": "Lac Blanc",
       "location": {
         "region": "Chamonix-Mont-Blanc",
@@ -258,7 +259,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/e6194972-aa41-4e62-9f04-33386c522050.jpeg",
+      "id": "e6194972-aa41-4e62-9f04-33386c522050",
       "title": "Refuge La Flegere",
       "location": {
         "region": "Chamonix-Mont-Blanc",
@@ -270,7 +271,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/132e1a2f-699f-4174-8844-5164fecb3165.jpeg",
+      "id": "132e1a2f-699f-4174-8844-5164fecb3165",
       "title": "La Brevant",
       "location": {
         "region": "Les Houches",
@@ -282,7 +283,7 @@
       "notes": ""
     },
     {
-      "src": "2024/07/27/827a4bf8-f967-442f-8453-f8f436907a78.jpeg",
+      "id": "827a4bf8-f967-442f-8453-f8f436907a78",
       "title": "Les Houches",
       "location": {
         "region": "Les Houches",

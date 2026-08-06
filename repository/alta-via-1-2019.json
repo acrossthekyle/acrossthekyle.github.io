@@ -14,7 +14,7 @@
     "country": "Italy",
     "continent": "Europe"
   },
-  "cover": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
+  "cover": "735a0783-62ba-4f8e-97d8-c9b9f5327cfe",
   "category": "backpacking",
   "type": "thru-hike",
   "coordinates": "46.699222° N, 12.085207° E",
@@ -28,9 +28,10 @@
     "northern italy",
     "across the alta via 1"
   ],
+  "uploads": "2019/07/16",
   "images": [
     {
-      "src": "2019/07/16/eba70b28-4c7d-45f3-aa93-46b24011cb80.jpeg",
+      "id": "eba70b28-4c7d-45f3-aa93-46b24011cb80",
       "title": "Lago de Braies",
       "location": {
         "region": "Belluno Province",
@@ -42,7 +43,7 @@
       "notes": ""
     },
     {
-      "src": "2019/07/16/ecb37ab5-2587-45e8-8818-77a55dc9a711.jpeg",
+      "id": "ecb37ab5-2587-45e8-8818-77a55dc9a711",
       "title": "Croda del Becco",
       "location": {
         "region": "Belluno Province",
@@ -54,7 +55,7 @@
       "notes": ""
     },
     {
-      "src": "2019/07/16/406e9628-6d20-409d-ac2e-cb6146c1cce7.jpeg",
+      "id": "406e9628-6d20-409d-ac2e-cb6146c1cce7",
       "title": "Rifugio Bella",
       "location": {
         "region": "Belluno Province",
@@ -66,7 +67,7 @@
       "notes": ""
     },
     {
-      "src": "2019/07/16/69890344-e575-484e-86ae-5ddeb000c4f9.jpeg",
+      "id": "69890344-e575-484e-86ae-5ddeb000c4f9",
       "title": "Marebbe",
       "location": {
         "region": "Bolzano Province",
@@ -78,7 +79,7 @@
       "notes": ""
     },
     {
-      "src": "2019/07/16/ae1557ba-9073-4eb9-93d7-554717e476aa.jpeg",
+      "id": "ae1557ba-9073-4eb9-93d7-554717e476aa",
       "title": "Lavarella",
       "location": {
         "region": "Bolzano Province",
@@ -90,7 +91,7 @@
       "notes": ""
     },
     {
-      "src": "2019/07/16/02fda32d-8ba3-4aee-9ab2-990b2d8804b0.jpeg",
+      "id": "02fda32d-8ba3-4aee-9ab2-990b2d8804b0",
       "title": "Cima del Lago",
       "location": {
         "region": "Bolzano Province",
@@ -102,7 +103,7 @@
       "notes": ""
     },
     {
-      "src": "2019/07/16/081c1b83-7036-4c3c-aa2f-0534f4250ab8.jpeg",
+      "id": "081c1b83-7036-4c3c-aa2f-0534f4250ab8",
       "title": "Forcella di Lago",
       "location": {
         "region": "Bolzano Province",
@@ -114,7 +115,7 @@
       "notes": ""
     },
     {
-      "src": "2019/07/16/bc2d165d-b858-45a8-94c8-e790da8ac517.jpeg",
+      "id": "bc2d165d-b858-45a8-94c8-e790da8ac517",
       "title": "Forcella Lagazuoi",
       "location": {
         "region": "Belluno Province",
@@ -126,7 +127,7 @@
       "notes": ""
     },
     {
-      "src": "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg",
+      "id": "a3f65b8c-4b57-4194-a3a1-5769f1d63373",
       "title": "Cinque Torri",
       "location": {
         "region": "Belluno Province",
@@ -138,7 +139,7 @@
       "notes": ""
     },
     {
-      "src": "2019/07/16/036ba8da-a8ff-45ad-9dcf-d2fa7f1420db.jpeg",
+      "id": "036ba8da-a8ff-45ad-9dcf-d2fa7f1420db",
       "title": "Forcella Giau",
       "location": {
         "region": "Belluno Province",
@@ -150,7 +151,7 @@
       "notes": ""
     },
     {
-      "src": "2019/07/16/12e2afdc-e50e-4882-a01b-5b6b441f4140.jpeg",
+      "id": "12e2afdc-e50e-4882-a01b-5b6b441f4140",
       "title": "Ponte del Moro-Lago",
       "location": {
         "region": "Belluno Province",
@@ -162,7 +163,7 @@
       "notes": ""
     },
     {
-      "src": "2019/07/16/5323f319-71fc-4fa3-afa4-f7d52abc6966.jpeg",
+      "id": "5323f319-71fc-4fa3-afa4-f7d52abc6966",
       "title": "Col dei Baldi",
       "location": {
         "region": "Belluno Province",
@@ -174,7 +175,7 @@
       "notes": ""
     },
     {
-      "src": "2019/07/16/03b43b53-84e3-4c25-b04c-914f468aefbb.jpeg",
+      "id": "03b43b53-84e3-4c25-b04c-914f468aefbb",
       "title": "Rifugio Coldai",
       "location": {
         "region": "Belluno Province",
@@ -186,7 +187,7 @@
       "notes": ""
     },
     {
-      "src": "2019/07/16/00e52f77-3f2b-4bac-9fba-463d9ae4dff1.jpeg",
+      "id": "00e52f77-3f2b-4bac-9fba-463d9ae4dff1",
       "title": "Rifugio Tissi",
       "location": {
         "region": "Belluno Province",
@@ -198,7 +199,7 @@
       "notes": ""
     },
     {
-      "src": "2019/07/16/a46e829f-147b-40d1-b7ae-2f743923feca.jpeg",
+      "id": "a46e829f-147b-40d1-b7ae-2f743923feca",
       "title": "Monte Civetta",
       "location": {
         "region": "Belluno Province",
@@ -210,7 +211,7 @@
       "notes": ""
     },
     {
-      "src": "2019/07/16/bac6d25f-acec-4e7f-9e08-126b36bdb9fd.jpeg",
+      "id": "bac6d25f-acec-4e7f-9e08-126b36bdb9fd",
       "title": "Forcella Moschesin",
       "location": {
         "region": "Belluno Province",
@@ -222,7 +223,7 @@
       "notes": ""
     },
     {
-      "src": "2019/07/16/e10fd4eb-c57f-4f1c-a434-a3321d7e4186.jpeg",
+      "id": "e10fd4eb-c57f-4f1c-a434-a3321d7e4186",
       "title": "Cima di Citta",
       "location": {
         "region": "Belluno Province",
@@ -234,7 +235,7 @@
       "notes": ""
     },
     {
-      "src": "2019/07/16/62a0ffe0-dafd-4399-a9e0-fa5f276ae90b.jpeg",
+      "id": "62a0ffe0-dafd-4399-a9e0-fa5f276ae90b",
       "title": "Rifugio Pian de Fontana",
       "location": {
         "region": "Belluno Province",
@@ -246,7 +247,7 @@
       "notes": ""
     },
     {
-      "src": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
+      "id": "735a0783-62ba-4f8e-97d8-c9b9f5327cfe",
       "title": "Forcella di Lavaretta",
       "location": {
         "region": "Belluno Province",

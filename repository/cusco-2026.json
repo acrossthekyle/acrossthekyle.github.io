@@ -9,24 +9,177 @@
     "Cusco"
   ],
   "location": {
-    "region": "Southeastern Andes",
+    "region": "Cusco + Sacred Valley",
     "country": "Peru",
     "continent": "South America"
   },
   "category": "destination",
   "type": "vacation",
   "coordinates": "13.53195° S, 71.96746° W",
-  "cover": {
-    "src": "",
-    "thumb": null
-  },
+  "cover": "af04785a-2aa7-45b1-839e-04ee0819a4fb",
   "notes": [
     ""
   ],
   "header": [
     "exploring the region",
-    "of cusco",
-    "in Peru"
+    "of cusco and the",
+    "sacred valley in peru"
   ],
-  "images": []
+  "uploads": "2026/07/08",
+  "images": [
+    {
+      "id": "f28325d8-a214-4ef9-8b89-f84c8f6502af",
+      "title": "Incan template wall",
+      "location": {
+        "region": "Calle Abracitos, Cusco",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/10/2026",
+      "elevation": 11122
+    },
+    {
+      "id": "27d396aa-e78d-44f5-bcbe-c9f731e1bc71",
+      "title": "Huasca",
+      "location": {
+        "region": "Chinchero",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/09/2026",
+      "elevation": 12268
+    },
+    {
+      "id": "765d2fe5-ea8d-4872-b8e1-2fd82b31974e",
+      "title": "Tika Centro",
+      "location": {
+        "region": "Chinchero",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/09/2026",
+      "elevation": 12193
+    },
+    {
+      "id": "96fc5ada-f951-4814-b8b2-f2fbb38f5110",
+      "title": "Salt mines of Maras",
+      "location": {
+        "region": "Sacred Valley, Cusco",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/09/2026",
+      "elevation": 9894
+    },
+    {
+      "id": "c6ff6c86-b1a7-4cd4-b833-ac4e8211c753",
+      "title": "Moray",
+      "location": {
+        "region": "Sacred Valley, Cusco",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/09/2026",
+      "elevation": 11508
+    },
+    {
+      "id": "4ee45ed1-1ac1-4a20-a3b1-f833914af587",
+      "title": "Urubamba",
+      "location": {
+        "region": "Sacred Valley, Cusco",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/09/2026",
+      "elevation": 9865
+    },
+    {
+      "id": "91fb616b-5485-4292-a901-d392aac28e5a",
+      "title": "Ollantaytambo",
+      "location": {
+        "region": "Sacred Valley, Cusco",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/09/2026",
+      "elevation": 9357
+    },
+    {
+      "id": "7a191ef6-07b1-48a3-800c-d0a45202579f",
+      "title": "Face of Viracocha",
+      "location": {
+        "region": "Ollantaytambo, Sacred Valley, Cusco",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/09/2026",
+      "elevation": 9429
+    },
+    {
+      "id": "1daeaa22-092d-4e26-ad9d-c91701a82193",
+      "title": "Ollantaytambo ruins",
+      "location": {
+        "region": "Sacred Valley, Cusco",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/09/2026",
+      "elevation": 9429
+    },
+    {
+      "id": "2a43968c-2714-45f8-aed4-235f509f1d3a",
+      "title": "Pisac",
+      "location": {
+        "region": "Sacred Valley, Cusco",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/09/2026",
+      "elevation": 11226
+    },
+    {
+      "id": "f9b88d34-69b7-49d0-aa6a-9d07daff733d",
+      "title": "Pisac ruins",
+      "location": {
+        "region": "Sacred Valley, Cusco",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/09/2026",
+      "elevation": 11226
+    },
+    {
+      "id": "8b3b411b-4f5b-4df6-86d3-9a75a3ef379f",
+      "title": "Incan Monastery Wall",
+      "location": {
+        "region": "Cusco",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/10/2026",
+      "elevation": 11180
+    },
+    {
+      "id": "bb53485a-4f8c-412d-a985-1ae3d691d66c",
+      "title": "Sacsayhuamán",
+      "location": {
+        "region": "Cusco",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/10/2026",
+      "elevation": 11652
+    },
+    {
+      "id": "af04785a-2aa7-45b1-839e-04ee0819a4fb",
+      "title": "City view",
+      "location": {
+        "region": "Cusco",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/10/2026",
+      "elevation": 11272
+    }
+  ]
 }

@@ -10,7 +10,7 @@ const input = path.join(process.cwd(), './repository/meta');
 
 async function getThumb(url) {
   try {
-    const response = await fetch(`https://ik.imagekit.io/acrossthekyle/uploads/${url}?tr=w-40,q-10`);
+    const response = await fetch(`${url}?tr=w-40,q-10`);
 
     if (!response.ok) {
       throw new Error(`Response status: ${response.status}`);

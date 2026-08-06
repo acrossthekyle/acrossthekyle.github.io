@@ -17,7 +17,7 @@
   "category": "backpacking",
   "type": "overnight-hike",
   "coordinates": "43.171257° N, 91.259365° W",
-  "cover": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
+  "cover": "efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b",
   "notes": [
     "Known for its unglaciated, hilly landscape, this remote counterclockwise backpacking loop in Iowa showcases rugged terrain with a route that crosses ravines, and climbs sandstone bluffs, while providing surrounding views.",
     "This was a short backpacking trip where we hiked to a place called Browns Hollow: a grassy field pocketed by dense forest. The trail had three big hills, but overall it wasn't that difficult of a trail."
@@ -28,9 +28,10 @@
     "in the driftless area",
     "of iowa"
   ],
+  "uploads": "2025/10/18",
   "images": [
     {
-      "src": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
+      "id": "efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b",
       "title": "Big Paint Loop",
       "location": {
         "region": "Iowa",
@@ -42,7 +43,7 @@
       "notes": "Lovely fall colors greeted us as we began the Yellow River Trail"
     },
     {
-      "src": "2025/10/18/92cfa8cd-806d-4241-b3a1-9da957e6472d.jpeg",
+      "id": "92cfa8cd-806d-4241-b3a1-9da957e6472d",
       "title": "Big Paint Loop",
       "location": {
         "region": "Iowa",
@@ -54,7 +55,7 @@
       "notes": "Lovely fall colors greeted us as we began the Yellow River Trail"
     },
     {
-      "src": "2025/10/18/a97e4968-9219-4089-ae13-a1e28f44ae0b.jpeg",
+      "id": "a97e4968-9219-4089-ae13-a1e28f44ae0b",
       "title": "Big Paint Loop",
       "location": {
         "region": "Iowa",
@@ -66,7 +67,7 @@
       "notes": ""
     },
     {
-      "src": "2025/10/18/7d3daf93-3463-4f44-909e-f0d7f609967a.jpeg",
+      "id": "7d3daf93-3463-4f44-909e-f0d7f609967a",
       "title": "Big Paint Loop",
       "location": {
         "region": "Iowa",
@@ -78,7 +79,7 @@
       "notes": ""
     },
     {
-      "src": "2025/10/18/7c266117-a4a2-4f6b-95f0-15a562d9a6be.jpeg",
+      "id": "7c266117-a4a2-4f6b-95f0-15a562d9a6be",
       "title": "Big Paint Loop",
       "location": {
         "region": "Iowa",
@@ -90,7 +91,7 @@
       "notes": "Heading back to civlization after a restless night in the woods, thanks to a create trying to force its way underneath my tent. Overall 14.3 miles of hiking."
     },
     {
-      "src": "2025/10/18/db8b9939-7fe0-43b3-b5ef-d0baea038ef1.jpeg",
+      "id": "db8b9939-7fe0-43b3-b5ef-d0baea038ef1",
       "title": "Browns Hollow",
       "location": {
         "region": "Iowa",

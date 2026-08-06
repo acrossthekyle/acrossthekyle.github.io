@@ -6,12 +6,13 @@ export const styles = tw({
     order-2
     relative z-2
     flex flex-col items-center gap-8
-    w-full max-w-none
+    w-full
     mx-auto
     text-center
 
     md:block
     md:p-6
+    md:px-12
     md:order-1
 
     motion-safe:opacity-0

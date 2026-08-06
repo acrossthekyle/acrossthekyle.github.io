@@ -10,26 +10,354 @@
     "Trek"
   ],
   "location": {
-    "region": "Cusco Region",
+    "region": "Vilcabamba Range, The Andes",
     "country": "Peru",
     "continent": "South America"
   },
   "category": "backpacking",
   "type": "thru-hike",
   "coordinates": "13.1632° S, 72.5453° W",
-  "cover": {
-    "src": "",
-    "thumb": null
-  },
+  "cover": "927ce0b1-f63d-4a58-9fd4-47fc8c577978",
   "notes": [
     ""
   ],
   "header": [
-    "thru-hiking in",
-    "the andes mountains of",
-    "Peru along the",
-    "salkantay trek",
+    "thru-hiking in the",
+    "mountains of peru",
+    "along the inca trail",
     "to Macchu Pichu"
   ],
-  "images": []
+  "uploads": "2026/07/11",
+  "images": [
+    {
+      "id": "3b8d7ca2-51fa-46ea-869e-ef5cdea6c91f",
+      "title": "Approaching Soraypampa",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/11/2026",
+      "elevation": 12703
+    },
+    {
+      "id": "686daefa-ad4e-4f52-b7b6-96803c7a9b81",
+      "title": "Humantay Lake",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/11/2026",
+      "elevation": 13951
+    },
+    {
+      "id": "737cfa14-8964-4251-af50-b32d715d789c",
+      "title": "Skydomes at Soraypampa",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/11/2026",
+      "elevation": 11953
+    },
+    {
+      "id": "7fe48f74-73fc-496c-a8b5-51bd992ba8fe",
+      "title": "Leaving Soraypampa",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/12/2026",
+      "elevation": 13585
+    },
+    {
+      "id": "53892b8f-094c-4d28-8939-8a702f90097c",
+      "title": "Humantay Peak",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/12/2026",
+      "elevation": 13880
+    },
+    {
+      "id": "de1e7418-3507-47e8-888d-db3d91de1594",
+      "title": "Pass between Humantay and Salkantay",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/12/2026",
+      "elevation": 15028
+    },
+    {
+      "id": "c494f389-d459-4a28-b3ce-f491022756ef",
+      "title": "Salkantay in clouds",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/12/2026",
+      "elevation": 15493
+    },
+    {
+      "id": "6bf54fcc-b5a8-4bd3-a283-25e300192dc9",
+      "title": "Circumnavigating Salkantay Pass",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/12/2026",
+      "elevation": 15528
+    },
+    {
+      "id": "f3112c48-d449-4600-afec-478fafcbf006",
+      "title": "Salkantay Lake",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/12/2026",
+      "elevation": 15739
+    },
+    {
+      "id": "fad8569c-a739-4a53-a4aa-ad6f825105bb",
+      "title": "Salkantay Glacier",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/12/2026",
+      "elevation": 15843
+    },
+    {
+      "id": "d4e38cc8-5c83-4b54-aa52-f7935d60b882",
+      "title": "Descending to Pampacahuana",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/12/2026",
+      "elevation": 14472
+    },
+    {
+      "id": "0424da42-d6b2-41c8-8e24-77977fc50c3e",
+      "title": "Approaching Paucarcancha Incan ruins",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/13/2026",
+      "elevation": 10278
+    },
+    {
+      "id": "af448839-959e-44a9-8bc6-0cf146ce7717",
+      "title": "Paucarcancha Incan ruins",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/13/2026",
+      "elevation": 10301
+    },
+    {
+      "id": "bc7b0bd9-2cb0-44be-b459-13e88735ccb4",
+      "title": "Beginning the Inca Trail",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/14/2026",
+      "elevation": 10854
+    },
+    {
+      "id": "18e41e3d-2c1a-450d-abaf-c342c75be6cd",
+      "title": "Inca Trail",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/15/2026",
+      "elevation": 11789
+    },
+    {
+      "id": "c287d595-16cf-492a-bf06-559b668cc831",
+      "title": "View from Llulluchapampa campsite",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/15/2026",
+      "elevation": 12289
+    },
+    {
+      "id": "49fb3f0d-6008-45f4-bbfe-8ae283dfe93b",
+      "title": "Dead Womens Pass",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/15/2026",
+      "elevation": 13824
+    },
+    {
+      "id": "5249fa3c-a1eb-4e14-8242-9331bf38d874",
+      "title": "Dead Womens Pass",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/15/2026",
+      "elevation": 13824
+    },
+    {
+      "id": "41765801-c4f8-48a5-bdb9-8c63a5af15df",
+      "title": "Hiking into the clouds",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/15/2026",
+      "elevation": 12011
+    },
+    {
+      "id": "ee8d80d7-ca2b-452c-9341-0ab7093f7cc9",
+      "title": "Runkuraqay Incan ruins",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/15/2026",
+      "elevation": 12381
+    },
+    {
+      "id": "9bcede17-419a-4ad6-ba12-cacb022bfd30",
+      "title": "Moss everywhere",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/15/2026",
+      "elevation": 12836
+    },
+    {
+      "id": "c69c3249-aab7-482f-8a15-32581b2c4078",
+      "title": "Sayacmarca Incan ruins",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/15/2026",
+      "elevation": 11878
+    },
+    {
+      "id": "91b70af3-275d-4e9a-a2e2-d8a09fa77b56",
+      "title": "Chaquicocha campsite",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/16/2026",
+      "elevation": 11579
+    },
+    {
+      "id": "da8fa29b-3e8a-4808-84ad-79c5f2dea889",
+      "title": "Inca Trail",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/16/2026",
+      "elevation": 11783
+    },
+    {
+      "id": "67389946-acfe-4edb-9a9f-8b063e563712",
+      "title": "Puyapatamarca Incan ruins",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/16/2026",
+      "elevation": 11734
+    },
+    {
+      "id": "f4a130de-cda5-4c33-9f7a-c976dcf3174e",
+      "title": "Intipata Incan ruins",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/16/2026",
+      "elevation": 9217
+    },
+    {
+      "id": "fe114cc1-fb70-4103-8299-22159f33e112",
+      "title": "Wiñay Wayna Incan ruins",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/16/2026",
+      "elevation": 8733
+    },
+    {
+      "id": "14dfcfd8-3348-4a3f-b02c-31af8dea9de7",
+      "title": "Wiñay Wayna Incan ruins",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/16/2026",
+      "elevation": 8733
+    },
+    {
+      "id": "927ce0b1-f63d-4a58-9fd4-47fc8c577978",
+      "title": "View of Machu Picchu from Sun Gate",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/17/2026",
+      "elevation": 8878
+    },
+    {
+      "id": "4b87f92a-c5ce-4c3e-bfe8-fa243553eb51",
+      "title": "Machu Picchu",
+      "location": {
+        "region": "Vilcabamba Range",
+        "country": "Peru",
+        "continent": "South America"
+      },
+      "date": "07/17/2026",
+      "elevation": 8204
+    }
+  ]
 }

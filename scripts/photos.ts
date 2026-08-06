@@ -4,7 +4,7 @@
 import fs from 'fs';
 import path from 'path';
 
-import { wait, writeFile } from './utils';
+import { imagePath, wait, writeFile } from './utils';
 
 const input = path.join(process.cwd(), './repository');
 
@@ -19,6 +19,7 @@ export async function go() {
 
   for (const file of files) {
     const data = JSON.parse(fs.readFileSync(`${input}/${file}`, 'utf8'));
+
     let photos = [];
 
     try {
@@ -37,26 +38,26 @@ export async function go() {
       if (!existingCover) {
         updated.push({
           type: 'cover',
-          id: data.cover,
+          id: imagePath(data.cover, data.uploads),
         });
       }
 
       const existingPhotos = photos.filter((photo) => photo.type === 'image');
 
       for (const image of data.images) {
-        const foundImage = existingPhotos.find((existing) => existing.id === image.src);
+        const foundImage = existingPhotos.find((existing) => existing.id === image.id);
 
         if (!foundImage) {
           updated.push({
             type: 'image',
-            id: image.src,
+            id: imagePath(image.id, data.uploads),
           });
         }
       }
 
       // console.log(`meta/${file.replace('.json', '.photos.json')}`, JSON.stringify(updated, null, 2));
 
-      writeFile(input, `meta/${file.replace('.json', '.photos.json')}`, JSON.stringify(updated, null, 2));
+      writeFile(`${input}/meta`, `${file.replace('.json', '.photos.json')}`, JSON.stringify(updated, null, 2));
     }
   }
 
