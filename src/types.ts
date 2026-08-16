@@ -45,4 +45,5 @@ export type Collection = {
     long: string[];
     short: string[];
   };
+  year: string;
 };

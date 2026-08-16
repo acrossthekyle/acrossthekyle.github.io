@@ -5,6 +5,8 @@ import fs from 'fs';
 import fsPromises from 'fs/promises';
 import path from 'path';
 
+import { image } from '../src/utils';
+
 const output = path.join(process.cwd(), './src/cache');
 
 export async function createDirectory(destination) {
@@ -46,11 +48,7 @@ export function reduceCoordinates(value: string | null, to = 4) {
 };
 
 export function imagePath(id: string, folder: string, extension?: string = 'jpeg') {
-  return [
-    'https://ik.imagekit.io/acrossthekyle/uploads',
-    folder,
-    `${id}.${extension}`,
-  ].filter(Boolean).join('/');
+  return image(id, folder, extension);
 };
 
 export const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));

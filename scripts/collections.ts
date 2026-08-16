@@ -103,6 +103,7 @@ export async function go() {
       const photos = JSON.parse(fs.readFileSync(`${input}/meta/${file.replace('.json', '.photos.json')}`, 'utf8'));
 
       const when = getWhen(data.date);
+      const year = data.date[0].split('/')[2];
 
       const cover = photos.find((photo) => photo.type === 'cover');
 
@@ -123,6 +124,7 @@ export async function go() {
           title: data.title,
           type: data.type,
           when,
+          year,
         });
       }
 

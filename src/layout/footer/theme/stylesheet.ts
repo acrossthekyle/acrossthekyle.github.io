@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 export const styles = tw({
   container: `
-    fixed bottom-0 right-2 z-100
+    absolute bottom-16 right-1 z-100
     p-4
     flex items-center
     text-(--foreground)
@@ -11,13 +11,16 @@ export const styles = tw({
     uppercase
     tracking-widest
 
-    md:bottom-2
+    sm:fixed
+    sm:top-0
+    sm:bottom-auto
+    md:top-1
   `,
   circle: `
-    w-5 h-5
+    w-4 h-4
     rounded-full
     border light:border-(--background)/40
-    bg-(--foreground)/75
+    bg-(--foreground)
   `,
 });
 

@@ -2,7 +2,7 @@ const data = [
   {
     "category": "Destination",
     "coordinates": "12.5933° S, 69.1891° W",
-    "count": 15,
+    "count": 14,
     "cover": {
       "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/c1f7edf9-dbe5-4692-a967-a4922f294b51.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA//EACMQAQACAQIGAwEAAAAAAAAAAAECEQADIRIiMUFRYRMycfH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AN8z0q/eAOtNPtX5ignrLHhkH7iiITY0n9wF1J8QqmAS2Lrv4yK1bmETIt94Cx5Su2ALeUdmaiIdcw2XUfBiAJ03RiCdSVsdtsuJpuNnKYV//9k="
@@ -14,7 +14,7 @@ const data = [
     ],
     "id": "puerto-maldonado",
     "location": {
-      "region": "Amazon Rain Forest",
+      "region": "Tambopata Reserve, Amazon Jungle",
       "country": "Peru",
       "continent": "South America"
     },
@@ -22,8 +22,8 @@ const data = [
       ""
     ],
     "title": [
-      "Puerto",
-      "Maldonado"
+      "Finca",
+      "Sachavacayoc"
     ],
     "type": "excursion",
     "when": {
@@ -35,7 +35,8 @@ const data = [
         "07/19/26",
         "07/22/26"
       ]
-    }
+    },
+    "year": "2026"
   },
   {
     "category": "Backpacking",
@@ -74,7 +75,8 @@ const data = [
         "07/11/26",
         "07/17/26"
       ]
-    }
+    },
+    "year": "2026"
   },
   {
     "category": "Destination",
@@ -91,7 +93,7 @@ const data = [
     ],
     "id": "cusco",
     "location": {
-      "region": "Cusco + Sacred Valley",
+      "region": "Cusco",
       "country": "Peru",
       "continent": "South America"
     },
@@ -99,7 +101,8 @@ const data = [
       ""
     ],
     "title": [
-      "Cusco"
+      "Cusco +",
+      "Sacred Valley"
     ],
     "type": "vacation",
     "when": {
@@ -111,7 +114,8 @@ const data = [
         "07/08/26",
         "07/10/26"
       ]
-    }
+    },
+    "year": "2026"
   },
   {
     "category": "Backpacking",
@@ -150,7 +154,8 @@ const data = [
         "03/14/26",
         "03/15/26"
       ]
-    }
+    },
+    "year": "2026"
   },
   {
     "category": "Backpacking",
@@ -190,7 +195,8 @@ const data = [
         "10/18/25",
         "10/19/25"
       ]
-    }
+    },
+    "year": "2025"
   },
   {
     "category": "Backpacking",
@@ -230,7 +236,8 @@ const data = [
         "07/27/24",
         "08/06/24"
       ]
-    }
+    },
+    "year": "2024"
   },
   {
     "category": "Destination",
@@ -268,7 +275,8 @@ const data = [
         "07/24/24",
         "07/25/24"
       ]
-    }
+    },
+    "year": "2024"
   },
   {
     "category": "Destination",
@@ -308,7 +316,8 @@ const data = [
         "07/05/23",
         "07/07/23"
       ]
-    }
+    },
+    "year": "2023"
   },
   {
     "category": "Backpacking",
@@ -349,7 +358,8 @@ const data = [
         "06/21/23",
         "07/03/23"
       ]
-    }
+    },
+    "year": "2023"
   },
   {
     "category": "Destination",
@@ -389,7 +399,8 @@ const data = [
         "12/29/22",
         "01/06/23"
       ]
-    }
+    },
+    "year": "2022"
   },
   {
     "category": "Backpacking",
@@ -429,7 +440,8 @@ const data = [
         "07/15/22",
         "05/04/25"
       ]
-    }
+    },
+    "year": "2022"
   },
   {
     "category": "Backpacking",
@@ -469,7 +481,8 @@ const data = [
         "05/07/22",
         "05/12/22"
       ]
-    }
+    },
+    "year": "2022"
   },
   {
     "category": "Destination",
@@ -508,7 +521,8 @@ const data = [
         "03/22/22",
         "03/25/22"
       ]
-    }
+    },
+    "year": "2022"
   },
   {
     "category": "Destination",
@@ -548,7 +562,8 @@ const data = [
         "07/01/20",
         "07/03/20"
       ]
-    }
+    },
+    "year": "2020"
   },
   {
     "category": "Backpacking",
@@ -588,7 +603,8 @@ const data = [
         "02/18/20",
         "02/25/20"
       ]
-    }
+    },
+    "year": "2020"
   },
   {
     "category": "Destination",
@@ -627,7 +643,8 @@ const data = [
         "11/06/19",
         "11/08/19"
       ]
-    }
+    },
+    "year": "2019"
   },
   {
     "category": "Backpacking",
@@ -667,7 +684,8 @@ const data = [
         "11/01/19",
         "11/05/19"
       ]
-    }
+    },
+    "year": "2019"
   },
   {
     "category": "Backpacking",
@@ -707,7 +725,8 @@ const data = [
         "10/19/19",
         "11/01/19"
       ]
-    }
+    },
+    "year": "2019"
   },
   {
     "category": "Summits",
@@ -747,7 +766,8 @@ const data = [
         "08/31/19",
         "09/11/22"
       ]
-    }
+    },
+    "year": "2019"
   },
   {
     "category": "Backpacking",
@@ -787,7 +807,8 @@ const data = [
         "07/16/19",
         "07/25/19"
       ]
-    }
+    },
+    "year": "2019"
   },
   {
     "category": "Backpacking",
@@ -828,7 +849,8 @@ const data = [
         "09/02/18",
         "09/13/18"
       ]
-    }
+    },
+    "year": "2018"
   },
   {
     "category": "Backpacking",
@@ -855,8 +877,8 @@ const data = [
       "I spent 35 days walking/hiking 600 miles across Northern Spain."
     ],
     "title": [
-      "Camino",
-      "Frances"
+      "Camino de",
+      "Santiago"
     ],
     "type": "thru-hike",
     "when": {
@@ -868,7 +890,8 @@ const data = [
         "06/02/18",
         "07/04/18"
       ]
-    }
+    },
+    "year": "2018"
   },
   {
     "category": "Destination",
@@ -908,7 +931,8 @@ const data = [
         "03/18/16",
         "03/27/16"
       ]
-    }
+    },
+    "year": "2016"
   }
 ];
 

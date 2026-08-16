@@ -6,10 +6,11 @@
   "timestamp": "1783536000",
   "id": "cusco",
   "title": [
-    "Cusco"
+    "Cusco +",
+    "Sacred Valley"
   ],
   "location": {
-    "region": "Cusco + Sacred Valley",
+    "region": "Cusco",
     "country": "Peru",
     "continent": "South America"
   },
@@ -29,7 +30,7 @@
   "images": [
     {
       "id": "f28325d8-a214-4ef9-8b89-f84c8f6502af",
-      "title": "Incan template wall",
+      "title": "Incan temple wall",
       "location": {
         "region": "Calle Abracitos, Cusco",
         "country": "Peru",
@@ -40,7 +41,7 @@
     },
     {
       "id": "27d396aa-e78d-44f5-bcbe-c9f731e1bc71",
-      "title": "Huasca",
+      "title": "Huasca Incan Ruins",
       "location": {
         "region": "Chinchero",
         "country": "Peru",
@@ -73,7 +74,7 @@
     },
     {
       "id": "c6ff6c86-b1a7-4cd4-b833-ac4e8211c753",
-      "title": "Moray",
+      "title": "Moray Incan Ruins",
       "location": {
         "region": "Sacred Valley, Cusco",
         "country": "Peru",
@@ -95,7 +96,7 @@
     },
     {
       "id": "91fb616b-5485-4292-a901-d392aac28e5a",
-      "title": "Ollantaytambo",
+      "title": "Ollantaytambo Incan Ruins",
       "location": {
         "region": "Sacred Valley, Cusco",
         "country": "Peru",
@@ -117,7 +118,7 @@
     },
     {
       "id": "1daeaa22-092d-4e26-ad9d-c91701a82193",
-      "title": "Ollantaytambo ruins",
+      "title": "Ollantaytambo Incan Ruins",
       "location": {
         "region": "Sacred Valley, Cusco",
         "country": "Peru",
@@ -128,7 +129,7 @@
     },
     {
       "id": "2a43968c-2714-45f8-aed4-235f509f1d3a",
-      "title": "Pisac",
+      "title": "Pisac Incan Ruins",
       "location": {
         "region": "Sacred Valley, Cusco",
         "country": "Peru",
@@ -139,7 +140,7 @@
     },
     {
       "id": "f9b88d34-69b7-49d0-aa6a-9d07daff733d",
-      "title": "Pisac ruins",
+      "title": "Pisac Incan Ruins",
       "location": {
         "region": "Sacred Valley, Cusco",
         "country": "Peru",
@@ -161,7 +162,7 @@
     },
     {
       "id": "bb53485a-4f8c-412d-a985-1ae3d691d66c",
-      "title": "Sacsayhuamán",
+      "title": "Sacsayhuamán Incan Ruins",
       "location": {
         "region": "Cusco",
         "country": "Peru",

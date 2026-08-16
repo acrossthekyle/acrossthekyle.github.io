@@ -2365,7 +2365,7 @@ const data = [
     "notes": [],
     "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/08/f28325d8-a214-4ef9-8b89-f84c8f6502af.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAeEAADAQABBQEAAAAAAAAAAAAAAQIRAxIhMVFhsf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBAP/EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwDVOVFNvUnuHOnpdt1w3+GMMqxqgNaRHV8CpQIdIFZpPbja9nP4poAQrbiI0AJJ0AGZ/9k=",
-    "title": "Incan template wall",
+    "title": "Incan temple wall",
     "when": {
       "long": [
         "July 2026"
@@ -2392,7 +2392,7 @@ const data = [
     "notes": [],
     "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/08/27d396aa-e78d-44f5-bcbe-c9f731e1bc71.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDBAH/xAAjEAACAQMEAQUAAAAAAAAAAAAAAQIDESESIjFhQUJRUoGR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A6HZ8E6TCVTPNiHVl82IdLVuTKdaKtp3Mzcb2cpZ7ZcVH0L7CmJcpVLbWkDSy8v8AAFMRGhw5Sx0IwWp6FleWASeTpxUs3b7YTbwuPYACtYXYAJP/2Q==",
-    "title": "Huasca",
+    "title": "Huasca Incan Ruins",
     "when": {
       "long": [
         "July 2026"
@@ -2473,7 +2473,7 @@ const data = [
     "notes": [],
     "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/08/c6ff6c86-b1a7-4cd4-b833-ac4e8211c753.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAiEAACAgEEAQUAAAAAAAAAAAAAAQIRMQMSIWFBBBMiUXH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/ANdlYon5Rf6aOLfkn2+bfJhpLk/NMmWttX0VONdGOpDes4GJ1+orsGC05N4AjHujNrPJW9dgGSSca5WSGo92ASQ1fCABF//Z",
-    "title": "Moray",
+    "title": "Moray Incan Ruins",
     "when": {
       "long": [
         "July 2026"
@@ -2527,7 +2527,7 @@ const data = [
     "notes": [],
     "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/08/91fb616b-5485-4292-a901-d392aac28e5a.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMBAgT/xAAhEAACAgICAQUAAAAAAAAAAAAAAQIRAyESUTETQWFxgf/EABYBAAMAAAAAAAAAAAAAAAAAAAABAv/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/AOYuI5NN0To2LVVexKVctbVlI5I8Ulv7Ip6Mroep5j0cl5u/hA86faYAZVJ+mk24eH2czgoxUo+4BEU6WNuTWkkVhiTdvf4AEDXhhWlQAGT/2Q==",
-    "title": "Ollantaytambo",
+    "title": "Ollantaytambo Incan Ruins",
     "when": {
       "long": [
         "July 2026"
@@ -2581,7 +2581,7 @@ const data = [
     "notes": [],
     "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/08/1daeaa22-092d-4e26-ad9d-c91701a82193.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAjEAEAAgEEAgEFAAAAAAAAAAABAAIRAxIhMRNBUSJhcYGh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAECEVH/2gAMAwEAAhEDEQA/AK09et+PfxO6pmmbGP3PL4bVfrSv27ZuUtt5ykdXiTS3Gao/yS0RwzaunbscM67jA4y+/bLN+s3HjOhtcpn8xLap3EzddamZGvjpc5OpRUDB1ESKz1LGjXdjhecSkHFkz8MRACbrVDrmIiB//9k=",
-    "title": "Ollantaytambo ruins",
+    "title": "Ollantaytambo Incan Ruins",
     "when": {
       "long": [
         "July 2026"
@@ -2608,7 +2608,7 @@ const data = [
     "notes": [],
     "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/08/2a43968c-2714-45f8-aed4-235f509f1d3a.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCAf/EACIQAAICAQMEAwAAAAAAAAAAAAABAhESITFBA1FxkSIyUv/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AKUxiyObS+La8HLdfZ+xVi1PszST/LIU3y2aynVZOvJKRufUjF09+wIOK3ApG1Ftb6GlFcAEV2icm7paVyAQFHLRe2AAP//Z",
-    "title": "Pisac",
+    "title": "Pisac Incan Ruins",
     "when": {
       "long": [
         "July 2026"
@@ -2635,7 +2635,7 @@ const data = [
     "notes": [],
     "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/08/f9b88d34-69b7-49d0-aa6a-9d07daff733d.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAjEAEBAAECBAcAAAAAAAAAAAABAAIDEQQTMUESISJRUpGh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDvDZZamCL5lcCdbDp55YPpU3rjUfk/cGhCVPNy7JHVyO5BaodWWTPPfeQV0zLY6EkVLmPsXPGd8f2SCC7skg//2Q==",
-    "title": "Pisac ruins",
+    "title": "Pisac Incan Ruins",
     "when": {
       "long": [
         "July 2026"
@@ -2689,7 +2689,7 @@ const data = [
     "notes": [],
     "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/08/bb53485a-4f8c-412d-a985-1ae3d691d66c.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAgABAwT/xAAhEAEAAgIABwEBAAAAAAAAAAABABECEiExMkFCUXEDkf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AO59gUgke0AonaUZT6gDcVMC67xSCZK9RJSNDK73WKsWuddTf3nJVjTc82KR5t8rW+MqDCnj+mWJz4QDtk+T/YRW+2B//9k=",
-    "title": "Sacsayhuamán",
+    "title": "Sacsayhuamán Incan Ruins",
     "when": {
       "long": [
         "July 2026"
@@ -5903,33 +5903,6 @@ const data = [
     "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/e2ea562d-2700-4f5e-8f77-f55c4a86d58d.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECBAP/xAAiEAACAgEDBAMAAAAAAAAAAAABAgARAyExUQQTQWEiMqH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/ANMzVgikc8uYYyBVmXBaMHQMPMUOopGTvsfMQqlyFvtrxIpPTG2Howpo5qlNeqljNDZHGx/IhWa9blZd2x1065L+Q1haAA+Nm4kVO00yokHm4H//2Q==",
     "title": "Sunset in the jungle",
-    "when": {
-      "long": [
-        "July 2026"
-      ],
-      "short": [
-        "07/21/26"
-      ]
-    }
-  },
-  {
-    "camera": "iPhone 16 Pro",
-    "category": "Destination",
-    "collectionId": "puerto-maldonado",
-    "elevation": {
-      "imperial": "570",
-      "metric": "174"
-    },
-    "id": "aaa1df79-45c6-46ba-8494-bdb074118c10.jpeg",
-    "location": {
-      "region": "Tambopata National Reserve",
-      "country": "Peru",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/aaa1df79-45c6-46ba-8494-bdb074118c10.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAEEAgP/xAAdEAEBAAEEAwAAAAAAAAAAAAAAAQIEERRSQWKR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oADAMBAAIRAxEAPwDuR1I8OR6k1NlKNGy7M91d8Yw5d6wGmQZ8dZ2x+DOqyWoDSLKlAFAEf//Z",
-    "title": "Pair of Vultures",
     "when": {
       "long": [
         "July 2026"

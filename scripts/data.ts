@@ -7,11 +7,11 @@ import { go as exif } from './exif';
 import { go as photos } from './photos';
 
 async function go() {
-  await photos();
+  // await photos();
 
-  await btoa();
+  // await btoa();
 
-  await exif();
+  // await exif();
 
   collections();
 };

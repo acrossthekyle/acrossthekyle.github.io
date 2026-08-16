@@ -6,11 +6,11 @@
   "timestamp": "1784576400",
   "id": "puerto-maldonado",
   "title": [
-    "Puerto",
-    "Maldonado"
+    "Finca",
+    "Sachavacayoc"
   ],
   "location": {
-    "region": "Amazon Rain Forest",
+    "region": "Tambopata Reserve, Amazon Jungle",
     "country": "Peru",
     "continent": "South America"
   },
@@ -174,17 +174,6 @@
     {
       "id": "e2ea562d-2700-4f5e-8f77-f55c4a86d58d",
       "title": "Sunset in the jungle",
-      "location": {
-        "region": "Tambopata National Reserve",
-        "country": "Peru",
-        "continent": "South America"
-      },
-      "date": "07/21/2026",
-      "elevation": 570
-    },
-    {
-      "id": "aaa1df79-45c6-46ba-8494-bdb074118c10",
-      "title": "Pair of Vultures",
       "location": {
         "region": "Tambopata National Reserve",
         "country": "Peru",

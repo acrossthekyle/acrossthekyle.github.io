@@ -1,7 +1,11 @@
+import Copyright from './copyright';
 import Theme from './theme';
 
 export default function Footer() {
   return (
-    <Theme />
+    <footer>
+      <Copyright />
+      <Theme />
+    </footer>
   );
 }

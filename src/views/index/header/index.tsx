@@ -1,23 +1,45 @@
-import { Ui } from '@/ui';
+import { Navigation } from '@/layout';
+import tw from '@/styles';
 
-import { styles } from './stylesheet';
+import Location from './location';
+import Updates from './updates';
 
 export default function Header() {
   return (
     <header className={styles.container}>
+      <Navigation />
+      <Location />
       <h1 className={styles.header}>
-        Hi, my name's <span className={styles.emphasis}>Kyle</span> <span className={styles.thin}>&mdash;</span> an inspired <span className={styles.emphasis}>backpacking </span> and <span className={styles.emphasis}>travel </span> enthusiast living a city-based life in <span className={styles.emphasis}>Chicago </span> crafting digital <span className={styles.emphasis}>experiences.</span>
+        <span>INSPIRED</span>
+        <span>BACKPACKER</span>
+        <span>AND TRAVEL</span>
+        <span>ENTHUSIAST</span>
+        <span>LIVING A</span>
+        <span>CITY-BASED</span>
+        <span>LIFE IN</span>
+        <span>CHICAGO AS</span>
+        <span>A DEVELOPER</span>
+        <span>CRAFTING</span>
+        <span>DIGITAL</span>
+        <span>EXPERIENCES</span>
       </h1>
-      <figure className={styles.figure}>
-        <Ui.Image
-          className={styles.image}
-          src="https://ik.imagekit.io/acrossthekyle/uploads/12a81235-f377-4a2c-ba0f-22fb36e8c399.jpeg"
-          thumb="data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAgACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAjEAACAgEDBAMBAAAAAAAAAAABAgARUQMhMRITQWEEMmJx/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AK9eAIB3DgQDufmAB/UBdzfgQJWazACTUA0XUqwfjOIASB52gLrwIElchlF8QKahYLu13AzoKWajsD5MBsrLvz7EBFh5swLH469XEDkf7kYgAdl4NQNpqsHu/wCjMDY0y52FLA//2Q=="
-        />
-      </figure>
-      <p className={styles.introduction}>
-        From the heights of the Himalayas in Nepal to the windswept expanses of Patagonia I'm always seeking the next adventure &mdash; even after spending hundreds of days and thousands of miles walking through forests, over mountains, and across entire countries. Between adventures I'm a self-taught software engineer with a thrill for writing code and experimenting with user interfaces, even after {new Date().getFullYear() - 2012} years.
-      </p>
+      <Updates />
     </header>
   );
-}
+};
+
+const styles = tw({
+  container: `
+    col-span-1 order-0
+  `,
+  header: `
+    flex flex-col justify-end
+    h-[calc(100svh-8.75rem)]
+    p-6
+    text-[min(8vw,1.75rem)]
+    leading-[0.8]
+    font-black
+
+    sm:text-[min(4vw,1.75rem)]
+  `,
+});

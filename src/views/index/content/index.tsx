@@ -1,32 +1,30 @@
-'use client';
-
-import { useState } from 'react';
-
+import tw from '@/styles';
 import type { Collection } from '@/types';
 
-import Filters from './filters';
-import Header from './header';
-import Items from './items';
-import { styles } from './stylesheet';
+import About from './about';
+import Contact from './contact';
+import Travels from './travels';
 
 type Props = {
-  data: {
-    collections: Collection[];
-  };
+  collections: Collection[];
 };
 
-export default function Content({ data }: Props) {
-  const [filter, setFilter] = useState<string>('all');
-
-  const handleOnFilter = (value: string) => {
-    setFilter(value === filter ? 'all' : value);
-  };
-
+export default function Content({ collections }: Props) {
   return (
-    <section className={styles.container}>
-      <Header />
-      <Filters filter={filter} onFilter={handleOnFilter} />
-      <Items filter={filter} items={data.collections} />
+    <section aria-label="content" className={styles.container}>
+      <About />
+      <Travels collections={collections} />
+      <Contact />
     </section>
   );
-}
+};
+
+const styles = tw({
+  container: `
+    col-span-1 order-2
+    overflow-y-auto
+    border-t border-current/12.5
+
+    sm:order-1
+  `,
+});

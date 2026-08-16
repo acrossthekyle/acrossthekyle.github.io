@@ -1,9 +1,9 @@
+import tw from '@/styles';
 import type { Collection } from '@/types';
 
+import Carousel from './carousel';
 import Content from './content';
-import Footer from './footer';
 import Header from './header';
-import { styles } from './stylesheet';
 
 type Props = {
   data: {
@@ -15,8 +15,22 @@ export default function View({ data }: Props) {
   return (
     <article className={styles.container}>
       <Header />
-      <Content data={data} />
-      <Footer />
+      <Content collections={data.collections} />
+      <Carousel />
     </article>
   );
-}
+};
+
+const styles = tw({
+  container: `
+    grid grid-cols-1
+    w-full
+
+    sm:w-1/2
+    lg:divide-x
+    lg:divide-current/12.5
+    lg:w-full
+    lg:h-svh
+    lg:grid-cols-3
+  `,
+});
