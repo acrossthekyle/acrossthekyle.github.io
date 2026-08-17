@@ -13,7 +13,7 @@ export default function Travels({ collections }: Props) {
   const items = Array.from(grouped.entries());
 
   return (
-    <article className={styles.container}>
+    <article className={styles.container} id="travels">
       <h2 className={styles.heading}>
         <span className={styles.index}>02</span>
         Travels
@@ -59,8 +59,10 @@ const styles = tw({
     mb-6
     uppercase
     font-black
-    text-tiny
+    text-xs
     tracking-wide
+
+    sm:text-tiny
   `,
   index: `
     font-normal
@@ -74,7 +76,9 @@ const styles = tw({
   `,
   year: `
     w-16
-    text-xs
+    text-sm
+
+    sm:text-xs
   `,
   collections: `
     flex flex-col gap-4
@@ -83,7 +87,7 @@ const styles = tw({
   link: `
     relative
     flex flex-col gap-1
-    text-xs
+    text-sm
 
     before:absolute
     before:-inset-2
@@ -93,6 +97,8 @@ const styles = tw({
     motion-safe:before:duration-300
 
     hover:before:opacity-100
+
+    sm:text-xs
   `,
   title: `
     font-black
@@ -100,10 +106,12 @@ const styles = tw({
   tag: `
     relative -left-0.5
     self-start
-    text-tiny
+    text-xs
     rounded-sm
     border border-current/12.5
     p-1 py-0.25
+
+    sm:text-tiny
   `,
   location: `
     flex gap-1

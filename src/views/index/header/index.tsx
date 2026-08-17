@@ -1,10 +1,15 @@
 import { Navigation } from '@/layout';
 import tw from '@/styles';
+import type { Collection } from '@/types';
 
 import Location from './location';
 import Updates from './updates';
 
-export default function Header() {
+type Props = {
+  latest: Collection;
+};
+
+export default function Header({ latest }: Props) {
   return (
     <header className={styles.container}>
       <Navigation />
@@ -23,7 +28,7 @@ export default function Header() {
         <span>DIGITAL</span>
         <span>EXPERIENCES</span>
       </h1>
-      <Updates />
+      <Updates latest={latest} />
     </header>
   );
 };
@@ -34,12 +39,13 @@ const styles = tw({
   `,
   header: `
     flex flex-col justify-end
-    h-[calc(100svh-8.75rem)]
+    h-[calc(100svh-8.8rem)]
     p-6
-    text-[min(8vw,1.75rem)]
-    leading-[0.8]
+    text-[min(8vw,1.8rem)]
+    leading-[1]
     font-black
 
     sm:text-[min(4vw,1.75rem)]
+    sm:leading-[0.8]
   `,
 });

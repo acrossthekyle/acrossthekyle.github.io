@@ -3,12 +3,13 @@ import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 
 import Ui from '@/ui';
-import View from '@/views/travels-[id]';
+import View from '@/views/travels-[id]-img-[src]';
 
 import { get } from './get';
 
 type Params = Promise<{
   id: string;
+  src: string;
 }>;
 
 type GenerateMetadata = {
@@ -22,9 +23,9 @@ type Props = {
 export async function generateMetadata({
   params,
 }: GenerateMetadata): Promise<Metadata> {
-  const { id } = await params;
+  const { id, src } = await params;
 
-  const data = await get(id.toLowerCase());
+  const data = await get(id.toLowerCase(), src.toLowerCase());
 
   const robots = {
     index: false,
@@ -46,16 +47,16 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${data.collection.title.join(' ')} ⌁ Travels`,
+    title: `${data.image.title} ⌁ Image ⌁ ${data.collection.title.join(' ')} ⌁ Travels`,
     description: ``,
     robots,
   };
 };
 
 export default async function Page({ params }: Props) {
-  const { id } = await params;
+  const { id, src } = await params;
 
-  const data = await get(id.toLowerCase());
+  const data = await get(id.toLowerCase(), src.toLowerCase());
 
   if (data === null) {
     return notFound();

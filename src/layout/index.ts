@@ -1,3 +1,3 @@
 export { default as Body } from './body';
 export { default as Footer } from './footer';
-export { default as Navigation } from './Navigation';
+export { default as Navigation } from './navigation';

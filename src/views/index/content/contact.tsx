@@ -4,10 +4,10 @@ import tw from '@/styles';
 
 export default function Contact() {
   return (
-    <article className={styles.container}>
+    <article className={styles.container} id="connect">
       <h2 className={styles.heading}>
         <span className={styles.index}>03</span>
-        Contact
+        Connect
       </h2>
       <p className={styles.paragraph}>
         Sometimes I post stuff on <Link
@@ -34,8 +34,10 @@ const styles = tw({
     mb-6
     uppercase
     font-black
-    text-tiny
+    text-xs
     tracking-wide
+
+    sm:text-tiny
   `,
   index: `
     font-normal
@@ -43,11 +45,12 @@ const styles = tw({
   `,
   paragraph: `
     max-full
-    text-xs
+    text-sm
     mb-4
 
     last:mb-0
 
+    sm:text-xs
     lg:max-w-2/3
   `,
   link: `

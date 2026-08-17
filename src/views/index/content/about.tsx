@@ -4,7 +4,7 @@ import tw from '@/styles';
 
 export default function About() {
   return (
-    <article className={styles.container}>
+    <article className={styles.container} id="about">
       <h2 className={styles.heading}>
         <span className={styles.index}>01</span>
         About
@@ -29,8 +29,10 @@ const styles = tw({
     mb-6
     uppercase
     font-black
-    text-tiny
+    text-xs
     tracking-wide
+
+    sm:text-tiny
   `,
   index: `
     font-normal
@@ -38,11 +40,12 @@ const styles = tw({
   `,
   paragraph: `
     w-full
-    text-xs
+    text-sm
     mb-4
 
     last:mb-0
 
+    sm:text-xs
     lg:max-w-2/3
   `,
   link: `

@@ -1,7 +1,8 @@
-import { AlignRight } from 'lucide-react';
 import Link from 'next/link';
 
 import tw from '@/styles';
+
+import Menu from './menu';
 
 export default function Navigation() {
   return (
@@ -12,16 +13,13 @@ export default function Navigation() {
       <span className={styles.version}>
         v1.98.0
       </span>
-      <button className={styles.menu} type="button">
-        <AlignRight className={styles.icon} />
-      </button>
+      <Menu />
     </div>
   );
 };
 
 const styles = tw({
   container: `
-    relative
     flex items-center
     w-full
     p-6
@@ -29,18 +27,15 @@ const styles = tw({
   anchor: `
     px-1 pt-0.5 pb-0.75 mr-4
     rounded-sm
-    text-tiny text-(--background)
+    text-xs text-(--background)
     bg-(--foreground)
+
+    sm:text-tiny
   `,
   version: `
-    text-xtiny
+    text-tiny
     font-mono
-  `,
-  menu: `
-    absolute right-6
-  `,
-  icon: `
-    w-5.5
-    stroke-1
+
+    sm:text-xtiny
   `,
 });

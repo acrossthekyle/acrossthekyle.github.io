@@ -4,6 +4,7 @@ import type { Collection } from '@/types';
 import Carousel from './carousel';
 import Content from './content';
 import Header from './header';
+import Reset from './reset';
 
 type Props = {
   data: {
@@ -14,9 +15,10 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <article className={styles.container}>
-      <Header />
+      <Header latest={data.collections[0]} />
       <Content collections={data.collections} />
       <Carousel />
+      <Reset />
     </article>
   );
 };

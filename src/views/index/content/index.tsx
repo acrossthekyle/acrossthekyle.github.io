@@ -23,7 +23,6 @@ const styles = tw({
   container: `
     col-span-1 order-2
     overflow-y-auto
-    border-t border-current/12.5
 
     sm:order-1
   `,

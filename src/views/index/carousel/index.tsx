@@ -76,19 +76,23 @@ const styles = tw({
     ${isActive ? 'opacity-100 z-1' : 'opacity-0 z-0'}
   `),
   image: `
-    grayscale
+    grayscale brightness-70
 
     dark:brightness-80
+
+    mask-t-from-80% mask-t-to-100%
+    mask-b-from-80% mask-b-to-100%
   `,
   caption: `
-    absolute top-6 right-6 z-2
+    absolute bottom-24 right-6 z-2
     flex flex-col gap-0.5 items-end
     uppercase
     leading-[1]
     text-tiny text-white
 
     sm:top-24
-    sm:right-6
+    sm:bottom-auto
+    sm:text-xtiny
   `,
   title: `
     font-black

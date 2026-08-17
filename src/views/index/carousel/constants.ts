@@ -8,8 +8,8 @@ export const IMAGES = [
     year: '2026',
   },
   {
-    src: image('07d576bf-326a-4e68-8928-85408efa3ba2', 'me'),
-    title: 'Manang',
+    src: image('2c435008-528e-4687-a4b3-1130b49e21bf', 'me'),
+    title: 'Kicho Tal',
     collection: 'Annapurna Circuit – Nepal',
     year: '2019',
   },

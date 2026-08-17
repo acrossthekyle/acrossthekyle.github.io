@@ -1,6 +1,16 @@
+'use client';
+
+import { usePathname } from 'next/navigation';
+
 import tw from '@/styles';
 
 export default function Copyright() {
+  const pathname = usePathname();
+
+  if (pathname.includes('img')) {
+    return null
+  }
+
   return (
     <p className={styles.container}>
       Words + images + code copyrighted since 2011
@@ -10,12 +20,11 @@ export default function Copyright() {
 
 const styles = tw({
   container: `
-    relative
     w-full
     p-6
     text-xtiny
     uppercase
-    border-t border-current/12.5
+    tracking-widest
 
     sm:fixed
     sm:bottom-6
@@ -26,6 +35,6 @@ const styles = tw({
     sm:rotate-90
     sm:origin-bottom-right
     sm:text-white
-    sm:border-none
+    sm:scale-85
   `,
 });

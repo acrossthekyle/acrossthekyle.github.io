@@ -5,9 +5,14 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 import tw from '@/styles';
+import type { Collection } from '@/types';
 import { pad } from '@/utils';
 
-export default function Updates() {
+type Props = {
+  latest: Collection;
+};
+
+export default function Updates({ latest }: Props) {
   const [current, setCurrent] = useState(0);
 
   const handleNext = () => {
@@ -24,11 +29,11 @@ export default function Updates() {
         <li>
           <Link
             className={styles.item(current === 0)}
-            href={`/travels/puerto-maldonado`}
+            href={`/travels/${latest.id}`}
           >
             <span className={`${styles.status} ${styles.green}`} />
             <span className={styles.prefix}>Latest:</span>
-            <span>Finca Sachavacayoc</span>
+            <span>{latest.title.join(' ')}</span>
             <MoveRight className={styles.icon} />
           </Link>
         </li>
@@ -74,9 +79,11 @@ const styles = tw({
   container: `
     flex justify-between gap-0
     px-6 py-1
-    text-xtiny
+    text-tiny
     uppercase
     border-t border-current/12.5
+
+    sm:text-xtiny
   `,
   items: `
     flex-2
@@ -89,12 +96,16 @@ const styles = tw({
 
     motion-safe:duration-300
 
-    ${isActive ? 'opacity-100 z-1' : 'opacity-0 z-0'}
+    ${isActive ? 'opacity-100 z-1' : `
+      opacity-0 z-0
+
+      delay-0 invisible transition-[visibility] delay-300
+    `}
   `),
   status: `
-    w-3 h-3
+    w-2 h-2
     rounded-full
-    border border-current/12.5
+    border border-current/25
   `,
   green: `
     bg-green-500
