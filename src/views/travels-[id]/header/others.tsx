@@ -47,7 +47,9 @@ const styles = tw({
     uppercase
     border-t border-current/12.5
 
+    sm:border-y
     sm:text-xtiny
+    lg:border-b-0
   `,
   items: `
     flex justify-between gap-0

@@ -38,9 +38,11 @@ const styles = tw({
   `,
   header: `
     flex flex-col justify-end gap-1
-    h-[calc(100svh-6.7rem)]
-    p-6
+    h-[calc(100svh-6.6rem)]
+    p-6 pb-5.5
     uppercase
+
+    lg:h-[calc(100svh-6.7rem)]
   `,
   eyebrow: `
     block
