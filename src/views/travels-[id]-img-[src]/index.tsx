@@ -146,12 +146,14 @@ const styles = tw({
     !h-auto
   `,
   caption: `
-    absolute bottom-4 right-6
+    absolute bottom-0 right-0
     flex flex-col
     uppercase
     text-tiny text-right text-white
     px-4 py-2
 
+    sm:bottom-2
+    sm:right-4
     sm:text-xtiny
   `,
   title: `
