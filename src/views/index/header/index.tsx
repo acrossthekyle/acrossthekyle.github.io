@@ -1,15 +1,9 @@
 import { Navigation } from '@/layout';
 import tw from '@/styles';
-import type { Collection } from '@/types';
 
 import Location from './location';
-import Updates from './updates';
 
-type Props = {
-  latest: Collection;
-};
-
-export default function Header({ latest }: Props) {
+export default function Header() {
   return (
     <header className={styles.container}>
       <Navigation />
@@ -26,7 +20,6 @@ export default function Header({ latest }: Props) {
         <span>CRAFTING DIGITAL</span>
         <span>EXPERIENCES</span>
       </h1>
-      <Updates latest={latest} />
     </header>
   );
 };
@@ -35,13 +28,12 @@ const styles = tw({
   container: `
     col-span-1 order-0
 
-    lg:border-x
-    lg:border-t
+    lg:border-r
     lg:border-current/12.5
   `,
   header: `
     flex flex-col justify-end
-    h-[calc(100svh-8.5rem)]
+    h-[calc(100svh-5rem)]
     p-6
     text-[min(8vw,1.8rem)]
     leading-[1]
@@ -49,6 +41,6 @@ const styles = tw({
 
     sm:text-[min(4vw,1.75rem)]
     sm:leading-[0.8]
-    sm:h-[calc(100svh-8.175rem)]
+    sm:h-[calc(100svh-5rem)]
   `,
 });

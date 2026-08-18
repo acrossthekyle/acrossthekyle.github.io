@@ -99,8 +99,11 @@ const styles = tw({
   `),
   image: `
     grayscale brightness-70
+    mask-t-from-80% mask-t-to-100%
 
     dark:brightness-80
+
+    sm:mask-none
   `,
   caption: `
     absolute bottom-24 right-6 z-2

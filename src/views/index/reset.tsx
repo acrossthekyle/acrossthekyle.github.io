@@ -8,7 +8,7 @@ export default function Reset() {
   const { onView } = useView();
 
   useEffect(() => {
-    onView('theater');
+    onView('grid');
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

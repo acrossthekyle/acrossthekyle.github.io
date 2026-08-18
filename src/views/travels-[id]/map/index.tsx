@@ -46,8 +46,6 @@ const styles = tw({
     sm:bottom-0
     sm:w-1/2
     sm:h-svh
-    sm:border-l
-    sm:border-current/12.5
     lg:relative
     lg:top-auto
     lg:right-auto
@@ -57,7 +55,7 @@ const styles = tw({
     lg:border-l-0
   `,
   header: `
-    absolute bottom-6 right-6 z-5
+    absolute bottom-4.5 right-6 z-5
     flex flex-col
     uppercase
     text-tiny text-right

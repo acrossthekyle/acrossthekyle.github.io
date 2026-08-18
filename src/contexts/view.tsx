@@ -10,7 +10,7 @@ type ViewContextType = {
 export const ViewContext = createContext<ViewContextType | null>(null);
 
 export default function ViewProvider({ children }: PropsWithChildren) {
-  const [view, setView] = useState('theater');
+  const [view, setView] = useState('grid');
 
   const handleOnView = (value: string) => {
     setView(value);

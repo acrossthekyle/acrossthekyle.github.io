@@ -2,15 +2,11 @@ import { Navigation } from '@/layout';
 import tw from '@/styles';
 import type { Collection } from '@/types';
 
-import Others from './others';
-
 type Props = {
   collection: Collection;
-  next: Collection;
-  previous: Collection;
 };
 
-export default function Header({ collection, next, previous }: Props) {
+export default function Header({ collection }: Props) {
   return (
     <header className={styles.container}>
       <Navigation />
@@ -24,7 +20,6 @@ export default function Header({ collection, next, previous }: Props) {
         </span>
         <span className={styles.tag}>{collection.category}</span>
       </h1>
-      <Others next={next} previous={previous} />
     </header>
   );
 };
@@ -33,16 +28,16 @@ const styles = tw({
   container: `
     col-span-1 order-0
 
-    lg:border
+    lg:border-r
     lg:border-current/12.5
   `,
   header: `
     flex flex-col justify-end gap-1
-    h-[calc(100svh-6.6rem)]
-    p-6 pb-5.5
+    h-[calc(100svh-2.8rem)]
+    p-6
     uppercase
 
-    lg:h-[calc(100svh-6.7rem)]
+    lg:h-[calc(100svh-3.7rem)]
   `,
   eyebrow: `
     block

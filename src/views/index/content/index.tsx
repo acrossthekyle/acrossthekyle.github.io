@@ -22,10 +22,10 @@ export default function Content({ collections }: Props) {
 const styles = tw({
   container: `
     col-span-1 order-2
+    border-t border-current/12.5
 
     sm:order-1
-    lg:border-y
-    lg:border-current/12.5
+    lg:border-t-0
     lg:overflow-y-auto
   `,
 });

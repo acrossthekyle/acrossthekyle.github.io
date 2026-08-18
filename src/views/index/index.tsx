@@ -15,7 +15,7 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <article className={styles.container}>
-      <Header latest={data.collections[0]} />
+      <Header />
       <Content collections={data.collections} />
       <Carousel />
       <Reset />
