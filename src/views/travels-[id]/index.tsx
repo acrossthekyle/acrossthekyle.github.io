@@ -34,8 +34,6 @@ const styles = tw({
     w-full
 
     sm:w-1/2
-    lg:divide-x
-    lg:divide-current/12.5
     lg:w-full
     lg:h-svh
     lg:grid-cols-3

@@ -32,6 +32,9 @@ export default function Header({ collection, next, previous }: Props) {
 const styles = tw({
   container: `
     col-span-1 order-0
+
+    lg:border-r
+    lg:border-current/12.5
   `,
   header: `
     flex flex-col justify-end gap-1

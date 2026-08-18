@@ -22,8 +22,8 @@ export default function Content({ collections }: Props) {
 const styles = tw({
   container: `
     col-span-1 order-2
-    overflow-y-auto
 
     sm:order-1
+    lg:overflow-y-auto
   `,
 });

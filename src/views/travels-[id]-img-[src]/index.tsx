@@ -3,6 +3,7 @@
 import { MoveLeft, MoveRight, X } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
+import { useSwipeable } from 'react-swipeable';
 
 import tw from '@/styles';
 import type { Collection, Image } from '@/types';
@@ -26,6 +27,20 @@ export default function View({ data }: Props) {
   const handleClick = (id: string) => {
     router.replace(`/travels/${data.collection.id}/img/${id}`);
   };
+
+  const handleSwipedLeft = () => {
+    handleClick(data.next);
+  };
+
+  const handleSwipedRight = () => {
+    handleClick(data.previous);
+  };
+
+  const swipeable = useSwipeable({
+    onSwipedLeft: () => handleSwipedLeft(),
+    onSwipedRight: () => handleSwipedRight(),
+    trackMouse: true,
+  });
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -53,7 +68,7 @@ export default function View({ data }: Props) {
   }, []);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} {...swipeable}>
       <button className={styles.back} onClick={router.back} type="button">
         <X className={styles.icon} />
       </button>
@@ -102,7 +117,8 @@ export default function View({ data }: Props) {
 const styles = tw({
   container: `
     flex flex-col justify-center
-    h-svh w-full
+    h-svh
+    overflow-hidden
   `,
   index: `
     absolute top-6 right-6
@@ -114,26 +130,31 @@ const styles = tw({
   `,
   figure: `
     relative
+    flex flex-col justify-center
     w-full max-w-6xl
     h-svh
     mx-auto
-    px-6
+    px-20
+
+    portrait:px-6
+
+    lg:px-6
   `,
   image: `
     !object-contain
     select-none
+    rounded-sm
+    !h-auto
   `,
   caption: `
-    absolute bottom-2 left-1/2
+    absolute bottom-0 left-1/2
     -translate-x-1/2
     flex flex-col
     uppercase
     text-tiny text-center
     p-4
-    backdrop-blur-sm
     rounded-2xl
-
-    portrait:w-full
+    backdrop-blur-md
 
     sm:text-xtiny
   `,

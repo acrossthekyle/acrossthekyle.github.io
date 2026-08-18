@@ -78,7 +78,7 @@ export default function Updates({ latest }: Props) {
 const styles = tw({
   container: `
     flex justify-between gap-0
-    px-6 py-1
+    pl-6 py-1 pr-4
     text-tiny
     uppercase
     border-t border-current/12.5
@@ -122,7 +122,7 @@ const styles = tw({
   `,
   navigation: `
     flex-1
-    flex items-center justify-end gap-0
+    flex items-center justify-end
   `,
   current: `
     block

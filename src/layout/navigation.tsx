@@ -11,7 +11,7 @@ export default function Navigation() {
         @acrossthekyle
       </Link>
       <span className={styles.version}>
-        v1.98.0
+        v0.1701.D
       </span>
       <Menu />
     </div>

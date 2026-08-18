@@ -77,8 +77,10 @@ const styles = tw({
     ${index % 2 === 0 ? 'left-6' : 'right-6'}
     flex flex-col
     uppercase
-    text-xtiny
+    text-tiny
     ${index % 2 === 0 ? '' : 'text-right'}
+
+    sm:text-xtiny
   `),
   title: `
     font-black

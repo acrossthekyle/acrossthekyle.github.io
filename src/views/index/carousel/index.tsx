@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useSwipeable } from 'react-swipeable';
 
 import tw from '@/styles';
 import { Ui } from '@/ui';
@@ -10,8 +11,26 @@ import { IMAGES } from './constants';
 export default function Carousel() {
   const [current, setCurrent] = useState(0);
 
+  const handleSwipedLeft = () => {
+    setCurrent((previous) => (previous === IMAGES.length - 1 ? 0 : previous + 1));
+  };
+
+  const handleSwipedRight = () => {
+    setCurrent((previous) => (previous === 0 ? IMAGES.length - 1 : previous - 1));
+  };
+
+  const swipeable = useSwipeable({
+    onSwipedLeft: () => handleSwipedLeft(),
+    onSwipedRight: () => handleSwipedRight(),
+    trackMouse: true,
+  });
+
   return (
-    <section aria-label="carousel" className={styles.container}>
+    <section
+      aria-label="carousel"
+      className={styles.container}
+      {...swipeable}
+    >
       <ul className={styles.items}>
         {IMAGES.map(({ collection, src, title, year }, index) => (
           <li key={src}>
@@ -29,7 +48,10 @@ export default function Carousel() {
           </li>
         ))}
       </ul>
-      <nav aria-label="supplementary navigation" className={styles.navigation}>
+      <nav
+        aria-label="supplementary navigation"
+        className={styles.navigation}
+      >
         {IMAGES.map((_, index) => (
           <button
             className={styles.navigate}
