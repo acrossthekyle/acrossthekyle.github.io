@@ -21,10 +21,11 @@ export default function Copyright() {
 const styles = tw({
   container: `
     w-full
-    p-6
+    p-6 py-4
     text-xtiny
     uppercase
     tracking-widest
+    border-t border-current/12.5
 
     sm:fixed
     sm:bottom-6
@@ -36,5 +37,6 @@ const styles = tw({
     sm:origin-bottom-right
     sm:text-white
     sm:scale-85
+    lg:border-t-0
   `,
 });

@@ -71,7 +71,5 @@ const styles = tw({
   container: `
     relative z-1
     h-full w-full
-    mask-t-from-80% mask-t-to-100%
-    mask-b-from-80% mask-b-to-100%
   `,
 });

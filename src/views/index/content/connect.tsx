@@ -1,3 +1,5 @@
+import { ArrowUpRight } from 'lucide-react';
+
 import Link from 'next/link';
 
 import tw from '@/styles';
@@ -15,11 +17,11 @@ export default function Contact() {
             href="https://instagram.com/acrossthekyle?ref=acrossthekyle.com"
             target="_blank"
           >
-            Instagram
+            Instagram <ArrowUpRight className={styles.icon} />
           </Link>, but the best way to get in touch is via <Link
             className={styles.link}
             href="mailto:hello@acrossthekyle.com"
-          >email</Link>.
+          >email <ArrowUpRight className={styles.icon} /></Link>.
       </p>
     </article>
   );
@@ -54,6 +56,10 @@ const styles = tw({
     lg:max-w-2/3
   `,
   link: `
+    inline-flex items-center
     underline
+  `,
+  icon: `
+    w-2.5 h-2.5
   `,
 });

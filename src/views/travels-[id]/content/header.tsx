@@ -53,7 +53,7 @@ const styles = tw({
   container: `
     grid grid-cols-3
     w-full
-    p-6
+    px-6 py-4.5
   `,
   header: `
     flex items-center
@@ -84,7 +84,7 @@ const styles = tw({
     block
     border border-current
     rounded-xs
-    h-2 w-2
+    h-1.5 w-1.5
   `,
   theater: `
     grid grid-cols-1
@@ -92,7 +92,7 @@ const styles = tw({
   hero: `
     block
     border border-current
-    rounded-sm
-    h-4.5 w-6.5
+    rounded-xs
+    h-3.5 w-5.5
   `,
 });

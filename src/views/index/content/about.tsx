@@ -1,3 +1,5 @@
+import { ArrowUpRight } from 'lucide-react';
+
 import Link from 'next/link';
 
 import tw from '@/styles';
@@ -13,7 +15,7 @@ export default function About() {
         After spending hundreds of days and thousands of miles walking through forests, over mountains, and across entire countries, I'm still always seeking the next adventure – from the heights of the Himalayas in Nepal to the windswept expanses of Patagonia.
       </p>
       <p className={styles.paragraph}>
-        Between adventures I moonlight a self-taught <Link className={styles.link} href="https://linkedin.com/in/acrossthekyle?ref=acrossthekyle.com" target="_blank">software engineer</Link> with a thrill for writing code and creating user interfaces.
+        Between adventures I moonlight a self-taught <Link className={styles.link} href="https://linkedin.com/in/acrossthekyle?ref=acrossthekyle.com" target="_blank">software engineer <ArrowUpRight className={styles.icon} /></Link> with a thrill for writing code and creating user interfaces.
       </p>
     </article>
   );
@@ -49,6 +51,10 @@ const styles = tw({
     lg:max-w-2/3
   `,
   link: `
+    inline-flex items-center
     underline
+  `,
+  icon: `
+    w-2.5 h-2.5
   `,
 });

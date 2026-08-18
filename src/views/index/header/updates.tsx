@@ -44,7 +44,8 @@ export default function Updates({ latest }: Props) {
             target="_blank"
           >
             <span className={styles.status} />
-            <span>Currently <span className={styles.prefix}>@</span> Optum</span>
+            <span className={styles.prefix}>Currently:</span>
+            <span>Working <span className={styles.prefix}>@</span> Optum</span>
             <ArrowUpRight className={styles.icon} />
           </Link>
         </li>
@@ -81,7 +82,7 @@ const styles = tw({
     pl-6 py-1 pr-4
     text-tiny
     uppercase
-    border-t border-current/12.5
+    border-y border-current/12.5
 
     sm:text-xtiny
   `,

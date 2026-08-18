@@ -33,12 +33,12 @@ const styles = tw({
   container: `
     col-span-1 order-0
 
-    lg:border-r
+    lg:border
     lg:border-current/12.5
   `,
   header: `
     flex flex-col justify-end gap-1
-    h-[calc(100svh-7.3rem)]
+    h-[calc(100svh-6.7rem)]
     p-6
     uppercase
   `,
@@ -52,10 +52,11 @@ const styles = tw({
   `,
   title: `
     text-[min(8vw,1.75rem)]
-    leading-[0.8]
+    leading-[1]
     font-black
 
     sm:text-[min(4vw,1.75rem)]
+    sm:leading-[0.8]
   `,
   lid: `
     block

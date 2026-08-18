@@ -2,7 +2,7 @@ import tw from '@/styles';
 import type { Collection } from '@/types';
 
 import About from './about';
-import Contact from './contact';
+import Connect from './connect';
 import Travels from './travels';
 
 type Props = {
@@ -14,7 +14,7 @@ export default function Content({ collections }: Props) {
     <section aria-label="content" className={styles.container}>
       <About />
       <Travels collections={collections} />
-      <Contact />
+      <Connect />
     </section>
   );
 };
@@ -24,6 +24,8 @@ const styles = tw({
     col-span-1 order-2
 
     sm:order-1
+    lg:border-y
+    lg:border-current/12.5
     lg:overflow-y-auto
   `,
 });

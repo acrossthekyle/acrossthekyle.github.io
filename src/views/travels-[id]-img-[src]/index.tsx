@@ -96,14 +96,16 @@ export default function View({ data }: Props) {
         className={styles.navigation}
       >
         <button
-          aria-label="previous"
+          aria-label="previous image"
+          className={styles.navigate}
           onClick={() => handleClick(data.previous)}
           type="button"
         >
           <MoveLeft className={styles.icon} />
         </button>
         <button
-          aria-label="next"
+          aria-label="next image"
+          className={styles.navigate}
           onClick={() => handleClick(data.next)}
           type="button"
         >
@@ -116,9 +118,14 @@ export default function View({ data }: Props) {
 
 const styles = tw({
   container: `
-    flex flex-col justify-center
+    flex justify-center items-center
     h-svh
     overflow-hidden
+    px-20
+
+    portrait:px-6
+
+    lg:px-6
   `,
   index: `
     absolute top-6 right-6
@@ -130,15 +137,7 @@ const styles = tw({
   `,
   figure: `
     relative
-    flex flex-col justify-center
     w-full max-w-6xl
-    h-svh
-    mx-auto
-    px-20
-
-    portrait:px-6
-
-    lg:px-6
   `,
   image: `
     !object-contain
@@ -147,14 +146,11 @@ const styles = tw({
     !h-auto
   `,
   caption: `
-    absolute bottom-0 left-1/2
-    -translate-x-1/2
+    absolute bottom-4 right-6
     flex flex-col
     uppercase
-    text-tiny text-center
-    p-4
-    rounded-2xl
-    backdrop-blur-md
+    text-tiny text-right text-white
+    px-4 py-2
 
     sm:text-xtiny
   `,
@@ -177,7 +173,10 @@ const styles = tw({
     stroke-1
   `,
   navigation: `
-    absolute bottom-4 left-6 right-6
+    absolute bottom-2 left-4 right-4
     flex items-center justify-between
+  `,
+  navigate: `
+    p-2
   `,
 });

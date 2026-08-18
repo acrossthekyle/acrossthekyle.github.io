@@ -21,11 +21,9 @@ export default function Header({ latest }: Props) {
         <span>ENTHUSIAST</span>
         <span>LIVING A</span>
         <span>CITY-BASED</span>
-        <span>LIFE IN</span>
-        <span>CHICAGO AS</span>
-        <span>A DEVELOPER</span>
-        <span>CRAFTING</span>
-        <span>DIGITAL</span>
+        <span>LIFE IN CHICAGO</span>
+        <span>AS A DEVELOPER</span>
+        <span>CRAFTING DIGITAL</span>
         <span>EXPERIENCES</span>
       </h1>
       <Updates latest={latest} />
@@ -37,12 +35,13 @@ const styles = tw({
   container: `
     col-span-1 order-0
 
-    lg:border-r
+    lg:border-x
+    lg:border-t
     lg:border-current/12.5
   `,
   header: `
     flex flex-col justify-end
-    h-[calc(100svh-8.8rem)]
+    h-[calc(100svh-8.5rem)]
     p-6
     text-[min(8vw,1.8rem)]
     leading-[1]
@@ -50,5 +49,6 @@ const styles = tw({
 
     sm:text-[min(4vw,1.75rem)]
     sm:leading-[0.8]
+    sm:h-[calc(100svh-8.175rem)]
   `,
 });

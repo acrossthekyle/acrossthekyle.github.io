@@ -101,9 +101,6 @@ const styles = tw({
     grayscale brightness-70
 
     dark:brightness-80
-
-    mask-t-from-80% mask-t-to-100%
-    mask-b-from-80% mask-b-to-100%
   `,
   caption: `
     absolute bottom-24 right-6 z-2

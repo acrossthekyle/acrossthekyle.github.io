@@ -23,6 +23,8 @@ const styles = tw({
     col-span-1 order-2
 
     sm:order-1
+    lg:border-y
+    lg:border-current/12.5
     lg:overflow-y-auto
   `,
 });

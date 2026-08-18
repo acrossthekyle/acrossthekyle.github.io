@@ -69,16 +69,21 @@ const styles = tw({
     text-tiny text-current/50
   `,
   group: `
+    relative
     flex
     mb-4
 
     last:mb-0
   `,
   year: `
+    sticky top-4 z-10
+    self-start
     w-16
+    pb-12
     text-sm
 
     sm:text-xs
+    sm:pb-10.5
   `,
   collections: `
     flex flex-col gap-4

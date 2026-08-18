@@ -38,9 +38,11 @@ export default function Menu() {
             onClick={handleToggle}
             type="button"
           >
-            <span className={`${styles.bar} ${styles.first(isActive)}`} />
-            <span className={`${styles.bar} ${styles.middle(isActive)}`} />
-            <span className={`${styles.bar} ${styles.last(isActive)}`} />
+            <span className={styles.inner}>
+              <span className={`${styles.bar} ${styles.first(isActive)}`} />
+              <span className={`${styles.bar} ${styles.middle(isActive)}`} />
+              <span className={`${styles.bar} ${styles.last(isActive)}`} />
+            </span>
           </button>
         </AutoFocusInside>
         <div
@@ -81,16 +83,19 @@ export default function Menu() {
 
 const styles = tw({
   cta: `
-    absolute left-full top-4.5 z-100
-    -translate-x-12
-    flex flex-col items-end
-    w-6 h-6
-    rotate-0
+    absolute left-full top-2.75 z-100
+    -translate-x-14
+    flex justify-center items-end
+    p-2
 
     motion-safe:duration-300
 
     sm:left-1/2
     lg:left-1/3
+  `,
+  inner: `
+    relative
+    w-6 h-6
   `,
   bar: `
     block
@@ -114,7 +119,7 @@ const styles = tw({
   `),
   last: (isActive: boolean) => tw(`
     ${isActive ? 'w-full' : 'w-2/3'}
-    ${isActive ? 'top-3' : 'top-4.5'}
+    ${isActive ? 'top-3' : 'top-4.5 right-0'}
     ${isActive ? '-rotate-45' : 'rotate-0'}
   `),
   backdrop: (isActive: boolean) => tw(`
