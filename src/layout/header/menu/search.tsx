@@ -143,7 +143,7 @@ const styles = tw({
     pt-2
 
     ${isExpanded ? 'h-auto' : `
-      h-[calc(100svh-15.75rem)]
+      h-[calc(100svh-16.25rem)]
       mask-b-from-90% mask-b-to-100%
 
       sm:h-[calc(100svh-15.5rem)]

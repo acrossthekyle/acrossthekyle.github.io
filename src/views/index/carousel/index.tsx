@@ -11,17 +11,17 @@ import { IMAGES } from './constants';
 export default function Carousel() {
   const [current, setCurrent] = useState(0);
 
-  const handleSwipedLeft = () => {
+  const handleNext = () => {
     setCurrent((previous) => (previous === IMAGES.length - 1 ? 0 : previous + 1));
   };
 
-  const handleSwipedRight = () => {
+  const handlePrevious = () => {
     setCurrent((previous) => (previous === 0 ? IMAGES.length - 1 : previous - 1));
   };
 
   const swipeable = useSwipeable({
-    onSwipedLeft: () => handleSwipedLeft(),
-    onSwipedRight: () => handleSwipedRight(),
+    onSwipedLeft: () => handleNext(),
+    onSwipedRight: () => handlePrevious(),
     trackMouse: true,
   });
 
@@ -48,20 +48,31 @@ export default function Carousel() {
           </li>
         ))}
       </ul>
-      <nav
-        aria-label="supplementary navigation"
-        className={styles.navigation}
-      >
-        {IMAGES.map((_, index) => (
-          <button
-            className={styles.navigate}
-            key={index}
-            onClick={() => setCurrent(index)}
-            type="button"
-          >
-            <span className={styles.pill(current === index)} />
-          </button>
-        ))}
+      <nav aria-label="supplementary navigation">
+        <button
+          className={styles.previous}
+          onClick={handlePrevious}
+          type="button"
+        />
+        <ul className={styles.navigation}>
+          {IMAGES.map((_, index) => (
+            <li key={index}>
+              <button
+                aria-label={`jump to image number ${index + 1}`}
+                className={styles.navigate}
+                onClick={() => setCurrent(index)}
+                type="button"
+              >
+                <span className={styles.pill(current === index)} />
+              </button>
+            </li>
+          ))}
+        </ul>
+        <button
+          className={styles.next}
+          onClick={handleNext}
+          type="button"
+        />
       </nav>
     </section>
   );
@@ -131,6 +142,16 @@ const styles = tw({
   `,
   navigate: `
     py-2 px-1
+  `,
+  next: `
+    absolute top-0 right-0 bottom-0 z-1
+    w-1/2
+    !cursor-e-resize
+  `,
+  previous: `
+    absolute top-0 left-0 bottom-0 z-1
+    w-1/2
+    !cursor-w-resize
   `,
   pill: (isActive: boolean) => tw(`
     block
