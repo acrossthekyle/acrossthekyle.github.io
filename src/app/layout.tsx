@@ -35,7 +35,7 @@ const serif = Playfair_Display({
 
 export default async function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html className={`${sans.variable} ${serif.variable}`} lang="en-US" suppressHydrationWarning>
+    <html className={`${sans.variable} ${serif.variable} h-full`} lang="en-US" suppressHydrationWarning>
       <Suspense fallback={null}>
         <ViewContext>
           <Body>
