@@ -8,13 +8,9 @@ export async function get(id) {
     return null;
   }
 
-  const next = collections[index === collections.length - 1 ? collections.length - 1 : index + 1];
-  const previous = collections[index === 0 ? collections.length - 1 : index - 1];
-
   return {
     collection: collections[index],
+    collections,
     images: images.filter((image) => image.collectionId.toLowerCase() === id),
-    next,
-    previous,
   };
 };

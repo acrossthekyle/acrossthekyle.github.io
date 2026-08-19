@@ -20,10 +20,10 @@ export default function Location() {
 
   if (date === null) {
     return (
-      <>
+      <section aria-label="local location">
         <p className={styles.paragraph}>CHICAGO, U.S. 41.8781 N, 87.6298 W</p>
         <p className={styles.paragraph}>--/--/-- --:--:-- CT</p>
-      </>
+      </section>
     );
   }
 
@@ -33,16 +33,15 @@ export default function Location() {
   const time = date.toLocaleTimeString('en-US', { timeZone: 'America/Chicago' });
 
   return (
-    <>
+    <section aria-label="local time and location">
       <p className={styles.paragraph}>CHICAGO, U.S. 41.8781 N, 87.6298 W</p>
       <p className={styles.paragraph}>{month} {day} {year} {time} CT</p>
-    </>
+    </section>
   );
 };
 
 const styles = tw({
   paragraph: `
-    ml-6
     uppercase
     text-tiny
     font-mono

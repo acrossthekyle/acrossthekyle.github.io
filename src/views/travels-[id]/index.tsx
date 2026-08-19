@@ -1,33 +1,31 @@
+import { Header } from '@/layout';
 import tw from '@/styles';
 import type { Collection, Image } from '@/types';
 
 import Content from './content';
-import Header from './header';
+import Heading from './heading';
 import Map from './map';
 
 type Props = {
   data: {
     collection: Collection;
+    collections: Collection[];
     images: Image[];
-    next: Collection;
-    previous: Collection;
   };
 };
 
 export default function View({ data }: Props) {
   return (
-    <main>
-      <article className={styles.container}>
-        <Header collection={data.collection} />
-        <Content
-          collection={data.collection.id}
-          images={data.images}
-          next={data.next}
-          previous={data.previous}
-        />
-        <Map collection={data.collection} />
-      </article>
-    </main>
+    <>
+      <Header collections={data.collections} />
+      <main>
+        <article className={styles.container}>
+          <Heading collection={data.collection} />
+          <Content collection={data.collection.id} images={data.images} />
+          <Map collection={data.collection} />
+        </article>
+      </main>
+    </>
   );
 };
 

@@ -88,7 +88,7 @@ const styles = tw({
     relative
     h-[60svh] w-full
 
-    sm:h-svh
+    sm:h-full
   `,
   figure: (isActive: boolean) => tw(`
     absolute inset-0
@@ -106,15 +106,15 @@ const styles = tw({
     sm:mask-none
   `,
   caption: `
-    absolute bottom-24 right-6 z-2
-    flex flex-col gap-0.5 items-end
+    absolute bottom-16 left-6 z-2
+    flex flex-col gap-0.5 items-start
     uppercase
     leading-[1]
     text-tiny text-white
 
-    sm:top-24
-    sm:bottom-auto
     sm:text-xtiny
+    sm:top-6
+    sm:bottom-auto
   `,
   title: `
     font-black

@@ -1,4 +1,3 @@
-import { Navigation } from '@/layout';
 import tw from '@/styles';
 import type { Collection } from '@/types';
 
@@ -6,12 +5,13 @@ type Props = {
   collection: Collection;
 };
 
-export default function Header({ collection }: Props) {
+export default function Heading({ collection }: Props) {
   return (
     <header className={styles.container}>
-      <Navigation />
       <h1 className={styles.header}>
-        <span className={styles.eyebrow}>{collection.category} &mdash; {collection.location.country}</span>
+        <span className={styles.eyebrow}>
+          {collection.category} &mdash; {collection.location.country}
+        </span>
         <span className={styles.title}>
           {collection.header.join(' ')}
         </span>
@@ -27,17 +27,16 @@ export default function Header({ collection }: Props) {
 const styles = tw({
   container: `
     col-span-1 order-0
+    flex flex-col justify-end
+    h-svh
+    p-6
 
     lg:border-r
     lg:border-current/12.5
   `,
   header: `
     flex flex-col justify-end gap-1
-    h-[calc(100svh-2.8rem)]
-    p-6
     uppercase
-
-    lg:h-[calc(100svh-3.7rem)]
   `,
   eyebrow: `
     block

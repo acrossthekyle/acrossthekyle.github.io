@@ -1,12 +1,17 @@
 import Link from 'next/link';
 
 import tw from '@/styles';
+import type { Collection } from '@/types';
 
 import Menu from './menu';
 
-export default function Navigation() {
+type Props = {
+  collections: Collection[];
+};
+
+export default function Navigation({ collections }: Props) {
   return (
-    <div className={styles.container}>
+    <header className={styles.container}>
       <Link aria-label="acrossthekyle.com" className={styles.anchor} href="/">
         <span className={styles.inner}>
           @acrossthekyle
@@ -15,15 +20,20 @@ export default function Navigation() {
       <span className={styles.version}>
         v0.1701.D
       </span>
-      <Menu />
-    </div>
+      <Menu collections={collections} />
+    </header>
   );
 };
 
 const styles = tw({
   container: `
+    absolute top-0 left-0
+    w-full
     flex items-center
-    p-2 px-4 pt-3
+    p-4
+
+    sm:w-1/2
+    lg:w-1/3
   `,
   anchor: `
     p-2 pt-1

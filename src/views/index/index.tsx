@@ -1,9 +1,10 @@
+import { Header } from '@/layout';
 import tw from '@/styles';
 import type { Collection } from '@/types';
 
 import Carousel from './carousel';
 import Content from './content';
-import Header from './header';
+import Heading from './heading';
 import Reset from './reset';
 
 type Props = {
@@ -14,14 +15,17 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <main>
-      <article className={styles.container}>
-        <Header />
-        <Content collections={data.collections} />
-        <Carousel />
-        <Reset />
-      </article>
-    </main>
+    <>
+      <Header collections={data.collections} />
+      <main>
+        <article className={styles.container}>
+          <Heading />
+          <Content collections={data.collections} />
+          <Carousel />
+          <Reset />
+        </article>
+      </main>
+    </>
   );
 };
 

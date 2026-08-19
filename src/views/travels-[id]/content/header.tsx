@@ -53,7 +53,7 @@ const styles = tw({
   container: `
     grid grid-cols-3
     w-full
-    px-6 py-4.5
+    px-6 py-6
   `,
   header: `
     flex items-center

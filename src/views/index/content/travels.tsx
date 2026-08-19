@@ -36,7 +36,9 @@ export default function Travels({ collections }: Props) {
                     <span className={styles.location}>
                       <span>{collection.location.region}</span>
                       &mdash;
-                      <span className={styles.emphasis}>{collection.location.country}</span>
+                      <span className={styles.emphasis}>
+                        {collection.location.country}
+                      </span>
                     </span>
                   </Link>
                 </li>
