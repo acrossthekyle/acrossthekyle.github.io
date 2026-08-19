@@ -40,9 +40,7 @@ export default async function RootLayout({ children }: PropsWithChildren) {
         <ViewContext>
           <Body>
             <ThemeProvider>
-              <main>
-                {children}
-              </main>
+              {children}
               <Footer />
             </ThemeProvider>
           </Body>

@@ -16,16 +16,18 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <article className={styles.container}>
-      <Header collection={data.collection} />
-      <Content
-        collection={data.collection.id}
-        images={data.images}
-        next={data.next}
-        previous={data.previous}
-      />
-      <Map collection={data.collection} />
-    </article>
+    <main>
+      <article className={styles.container}>
+        <Header collection={data.collection} />
+        <Content
+          collection={data.collection.id}
+          images={data.images}
+          next={data.next}
+          previous={data.previous}
+        />
+        <Map collection={data.collection} />
+      </article>
+    </main>
   );
 };
 

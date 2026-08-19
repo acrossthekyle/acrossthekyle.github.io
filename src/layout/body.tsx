@@ -14,6 +14,7 @@ const styles = tw({
     bg-(--background)
     text-(--foreground)
     scroll-smooth
+    h-full
 
     selection:bg-yellow-300
     selection:text-black

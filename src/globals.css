@@ -21,6 +21,10 @@
   --foreground: #ffffe3;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   button {
     cursor: pointer;

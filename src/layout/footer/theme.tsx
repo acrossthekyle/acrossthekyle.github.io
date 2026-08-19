@@ -55,10 +55,9 @@ const styles = tw({
     uppercase
     tracking-widest
 
-    sm:absolute
-    sm:top-0
+    sm:fixed
+    sm:top-1
     sm:bottom-auto
-    md:top-1
   `,
   circle: `
     w-4 h-4
