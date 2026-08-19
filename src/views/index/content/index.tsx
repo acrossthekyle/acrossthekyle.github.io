@@ -27,5 +27,6 @@ const styles = tw({
     sm:order-1
     lg:border-t-0
     lg:overflow-y-auto
+    lg:scroll-smooth
   `,
 });

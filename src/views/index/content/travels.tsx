@@ -55,14 +55,15 @@ const styles = tw({
     border-b border-current/12.5
   `,
   heading: `
-    flex flex-row-reverse items-center justify-between
+    flex flex-row-reverse items-start justify-between
     mb-6
     uppercase
     font-black
-    text-xs
+    text-sm
     tracking-wide
 
-    sm:text-tiny
+    sm:text-xs
+    lg:text-tiny
   `,
   index: `
     font-normal
@@ -79,11 +80,12 @@ const styles = tw({
     sticky top-4 z-10
     self-start
     w-16
-    pb-12
+    pb-13 pt-0.75
     text-sm
 
     sm:text-xs
     sm:pb-10.5
+    sm:pt-0
   `,
   collections: `
     flex flex-col gap-4
@@ -92,7 +94,7 @@ const styles = tw({
   link: `
     relative
     flex flex-col gap-1
-    text-sm
+    text-base
 
     before:absolute
     before:-inset-2
@@ -103,7 +105,8 @@ const styles = tw({
 
     hover:before:opacity-100
 
-    sm:text-xs
+    sm:text-sm
+    lg:text-xs
   `,
   title: `
     font-black
@@ -119,7 +122,10 @@ const styles = tw({
     sm:text-tiny
   `,
   location: `
-    flex gap-1
+    flex flex-wrap gap-1
+    text-sm
+
+    sm:text-xs
   `,
   emphasis: `
     font-serif italic

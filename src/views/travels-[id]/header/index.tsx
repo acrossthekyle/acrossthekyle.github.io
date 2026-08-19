@@ -66,10 +66,13 @@ const styles = tw({
   tag: `
     relative -left-0.5
     self-start
-    text-tiny
+    text-xs
     rounded-sm
     border border-current/22.5
-    p-1 py-0.25
+    p-1 py-0.5
     normal-case
+
+    sm:text-tiny
+    sm:py-0.25
   `,
 });

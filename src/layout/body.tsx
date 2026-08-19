@@ -13,6 +13,7 @@ const styles = tw({
     antialiased
     bg-(--background)
     text-(--foreground)
+    scroll-smooth
 
     selection:bg-yellow-300
     selection:text-black

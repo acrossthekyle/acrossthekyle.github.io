@@ -27,14 +27,15 @@ const styles = tw({
     border-b border-current/12.5
   `,
   heading: `
-    flex flex-row-reverse items-center justify-between
+    flex flex-row-reverse items-start justify-between
     mb-6
     uppercase
     font-black
-    text-xs
+    text-sm
     tracking-wide
 
-    sm:text-tiny
+    sm:text-xs
+    lg:text-tiny
   `,
   index: `
     font-normal
@@ -42,12 +43,13 @@ const styles = tw({
   `,
   paragraph: `
     w-full
-    text-sm
+    text-base
     mb-4
 
     last:mb-0
 
-    sm:text-xs
+    sm:text-sm
+    lg:text-xs
     lg:max-w-2/3
   `,
   link: `
