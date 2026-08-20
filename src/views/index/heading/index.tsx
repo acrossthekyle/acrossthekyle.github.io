@@ -1,8 +1,14 @@
 import tw from '@/styles';
+import type { Collection } from '@/types';
 
+import Latest from './latest';
 import Location from './location';
 
-export default function Heading() {
+type Props = {
+  collections: Collection[];
+};
+
+export default function Heading({ collections }: Props) {
   return (
     <header className={styles.container}>
       <Location />
@@ -18,6 +24,7 @@ export default function Heading() {
         <span>CRAFTING DIGITAL</span>
         <span>EXPERIENCES</span>
       </h1>
+      <Latest latest={collections[0]} />
     </header>
   );
 };
@@ -25,7 +32,7 @@ export default function Heading() {
 const styles = tw({
   container: `
     col-span-1 order-0
-    flex flex-col justify-between
+    flex flex-col
     h-svh
     p-6 pt-16
 
@@ -36,6 +43,7 @@ const styles = tw({
   `,
   header: `
     flex flex-col justify-end
+    mt-auto
     text-[min(8vw,1.8rem)]
     leading-[1]
     font-black

@@ -114,12 +114,7 @@ const styles = tw({
     font-black
   `,
   tag: `
-    relative -left-0.5
-    self-start
     text-xs
-    rounded-sm
-    border border-current/12.5
-    p-1 py-0.25
 
     sm:text-tiny
   `,

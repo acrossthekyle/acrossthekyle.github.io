@@ -62,7 +62,6 @@ const styles = tw({
   circle: `
     w-4 h-4
     rounded-full
-    border light:border-(--background)/40
     bg-(--foreground)
   `,
 });

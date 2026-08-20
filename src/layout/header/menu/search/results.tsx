@@ -70,14 +70,12 @@ const styles = tw({
   `),
   item: `
     pb-4
-    border-l border-current/22.5
 
     last:pb-0
   `,
   link: `
     relative
     flex flex-col gap-1
-    pl-6
     text-base
 
     before:absolute
@@ -107,12 +105,7 @@ const styles = tw({
     lg:text-tiny
   `,
   tag: `
-    relative -left-0.5
-    self-start
     text-xs
-    rounded-sm
-    border border-current/12.5
-    p-1 py-0.25
 
     sm:text-tiny
   `,

@@ -54,14 +54,13 @@ const styles = tw({
     px-6 pb-6
 
     ${view === 'theater' && 'grid-cols-1'}
-    ${view === 'grid' && 'grid-cols-3'}
+    ${view === 'grid' && 'grid-cols-2 lg:grid-cols-3'}
   `),
   figure: (view: string) => tw(`
     group
     relative
-
     ${view === 'theater' && 'h-auto w-full'}
-    ${view === 'grid' && 'w-full h-20'}
+    ${view === 'grid' && 'w-full h-44 lg:h-20'}
   `),
   image: `
     rounded-md

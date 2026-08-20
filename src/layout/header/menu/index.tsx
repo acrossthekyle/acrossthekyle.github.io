@@ -4,7 +4,6 @@ import tw from '@/styles';
 import type { Collection } from '@/types';
 
 import Header from './header';
-import Latest from './latest';
 import Search from './search';
 import Trigger from './trigger';
 
@@ -21,8 +20,7 @@ export default function Menu({ collections, isActive, onToggle }: Props) {
         <Trigger isActive={isActive} onClick={onToggle} />
       </AutoFocusInside>
       <div className={styles.container(isActive)}>
-        <Header />
-        <Latest latest={collections[0]} onClick={onToggle} />
+        <Header onClick={onToggle} />
         <Search
           collections={collections}
           isActive={isActive}

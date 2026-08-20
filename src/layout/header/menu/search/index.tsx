@@ -174,11 +174,11 @@ const styles = tw({
     pointer-events-none
   `),
   expand: `
-    ml-12
+    ml-6
     py-1 px-1.5
     text-xs text-left
     uppercase
-    font-bold
+    font-normal
     bg-(--background)
     border border-current/22.5
     rounded-md

@@ -1,23 +1,49 @@
 'use client';
 
-import { useState } from 'react';
+import { Pause, Play } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import { useSwipeable } from 'react-swipeable';
 
 import tw from '@/styles';
 import { Ui } from '@/ui';
 
-import { IMAGES } from './constants';
+import { AUTOPLAY_TIMER, IMAGES } from './constants';
 
 export default function Carousel() {
   const [current, setCurrent] = useState(0);
+  const [canAutoPlay, setCanAutoPlay] = useState(false);
 
   const handleNext = () => {
+    setCanAutoPlay(false);
+
     setCurrent((previous) => (previous === IMAGES.length - 1 ? 0 : previous + 1));
   };
 
   const handlePrevious = () => {
+    setCanAutoPlay(false);
+
     setCurrent((previous) => (previous === 0 ? IMAGES.length - 1 : previous - 1));
   };
+
+  const handleClick = (index: number) => {
+    setCanAutoPlay(false);
+
+    setCurrent(index);
+  };
+
+  const handlePausePlay = () => {
+    setCanAutoPlay(previous => !previous);
+  };
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      if (canAutoPlay) {
+        setCurrent((previous) => (previous === IMAGES.length - 1 ? 0 : previous + 1));
+      }
+    }, AUTOPLAY_TIMER);
+
+    return () => clearInterval(timer);
+  }, [canAutoPlay, setCurrent]);
 
   const swipeable = useSwipeable({
     onSwipedLeft: () => handleNext(),
@@ -50,18 +76,31 @@ export default function Carousel() {
       </ul>
       <nav aria-label="supplementary navigation">
         <button
-          aria-label="previous image"
+          aria-hidden="true"
           className={styles.previous}
           onClick={handlePrevious}
+          tabIndex={-1}
           type="button"
         />
+        <button
+          aria-label={`${canAutoPlay ? 'pause' : 'play'} image carousel`}
+          className={styles.pause}
+          onClick={handlePausePlay}
+          type="button"
+        >
+          {canAutoPlay ? (
+            <Pause className={styles.icon} />
+          ) : (
+            <Play className={styles.icon} />
+          )}
+        </button>
         <ul className={styles.navigation}>
           {IMAGES.map((_, index) => (
             <li key={index}>
               <button
                 aria-label={`jump to image ${index + 1}`}
                 className={styles.navigate}
-                onClick={() => setCurrent(index)}
+                onClick={() => handleClick(index)}
                 type="button"
               >
                 <span className={styles.pill(current === index)} />
@@ -70,9 +109,10 @@ export default function Carousel() {
           ))}
         </ul>
         <button
-          aria-label="next image"
+          aria-hidden="true"
           className={styles.next}
           onClick={handleNext}
+          tabIndex={-1}
           type="button"
         />
       </nav>
@@ -150,19 +190,29 @@ const styles = tw({
   next: `
     absolute top-0 right-0 bottom-0 z-1
     w-1/2
+    outline-0
     !cursor-e-resize
   `,
   previous: `
     absolute top-0 left-0 bottom-0 z-1
     w-1/2
+    outline-0
     !cursor-w-resize
   `,
   pill: (isActive: boolean) => tw(`
     block
-    h-1.25 w-5
+    h-0.75 w-5
     rounded-full
     border border-white/22.5
 
     ${isActive ? 'bg-white' : 'bg-black'}
   `),
+  pause: `
+    absolute bottom-4 left-4 z-4
+    p-2
+  `,
+  icon: `
+    w-4 h-4
+    fill-white
+  `,
 });

@@ -18,7 +18,6 @@ export default function Heading({ collection }: Props) {
         <span className={styles.lid}>
           {collection.when.long[0]} to {collection.when.long[1]}
         </span>
-        <span className={styles.tag}>{collection.category}</span>
       </h1>
     </header>
   );
@@ -56,22 +55,10 @@ const styles = tw({
   `,
   lid: `
     block
-    mt-1 mb-2
+    mt-1
     text-tiny
     tracking-widest
 
     sm:text-xtiny
-  `,
-  tag: `
-    relative -left-0.5
-    self-start
-    text-xs
-    rounded-sm
-    border border-current/22.5
-    p-1 py-0.5
-    normal-case
-
-    sm:text-tiny
-    sm:py-0.25
   `,
 });

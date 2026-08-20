@@ -1,5 +1,7 @@
 import { image } from '@/utils';
 
+export const AUTOPLAY_TIMER = 3000;
+
 export const IMAGES = [
   {
     src: image('7b894ee4-1cff-4c9c-9590-76354608aa72', 'me'),

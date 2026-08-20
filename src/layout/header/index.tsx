@@ -91,12 +91,12 @@ const styles = tw({
     sm:text-xtiny
   `,
   backdrop: (isMenuActive: boolean) => tw(`
-    absolute inset-0
+    absolute top-0 left-0 right-0
     bg-(--background)
 
     motion-safe:duration-300
 
-    ${isMenuActive ? 'opacity-100 z-40' : 'opacity-0 -z-1'}
+    ${isMenuActive ? 'h-[200svh] opacity-100 z-40' : 'h-svh opacity-0 -z-1'}
 
     sm:bg-(--background)/90
   `),

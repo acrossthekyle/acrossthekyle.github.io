@@ -6,17 +6,14 @@ import type { Collection } from '@/types';
 
 type Props = {
   latest: Collection;
-  onClick: () => void;
 };
 
-export default function Latest({ latest, onClick }: Props) {
+export default function Latest({ latest }: Props) {
   return (
     <Link
       className={styles.link}
       href={`/travels/${latest.id}`}
-      onClick={onClick}
     >
-      <span className={styles.status} />
       <span className={styles.prefix}>Latest:</span>
       <span>{latest.title.join(' ')}</span>
       <MoveRight className={styles.icon} />
@@ -29,18 +26,18 @@ const styles = tw({
     relative
     flex items-center gap-2
     w-fit
-    ml-6
+    mt-6 px-2
     text-tiny
     uppercase
     tracking-wider
+    border border-current/22.5
+    rounded-md
+
+    motion-safe:duration-300
+
+    hover:bg-(--foreground)/5
 
     sm:text-xtiny
-  `,
-  status: `
-    w-2 h-2
-    rounded-full
-    border border-current/25
-    bg-green-500
   `,
   prefix: `
     text-current/75

@@ -19,7 +19,7 @@ export default function View({ data }: Props) {
       <Header collections={data.collections} />
       <main>
         <article className={styles.container}>
-          <Heading />
+          <Heading collections={data.collections} />
           <Content collections={data.collections} />
           <Carousel />
           <Reset />

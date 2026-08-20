@@ -29,8 +29,8 @@ export default function Header({ total }: Props) {
               <span className={styles.square} />
               <span className={styles.square} />
               <span className={styles.square} />
-              <span className={styles.square} />
-              <span className={styles.square} />
+              <span className={`${styles.square} ${styles.desktop}`} />
+              <span className={`${styles.square} ${styles.desktop}`} />
             </button>
           </li>
           <li className={styles.item(view === 'theater')}>
@@ -80,7 +80,9 @@ const styles = tw({
     ${isCurrent ? 'opacity-100' : 'opacity-25'}
   `),
   grid: `
-    grid grid-cols-3 grid-rows-2 gap-0.25
+    grid grid-cols-2 grid-rows-2 gap-0.25
+
+    lg:grid-cols-3
   `,
   square: `
     block
@@ -90,6 +92,11 @@ const styles = tw({
 
     lg:h-1.5
     lg:w-1.5
+  `,
+  desktop: `
+    hidden
+
+    lg:block
   `,
   theater: `
     grid grid-cols-1
