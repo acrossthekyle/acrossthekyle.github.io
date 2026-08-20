@@ -1,4 +1,7 @@
+'use client';
+
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 
 import tw from '@/styles';
 import type { Collection } from '@/types';
@@ -9,19 +12,48 @@ type Props = {
   collections: Collection[];
 };
 
-export default function Navigation({ collections }: Props) {
+export default function Header({ collections }: Props) {
+  const [isMenuActive, setIsMenuActive] = useState(false);
+
+  useEffect(() => {
+    if (isMenuActive) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [isMenuActive]);
+
+  const handleMenuToggle = () => {
+    setIsMenuActive((previous) => !previous)
+  };
+
   return (
-    <header className={styles.container}>
-      <Link aria-label="acrossthekyle.com" className={styles.anchor} href="/">
-        <span className={styles.inner}>
-          @acrossthekyle
+    <>
+      <header className={styles.container}>
+        <Link aria-label="acrossthekyle.com" className={styles.anchor} href="/">
+          <span className={styles.inner}>
+            @acrossthekyle
+          </span>
+        </Link>
+        <span className={styles.version}>
+          v0.1701.D
         </span>
-      </Link>
-      <span className={styles.version}>
-        v0.1701.D
-      </span>
-      <Menu collections={collections} />
-    </header>
+        <Menu
+          collections={collections}
+          isActive={isMenuActive}
+          onToggle={handleMenuToggle}
+        />
+      </header>
+      <div
+        className={styles.backdrop(isMenuActive)}
+        onClick={handleMenuToggle}
+        role="presentation"
+      />
+    </>
   );
 };
 
@@ -58,4 +90,14 @@ const styles = tw({
 
     sm:text-xtiny
   `,
+  backdrop: (isMenuActive: boolean) => tw(`
+    absolute inset-0
+    bg-(--background)
+
+    motion-safe:duration-300
+
+    ${isMenuActive ? 'opacity-100 z-40' : 'opacity-0 -z-1'}
+
+    sm:bg-(--background)/90
+  `),
 });

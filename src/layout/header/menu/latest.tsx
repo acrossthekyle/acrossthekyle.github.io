@@ -17,7 +17,7 @@ export default function Latest({ latest, onClick }: Props) {
       onClick={onClick}
     >
       <span className={styles.status} />
-      <span className={styles.prefix}>Latest travel:</span>
+      <span className={styles.prefix}>Latest:</span>
       <span>{latest.title.join(' ')}</span>
       <MoveRight className={styles.icon} />
     </Link>
@@ -28,12 +28,11 @@ const styles = tw({
   link: `
     relative
     flex items-center gap-2
-    w-full
-    px-6 py-4
-    mt-auto
-    border-t border-current/12.5
+    w-fit
+    ml-6
     text-tiny
     uppercase
+    tracking-wider
 
     sm:text-xtiny
   `,
@@ -47,7 +46,6 @@ const styles = tw({
     text-current/75
   `,
   icon: `
-    absolute right-4
     w-3
     stroke-1
   `,

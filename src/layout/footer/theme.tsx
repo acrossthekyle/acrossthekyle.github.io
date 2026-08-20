@@ -46,7 +46,7 @@ export default function Theme() {
 
 const styles = tw({
   container: `
-    absolute bottom-0 right-1 z-20
+    absolute bottom-3 right-1 z-20
     p-4
     flex items-center
     text-(--foreground)

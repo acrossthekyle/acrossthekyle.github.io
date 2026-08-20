@@ -27,11 +27,12 @@ const styles = tw({
     col-span-1 order-0
     flex flex-col justify-between
     h-svh
-    p-6 pt-12
+    p-6 pt-16
+
+    landscape-constrained:pt-13
 
     lg:border-r
     lg:border-current/12.5
-    lg:pt-16
   `,
   header: `
     flex flex-col justify-end

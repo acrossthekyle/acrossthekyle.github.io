@@ -59,20 +59,22 @@ const styles = tw({
     flex items-center
     uppercase
     font-black
-    text-xs
+    text-sm
     tracking-wide
 
-    sm:text-tiny
+    sm:text-xs
+    lg:text-tiny
   `,
   total: `
     flex items-center justify-center
     uppercase
-    text-tiny
+    text-sm
 
-    sm:text-xtiny
+    sm:text-xs
+    lg:text-tiny
   `,
   controls: `
-    flex items-center justify-end gap-2
+    flex items-center justify-end gap-3
   `,
   item: (isCurrent: boolean) => tw(`
     ${isCurrent ? 'opacity-100' : 'opacity-25'}
@@ -84,7 +86,10 @@ const styles = tw({
     block
     border border-current
     rounded-xs
-    h-1.5 w-1.5
+    h-2 w-2
+
+    lg:h-1.5
+    lg:w-1.5
   `,
   theater: `
     grid grid-cols-1
@@ -93,6 +98,9 @@ const styles = tw({
     block
     border border-current
     rounded-xs
-    h-3.5 w-5.5
+    h-4.75 w-6.75
+
+    lg:h-3.5
+    lg:w-5.5
   `,
 });

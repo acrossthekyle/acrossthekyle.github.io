@@ -27,7 +27,7 @@ export default function Carousel() {
 
   return (
     <section
-      aria-label="carousel"
+      aria-label="image carousel"
       className={styles.container}
       {...swipeable}
     >
@@ -50,6 +50,7 @@ export default function Carousel() {
       </ul>
       <nav aria-label="supplementary navigation">
         <button
+          aria-label="previous image"
           className={styles.previous}
           onClick={handlePrevious}
           type="button"
@@ -58,7 +59,7 @@ export default function Carousel() {
           {IMAGES.map((_, index) => (
             <li key={index}>
               <button
-                aria-label={`jump to image number ${index + 1}`}
+                aria-label={`jump to image ${index + 1}`}
                 className={styles.navigate}
                 onClick={() => setCurrent(index)}
                 type="button"
@@ -69,6 +70,7 @@ export default function Carousel() {
           ))}
         </ul>
         <button
+          aria-label="next image"
           className={styles.next}
           onClick={handleNext}
           type="button"
@@ -122,6 +124,8 @@ const styles = tw({
     uppercase
     leading-[1]
     text-tiny text-white
+
+    landscape-constrained:text-tiny
 
     sm:text-xtiny
     sm:top-6
