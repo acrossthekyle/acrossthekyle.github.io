@@ -181,7 +181,7 @@ const styles = tw({
     font-normal
     bg-(--background)
     border border-current/22.5
-    rounded-md
+    rounded-xs
     tracking-wide
     pointer-events-auto
 

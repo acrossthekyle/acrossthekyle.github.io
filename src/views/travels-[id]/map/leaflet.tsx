@@ -61,7 +61,7 @@ export default function Leaflet({ collection }: Props) {
         attribution="Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ"
         key={resolvedTheme}
         noWrap={true}
-        url={`https://{s}.basemaps.cartocdn.com/${resolvedTheme === 'light' ? 'light' : 'dark'}_nolabels/{z}/{x}/{y}{r}.png`}
+        url={`https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png`}
       />
     </MapContainer>
   );
@@ -72,6 +72,9 @@ const styles = tw({
     relative z-1
     h-full w-full
     mask-t-from-80% mask-t-to-100%
+    grayscale
+
+    dark:brightness-85
 
     sm:mask-none
   `,

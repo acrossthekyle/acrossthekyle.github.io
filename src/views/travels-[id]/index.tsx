@@ -21,7 +21,11 @@ export default function View({ data }: Props) {
       <main>
         <article className={styles.container}>
           <Heading collection={data.collection} />
-          <Content collection={data.collection.id} images={data.images} />
+          <Content
+            collection={data.collection}
+            collections={data.collections}
+            images={data.images}
+          />
           <Map collection={data.collection} />
         </article>
       </main>

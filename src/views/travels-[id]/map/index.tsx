@@ -17,17 +17,9 @@ export default function Map({ collection }: Props) {
   return (
     <section aria-label="map" className={styles.container}>
       <Plugin collection={collection} />
-      <h2 className={styles.header}>
-        <span className={styles.title}>
-          {collection.location.region}
-        </span>
-        <span className={styles.location}>
-          {collection.location.country}
-        </span>
-        <span className={styles.coordinates}>
-          {collection.coordinates}
-        </span>
-      </h2>
+      <span className={styles.coordinates}>
+        {collection.coordinates}
+      </span>
       <span className={styles.vertical} />
       <span className={styles.horizontal} />
     </section>
@@ -36,9 +28,10 @@ export default function Map({ collection }: Props) {
 
 const styles = tw({
   container: `
-    relative z-0
+    relative z-0 -top-0.25
     col-span-1 order-1
-    h-[80svh] w-full
+    h-[60svh] w-full
+    border-current/12.5
 
     sm:fixed
     sm:top-0
@@ -46,46 +39,45 @@ const styles = tw({
     sm:bottom-0
     sm:w-1/2
     sm:h-svh
+    sm:border-l
     lg:relative
     lg:top-auto
     lg:right-auto
     lg:bottom-auto
     lg:w-full
     lg:order-2
-    lg:border-l-0
-  `,
-  header: `
-    absolute bottom-4.5 right-6 z-5
-    flex flex-col
-    uppercase
-    text-tiny text-right
-
-    sm:left-6
-    sm:right-auto
-    sm:text-left
-    sm:text-xtiny
-  `,
-  title: `
-    font-black
-  `,
-  location: `
-    italic
   `,
   coordinates: `
+    absolute bottom-16 left-6 z-2
+    flex flex-col gap-0.5 items-start
+    uppercase
+    leading-[1]
+    text-tiny
     font-mono
+
+    dark:text-(--background)
+    light:text-(--foreground)
+
+    sm:text-xtiny
+    sm:top-6
+    sm:bottom-auto
   `,
   vertical: `
     absolute top-1/2 left-1/2 z-2
     -translate-x-1/2 -translate-y-1/2
     w-px
     h-6
-    bg-(--foreground)/50
+
+    dark:bg-(--background)/50
+    light:bg-(--foreground)/50
   `,
   horizontal: `
     absolute top-1/2 left-1/2 z-2
     -translate-x-1/2 -translate-y-1/2
     w-6
     h-px
-    bg-(--foreground)/50
+
+    dark:bg-(--background)/50
+    light:bg-(--foreground)/50
   `,
 });

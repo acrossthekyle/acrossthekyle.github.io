@@ -5,17 +5,17 @@ import tw from '@/styles';
 import type { Collection } from '@/types';
 
 type Props = {
-  latest: Collection;
+  collection: Collection;
 };
 
-export default function Latest({ latest }: Props) {
+export default function Latest({ collection }: Props) {
   return (
     <Link
       className={styles.link}
-      href={`/travels/${latest.id}`}
+      href={`/travels/tag/${collection.category.toLowerCase()}`}
     >
-      <span className={styles.prefix}>Latest:</span>
-      <span>{latest.title.join(' ')}</span>
+      <span className={styles.prefix}>Category:</span>
+      <span>{collection.category}</span>
       <MoveRight className={styles.icon} />
     </Link>
   );
@@ -24,8 +24,7 @@ export default function Latest({ latest }: Props) {
 const styles = tw({
   link: `
     flex items-center gap-2
-    w-fit
-    mt-6 px-2
+    px-2
     text-tiny
     uppercase
     tracking-wider

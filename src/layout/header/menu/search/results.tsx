@@ -80,13 +80,16 @@ const styles = tw({
 
     before:absolute
     before:-inset-1
-    before:left-4
-    before:rounded-sm
+    before:-left-4
+    before:rounded-xs
     before:bg-(--foreground)/5
     before:opacity-0
-    motion-safe:before:duration-300
 
     hover:before:opacity-100
+    hover:pl-2
+
+    motion-safe:before:duration-300
+    motion-safe:duration-300
 
     sm:text-sm
     lg:text-xs

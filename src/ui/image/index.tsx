@@ -2,12 +2,14 @@ import NextJsImage from 'next/image';
 
 type Props = {
   className?: string;
+  size?: string;
   src: string;
   thumb?: string;
 };
 
 export default function Image({
   className = '',
+  size,
   src,
   thumb,
 }: Props) {
@@ -20,6 +22,7 @@ export default function Image({
       height={432}
       key={src}
       placeholder={thumb ? 'blur' : undefined}
+      sizes={size === 'large' ? '50vw' : '33vw'}
       src={src}
       width={768}
     />

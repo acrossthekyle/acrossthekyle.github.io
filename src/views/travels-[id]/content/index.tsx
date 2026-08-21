@@ -1,19 +1,22 @@
 import tw from '@/styles';
-import type { Image } from '@/types';
+import type { Collection, Image } from '@/types';
 
-import Gallery from './gallery';
-import Header from './header';
+import Overview from './overview';
+import Points from './points';
+import Snapshots from './snapshots';
 
 type Props = {
-  collection: string;
+  collection: Collection;
+  collections: Collection[];
   images: Image[];
 };
 
-export default function Content({ collection, images }: Props) {
+export default function Content({ collection, collections, images }: Props) {
   return (
-    <section aria-label="images" className={styles.container}>
-      <Header total={images.length} />
-      <Gallery collection={collection} images={images} />
+    <section aria-label="content" className={styles.container}>
+      <Overview notes={collection.notes} />
+      <Points collections={collections} />
+      <Snapshots collection={collection.id} images={images} />
     </section>
   );
 };
@@ -22,10 +25,8 @@ const styles = tw({
   container: `
     flex flex-col
     col-span-1 order-2
-    border-t border-current/12.5
 
     sm:order-1
-    lg:border-t-0
     lg:overflow-y-auto
     lg:min-h-svh
   `,

@@ -30,7 +30,7 @@ export default function Input({ isActive, onChange, query, ref }: Props) {
         id="search"
         onChange={event => onChange(event.target.value)}
         onFocus={handleFocus}
-        placeholder="Search travels"
+        placeholder=". . ."
         ref={ref}
         type="search"
         value={query}
@@ -55,7 +55,7 @@ const styles = tw({
     text-base
     uppercase
     border border-current/22.5
-    rounded-sm
+    rounded-xs
 
     placeholder:text-xs
 

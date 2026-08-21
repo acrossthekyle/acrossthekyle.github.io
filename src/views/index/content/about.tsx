@@ -7,7 +7,7 @@ import tw from '@/styles';
 export default function About() {
   return (
     <article className={styles.container} id="about">
-      <h2 className={styles.heading}>
+      <h2 className={styles.header}>
         <span className={styles.index}>01</span>
         About
       </h2>
@@ -26,7 +26,7 @@ const styles = tw({
     p-6
     border-b border-current/12.5
   `,
-  heading: `
+  header: `
     flex flex-row-reverse items-start justify-between
     mb-6
     uppercase

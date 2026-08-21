@@ -63,5 +63,8 @@ const styles = tw({
     w-4 h-4
     rounded-full
     bg-(--foreground)
+
+    dark:border
+    dark:border-(--background)/40
   `,
 });

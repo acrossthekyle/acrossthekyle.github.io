@@ -19,7 +19,8 @@ const data = [
       "continent": "South America"
     },
     "notes": [
-      ""
+      "Our arrival in Puerto Maldonado was short as we left on a low-lying river boat while scanning the trees for sloths as we spent 3 hours heading up-river towards the amazing Finca Sachavacayoc Lodge. That night, we took a dark jungle walk and spotted giant tarantulas, glowing scorpions, and massive spiders. Things only got more interesting from there.",
+      "The entire experience was filled with non-stop activites: a sunrise visit to a river clay lick to watch bright red macaws and green parrots gather (including spotting some howler monkeys), spending an afternoon searching an isolated river lake for giant river otters, canoeing through tall reeds hunting for anacondas, and watching the sun set over the endless jungle atop a 50-meter canopy tower."
     ],
     "title": [
       "Finca",
@@ -59,7 +60,8 @@ const data = [
       "continent": "South America"
     },
     "notes": [
-      ""
+      "The Salkantay Trek was a short but memorable experience; rugged and beautifully remote. We even had the trail all to ourselves for the first three days before merging with the better-known, and more popular, Inca Trail heading towards Macchu Pichu. This was our first trek in two years and we made sure to take in all the sights and sounds, from the striking turquoise waters of Humantay Lake all the way up through the formidable, snow-capped heights of the Salkantay Pass.",
+      "The sheer variety of the scenery on this trek is absolutely mesmerizing. After conquering the high-altitude mountain passes we descended into farmland before starting up the Inca Trail through lush forests and vibrant, foggy, and misty Cusco rainforest conditions. We saw a bunch of Incan ruins along the way (which we practically had all to ourselves), with the most expansive of course being the infamous and crowded Lost City of the Incas. Staring out at Machu Picchu from the Sun Gate after days of challenging trekking made it an unforgettable experience."
     ],
     "title": [
       "Salkantay",
@@ -98,7 +100,8 @@ const data = [
       "continent": "South America"
     },
     "notes": [
-      ""
+      "Cusco is an interesting mix of massive Incan stone foundations topped by Spanish colonial architecture and local vibrant neighborhoods with outdoor markets and main plaza squares. We spent most of the time drinking coca tea to help adjust to the high altitude while exploring the city, but our bodies eventually acclimatized. The free 2-hour walking tour is a must: we learned so much from it. Walking up to Sacsayhuamán was a heart-pounding feat of its own.",
+      "The Incan ruins found along the Sacred Valley full-day tour did not dissapoint either, from the Salt mines of Maras to my personal favorite Ollantaytambo."
     ],
     "title": [
       "Cusco +",
@@ -854,7 +857,7 @@ const data = [
   },
   {
     "category": "Backpacking",
-    "coordinates": "43.1634° N, 1.2358° W",
+    "coordinates": "42.8782° N, 8.5448° W",
     "count": 32,
     "cover": {
       "src": "https://ik.imagekit.io/acrossthekyle/uploads/2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg",

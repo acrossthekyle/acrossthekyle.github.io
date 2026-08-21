@@ -1,6 +1,9 @@
 import tw from '@/styles';
 import type { Collection } from '@/types';
 
+import Back from './back';
+import Latest from './latest';
+
 type Props = {
   collection: Collection;
 };
@@ -10,7 +13,7 @@ export default function Heading({ collection }: Props) {
     <header className={styles.container}>
       <h1 className={styles.header}>
         <span className={styles.eyebrow}>
-          {collection.category} &mdash; {collection.location.country}
+          {collection.location.region} &mdash; {collection.location.country}
         </span>
         <span className={styles.title}>
           {collection.header.join(' ')}
@@ -19,6 +22,10 @@ export default function Heading({ collection }: Props) {
           {collection.when.long[0]} to {collection.when.long[1]}
         </span>
       </h1>
+      <nav aria-label="supplementary navigation" className={styles.navigation}>
+        <Back />
+        <Latest collection={collection} />
+      </nav>
     </header>
   );
 };
@@ -30,6 +37,8 @@ const styles = tw({
     h-svh
     p-6
 
+    duration-300
+
     lg:border-r
     lg:border-current/12.5
   `,
@@ -39,13 +48,15 @@ const styles = tw({
   `,
   eyebrow: `
     block
-    mb-1
+    mb-2
     font-mono
     text-tiny
 
     sm:text-xtiny
   `,
   title: `
+    block
+    pr-18
     text-[min(8vw,1.75rem)]
     leading-[1]
     font-black
@@ -55,10 +66,14 @@ const styles = tw({
   `,
   lid: `
     block
-    mt-1
+    mt-2
     text-tiny
     tracking-widest
 
     sm:text-xtiny
+  `,
+  navigation: `
+    flex gap-4
+    mt-6
   `,
 });

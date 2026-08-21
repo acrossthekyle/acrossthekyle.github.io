@@ -72,7 +72,7 @@ const styles = tw({
   `,
   inner: `
     px-1 pt-0.5 pb-0.75
-    rounded-sm
+    rounded-xs
     font-medium
     text-xs text-(--background)
     bg-(--foreground)

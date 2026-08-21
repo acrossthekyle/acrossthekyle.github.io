@@ -60,7 +60,7 @@ const styles = tw({
   `,
   navigation: `
     flex items-center gap-2
-    ml-6 mt-1
+    ml-6 mt-2
   `,
   prefix: `
     text-tiny
@@ -72,6 +72,7 @@ const styles = tw({
   items: `
     flex items-center gap-3
     text-tiny
+    font-semibold
     uppercase
     tracking-wider
 

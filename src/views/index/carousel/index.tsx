@@ -63,6 +63,7 @@ export default function Carousel() {
             <figure className={styles.figure(current === index)}>
               <Ui.Image
                 className={styles.image}
+                size="large"
                 src={src}
               />
               <figcaption className={styles.caption}>
