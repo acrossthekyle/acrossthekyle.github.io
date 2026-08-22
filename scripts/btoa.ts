@@ -6,7 +6,7 @@ import path from 'path';
 
 import { wait, writeFile } from './utils';
 
-const input = path.join(process.cwd(), './repository/meta');
+const input = path.join(process.cwd(), './repository/images');
 
 async function getThumb(url) {
   try {
@@ -46,7 +46,7 @@ export async function go() {
 
     console.log(`--# processing ${file} #--`);
 
-    const photos = [];
+    const images = [];
 
     for (const image of data) {
       let imageThumb = null;
@@ -61,14 +61,14 @@ export async function go() {
 
         await wait(500);
 
-        console.log(`--# getting thumb for image ${image.id} #--`);
+        console.log(`--# generating thumb for image ${image.id} #--`);
 
         imageThumb = await getThumb(image.id);
       } else {
         imageThumb = image.thumb;
       }
 
-      photos.push({
+      images.push({
         ...image,
         thumb: imageThumb,
       });
@@ -78,9 +78,7 @@ export async function go() {
     }
 
     if (shouldWait) {
-      // console.log(JSON.stringify(photos, null, 2));
-
-      writeFile(input, file, JSON.stringify(photos, null, 2));
+      writeFile(input, file, JSON.stringify(images, null, 2));
 
       await wait(500);
     }

@@ -1,8 +1,3 @@
-export type Stat = {
-  imperial: string;
-  metric: string;
-};
-
 export type Location = {
   region: string;
   country: string;
@@ -13,7 +8,7 @@ export type Image = {
   camera: string | null;
   category: string;
   collectionId: string;
-  elevation: Stat;
+  elevation: number;
   id: string;
   location: Location;
   notes: string[];
@@ -24,6 +19,26 @@ export type Image = {
     long: string[];
     short: string[];
   };
+};
+
+export type Timeline = {
+  label: string;
+  title: string;
+  data: {
+    distance?: number;
+    elevation?: number;
+    gain?: number;
+    loss?: number;
+    summit?: number;
+    time?: number;
+  };
+};
+
+export type Landmark = {
+  coordinates: string;
+  label: string;
+  title: string;
+  orientation: string;
 };
 
 export type Cover = {

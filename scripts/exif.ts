@@ -6,7 +6,7 @@ import path from 'path';
 
 import { wait, writeFile } from './utils';
 
-const input = path.join(process.cwd(), './repository/meta');
+const input = path.join(process.cwd(), './repository/images');
 
 async function getExif(src) {
   const privateKey = process.env.IMAGE_KIT_IO_PRIVATE_KEY;

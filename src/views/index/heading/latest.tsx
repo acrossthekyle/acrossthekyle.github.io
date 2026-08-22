@@ -25,7 +25,8 @@ const styles = tw({
   link: `
     flex items-center gap-2
     w-fit
-    mt-6 px-2
+    mt-6
+    px-2
     text-tiny
     uppercase
     tracking-wider

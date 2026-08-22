@@ -38,7 +38,7 @@ const styles = tw({
     w-full min-h-svh
     overflow-y-auto
     bg-(--background)
-    border-r border-current/5
+    border-r border-current/12.5
 
     motion-safe:duration-300
 

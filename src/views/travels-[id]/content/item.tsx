@@ -64,7 +64,7 @@ const styles = tw({
     inline-block
     h-30
     ${STYLES[index % STYLES.length]}
-    mx-0.75
+    mr-1.5
   `),
   cta: (isExpanded: boolean) => tw(`
     group
@@ -73,14 +73,14 @@ const styles = tw({
     rounded-xs
 
     ${isExpanded
-      ? 'w-[calc(100%-0.35rem)] h-61.75 z-1'
+      ? 'w-full h-61.75 z-1'
       : 'inset-0 w-full h-30 z-0'
     }
   `),
   image: (isExpanded: boolean) => tw(`
     ${isExpanded
       ? 'grayscale-0'
-      : 'lg:grayscale'
+      : 'grayscale'
     }
 
     motion-safe:duration-500

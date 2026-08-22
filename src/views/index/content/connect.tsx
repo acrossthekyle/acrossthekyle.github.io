@@ -30,6 +30,7 @@ export default function Contact() {
 const styles = tw({
   container: `
     p-6
+    mt-auto
   `,
   heading: `
     flex flex-row-reverse items-start justify-between

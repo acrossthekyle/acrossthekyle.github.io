@@ -24,7 +24,7 @@
 
 [data-theme="dark"] {
   --background: #10100e;
-  --foreground: #ffffff;
+  --foreground: #ffffe3;
 }
 
 body {
@@ -61,13 +61,13 @@ body {
   }
 
   .leaflet-tooltip {
-    background-color: var(--background);
+    background-color: transparent;
     border: 0;
     box-shadow: none;
-    color: var(--foreground);
-    font-size: 0.375rem;
-    padding: 0.25rem;
-    padding-inline: 0.375rem;
+    color: transparent;
+    font-size: 1rem;
+    padding: 0;
+    padding-inline: 0;
   }
 
   .leaflet-tooltip:before {

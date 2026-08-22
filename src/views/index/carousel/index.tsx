@@ -89,11 +89,7 @@ export default function Carousel() {
           onClick={handlePausePlay}
           type="button"
         >
-          {canAutoPlay ? (
-            <Pause className={styles.icon} />
-          ) : (
-            <Play className={styles.icon} />
-          )}
+          {canAutoPlay ? 'Pause' : 'Play'}
         </button>
         <ul className={styles.navigation}>
           {IMAGES.map((_, index) => (
@@ -209,8 +205,21 @@ const styles = tw({
     ${isActive ? 'bg-white' : 'bg-black'}
   `),
   pause: `
-    absolute bottom-4 left-4 z-4
-    p-2
+    absolute bottom-6 left-6 z-4
+    flex items-center gap-2
+    px-1.5 pb-1.5 pt-2
+    leading-[0.8]
+    text-tiny
+    uppercase
+    tracking-wider
+    bg-(--background)
+    rounded-xs
+
+    motion-safe:duration-300
+
+    hover:bg-(--background)/50
+
+    sm:text-xtiny
   `,
   icon: `
     w-4 h-4

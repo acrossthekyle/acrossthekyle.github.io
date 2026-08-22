@@ -3,10 +3,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "4,885",
-      "metric": "1,489"
-    },
+    "elevation": 4885,
     "id": "eba70b28-4c7d-45f3-aa93-46b24011cb80.jpeg",
     "location": {
       "region": "Belluno Province",
@@ -30,10 +27,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "9,135",
-      "metric": "2,784"
-    },
+    "elevation": 9135,
     "id": "ecb37ab5-2587-45e8-8818-77a55dc9a711.jpeg",
     "location": {
       "region": "Belluno Province",
@@ -57,10 +51,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "7,642",
-      "metric": "2,329"
-    },
+    "elevation": 7642,
     "id": "406e9628-6d20-409d-ac2e-cb6146c1cce7.jpeg",
     "location": {
       "region": "Belluno Province",
@@ -84,10 +75,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "6,603",
-      "metric": "2,012"
-    },
+    "elevation": 6603,
     "id": "69890344-e575-484e-86ae-5ddeb000c4f9.jpeg",
     "location": {
       "region": "Bolzano Province",
@@ -111,10 +99,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "6,681",
-      "metric": "2,036"
-    },
+    "elevation": 6681,
     "id": "ae1557ba-9073-4eb9-93d7-554717e476aa.jpeg",
     "location": {
       "region": "Bolzano Province",
@@ -138,10 +123,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "7,453",
-      "metric": "2,272"
-    },
+    "elevation": 7453,
     "id": "02fda32d-8ba3-4aee-9ab2-990b2d8804b0.jpeg",
     "location": {
       "region": "Bolzano Province",
@@ -165,10 +147,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "7,659",
-      "metric": "2,334"
-    },
+    "elevation": 7659,
     "id": "081c1b83-7036-4c3c-aa2f-0534f4250ab8.jpeg",
     "location": {
       "region": "Bolzano Province",
@@ -192,10 +171,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "8,433",
-      "metric": "2,570"
-    },
+    "elevation": 8433,
     "id": "bc2d165d-b858-45a8-94c8-e790da8ac517.jpeg",
     "location": {
       "region": "Belluno Province",
@@ -219,10 +195,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "7,167",
-      "metric": "2,184"
-    },
+    "elevation": 7167,
     "id": "a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg",
     "location": {
       "region": "Belluno Province",
@@ -246,10 +219,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "7,642",
-      "metric": "2,329"
-    },
+    "elevation": 7642,
     "id": "036ba8da-a8ff-45ad-9dcf-d2fa7f1420db.jpeg",
     "location": {
       "region": "Belluno Province",
@@ -273,10 +243,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "7,288",
-      "metric": "2,221"
-    },
+    "elevation": 7288,
     "id": "12e2afdc-e50e-4882-a01b-5b6b441f4140.jpeg",
     "location": {
       "region": "Belluno Province",
@@ -300,10 +267,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "6,151",
-      "metric": "1,875"
-    },
+    "elevation": 6151,
     "id": "5323f319-71fc-4fa3-afa4-f7d52abc6966.jpeg",
     "location": {
       "region": "Belluno Province",
@@ -327,10 +291,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "6,987",
-      "metric": "2,130"
-    },
+    "elevation": 6987,
     "id": "03b43b53-84e3-4c25-b04c-914f468aefbb.jpeg",
     "location": {
       "region": "Belluno Province",
@@ -354,10 +315,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "7,411",
-      "metric": "2,259"
-    },
+    "elevation": 7411,
     "id": "00e52f77-3f2b-4bac-9fba-463d9ae4dff1.jpeg",
     "location": {
       "region": "Belluno Province",
@@ -381,10 +339,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "6,218",
-      "metric": "1,895"
-    },
+    "elevation": 6218,
     "id": "a46e829f-147b-40d1-b7ae-2f743923feca.jpeg",
     "location": {
       "region": "Belluno Province",
@@ -408,10 +363,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "6,371",
-      "metric": "1,942"
-    },
+    "elevation": 6371,
     "id": "bac6d25f-acec-4e7f-9e08-126b36bdb9fd.jpeg",
     "location": {
       "region": "Belluno Province",
@@ -435,10 +387,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "7,316",
-      "metric": "2,230"
-    },
+    "elevation": 7316,
     "id": "e10fd4eb-c57f-4f1c-a434-a3321d7e4186.jpeg",
     "location": {
       "region": "Belluno Province",
@@ -462,10 +411,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "5,368",
-      "metric": "1,636"
-    },
+    "elevation": 5368,
     "id": "62a0ffe0-dafd-4399-a9e0-fa5f276ae90b.jpeg",
     "location": {
       "region": "Belluno Province",
@@ -489,10 +435,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "alta-via-1",
-    "elevation": {
-      "imperial": "5,617",
-      "metric": "1,712"
-    },
+    "elevation": 5617,
     "id": "735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
     "location": {
       "region": "Belluno Province",
@@ -516,10 +459,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-basecamp",
-    "elevation": {
-      "imperial": "9,344",
-      "metric": "2,848"
-    },
+    "elevation": 9344,
     "id": "9967b893-82a1-40b2-85fd-d41b9fa55920.jpeg",
     "location": {
       "region": "Kaski District",
@@ -543,10 +483,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-basecamp",
-    "elevation": {
-      "imperial": "10,354",
-      "metric": "3,156"
-    },
+    "elevation": 10354,
     "id": "44725bb3-f011-4e1d-a3bb-06d8fa52e578.jpeg",
     "location": {
       "region": "Kaski District",
@@ -570,10 +507,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-basecamp",
-    "elevation": {
-      "imperial": "7,039",
-      "metric": "2,145"
-    },
+    "elevation": 7039,
     "id": "749868e9-5d1a-407c-aa24-d2d5741b3c15.jpeg",
     "location": {
       "region": "Kaski District",
@@ -597,10 +531,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-basecamp",
-    "elevation": {
-      "imperial": "7,190",
-      "metric": "2,191"
-    },
+    "elevation": 7190,
     "id": "e0c0fe7a-065c-449e-9335-669b28fc8a33.jpeg",
     "location": {
       "region": "Kaski District",
@@ -624,10 +555,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-basecamp",
-    "elevation": {
-      "imperial": "10,807",
-      "metric": "3,294"
-    },
+    "elevation": 10807,
     "id": "a052d193-0be9-4288-b017-65d459c3eca1.jpeg",
     "location": {
       "region": "Kaski District",
@@ -651,10 +579,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-basecamp",
-    "elevation": {
-      "imperial": "12,231",
-      "metric": "3,728"
-    },
+    "elevation": 12231,
     "id": "3dc0234b-c92e-4a61-bce5-bd922ddaa9bf.jpeg",
     "location": {
       "region": "Kaski District",
@@ -678,10 +603,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-basecamp",
-    "elevation": {
-      "imperial": "13,525",
-      "metric": "4,122"
-    },
+    "elevation": 13525,
     "id": "3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg",
     "location": {
       "region": "Kaski District",
@@ -705,10 +627,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-basecamp",
-    "elevation": {
-      "imperial": "13,468",
-      "metric": "4,105"
-    },
+    "elevation": 13468,
     "id": "488cfa64-0b33-4af3-a127-e0f3cae7175e.jpeg",
     "location": {
       "region": "Kaski District",
@@ -732,10 +651,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-basecamp",
-    "elevation": {
-      "imperial": "10,372",
-      "metric": "3,161"
-    },
+    "elevation": 10372,
     "id": "490d1db6-aaad-4ed3-9181-081ca318cd16.jpeg",
     "location": {
       "region": "Kaski District",
@@ -759,10 +675,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-basecamp",
-    "elevation": {
-      "imperial": "7,344",
-      "metric": "2,238"
-    },
+    "elevation": 7344,
     "id": "6bd7587b-78d3-4488-93b5-2694227dd792.jpeg",
     "location": {
       "region": "Kaski District",
@@ -786,10 +699,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-basecamp",
-    "elevation": {
-      "imperial": "7,063",
-      "metric": "2,153"
-    },
+    "elevation": 7063,
     "id": "f2839e21-063b-4215-be8e-0641741cf2c5.jpeg",
     "location": {
       "region": "Kaski District",
@@ -813,10 +723,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "2,657",
-      "metric": "810"
-    },
+    "elevation": 2657,
     "id": "672dcde8-57ae-4bf9-885f-ae039d3a824d.jpeg",
     "location": {
       "region": "Lamjung District",
@@ -840,10 +747,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "3,158",
-      "metric": "963"
-    },
+    "elevation": 3158,
     "id": "1f9fe719-6e29-45de-a648-46f1001f24b7.jpeg",
     "location": {
       "region": "Lamjung District",
@@ -867,10 +771,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "3,904",
-      "metric": "1,190"
-    },
+    "elevation": 3904,
     "id": "cde86c7c-f794-4a99-8286-9af3de9425fc.jpeg",
     "location": {
       "region": "Lamjung District",
@@ -894,10 +795,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "5,513",
-      "metric": "1,680"
-    },
+    "elevation": 5513,
     "id": "b6e3c5eb-82d1-4663-97ce-26a3c2fbec82.jpeg",
     "location": {
       "region": "Manang District",
@@ -921,10 +819,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "8,796",
-      "metric": "2,681"
-    },
+    "elevation": 8796,
     "id": "9c026234-acb8-4549-9f31-b6aa59c02772.jpeg",
     "location": {
       "region": "Manang District",
@@ -948,10 +843,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "10,805",
-      "metric": "3,293"
-    },
+    "elevation": 10805,
     "id": "91fcb255-9894-434c-9c39-41ea5070e819.jpeg",
     "location": {
       "region": "Manang District",
@@ -975,10 +867,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "12,010",
-      "metric": "3,660"
-    },
+    "elevation": 12010,
     "id": "a5f1d4b0-a6a8-453a-bd24-647a0bc6545f.jpeg",
     "location": {
       "region": "Manang District",
@@ -1002,10 +891,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "12,244",
-      "metric": "3,732"
-    },
+    "elevation": 12244,
     "id": "ef85d604-a95e-4094-baae-83bfa8464980.jpeg",
     "location": {
       "region": "Manang District",
@@ -1029,10 +915,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "15,150",
-      "metric": "4,617"
-    },
+    "elevation": 15150,
     "id": "b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
     "location": {
       "region": "Manang District",
@@ -1056,10 +939,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "14,963",
-      "metric": "4,560"
-    },
+    "elevation": 14963,
     "id": "8e6f1186-0022-490e-9a78-1e010c478e7c.jpeg",
     "location": {
       "region": "Manang District",
@@ -1083,10 +963,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "13,542",
-      "metric": "4,127"
-    },
+    "elevation": 13542,
     "id": "53ffc0cc-94d0-4a89-a820-fcce46e3599f.jpeg",
     "location": {
       "region": "Manang District",
@@ -1110,10 +987,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "16,465",
-      "metric": "5,018"
-    },
+    "elevation": 16465,
     "id": "fe3722c9-3002-49f8-a281-f8e36a240e0a.jpeg",
     "location": {
       "region": "Manang District",
@@ -1137,10 +1011,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "16,113",
-      "metric": "4,911"
-    },
+    "elevation": 16113,
     "id": "ed197052-01d7-4739-807c-39340385c0fc.jpeg",
     "location": {
       "region": "Manang District",
@@ -1164,10 +1035,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "13,627",
-      "metric": "4,153"
-    },
+    "elevation": 13627,
     "id": "d7837a44-81d2-4fa0-9912-bb15508be721.jpeg",
     "location": {
       "region": "Manang District",
@@ -1191,10 +1059,7 @@ const data = [
     "camera": "iPhone 7",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "13,652",
-      "metric": "4,161"
-    },
+    "elevation": 13652,
     "id": "40b7a029-2f0c-4807-94fa-86a07ee9ffa9.jpeg",
     "location": {
       "region": "Khotang District",
@@ -1218,10 +1083,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "17,812",
-      "metric": "5,429"
-    },
+    "elevation": 17812,
     "id": "f76cbaab-0139-44b4-bc5c-6c816731d927.jpeg",
     "location": {
       "region": "Mustang District",
@@ -1245,10 +1107,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "12,406",
-      "metric": "3,781"
-    },
+    "elevation": 12406,
     "id": "31cfb5dc-44b7-4ab5-b216-1ec2efa7b7b3.jpeg",
     "location": {
       "region": "Mustang District",
@@ -1272,10 +1131,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "12,503",
-      "metric": "3,811"
-    },
+    "elevation": 12503,
     "id": "93b7286f-a87a-4d8e-8d85-6a3f50dcd82c.jpeg",
     "location": {
       "region": "Mustang District",
@@ -1299,10 +1155,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "8,234",
-      "metric": "2,510"
-    },
+    "elevation": 8234,
     "id": "9f9bca6e-e30a-4ca0-b005-5a0bda57f649.jpeg",
     "location": {
       "region": "Mustang District",
@@ -1326,10 +1179,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
-    "elevation": {
-      "imperial": "5,579",
-      "metric": "1,700"
-    },
+    "elevation": 5579,
     "id": "5cf22091-8d99-4cdd-870c-f91db81c1049.jpeg",
     "location": {
       "region": "Myagdi District",
@@ -1353,10 +1203,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "4,700",
-      "metric": "1,432"
-    },
+    "elevation": 4700,
     "id": "36c8ce31-ccce-4133-9528-338124462edf.jpeg",
     "location": {
       "region": "Navarre",
@@ -1380,10 +1227,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "3,114",
-      "metric": "949"
-    },
+    "elevation": 3114,
     "id": "259d7373-6f3d-4274-8ff8-440cb2724702.jpeg",
     "location": {
       "region": "Navarre",
@@ -1407,10 +1251,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "1,459",
-      "metric": "445"
-    },
+    "elevation": 1459,
     "id": "94c5e141-580c-483b-91aa-13a88bf0f8fd.jpeg",
     "location": {
       "region": "Navarre",
@@ -1434,10 +1275,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "2,510",
-      "metric": "765"
-    },
+    "elevation": 2510,
     "id": "88b734d7-ee6f-437f-a44b-6233d7f86158.jpeg",
     "location": {
       "region": "Navarre",
@@ -1461,10 +1299,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "1,616",
-      "metric": "493"
-    },
+    "elevation": 1616,
     "id": "6de64c25-13b3-441f-96b8-1f80cd4d6bd6.jpeg",
     "location": {
       "region": "Navarre",
@@ -1488,10 +1323,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "2,205",
-      "metric": "672"
-    },
+    "elevation": 2205,
     "id": "f3c24aa0-ec3f-4319-9585-e178b9fd7bca.jpeg",
     "location": {
       "region": "Navarre",
@@ -1515,10 +1347,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "1,898",
-      "metric": "578"
-    },
+    "elevation": 1898,
     "id": "71b4d4f4-b9d4-40b9-8902-cef791391428.jpeg",
     "location": {
       "region": "La Rioja",
@@ -1542,10 +1371,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "2,189",
-      "metric": "667"
-    },
+    "elevation": 2189,
     "id": "e5a310be-0e12-45d8-9121-dbac375a4234.jpeg",
     "location": {
       "region": "La Rioja",
@@ -1569,10 +1395,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "2,476",
-      "metric": "755"
-    },
+    "elevation": 2476,
     "id": "50570d33-285a-4561-bc7f-b7e500363359.jpeg",
     "location": {
       "region": "La Rioja",
@@ -1596,10 +1419,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "2,707",
-      "metric": "825"
-    },
+    "elevation": 2707,
     "id": "009b868c-38ee-43e7-bc1c-90b259306d86.jpeg",
     "location": {
       "region": "Castile and León",
@@ -1623,10 +1443,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "3,166",
-      "metric": "965"
-    },
+    "elevation": 3166,
     "id": "678b2b3a-6724-4bca-99b7-f7ed9a4683e7.jpeg",
     "location": {
       "region": "Castile and León",
@@ -1650,10 +1467,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "3,528",
-      "metric": "1,075"
-    },
+    "elevation": 3528,
     "id": "28740c31-9cb0-4952-af50-9f1bab6c1edb.jpeg",
     "location": {
       "region": "Castile and León",
@@ -1677,10 +1491,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "3,074",
-      "metric": "937"
-    },
+    "elevation": 3074,
     "id": "3ecd42d0-421e-4e3d-a770-830e68e2652c.jpeg",
     "location": {
       "region": "Castile and León",
@@ -1704,10 +1515,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "2,999",
-      "metric": "914"
-    },
+    "elevation": 2999,
     "id": "98a7eed4-299d-40e6-a537-779a5bab6c77.jpeg",
     "location": {
       "region": "Castile and León",
@@ -1731,10 +1539,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "2,790",
-      "metric": "850"
-    },
+    "elevation": 2790,
     "id": "2e08d5fe-1711-4768-8ded-f3714e186923.jpeg",
     "location": {
       "region": "Castile and León",
@@ -1758,10 +1563,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "2,956",
-      "metric": "901"
-    },
+    "elevation": 2956,
     "id": "bcdc06e3-4c95-4138-9779-bc46670a4e1b.jpeg",
     "location": {
       "region": "Castile and León",
@@ -1785,10 +1587,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "2,886",
-      "metric": "880"
-    },
+    "elevation": 2886,
     "id": "2b268d15-bea2-42ae-a15c-1ab6fd5fe4f7.jpeg",
     "location": {
       "region": "Castile and León",
@@ -1812,10 +1611,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "2,724",
-      "metric": "830"
-    },
+    "elevation": 2724,
     "id": "845acb7b-86f3-4768-8ce3-c8be727c50af.jpeg",
     "location": {
       "region": "Castile and León",
@@ -1839,10 +1635,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "2,976",
-      "metric": "907"
-    },
+    "elevation": 2976,
     "id": "f5741d7d-6a86-47ae-a5b1-f1bced05bb00.jpeg",
     "location": {
       "region": "Castile and León",
@@ -1866,10 +1659,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "3,019",
-      "metric": "920"
-    },
+    "elevation": 3019,
     "id": "0cf7b647-1681-4b88-be6a-cbba1163f38a.jpeg",
     "location": {
       "region": "Castile and León",
@@ -1893,10 +1683,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "4,707",
-      "metric": "1,435"
-    },
+    "elevation": 4707,
     "id": "bf4e84fe-e4ca-4834-ab65-393f965bbdb8.jpeg",
     "location": {
       "region": "Castile and León",
@@ -1920,10 +1707,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "4,953",
-      "metric": "1,510"
-    },
+    "elevation": 4953,
     "id": "2901af55-b7bf-41ec-9471-6ec3699b1f12.jpeg",
     "location": {
       "region": "Castile and León",
@@ -1947,10 +1731,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "1,798",
-      "metric": "548"
-    },
+    "elevation": 1798,
     "id": "7fa41365-3d33-461b-9be5-5a946064923c.jpeg",
     "location": {
       "region": "Castile and León",
@@ -1974,10 +1755,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "4,305",
-      "metric": "1,312"
-    },
+    "elevation": 4305,
     "id": "6349679e-acbf-4f74-ad4a-0d9032c3b293.jpeg",
     "location": {
       "region": "Galicia",
@@ -2001,10 +1779,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "4,415",
-      "metric": "1,346"
-    },
+    "elevation": 4415,
     "id": "4e1b42f2-3994-4d1c-ad29-620eab9c80c7.jpeg",
     "location": {
       "region": "Galicia",
@@ -2028,10 +1803,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "1,492",
-      "metric": "455"
-    },
+    "elevation": 1492,
     "id": "3d738e26-0747-447a-98fb-0bb35e1736c3.jpeg",
     "location": {
       "region": "Galicia",
@@ -2055,10 +1827,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "2,383",
-      "metric": "726"
-    },
+    "elevation": 2383,
     "id": "4e8fd9a9-ed5f-429f-9230-efa731461a5f.jpeg",
     "location": {
       "region": "Galicia",
@@ -2082,10 +1851,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "1,494",
-      "metric": "455"
-    },
+    "elevation": 1494,
     "id": "2dcb1878-efe7-47d7-b7b5-b031ab143cb6.jpeg",
     "location": {
       "region": "Galicia",
@@ -2109,10 +1875,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "876",
-      "metric": "267"
-    },
+    "elevation": 876,
     "id": "1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg",
     "location": {
       "region": "Galicia",
@@ -2136,10 +1899,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "935",
-      "metric": "285"
-    },
+    "elevation": 935,
     "id": "7f51e3c4-518e-4147-8e73-c19d6c87ce11.jpeg",
     "location": {
       "region": "Galicia",
@@ -2163,10 +1923,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "900",
-      "metric": "274"
-    },
+    "elevation": 900,
     "id": "32011e1d-8075-4b90-9a91-db88c3d66989.jpeg",
     "location": {
       "region": "Galicia",
@@ -2190,10 +1947,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "camino-frances",
-    "elevation": {
-      "imperial": "383",
-      "metric": "117"
-    },
+    "elevation": 383,
     "id": "aa8b0404-f4d1-44ed-bc96-ce65eae03848.jpeg",
     "location": {
       "region": "Galicia",
@@ -2217,10 +1971,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "corsica",
-    "elevation": {
-      "imperial": "202",
-      "metric": "62"
-    },
+    "elevation": 202,
     "id": "a7519e17-dc25-46cc-b8c7-8b293684b8ef.jpeg",
     "location": {
       "region": "Corsica",
@@ -2244,10 +1995,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "corsica",
-    "elevation": {
-      "imperial": "29",
-      "metric": "9"
-    },
+    "elevation": 29,
     "id": "4901532f-a283-4e4c-a93e-1b9cc3f9b13e.jpeg",
     "location": {
       "region": "Corsica",
@@ -2271,10 +2019,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "corsica",
-    "elevation": {
-      "imperial": "89",
-      "metric": "27"
-    },
+    "elevation": 89,
     "id": "be1ca955-b984-4cde-bf12-cee1851017a2.jpeg",
     "location": {
       "region": "Corsica",
@@ -2298,10 +2043,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "corsica",
-    "elevation": {
-      "imperial": "31",
-      "metric": "9"
-    },
+    "elevation": 31,
     "id": "7cace07e-0974-40d4-8356-019ef68594a9.jpeg",
     "location": {
       "region": "Corsica",
@@ -2325,10 +2067,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "corsica",
-    "elevation": {
-      "imperial": "18",
-      "metric": "5"
-    },
+    "elevation": 18,
     "id": "ffe50b6e-cd5d-44a8-9cac-3f2b2c9f365e.jpeg",
     "location": {
       "region": "Corsica",
@@ -2352,10 +2091,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Destination",
     "collectionId": "cusco",
-    "elevation": {
-      "imperial": "11,122",
-      "metric": "3,390"
-    },
+    "elevation": 11122,
     "id": "f28325d8-a214-4ef9-8b89-f84c8f6502af.jpeg",
     "location": {
       "region": "Calle Abracitos, Cusco",
@@ -2379,10 +2115,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Destination",
     "collectionId": "cusco",
-    "elevation": {
-      "imperial": "12,268",
-      "metric": "3,739"
-    },
+    "elevation": 12268,
     "id": "27d396aa-e78d-44f5-bcbe-c9f731e1bc71.jpeg",
     "location": {
       "region": "Chinchero",
@@ -2406,10 +2139,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Destination",
     "collectionId": "cusco",
-    "elevation": {
-      "imperial": "12,193",
-      "metric": "3,716"
-    },
+    "elevation": 12193,
     "id": "765d2fe5-ea8d-4872-b8e1-2fd82b31974e.jpeg",
     "location": {
       "region": "Chinchero",
@@ -2433,10 +2163,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Destination",
     "collectionId": "cusco",
-    "elevation": {
-      "imperial": "9,894",
-      "metric": "3,016"
-    },
+    "elevation": 9894,
     "id": "96fc5ada-f951-4814-b8b2-f2fbb38f5110.jpeg",
     "location": {
       "region": "Sacred Valley, Cusco",
@@ -2460,10 +2187,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Destination",
     "collectionId": "cusco",
-    "elevation": {
-      "imperial": "11,508",
-      "metric": "3,507"
-    },
+    "elevation": 11508,
     "id": "c6ff6c86-b1a7-4cd4-b833-ac4e8211c753.jpeg",
     "location": {
       "region": "Sacred Valley, Cusco",
@@ -2487,10 +2211,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Destination",
     "collectionId": "cusco",
-    "elevation": {
-      "imperial": "9,865",
-      "metric": "3,007"
-    },
+    "elevation": 9865,
     "id": "4ee45ed1-1ac1-4a20-a3b1-f833914af587.jpeg",
     "location": {
       "region": "Sacred Valley, Cusco",
@@ -2514,10 +2235,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Destination",
     "collectionId": "cusco",
-    "elevation": {
-      "imperial": "9,357",
-      "metric": "2,852"
-    },
+    "elevation": 9357,
     "id": "91fb616b-5485-4292-a901-d392aac28e5a.jpeg",
     "location": {
       "region": "Sacred Valley, Cusco",
@@ -2541,10 +2259,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Destination",
     "collectionId": "cusco",
-    "elevation": {
-      "imperial": "9,429",
-      "metric": "2,874"
-    },
+    "elevation": 9429,
     "id": "7a191ef6-07b1-48a3-800c-d0a45202579f.jpeg",
     "location": {
       "region": "Ollantaytambo, Sacred Valley, Cusco",
@@ -2568,10 +2283,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Destination",
     "collectionId": "cusco",
-    "elevation": {
-      "imperial": "9,429",
-      "metric": "2,874"
-    },
+    "elevation": 9429,
     "id": "1daeaa22-092d-4e26-ad9d-c91701a82193.jpeg",
     "location": {
       "region": "Sacred Valley, Cusco",
@@ -2595,10 +2307,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Destination",
     "collectionId": "cusco",
-    "elevation": {
-      "imperial": "11,226",
-      "metric": "3,422"
-    },
+    "elevation": 11226,
     "id": "2a43968c-2714-45f8-aed4-235f509f1d3a.jpeg",
     "location": {
       "region": "Sacred Valley, Cusco",
@@ -2622,10 +2331,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Destination",
     "collectionId": "cusco",
-    "elevation": {
-      "imperial": "11,226",
-      "metric": "3,422"
-    },
+    "elevation": 11226,
     "id": "f9b88d34-69b7-49d0-aa6a-9d07daff733d.jpeg",
     "location": {
       "region": "Sacred Valley, Cusco",
@@ -2649,10 +2355,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Destination",
     "collectionId": "cusco",
-    "elevation": {
-      "imperial": "11,180",
-      "metric": "3,407"
-    },
+    "elevation": 11180,
     "id": "8b3b411b-4f5b-4df6-86d3-9a75a3ef379f.jpeg",
     "location": {
       "region": "Cusco",
@@ -2676,10 +2379,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Destination",
     "collectionId": "cusco",
-    "elevation": {
-      "imperial": "11,652",
-      "metric": "3,551"
-    },
+    "elevation": 11652,
     "id": "bb53485a-4f8c-412d-a985-1ae3d691d66c.jpeg",
     "location": {
       "region": "Cusco",
@@ -2703,10 +2403,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Destination",
     "collectionId": "cusco",
-    "elevation": {
-      "imperial": "11,272",
-      "metric": "3,436"
-    },
+    "elevation": 11272,
     "id": "af04785a-2aa7-45b1-839e-04ee0819a4fb.jpeg",
     "location": {
       "region": "Cusco",
@@ -2730,10 +2427,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "95",
-      "metric": "29"
-    },
+    "elevation": 95,
     "id": "b645dadb-e6b9-41ef-a797-8ea11c0de22c.jpeg",
     "location": {
       "region": "Giza",
@@ -2757,10 +2451,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "215",
-      "metric": "66"
-    },
+    "elevation": 215,
     "id": "4a450c11-fa71-4501-83de-95cf248aeecc.jpeg",
     "location": {
       "region": "Giza Plateau",
@@ -2784,10 +2475,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "209",
-      "metric": "64"
-    },
+    "elevation": 209,
     "id": "20b4a5e3-bdde-4eee-a650-46a368ab6767.jpeg",
     "location": {
       "region": "Giza Plateau",
@@ -2811,10 +2499,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "50",
-      "metric": "15"
-    },
+    "elevation": 50,
     "id": "b3275967-68fd-4c69-ad40-df15b2a697b5.jpeg",
     "location": {
       "region": "Giza Plateau",
@@ -2838,10 +2523,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "185",
-      "metric": "56"
-    },
+    "elevation": 185,
     "id": "d9a7b01b-5915-493c-8c25-5a8ebd77ac58.jpeg",
     "location": {
       "region": "Saqqara",
@@ -2865,10 +2547,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "48",
-      "metric": "15"
-    },
+    "elevation": 48,
     "id": "fe1acec1-a2b8-4d00-9e2f-7a42c4431323.jpeg",
     "location": {
       "region": "Saqqara",
@@ -2892,10 +2571,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "171",
-      "metric": "52"
-    },
+    "elevation": 171,
     "id": "4b67e6e3-2592-4aca-9074-dc6e6c3ff668.jpeg",
     "location": {
       "region": "Saqqara",
@@ -2919,10 +2595,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "196",
-      "metric": "60"
-    },
+    "elevation": 196,
     "id": "2db07918-d67a-41a1-a2e1-e65e051343ca.jpeg",
     "location": {
       "region": "Dahshur",
@@ -2946,10 +2619,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "100",
-      "metric": "30"
-    },
+    "elevation": 100,
     "id": "0826806c-c673-49a1-a9ae-79cfa77633e4.jpeg",
     "location": {
       "region": "Cairo",
@@ -2973,10 +2643,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "253",
-      "metric": "77"
-    },
+    "elevation": 253,
     "id": "4613d11e-789b-4962-a169-f5057946ecd6.jpeg",
     "location": {
       "region": "Luxor",
@@ -3000,10 +2667,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "263",
-      "metric": "80"
-    },
+    "elevation": 263,
     "id": "154f7375-154e-4888-bc7b-81fbe9fffffc.jpeg",
     "location": {
       "region": "Luxor",
@@ -3027,10 +2691,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "573",
-      "metric": "175"
-    },
+    "elevation": 573,
     "id": "5f93fbaf-0c30-4f70-959d-a5e4384eff83.jpeg",
     "location": {
       "region": "Valley of the Kings",
@@ -3054,10 +2715,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "546",
-      "metric": "166"
-    },
+    "elevation": 546,
     "id": "d8ebe864-7209-44ae-b426-a05337965b8d.jpeg",
     "location": {
       "region": "Valley of the Kings",
@@ -3081,10 +2739,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "569",
-      "metric": "173"
-    },
+    "elevation": 569,
     "id": "12a42c7a-6b58-4356-a873-35d8cb66314a.jpeg",
     "location": {
       "region": "Valley of the Kings",
@@ -3108,10 +2763,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "412",
-      "metric": "126"
-    },
+    "elevation": 412,
     "id": "9fb7c062-5816-4154-b8cd-525a81f82be0.jpeg",
     "location": {
       "region": "Valley of the Queens",
@@ -3135,10 +2787,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "255",
-      "metric": "78"
-    },
+    "elevation": 255,
     "id": "44f2c787-1209-4e11-a2fe-64030e0c472c.jpeg",
     "location": {
       "region": "Luxor West Bank",
@@ -3162,10 +2811,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "255",
-      "metric": "78"
-    },
+    "elevation": 255,
     "id": "76407100-56bf-4672-9b2c-416e2877c154.jpeg",
     "location": {
       "region": "Luxor West Bank",
@@ -3189,10 +2835,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "255",
-      "metric": "78"
-    },
+    "elevation": 255,
     "id": "41aea55c-b043-4b4d-8ab7-05d97adbd873.jpeg",
     "location": {
       "region": "Luxor West Bank",
@@ -3216,10 +2859,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "464",
-      "metric": "141"
-    },
+    "elevation": 464,
     "id": "b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
     "location": {
       "region": "Luxor West Bank",
@@ -3243,10 +2883,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "427",
-      "metric": "130"
-    },
+    "elevation": 427,
     "id": "eee38045-1d4f-4bbd-b6f3-17eb34db5191.jpeg",
     "location": {
       "region": "Luxor West Bank",
@@ -3270,10 +2907,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "370",
-      "metric": "113"
-    },
+    "elevation": 370,
     "id": "0707fa9e-8d4c-475c-ab8b-1649dfcc2964.jpeg",
     "location": {
       "region": "Luxor West Bank",
@@ -3297,10 +2931,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "267",
-      "metric": "81"
-    },
+    "elevation": 267,
     "id": "9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
     "location": {
       "region": "Luxor Temple",
@@ -3324,10 +2955,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "275",
-      "metric": "84"
-    },
+    "elevation": 275,
     "id": "63dd5017-e9f2-4def-8aa6-2f97f2803ed4.jpeg",
     "location": {
       "region": "Luxor Temple",
@@ -3351,10 +2979,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "273",
-      "metric": "83"
-    },
+    "elevation": 273,
     "id": "7f2020f6-ccd2-4f4a-98a1-44abd2df6911.jpeg",
     "location": {
       "region": "Karnak Temple",
@@ -3378,10 +3003,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "278",
-      "metric": "85"
-    },
+    "elevation": 278,
     "id": "caff8a45-5173-48cd-aa9c-a8cce3489b60.jpeg",
     "location": {
       "region": "Karnak Temple",
@@ -3405,10 +3027,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "266",
-      "metric": "81"
-    },
+    "elevation": 266,
     "id": "3499fb61-f3ca-4a3d-9f5c-e41df689c4dd.jpeg",
     "location": {
       "region": "Karnak Temple",
@@ -3432,10 +3051,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "254",
-      "metric": "77"
-    },
+    "elevation": 254,
     "id": "50f9c440-f59d-47ef-95ff-c9363820d1a9.jpeg",
     "location": {
       "region": "Luxor",
@@ -3459,10 +3075,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "519",
-      "metric": "158"
-    },
+    "elevation": 519,
     "id": "b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
     "location": {
       "region": "Luxor",
@@ -3486,10 +3099,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "310",
-      "metric": "94"
-    },
+    "elevation": 310,
     "id": "85aac278-b95e-4a50-b56c-2f8b1b4a1c13.jpeg",
     "location": {
       "region": "Luxor",
@@ -3513,10 +3123,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "cairo-and-luxor",
-    "elevation": {
-      "imperial": "69",
-      "metric": "21"
-    },
+    "elevation": 69,
     "id": "a8f4fb49-5258-464a-8731-f4a95ae8e417.jpeg",
     "location": {
       "region": "Luxor",
@@ -3537,13 +3144,346 @@ const data = [
     }
   },
   {
+    "camera": "iPhone 16 Pro",
+    "category": "Destination",
+    "collectionId": "finca-sachavacayoc",
+    "elevation": 570,
+    "id": "9006d771-fa61-49bb-b976-40d1ec06da1b.jpeg",
+    "location": {
+      "region": "Tambopata National Reserve",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [],
+    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/9006d771-fa61-49bb-b976-40d1ec06da1b.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAgQAAQP/xAAjEAABAwIFBQAAAAAAAAAAAAABAAIRAyEEEkFRYRMiMUJx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCsPlbVMOBnQ2UDSAY4CCZUEhUIeLqKYZibdzZ5RBDEtmII5QadRsTmCATXYPafgQJgwitaLQ90FAwKQBtvqgOyCoGyD//Z",
+    "title": "Leaving Puerto Maldonado",
+    "when": {
+      "long": [
+        "July 2026"
+      ],
+      "short": [
+        "07/19/26"
+      ]
+    }
+  },
+  {
+    "camera": "iPhone 16 Pro",
+    "category": "Destination",
+    "collectionId": "finca-sachavacayoc",
+    "elevation": 570,
+    "id": "e3ceb20e-d42a-43ca-9c0b-b96872b56fb7.jpeg",
+    "location": {
+      "region": "Tambopata National Reserve",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [],
+    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/e3ceb20e-d42a-43ca-9c0b-b96872b56fb7.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAhEAACAQMEAwEAAAAAAAAAAAABEQACAyESIlGRMUFxgf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAQEBAQEAAAAAAAAAAAAAAAAREgEh/9oADAMBAAIRAxEAPwDXDZOeJpk3EsJSKjJZJgKgwkTFIAUgeIPGJrvikbR1JViuu8fQ6jRkNV0LAH5GjHE672lofYq5UNd7kyUjsLEVYq5KQGYqwaikIH//2Q==",
+    "title": "Entering the jungle",
+    "when": {
+      "long": [
+        "July 2026"
+      ],
+      "short": [
+        "07/19/26"
+      ]
+    }
+  },
+  {
+    "camera": "iPhone 16 Pro",
+    "category": "Destination",
+    "collectionId": "finca-sachavacayoc",
+    "elevation": 570,
+    "id": "cd480d1b-28b8-4245-b5cd-6240453ef5dd.jpeg",
+    "location": {
+      "region": "Tambopata National Reserve",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [],
+    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/cd480d1b-28b8-4245-b5cd-6240453ef5dd.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAhEAEAAwACAgEFAAAAAAAAAAABAAIRITESQQMTIjOR8P/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AjXSu88RlXAx3vYtvx6eotFbBIrpr48abkYtU6rJFftbcoM0z+YRR+Vtw8GeoSOvmj1kJAjxoTauhx7yEJVdNQrQrIp4LkIQEofUsHS/qEIQP/9k=",
+    "title": "Finca Lodge",
+    "when": {
+      "long": [
+        "July 2026"
+      ],
+      "short": [
+        "07/19/26"
+      ]
+    }
+  },
+  {
+    "camera": "iPhone 16 Pro",
+    "category": "Destination",
+    "collectionId": "finca-sachavacayoc",
+    "elevation": 570,
+    "id": "2b5847f7-944f-41b3-b134-782d14acb099.jpeg",
+    "location": {
+      "region": "Tambopata National Reserve",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [],
+    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/2b5847f7-944f-41b3-b134-782d14acb099.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgADBP/EACIQAQACAQMDBQAAAAAAAAAAAAEAAhEDEkETITEzUlNhof/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AZqVYCMPiQIHmBbYUWsI5cnttKp1XgvIHvvjt1PyBdXVD01fuAXW1vjCBkMo1r5kDcjxAsoZwQC3IH//Z",
+    "title": "Sunrise over the Tambopata River",
+    "when": {
+      "long": [
+        "July 2026"
+      ],
+      "short": [
+        "07/20/26"
+      ]
+    }
+  },
+  {
+    "camera": "iPhone 16 Pro",
+    "category": "Destination",
+    "collectionId": "finca-sachavacayoc",
+    "elevation": 570,
+    "id": "d146dcc3-f448-4155-9a3e-9d33a14591fd.jpeg",
+    "location": {
+      "region": "Tambopata National Reserve",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [],
+    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/d146dcc3-f448-4155-9a3e-9d33a14591fd.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAkEAABAgQFBQAAAAAAAAAAAAAAARECAxKBEyFCYXEEFEFRkf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A0ROCaUYz7iW3n4Iepls6ulgNKfQpYrjy11JcY8CaksQWbcFIp0tGzfgFHJluSyAAKUFKAAGAAH//2Q==",
+    "title": "Early morning",
+    "when": {
+      "long": [
+        "July 2026"
+      ],
+      "short": [
+        "07/20/26"
+      ]
+    }
+  },
+  {
+    "camera": "iPhone 16 Pro",
+    "category": "Destination",
+    "collectionId": "finca-sachavacayoc",
+    "elevation": 570,
+    "id": "c1f7edf9-dbe5-4692-a967-a4922f294b51.jpeg",
+    "location": {
+      "region": "Tambopata National Reserve",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [],
+    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/c1f7edf9-dbe5-4692-a967-a4922f294b51.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA//EACMQAQACAQIGAwEAAAAAAAAAAAECEQADIRIiMUFRYRMycfH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AN8z0q/eAOtNPtX5ignrLHhkH7iiITY0n9wF1J8QqmAS2Lrv4yK1bmETIt94Cx5Su2ALeUdmaiIdcw2XUfBiAJ03RiCdSVsdtsuJpuNnKYV//9k=",
+    "title": "Macaw Clay Lick",
+    "when": {
+      "long": [
+        "July 2026"
+      ],
+      "short": [
+        "07/20/26"
+      ]
+    }
+  },
+  {
+    "camera": "iPhone 16 Pro",
+    "category": "Destination",
+    "collectionId": "finca-sachavacayoc",
+    "elevation": 570,
+    "id": "060eab75-3251-4918-8fd4-880776efe424.jpeg",
+    "location": {
+      "region": "Tres Chimbadas Lake, Tambopata National Reserve",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [],
+    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/060eab75-3251-4918-8fd4-880776efe424.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgMBBP/EACIQAAICAgAGAwAAAAAAAAAAAAECABEDIRIiQWFxgTFRkf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwAYcyKOFr8wOlabakGEhdIBI9QByr8sPZgcilT0/NyNKgIDpWvu1QigL6plH1bXKMOLdtkJ8SAnAvQmUpjEoqxZkUhjSzyjxIC2BWHLYloizPiNE8Q7wNXKGNbBlSP/2Q==",
+    "title": "Searching for River Otters",
+    "when": {
+      "long": [
+        "July 2026"
+      ],
+      "short": [
+        "07/20/26"
+      ]
+    }
+  },
+  {
+    "camera": "iPhone 16 Pro",
+    "category": "Destination",
+    "collectionId": "finca-sachavacayoc",
+    "elevation": 570,
+    "id": "193d90ae-6945-4220-8256-04fe2e64f737.jpeg",
+    "location": {
+      "region": "Tambopata National Reserve",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [],
+    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/193d90ae-6945-4220-8256-04fe2e64f737.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAEDBAL/xAAjEAACAQQBAwUAAAAAAAAAAAAAAQMCERITIQQiMlFhcXKB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQIA/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAEREgL/2gAMAwEAAhEDEQA/APesus41TLhxlj6XNaV1Fl32/SuqjiOhRl1kyrx86b/UyrU7XEifxwba08xvgDiqjlu7pv3uA2nmLsZNjAKTi5sqkYBhj0pGABD/2Q==",
+    "title": "Tres Chimbadas Lake",
+    "when": {
+      "long": [
+        "July 2026"
+      ],
+      "short": [
+        "07/20/26"
+      ]
+    }
+  },
+  {
+    "camera": "iPhone 16 Pro",
+    "category": "Destination",
+    "collectionId": "finca-sachavacayoc",
+    "elevation": 570,
+    "id": "7b17c10b-9c5b-4355-8b2f-8dff53f1f9a8.jpeg",
+    "location": {
+      "region": "Tambopata National Reserve",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [],
+    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/7b17c10b-9c5b-4355-8b2f-8dff53f1f9a8.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EAB4QAQACAgMAAwAAAAAAAAAAAAEAEQIxIUFREmFi/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8AhB8k1TZMVTXBKMgsW+5A0yzLjUjaPWp0Cm7H6gT8fIm5P63ECbrFW6OiMXDx5iIUvE0VNMh2dxEJWgXqIiEf/9k=",
+    "title": "Machete in the jungle",
+    "when": {
+      "long": [
+        "July 2026"
+      ],
+      "short": [
+        "07/21/26"
+      ]
+    }
+  },
+  {
+    "camera": "iPhone 16 Pro",
+    "category": "Destination",
+    "collectionId": "finca-sachavacayoc",
+    "elevation": 570,
+    "id": "baf52dad-3d95-40cc-9d90-889b66a9eea9.jpeg",
+    "location": {
+      "region": "Tambopata National Reserve",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [],
+    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/baf52dad-3d95-40cc-9d90-889b66a9eea9.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBAv/EACAQAAICAgICAwAAAAAAAAAAAAABAhESITJBMTNRYXH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AHVG0ybnTo3PRFUtpVozs4cnjkl3RmTdMCnkHKk9L5AE1HJ7EuOmAB3H0P8ASalVgAUXO/oAAf/Z",
+    "title": "Swampy boardwalk",
+    "when": {
+      "long": [
+        "July 2026"
+      ],
+      "short": [
+        "07/21/26"
+      ]
+    }
+  },
+  {
+    "camera": "iPhone 16 Pro",
+    "category": "Destination",
+    "collectionId": "finca-sachavacayoc",
+    "elevation": 570,
+    "id": "8a8249aa-0373-4771-89c4-8ca7dc4760f0.jpeg",
+    "location": {
+      "region": "Tambopata National Reserve",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [],
+    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/8a8249aa-0373-4771-89c4-8ca7dc4760f0.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIBAwT/xAAiEAADAAEDBQADAAAAAAAAAAAAAQIRAyExEjJCUWEEcaH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQES/9oADAMBAAIRAxEAPwCI/Ic1xlHVa+nTXKfsxuF4/wAJxpvxM9GPQnNZ3TYx9OK0d01LX3JT07a3rK/Y0RtOZ5pAhR0rtYDoxkaXU06e3JbUy8TOH7AHFrm5arueOS4t5w9wBCssAAX/2Q==",
+    "title": "Hunting for Anacondas",
+    "when": {
+      "long": [
+        "July 2026"
+      ],
+      "short": [
+        "07/21/26"
+      ]
+    }
+  },
+  {
+    "camera": "iPhone 16 Pro",
+    "category": "Destination",
+    "collectionId": "finca-sachavacayoc",
+    "elevation": 570,
+    "id": "2ce80aaf-2fbb-48ec-b3e7-be7baf732dfe.jpeg",
+    "location": {
+      "region": "Tambopata National Reserve",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [],
+    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/2ce80aaf-2fbb-48ec-b3e7-be7baf732dfe.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EAB4QAAIDAAMAAwAAAAAAAAAAAAABAhEhEiJBEzGx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8ASeqjHjY9Ik6mzJU3yS8pESTq3+FKTccWGOfbSSEA5aBTtx7K/vwhrt5gAFjfWlhm3QAhXx3G0/NABJ//2Q==",
+    "title": "Squirrel Monkeys",
+    "when": {
+      "long": [
+        "July 2026"
+      ],
+      "short": [
+        "07/21/26"
+      ]
+    }
+  },
+  {
+    "camera": "iPhone 16 Pro",
+    "category": "Destination",
+    "collectionId": "finca-sachavacayoc",
+    "elevation": 570,
+    "id": "64d70cd7-dddb-448b-9982-a21e8f98bad2.jpeg",
+    "location": {
+      "region": "Tambopata National Reserve",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [],
+    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/64d70cd7-dddb-448b-9982-a21e8f98bad2.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAfEAADAAEEAwEAAAAAAAAAAAAAAQIRAyExQQQUYZH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A9DkgmChgBgBgqI9R/DDbD1a4SRUHq0ul+gc35NLpFSr7FcuUkAqiK5Ot8lQqnjIRimBHbfO4H//Z",
+    "title": "Above the trees",
+    "when": {
+      "long": [
+        "July 2026"
+      ],
+      "short": [
+        "07/21/26"
+      ]
+    }
+  },
+  {
+    "camera": "iPhone 16 Pro",
+    "category": "Destination",
+    "collectionId": "finca-sachavacayoc",
+    "elevation": 570,
+    "id": "e2ea562d-2700-4f5e-8f77-f55c4a86d58d.jpeg",
+    "location": {
+      "region": "Tambopata National Reserve",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [],
+    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/e2ea562d-2700-4f5e-8f77-f55c4a86d58d.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECBAP/xAAiEAACAgEDBAMAAAAAAAAAAAABAgARAyExUQQTQWEiMqH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/ANMzVgikc8uYYyBVmXBaMHQMPMUOopGTvsfMQqlyFvtrxIpPTG2Howpo5qlNeqljNDZHGx/IhWa9blZd2x1065L+Q1haAA+Nm4kVO00yokHm4H//2Q==",
+    "title": "Sunset in the jungle",
+    "when": {
+      "long": [
+        "July 2026"
+      ],
+      "short": [
+        "07/21/26"
+      ]
+    }
+  },
+  {
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "geneva",
-    "elevation": {
-      "imperial": "1,312",
-      "metric": "400"
-    },
+    "elevation": 1312,
     "id": "f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",
     "location": {
       "region": "Lake Geneva/Rhône River",
@@ -3567,10 +3507,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "geneva",
-    "elevation": {
-      "imperial": "1,435",
-      "metric": "437"
-    },
+    "elevation": 1435,
     "id": "e19b87b3-ff48-499f-a225-3d4d608e9311.jpeg",
     "location": {
       "region": "Geneva",
@@ -3594,10 +3531,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "geneva",
-    "elevation": {
-      "imperial": "1,288",
-      "metric": "393"
-    },
+    "elevation": 1288,
     "id": "e6b983b0-e92d-4db0-a731-723a3f996449.jpeg",
     "location": {
       "region": "Geneva",
@@ -3621,10 +3555,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "geneva",
-    "elevation": {
-      "imperial": "1,457",
-      "metric": "444"
-    },
+    "elevation": 1457,
     "id": "7c3b0975-04c2-4475-b7d5-f7a8e018b71f.jpeg",
     "location": {
       "region": "Geneva",
@@ -3648,10 +3579,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "geneva",
-    "elevation": {
-      "imperial": "1,308",
-      "metric": "399"
-    },
+    "elevation": 1308,
     "id": "537b833c-0de9-4788-b9cf-57cbd8af9a26.jpeg",
     "location": {
       "region": "Geneva",
@@ -3675,10 +3603,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "geneva",
-    "elevation": {
-      "imperial": "1,300",
-      "metric": "396"
-    },
+    "elevation": 1300,
     "id": "e38ad9d4-d8b7-433c-bdec-55294d442928.jpeg",
     "location": {
       "region": "Geneva",
@@ -3702,10 +3627,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "1,238",
-      "metric": "377"
-    },
+    "elevation": 1238,
     "id": "74223fbe-db85-402a-ae25-00fc5e3e75b0.jpeg",
     "location": {
       "region": "Corsica",
@@ -3729,10 +3651,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "2,682",
-      "metric": "817"
-    },
+    "elevation": 2682,
     "id": "f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg",
     "location": {
       "region": "Corsica",
@@ -3756,10 +3675,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "5,061",
-      "metric": "1,543"
-    },
+    "elevation": 5061,
     "id": "ca474c95-0abc-44a4-9f10-677b0e91437c.jpeg",
     "location": {
       "region": "Corsica",
@@ -3783,10 +3699,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "6,420",
-      "metric": "1,957"
-    },
+    "elevation": 6420,
     "id": "e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
     "location": {
       "region": "Corsica",
@@ -3810,10 +3723,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "5,462",
-      "metric": "1,665"
-    },
+    "elevation": 5462,
     "id": "9f8951e5-f150-413e-9d1e-557324c48acb.jpeg",
     "location": {
       "region": "Corsica",
@@ -3837,10 +3747,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "6,234",
-      "metric": "1,900"
-    },
+    "elevation": 6234,
     "id": "ca6423d0-daea-4b8c-8a75-7eb28a102c85.jpeg",
     "location": {
       "region": "Corsica",
@@ -3864,10 +3771,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "6,561",
-      "metric": "2,000"
-    },
+    "elevation": 6561,
     "id": "7c9ba05f-905d-4762-9b09-989377182474.jpeg",
     "location": {
       "region": "Corsica",
@@ -3891,10 +3795,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "4,958",
-      "metric": "1,511"
-    },
+    "elevation": 4958,
     "id": "4965a37c-6e06-459e-800d-b8d728cd2ff0.jpeg",
     "location": {
       "region": "Corsica",
@@ -3918,10 +3819,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "8,554",
-      "metric": "2,607"
-    },
+    "elevation": 8554,
     "id": "8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg",
     "location": {
       "region": "Corsica",
@@ -3945,10 +3843,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "4,711",
-      "metric": "1,436"
-    },
+    "elevation": 4711,
     "id": "890e4521-9658-472a-93a6-f94eff46c612.jpeg",
     "location": {
       "region": "Corsica",
@@ -3972,10 +3867,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "6,075",
-      "metric": "1,852"
-    },
+    "elevation": 6075,
     "id": "f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg",
     "location": {
       "region": "Corsica",
@@ -3999,10 +3891,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "5,234",
-      "metric": "1,595"
-    },
+    "elevation": 5234,
     "id": "f62bf484-3e25-41c0-8b99-24fb0ba49778.jpeg",
     "location": {
       "region": "Corsica",
@@ -4026,10 +3915,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "4,395",
-      "metric": "1,340"
-    },
+    "elevation": 4395,
     "id": "ce157a1c-a855-4ba7-b906-13a1ad4cbbec.jpeg",
     "location": {
       "region": "Corsica",
@@ -4053,10 +3939,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "6,005",
-      "metric": "1,830"
-    },
+    "elevation": 6005,
     "id": "95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg",
     "location": {
       "region": "Corsica",
@@ -4080,10 +3963,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "5,218",
-      "metric": "1,590"
-    },
+    "elevation": 5218,
     "id": "53aaf0ae-f946-4917-9b7c-46712fa5ee45.jpeg",
     "location": {
       "region": "Corsica",
@@ -4107,10 +3987,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "5,866",
-      "metric": "1,788"
-    },
+    "elevation": 5866,
     "id": "82a8777d-51d7-4636-9d0a-f25475516e76.jpeg",
     "location": {
       "region": "Corsica",
@@ -4134,10 +4011,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "7,256",
-      "metric": "2,212"
-    },
+    "elevation": 7256,
     "id": "05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
     "location": {
       "region": "Corsica",
@@ -4161,10 +4035,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "6,059",
-      "metric": "1,847"
-    },
+    "elevation": 6059,
     "id": "4e7bda74-809e-48a9-a904-5645bf2e7dde.jpeg",
     "location": {
       "region": "Corsica",
@@ -4188,10 +4059,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "4,601",
-      "metric": "1,402"
-    },
+    "elevation": 4601,
     "id": "c886ddab-f573-4fbb-a598-942bc54c4990.jpeg",
     "location": {
       "region": "Corsica",
@@ -4215,10 +4083,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "3,661",
-      "metric": "1,116"
-    },
+    "elevation": 3661,
     "id": "9d76c622-0c46-465a-b608-0fe3a79c8544.jpeg",
     "location": {
       "region": "Corsica",
@@ -4242,10 +4107,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "4,517",
-      "metric": "1,377"
-    },
+    "elevation": 4517,
     "id": "a6a6b3db-d197-404d-b10e-3c35781e5e47.jpeg",
     "location": {
       "region": "Corsica",
@@ -4269,10 +4131,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "6,072",
-      "metric": "1,851"
-    },
+    "elevation": 6072,
     "id": "2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
     "location": {
       "region": "Corsica",
@@ -4296,10 +4155,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "3,001",
-      "metric": "915"
-    },
+    "elevation": 3001,
     "id": "85f2be7c-e2ab-421a-ab16-c28b671496a0.jpeg",
     "location": {
       "region": "Corsica",
@@ -4323,10 +4179,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "4,736",
-      "metric": "1,443"
-    },
+    "elevation": 4736,
     "id": "79397086-87c9-454d-ac0d-55222a117a15.jpeg",
     "location": {
       "region": "Corsica",
@@ -4350,10 +4203,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "5,008",
-      "metric": "1,526"
-    },
+    "elevation": 5008,
     "id": "54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
     "location": {
       "region": "Corsica",
@@ -4377,10 +4227,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "6,434",
-      "metric": "1,961"
-    },
+    "elevation": 6434,
     "id": "37e9f8dd-05c9-498b-be6e-86d633715c24.jpeg",
     "location": {
       "region": "Corsica",
@@ -4404,10 +4251,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "5,518",
-      "metric": "1,682"
-    },
+    "elevation": 5518,
     "id": "73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
     "location": {
       "region": "Corsica",
@@ -4431,10 +4275,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "5,660",
-      "metric": "1,725"
-    },
+    "elevation": 5660,
     "id": "4e254b19-0dd2-44fb-8295-fa7992be521c.jpeg",
     "location": {
       "region": "Corsica",
@@ -4458,10 +4299,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "5,713",
-      "metric": "1,741"
-    },
+    "elevation": 5713,
     "id": "4f9f9b60-3bb6-47a4-8d0e-218d430742dd.jpeg",
     "location": {
       "region": "Corsica",
@@ -4485,10 +4323,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "4,693",
-      "metric": "1,430"
-    },
+    "elevation": 4693,
     "id": "d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
     "location": {
       "region": "Corsica",
@@ -4512,10 +4347,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "6,670",
-      "metric": "2,033"
-    },
+    "elevation": 6670,
     "id": "f48bc918-f442-4f1d-a89d-cb696242b8ba.jpeg",
     "location": {
       "region": "Corsica",
@@ -4539,10 +4371,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "3,382",
-      "metric": "1,031"
-    },
+    "elevation": 3382,
     "id": "f43b7753-5052-47b9-9868-1237c0e34828.jpeg",
     "location": {
       "region": "Corsica",
@@ -4566,10 +4395,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "the-gr-20",
-    "elevation": {
-      "imperial": "1,863",
-      "metric": "568"
-    },
+    "elevation": 1863,
     "id": "f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
     "location": {
       "region": "Corsica",
@@ -4593,10 +4419,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "ice-age-trail",
-    "elevation": {
-      "imperial": "965",
-      "metric": "294"
-    },
+    "elevation": 965,
     "id": "dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
     "location": {
       "region": "Wisconsin",
@@ -4620,10 +4443,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "ice-age-trail",
-    "elevation": {
-      "imperial": "1,235",
-      "metric": "376"
-    },
+    "elevation": 1235,
     "id": "e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
     "location": {
       "region": "Wisconsin",
@@ -4647,10 +4467,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "ice-age-trail",
-    "elevation": {
-      "imperial": "1,051",
-      "metric": "320"
-    },
+    "elevation": 1051,
     "id": "ff7f0ece-3819-4a70-afb5-9f695bc1ec6f.jpeg",
     "location": {
       "region": "Wisconsin",
@@ -4674,10 +4491,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "ice-age-trail",
-    "elevation": {
-      "imperial": "1,182",
-      "metric": "360"
-    },
+    "elevation": 1182,
     "id": "18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
     "location": {
       "region": "Wisconsin",
@@ -4701,10 +4515,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "ice-age-trail",
-    "elevation": {
-      "imperial": "1,125",
-      "metric": "343"
-    },
+    "elevation": 1125,
     "id": "6ee17b3f-0835-43be-a071-eed45ef7b5c2.jpeg",
     "location": {
       "region": "Wisconsin",
@@ -4728,10 +4539,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "1,268",
-      "metric": "386"
-    },
+    "elevation": 1268,
     "id": "619eec82-6980-4f31-a11f-7c5581d02989.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -4755,10 +4563,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "542",
-      "metric": "165"
-    },
+    "elevation": 542,
     "id": "59298106-ebd1-40fb-b3c1-84c008236675.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -4782,10 +4587,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "526",
-      "metric": "160"
-    },
+    "elevation": 526,
     "id": "3aa1db78-bed6-46ab-8b32-b95e6c9f2ca1.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -4809,10 +4611,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "858",
-      "metric": "262"
-    },
+    "elevation": 858,
     "id": "b9efc152-9d62-48cd-aaca-dcc55eebaed1.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -4836,10 +4635,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "1,844",
-      "metric": "562"
-    },
+    "elevation": 1844,
     "id": "f477b7bb-7f38-42ff-a855-f90668a73f28.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -4863,10 +4659,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "1,889",
-      "metric": "576"
-    },
+    "elevation": 1889,
     "id": "03ec69b7-bd85-4ae0-a3ba-d3e919a2bcee.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -4890,10 +4683,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "3,874",
-      "metric": "1,181"
-    },
+    "elevation": 3874,
     "id": "38a1b675-74c7-45b5-9e37-8020d298a0b3.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -4917,10 +4707,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "83",
-      "metric": "25"
-    },
+    "elevation": 83,
     "id": "d0bf3da0-bbca-44aa-abcd-66b98b7ed2aa.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -4944,10 +4731,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "32",
-      "metric": "10"
-    },
+    "elevation": 32,
     "id": "4b5e077f-ecc5-401f-b663-989e2648b2d9.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -4971,10 +4755,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "236",
-      "metric": "72"
-    },
+    "elevation": 236,
     "id": "b7f1cd33-958c-43a3-bec3-cf9c435e6d9b.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -4998,10 +4779,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "2,503",
-      "metric": "763"
-    },
+    "elevation": 2503,
     "id": "380820b8-520a-49fa-8f01-651ca63fd84f.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -5025,10 +4803,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "868",
-      "metric": "265"
-    },
+    "elevation": 868,
     "id": "dd6e739e-b793-4c64-8e7c-c6a631b467c7.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -5052,10 +4827,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "1,094",
-      "metric": "333"
-    },
+    "elevation": 1094,
     "id": "020f3730-4325-49be-b655-b4a50e0a75c7.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -5079,10 +4851,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "1,176",
-      "metric": "358"
-    },
+    "elevation": 1176,
     "id": "15575828-1783-4e5b-b92f-2b29abfc98ea.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -5106,10 +4875,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "1,534",
-      "metric": "468"
-    },
+    "elevation": 1534,
     "id": "790032e0-6483-4631-9cbe-d912510a1a48.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -5133,10 +4899,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "302",
-      "metric": "92"
-    },
+    "elevation": 302,
     "id": "ad14885b-701d-4a08-9403-5fe65c21ffd5.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -5160,10 +4923,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "870",
-      "metric": "265"
-    },
+    "elevation": 870,
     "id": "a1beea7b-7f94-43ce-b04e-0d11e327414c.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -5187,10 +4947,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "2,886",
-      "metric": "880"
-    },
+    "elevation": 2886,
     "id": "7c8da66b-c28c-483c-ad78-158265b0ec63.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -5214,10 +4971,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Destination",
     "collectionId": "pokhara",
-    "elevation": {
-      "imperial": "2,607",
-      "metric": "795"
-    },
+    "elevation": 2607,
     "id": "a00dcb55-664a-4db7-b71e-382f6ac14684.jpeg",
     "location": {
       "region": "Pokhara",
@@ -5241,10 +4995,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Destination",
     "collectionId": "pokhara",
-    "elevation": {
-      "imperial": "2,607",
-      "metric": "795"
-    },
+    "elevation": 2607,
     "id": "a9cf40fc-77bd-4f63-a3c6-7c1d6cc3bca8.jpeg",
     "location": {
       "region": "Pokhara",
@@ -5268,10 +5019,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Destination",
     "collectionId": "pokhara",
-    "elevation": {
-      "imperial": "2,612",
-      "metric": "796"
-    },
+    "elevation": 2612,
     "id": "0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
     "location": {
       "region": "Pokhara",
@@ -5295,10 +5043,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Destination",
     "collectionId": "pokhara",
-    "elevation": {
-      "imperial": "3,647",
-      "metric": "1,112"
-    },
+    "elevation": 3647,
     "id": "4286cd26-eaad-47b1-96f7-2dff5ea38352.jpeg",
     "location": {
       "region": "Pokhara",
@@ -5322,10 +5067,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Destination",
     "collectionId": "pokhara",
-    "elevation": {
-      "imperial": "3,641",
-      "metric": "1,110"
-    },
+    "elevation": 3641,
     "id": "b9fbb54b-5103-4145-afbb-84828ecdc104.jpeg",
     "location": {
       "region": "Pokhara",
@@ -5349,10 +5091,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Destination",
     "collectionId": "pokhara",
-    "elevation": {
-      "imperial": "2,537",
-      "metric": "773"
-    },
+    "elevation": 2537,
     "id": "6087e410-15a0-4a8f-8781-e7e780d35c33.jpeg",
     "location": {
       "region": "Pokhara",
@@ -5376,10 +5115,7 @@ const data = [
     "camera": "HERO5 Black",
     "category": "Destination",
     "collectionId": "pokhara",
-    "elevation": {
-      "imperial": "6,323",
-      "metric": "1,927"
-    },
+    "elevation": 6323,
     "id": "9bbcf55a-54e8-4a7e-8c6f-12d718bc0da0.jpeg",
     "location": {
       "region": "Pokhara",
@@ -5403,10 +5139,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Destination",
     "collectionId": "the-porkies",
-    "elevation": {
-      "imperial": "1,601",
-      "metric": "488"
-    },
+    "elevation": 1601,
     "id": "febae15a-db75-471a-a7f6-412687b1d104.jpeg",
     "location": {
       "region": "Upper Peninsula, Michigan",
@@ -5430,10 +5163,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Destination",
     "collectionId": "the-porkies",
-    "elevation": {
-      "imperial": "1,491",
-      "metric": "454"
-    },
+    "elevation": 1491,
     "id": "412201f8-c2fb-4d4e-b859-1acc714d5b9f.jpeg",
     "location": {
       "region": "Upper Peninsula, Michigan",
@@ -5457,10 +5187,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Destination",
     "collectionId": "the-porkies",
-    "elevation": {
-      "imperial": "1,582",
-      "metric": "482"
-    },
+    "elevation": 1582,
     "id": "d2eed074-7e71-44c6-9f3a-1bf375430ab3.jpeg",
     "location": {
       "region": "Upper Peninsula, Michigan",
@@ -5484,10 +5211,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Destination",
     "collectionId": "the-porkies",
-    "elevation": {
-      "imperial": "593",
-      "metric": "181"
-    },
+    "elevation": 593,
     "id": "53d8fc27-f7f3-40b7-94c6-9d05e63a4ff4.jpeg",
     "location": {
       "region": "Upper Peninsula, Michigan",
@@ -5511,10 +5235,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Destination",
     "collectionId": "the-porkies",
-    "elevation": {
-      "imperial": "590",
-      "metric": "180"
-    },
+    "elevation": 590,
     "id": "79f2ec6c-25af-4877-a141-fb077c312407.jpeg",
     "location": {
       "region": "Upper Peninsula, Michigan",
@@ -5536,390 +5257,9 @@ const data = [
   },
   {
     "camera": "iPhone 16 Pro",
-    "category": "Destination",
-    "collectionId": "puerto-maldonado",
-    "elevation": {
-      "imperial": "570",
-      "metric": "174"
-    },
-    "id": "9006d771-fa61-49bb-b976-40d1ec06da1b.jpeg",
-    "location": {
-      "region": "Tambopata National Reserve",
-      "country": "Peru",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/9006d771-fa61-49bb-b976-40d1ec06da1b.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAgQAAQP/xAAjEAABAwIFBQAAAAAAAAAAAAABAAIRAyEEEkFRYRMiMUJx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCsPlbVMOBnQ2UDSAY4CCZUEhUIeLqKYZibdzZ5RBDEtmII5QadRsTmCATXYPafgQJgwitaLQ90FAwKQBtvqgOyCoGyD//Z",
-    "title": "Leaving Puerto Maldonado",
-    "when": {
-      "long": [
-        "July 2026"
-      ],
-      "short": [
-        "07/19/26"
-      ]
-    }
-  },
-  {
-    "camera": "iPhone 16 Pro",
-    "category": "Destination",
-    "collectionId": "puerto-maldonado",
-    "elevation": {
-      "imperial": "570",
-      "metric": "174"
-    },
-    "id": "e3ceb20e-d42a-43ca-9c0b-b96872b56fb7.jpeg",
-    "location": {
-      "region": "Tambopata National Reserve",
-      "country": "Peru",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/e3ceb20e-d42a-43ca-9c0b-b96872b56fb7.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAhEAACAQMEAwEAAAAAAAAAAAABEQACAyESIlGRMUFxgf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAQEBAQEAAAAAAAAAAAAAAAAREgEh/9oADAMBAAIRAxEAPwDXDZOeJpk3EsJSKjJZJgKgwkTFIAUgeIPGJrvikbR1JViuu8fQ6jRkNV0LAH5GjHE672lofYq5UNd7kyUjsLEVYq5KQGYqwaikIH//2Q==",
-    "title": "Entering the jungle",
-    "when": {
-      "long": [
-        "July 2026"
-      ],
-      "short": [
-        "07/19/26"
-      ]
-    }
-  },
-  {
-    "camera": "iPhone 16 Pro",
-    "category": "Destination",
-    "collectionId": "puerto-maldonado",
-    "elevation": {
-      "imperial": "570",
-      "metric": "174"
-    },
-    "id": "cd480d1b-28b8-4245-b5cd-6240453ef5dd.jpeg",
-    "location": {
-      "region": "Tambopata National Reserve",
-      "country": "Peru",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/cd480d1b-28b8-4245-b5cd-6240453ef5dd.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAhEAEAAwACAgEFAAAAAAAAAAABAAIRITESQQMTIjOR8P/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AjXSu88RlXAx3vYtvx6eotFbBIrpr48abkYtU6rJFftbcoM0z+YRR+Vtw8GeoSOvmj1kJAjxoTauhx7yEJVdNQrQrIp4LkIQEofUsHS/qEIQP/9k=",
-    "title": "Finca Lodge",
-    "when": {
-      "long": [
-        "July 2026"
-      ],
-      "short": [
-        "07/19/26"
-      ]
-    }
-  },
-  {
-    "camera": "iPhone 16 Pro",
-    "category": "Destination",
-    "collectionId": "puerto-maldonado",
-    "elevation": {
-      "imperial": "570",
-      "metric": "174"
-    },
-    "id": "2b5847f7-944f-41b3-b134-782d14acb099.jpeg",
-    "location": {
-      "region": "Tambopata National Reserve",
-      "country": "Peru",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/2b5847f7-944f-41b3-b134-782d14acb099.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgADBP/EACIQAQACAQMDBQAAAAAAAAAAAAEAAhEDEkETITEzUlNhof/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AZqVYCMPiQIHmBbYUWsI5cnttKp1XgvIHvvjt1PyBdXVD01fuAXW1vjCBkMo1r5kDcjxAsoZwQC3IH//Z",
-    "title": "Sunrise over the Tambopata River",
-    "when": {
-      "long": [
-        "July 2026"
-      ],
-      "short": [
-        "07/20/26"
-      ]
-    }
-  },
-  {
-    "camera": "iPhone 16 Pro",
-    "category": "Destination",
-    "collectionId": "puerto-maldonado",
-    "elevation": {
-      "imperial": "570",
-      "metric": "174"
-    },
-    "id": "d146dcc3-f448-4155-9a3e-9d33a14591fd.jpeg",
-    "location": {
-      "region": "Tambopata National Reserve",
-      "country": "Peru",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/d146dcc3-f448-4155-9a3e-9d33a14591fd.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAkEAABAgQFBQAAAAAAAAAAAAAAARECAxKBEyFCYXEEFEFRkf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A0ROCaUYz7iW3n4Iepls6ulgNKfQpYrjy11JcY8CaksQWbcFIp0tGzfgFHJluSyAAKUFKAAGAAH//2Q==",
-    "title": "Early morning",
-    "when": {
-      "long": [
-        "July 2026"
-      ],
-      "short": [
-        "07/20/26"
-      ]
-    }
-  },
-  {
-    "camera": "iPhone 16 Pro",
-    "category": "Destination",
-    "collectionId": "puerto-maldonado",
-    "elevation": {
-      "imperial": "570",
-      "metric": "174"
-    },
-    "id": "c1f7edf9-dbe5-4692-a967-a4922f294b51.jpeg",
-    "location": {
-      "region": "Tambopata National Reserve",
-      "country": "Peru",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/c1f7edf9-dbe5-4692-a967-a4922f294b51.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA//EACMQAQACAQIGAwEAAAAAAAAAAAECEQADIRIiMUFRYRMycfH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AN8z0q/eAOtNPtX5ignrLHhkH7iiITY0n9wF1J8QqmAS2Lrv4yK1bmETIt94Cx5Su2ALeUdmaiIdcw2XUfBiAJ03RiCdSVsdtsuJpuNnKYV//9k=",
-    "title": "Macaw Clay Lick",
-    "when": {
-      "long": [
-        "July 2026"
-      ],
-      "short": [
-        "07/20/26"
-      ]
-    }
-  },
-  {
-    "camera": "iPhone 16 Pro",
-    "category": "Destination",
-    "collectionId": "puerto-maldonado",
-    "elevation": {
-      "imperial": "570",
-      "metric": "174"
-    },
-    "id": "060eab75-3251-4918-8fd4-880776efe424.jpeg",
-    "location": {
-      "region": "Tres Chimbadas Lake, Tambopata National Reserve",
-      "country": "Peru",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/060eab75-3251-4918-8fd4-880776efe424.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgMBBP/EACIQAAICAgAGAwAAAAAAAAAAAAECABEDIRIiQWFxgTFRkf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwAYcyKOFr8wOlabakGEhdIBI9QByr8sPZgcilT0/NyNKgIDpWvu1QigL6plH1bXKMOLdtkJ8SAnAvQmUpjEoqxZkUhjSzyjxIC2BWHLYloizPiNE8Q7wNXKGNbBlSP/2Q==",
-    "title": "Searching for River Otters",
-    "when": {
-      "long": [
-        "July 2026"
-      ],
-      "short": [
-        "07/20/26"
-      ]
-    }
-  },
-  {
-    "camera": "iPhone 16 Pro",
-    "category": "Destination",
-    "collectionId": "puerto-maldonado",
-    "elevation": {
-      "imperial": "570",
-      "metric": "174"
-    },
-    "id": "193d90ae-6945-4220-8256-04fe2e64f737.jpeg",
-    "location": {
-      "region": "Tambopata National Reserve",
-      "country": "Peru",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/193d90ae-6945-4220-8256-04fe2e64f737.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAEDBAL/xAAjEAACAQQBAwUAAAAAAAAAAAAAAQMCERITIQQiMlFhcXKB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQIA/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAEREgL/2gAMAwEAAhEDEQA/APesus41TLhxlj6XNaV1Fl32/SuqjiOhRl1kyrx86b/UyrU7XEifxwba08xvgDiqjlu7pv3uA2nmLsZNjAKTi5sqkYBhj0pGABD/2Q==",
-    "title": "Tres Chimbadas Lake",
-    "when": {
-      "long": [
-        "July 2026"
-      ],
-      "short": [
-        "07/20/26"
-      ]
-    }
-  },
-  {
-    "camera": "iPhone 16 Pro",
-    "category": "Destination",
-    "collectionId": "puerto-maldonado",
-    "elevation": {
-      "imperial": "570",
-      "metric": "174"
-    },
-    "id": "7b17c10b-9c5b-4355-8b2f-8dff53f1f9a8.jpeg",
-    "location": {
-      "region": "Tambopata National Reserve",
-      "country": "Peru",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/7b17c10b-9c5b-4355-8b2f-8dff53f1f9a8.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EAB4QAQACAgMAAwAAAAAAAAAAAAEAEQIxIUFREmFi/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8AhB8k1TZMVTXBKMgsW+5A0yzLjUjaPWp0Cm7H6gT8fIm5P63ECbrFW6OiMXDx5iIUvE0VNMh2dxEJWgXqIiEf/9k=",
-    "title": "Machete in the jungle",
-    "when": {
-      "long": [
-        "July 2026"
-      ],
-      "short": [
-        "07/21/26"
-      ]
-    }
-  },
-  {
-    "camera": "iPhone 16 Pro",
-    "category": "Destination",
-    "collectionId": "puerto-maldonado",
-    "elevation": {
-      "imperial": "570",
-      "metric": "174"
-    },
-    "id": "baf52dad-3d95-40cc-9d90-889b66a9eea9.jpeg",
-    "location": {
-      "region": "Tambopata National Reserve",
-      "country": "Peru",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/baf52dad-3d95-40cc-9d90-889b66a9eea9.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBAv/EACAQAAICAgICAwAAAAAAAAAAAAABAhESITJBMTNRYXH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AHVG0ybnTo3PRFUtpVozs4cnjkl3RmTdMCnkHKk9L5AE1HJ7EuOmAB3H0P8ASalVgAUXO/oAAf/Z",
-    "title": "Swampy boardwalk",
-    "when": {
-      "long": [
-        "July 2026"
-      ],
-      "short": [
-        "07/21/26"
-      ]
-    }
-  },
-  {
-    "camera": "iPhone 16 Pro",
-    "category": "Destination",
-    "collectionId": "puerto-maldonado",
-    "elevation": {
-      "imperial": "570",
-      "metric": "174"
-    },
-    "id": "8a8249aa-0373-4771-89c4-8ca7dc4760f0.jpeg",
-    "location": {
-      "region": "Tambopata National Reserve",
-      "country": "Peru",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/8a8249aa-0373-4771-89c4-8ca7dc4760f0.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIBAwT/xAAiEAADAAEDBQADAAAAAAAAAAAAAQIRAyExEjJCUWEEcaH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQES/9oADAMBAAIRAxEAPwCI/Ic1xlHVa+nTXKfsxuF4/wAJxpvxM9GPQnNZ3TYx9OK0d01LX3JT07a3rK/Y0RtOZ5pAhR0rtYDoxkaXU06e3JbUy8TOH7AHFrm5arueOS4t5w9wBCssAAX/2Q==",
-    "title": "Hunting for Anacondas",
-    "when": {
-      "long": [
-        "July 2026"
-      ],
-      "short": [
-        "07/21/26"
-      ]
-    }
-  },
-  {
-    "camera": "iPhone 16 Pro",
-    "category": "Destination",
-    "collectionId": "puerto-maldonado",
-    "elevation": {
-      "imperial": "570",
-      "metric": "174"
-    },
-    "id": "2ce80aaf-2fbb-48ec-b3e7-be7baf732dfe.jpeg",
-    "location": {
-      "region": "Tambopata National Reserve",
-      "country": "Peru",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/2ce80aaf-2fbb-48ec-b3e7-be7baf732dfe.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EAB4QAAIDAAMAAwAAAAAAAAAAAAABAhEhEiJBEzGx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8ASeqjHjY9Ik6mzJU3yS8pESTq3+FKTccWGOfbSSEA5aBTtx7K/vwhrt5gAFjfWlhm3QAhXx3G0/NABJ//2Q==",
-    "title": "Squirrel Monkeys",
-    "when": {
-      "long": [
-        "July 2026"
-      ],
-      "short": [
-        "07/21/26"
-      ]
-    }
-  },
-  {
-    "camera": "iPhone 16 Pro",
-    "category": "Destination",
-    "collectionId": "puerto-maldonado",
-    "elevation": {
-      "imperial": "570",
-      "metric": "174"
-    },
-    "id": "64d70cd7-dddb-448b-9982-a21e8f98bad2.jpeg",
-    "location": {
-      "region": "Tambopata National Reserve",
-      "country": "Peru",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/64d70cd7-dddb-448b-9982-a21e8f98bad2.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAfEAADAAEEAwEAAAAAAAAAAAAAAQIRAyExQQQUYZH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A9DkgmChgBgBgqI9R/DDbD1a4SRUHq0ul+gc35NLpFSr7FcuUkAqiK5Ot8lQqnjIRimBHbfO4H//Z",
-    "title": "Above the trees",
-    "when": {
-      "long": [
-        "July 2026"
-      ],
-      "short": [
-        "07/21/26"
-      ]
-    }
-  },
-  {
-    "camera": "iPhone 16 Pro",
-    "category": "Destination",
-    "collectionId": "puerto-maldonado",
-    "elevation": {
-      "imperial": "570",
-      "metric": "174"
-    },
-    "id": "e2ea562d-2700-4f5e-8f77-f55c4a86d58d.jpeg",
-    "location": {
-      "region": "Tambopata National Reserve",
-      "country": "Peru",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/19/e2ea562d-2700-4f5e-8f77-f55c4a86d58d.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECBAP/xAAiEAACAgEDBAMAAAAAAAAAAAABAgARAyExUQQTQWEiMqH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/ANMzVgikc8uYYyBVmXBaMHQMPMUOopGTvsfMQqlyFvtrxIpPTG2Howpo5qlNeqljNDZHGx/IhWa9blZd2x1065L+Q1haAA+Nm4kVO00yokHm4H//2Q==",
-    "title": "Sunset in the jungle",
-    "when": {
-      "long": [
-        "July 2026"
-      ],
-      "short": [
-        "07/21/26"
-      ]
-    }
-  },
-  {
-    "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "river-ridge-trail",
-    "elevation": {
-      "imperial": "662",
-      "metric": "202"
-    },
+    "elevation": 662,
     "id": "8e8fd062-270f-4081-96c3-ee072a81caab.jpeg",
     "location": {
       "region": "Central Illinois",
@@ -5943,10 +5283,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "river-ridge-trail",
-    "elevation": {
-      "imperial": "662",
-      "metric": "202"
-    },
+    "elevation": 662,
     "id": "2665b912-007f-485f-b636-07079e321e20.jpeg",
     "location": {
       "region": "Central Illinois",
@@ -5970,10 +5307,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "river-ridge-trail",
-    "elevation": {
-      "imperial": "529",
-      "metric": "161"
-    },
+    "elevation": 529,
     "id": "91ed5400-2265-4b23-b20e-45bb0c6e36f3.jpeg",
     "location": {
       "region": "Central Illinois",
@@ -5997,10 +5331,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "river-ridge-trail",
-    "elevation": {
-      "imperial": "529",
-      "metric": "161"
-    },
+    "elevation": 529,
     "id": "3c8c077a-72fd-4319-8faa-7c03ad505b8a.jpeg",
     "location": {
       "region": "Central Illinois",
@@ -6024,10 +5355,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "river-ridge-trail",
-    "elevation": {
-      "imperial": "662",
-      "metric": "202"
-    },
+    "elevation": 662,
     "id": "bfb02a8a-045d-456f-a389-95aefbff4628.jpeg",
     "location": {
       "region": "Central Illinois",
@@ -6051,10 +5379,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "river-ridge-trail",
-    "elevation": {
-      "imperial": "675",
-      "metric": "206"
-    },
+    "elevation": 675,
     "id": "1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg",
     "location": {
       "region": "Central Illinois",
@@ -6080,10 +5405,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "12,703",
-      "metric": "3,872"
-    },
+    "elevation": 12703,
     "id": "3b8d7ca2-51fa-46ea-869e-ef5cdea6c91f.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6107,10 +5429,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "13,951",
-      "metric": "4,252"
-    },
+    "elevation": 13951,
     "id": "686daefa-ad4e-4f52-b7b6-96803c7a9b81.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6134,10 +5453,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "11,953",
-      "metric": "3,643"
-    },
+    "elevation": 11953,
     "id": "737cfa14-8964-4251-af50-b32d715d789c.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6161,10 +5477,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "13,585",
-      "metric": "4,141"
-    },
+    "elevation": 13585,
     "id": "7fe48f74-73fc-496c-a8b5-51bd992ba8fe.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6188,10 +5501,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "13,880",
-      "metric": "4,230"
-    },
+    "elevation": 13880,
     "id": "53892b8f-094c-4d28-8939-8a702f90097c.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6215,10 +5525,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "15,028",
-      "metric": "4,580"
-    },
+    "elevation": 15028,
     "id": "de1e7418-3507-47e8-888d-db3d91de1594.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6242,10 +5549,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "15,493",
-      "metric": "4,722"
-    },
+    "elevation": 15493,
     "id": "c494f389-d459-4a28-b3ce-f491022756ef.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6269,10 +5573,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "15,528",
-      "metric": "4,733"
-    },
+    "elevation": 15528,
     "id": "6bf54fcc-b5a8-4bd3-a283-25e300192dc9.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6296,10 +5597,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "15,739",
-      "metric": "4,797"
-    },
+    "elevation": 15739,
     "id": "f3112c48-d449-4600-afec-478fafcbf006.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6323,10 +5621,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "15,843",
-      "metric": "4,829"
-    },
+    "elevation": 15843,
     "id": "fad8569c-a739-4a53-a4aa-ad6f825105bb.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6350,10 +5645,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "14,472",
-      "metric": "4,411"
-    },
+    "elevation": 14472,
     "id": "d4e38cc8-5c83-4b54-aa52-f7935d60b882.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6377,10 +5669,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "10,278",
-      "metric": "3,133"
-    },
+    "elevation": 10278,
     "id": "0424da42-d6b2-41c8-8e24-77977fc50c3e.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6404,10 +5693,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "10,301",
-      "metric": "3,140"
-    },
+    "elevation": 10301,
     "id": "af448839-959e-44a9-8bc6-0cf146ce7717.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6431,10 +5717,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "10,854",
-      "metric": "3,308"
-    },
+    "elevation": 10854,
     "id": "bc7b0bd9-2cb0-44be-b459-13e88735ccb4.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6458,10 +5741,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "11,789",
-      "metric": "3,593"
-    },
+    "elevation": 11789,
     "id": "18e41e3d-2c1a-450d-abaf-c342c75be6cd.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6485,10 +5765,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "12,289",
-      "metric": "3,746"
-    },
+    "elevation": 12289,
     "id": "c287d595-16cf-492a-bf06-559b668cc831.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6512,10 +5789,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "13,824",
-      "metric": "4,213"
-    },
+    "elevation": 13824,
     "id": "49fb3f0d-6008-45f4-bbfe-8ae283dfe93b.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6539,10 +5813,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "13,824",
-      "metric": "4,213"
-    },
+    "elevation": 13824,
     "id": "5249fa3c-a1eb-4e14-8242-9331bf38d874.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6566,10 +5837,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "12,011",
-      "metric": "3,661"
-    },
+    "elevation": 12011,
     "id": "41765801-c4f8-48a5-bdb9-8c63a5af15df.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6593,10 +5861,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "12,381",
-      "metric": "3,774"
-    },
+    "elevation": 12381,
     "id": "ee8d80d7-ca2b-452c-9341-0ab7093f7cc9.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6620,10 +5885,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "12,836",
-      "metric": "3,912"
-    },
+    "elevation": 12836,
     "id": "9bcede17-419a-4ad6-ba12-cacb022bfd30.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6647,10 +5909,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "11,878",
-      "metric": "3,620"
-    },
+    "elevation": 11878,
     "id": "c69c3249-aab7-482f-8a15-32581b2c4078.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6674,10 +5933,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "11,579",
-      "metric": "3,529"
-    },
+    "elevation": 11579,
     "id": "91b70af3-275d-4e9a-a2e2-d8a09fa77b56.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6701,10 +5957,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "11,783",
-      "metric": "3,591"
-    },
+    "elevation": 11783,
     "id": "da8fa29b-3e8a-4808-84ad-79c5f2dea889.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6728,10 +5981,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "11,734",
-      "metric": "3,576"
-    },
+    "elevation": 11734,
     "id": "67389946-acfe-4edb-9a9f-8b063e563712.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6755,10 +6005,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "9,217",
-      "metric": "2,809"
-    },
+    "elevation": 9217,
     "id": "f4a130de-cda5-4c33-9f7a-c976dcf3174e.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6782,10 +6029,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "8,733",
-      "metric": "2,662"
-    },
+    "elevation": 8733,
     "id": "fe114cc1-fb70-4103-8299-22159f33e112.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6809,10 +6053,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "8,733",
-      "metric": "2,662"
-    },
+    "elevation": 8733,
     "id": "14dfcfd8-3348-4a3f-b02c-31af8dea9de7.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6836,10 +6077,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "8,878",
-      "metric": "2,706"
-    },
+    "elevation": 8878,
     "id": "927ce0b1-f63d-4a58-9fd4-47fc8c577978.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6863,10 +6101,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "salkantay-trek",
-    "elevation": {
-      "imperial": "8,204",
-      "metric": "2,500"
-    },
+    "elevation": 8204,
     "id": "4b87f92a-c5ce-4c3e-bfe8-fa243553eb51.jpeg",
     "location": {
       "region": "Vilcabamba Range",
@@ -6890,10 +6125,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "san-juan",
-    "elevation": {
-      "imperial": "21",
-      "metric": "6"
-    },
+    "elevation": 21,
     "id": "9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
     "location": {
       "region": "San Juan",
@@ -6917,10 +6149,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "san-juan",
-    "elevation": {
-      "imperial": "9",
-      "metric": "3"
-    },
+    "elevation": 9,
     "id": "4b6afcfd-0563-49d6-89a3-77625029bbc2.jpeg",
     "location": {
       "region": "San Juan",
@@ -6944,10 +6173,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "san-juan",
-    "elevation": {
-      "imperial": "7",
-      "metric": "2"
-    },
+    "elevation": 7,
     "id": "53a96049-262f-4e6b-b331-78b74c5e01e2.jpeg",
     "location": {
       "region": "San Juan",
@@ -6971,10 +6197,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "san-juan",
-    "elevation": {
-      "imperial": "0",
-      "metric": "0"
-    },
+    "elevation": 0,
     "id": "1b2ca395-4e5e-4997-87dc-417b95b08710.jpeg",
     "location": {
       "region": "San Juan",
@@ -6998,10 +6221,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "san-juan",
-    "elevation": {
-      "imperial": "101",
-      "metric": "31"
-    },
+    "elevation": 101,
     "id": "1ba3d3f7-9462-4375-9770-4efedf15f582.jpeg",
     "location": {
       "region": "San Juan",
@@ -7025,10 +6245,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destination",
     "collectionId": "san-juan",
-    "elevation": {
-      "imperial": "464",
-      "metric": "141"
-    },
+    "elevation": 464,
     "id": "11a03e4e-ed4e-47c2-822e-f720a9628638.jpeg",
     "location": {
       "region": "El Yunque National Forest",
@@ -7052,10 +6269,7 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destination",
     "collectionId": "central-and-southern-chile",
-    "elevation": {
-      "imperial": "2,546",
-      "metric": "776"
-    },
+    "elevation": 2546,
     "id": "a3205d70-0fc8-416a-b383-eb08e9e612a5.jpeg",
     "location": {
       "region": "Pedro de Valdivia Norte",
@@ -7079,10 +6293,7 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destination",
     "collectionId": "central-and-southern-chile",
-    "elevation": {
-      "imperial": "154",
-      "metric": "47"
-    },
+    "elevation": 154,
     "id": "dd0b9008-fbc2-4916-a33c-303a406e8fa5.jpeg",
     "location": {
       "region": "Cerro Mariposa",
@@ -7106,10 +6317,7 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destination",
     "collectionId": "central-and-southern-chile",
-    "elevation": {
-      "imperial": "10,611",
-      "metric": "3,234"
-    },
+    "elevation": 10611,
     "id": "1f5577cc-e0c2-4c66-987e-903a9b6be02c.jpeg",
     "location": {
       "region": "San Jose de Maipo",
@@ -7133,10 +6341,7 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destination",
     "collectionId": "central-and-southern-chile",
-    "elevation": {
-      "imperial": "1,300",
-      "metric": "396"
-    },
+    "elevation": 1300,
     "id": "b941c594-5218-449f-b79d-cb9936f56ad5.jpeg",
     "location": {
       "region": "Hacienda Macul",
@@ -7160,10 +6365,7 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destination",
     "collectionId": "central-and-southern-chile",
-    "elevation": {
-      "imperial": "347",
-      "metric": "106"
-    },
+    "elevation": 347,
     "id": "fb45dc07-e4fe-4d90-b39a-f54e50142d5a.jpeg",
     "location": {
       "region": "Sarmiento",
@@ -7187,10 +6389,7 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destination",
     "collectionId": "central-and-southern-chile",
-    "elevation": {
-      "imperial": "469",
-      "metric": "143"
-    },
+    "elevation": 469,
     "id": "9e9e78a3-a2ad-4a09-962c-fc1866ccfbd4.jpeg",
     "location": {
       "region": "Torres del Paine",
@@ -7214,10 +6413,7 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destination",
     "collectionId": "central-and-southern-chile",
-    "elevation": {
-      "imperial": "15",
-      "metric": "5"
-    },
+    "elevation": 15,
     "id": "9742d413-6fdd-4474-a4a2-59ada5ddab14.jpeg",
     "location": {
       "region": "Magallanes and Antarica Region",
@@ -7241,10 +6437,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Summits",
     "collectionId": "southern-rockies",
-    "elevation": {
-      "imperial": "14,426",
-      "metric": "4,397"
-    },
+    "elevation": 14426,
     "id": "52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
     "location": {
       "region": "Sawatch Range",
@@ -7268,10 +6461,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Summits",
     "collectionId": "southern-rockies",
-    "elevation": {
-      "imperial": "14,230",
-      "metric": "4,337"
-    },
+    "elevation": 14230,
     "id": "08d28c7e-387b-418f-8226-b2a87485f1d8.jpeg",
     "location": {
       "region": "Tenmile Range",
@@ -7295,10 +6485,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Summits",
     "collectionId": "southern-rockies",
-    "elevation": {
-      "imperial": "14,375",
-      "metric": "4,381"
-    },
+    "elevation": 14375,
     "id": "e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
     "location": {
       "region": "Sawatch Range",
@@ -7322,10 +6509,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Summits",
     "collectionId": "southern-rockies",
-    "elevation": {
-      "imperial": "14,070",
-      "metric": "4,288"
-    },
+    "elevation": 14070,
     "id": "54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg",
     "location": {
       "region": "Front Range",
@@ -7349,10 +6533,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Summits",
     "collectionId": "southern-rockies",
-    "elevation": {
-      "imperial": "14,259",
-      "metric": "4,346"
-    },
+    "elevation": 14259,
     "id": "80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
     "location": {
       "region": "Front Range",
@@ -7376,10 +6557,7 @@ const data = [
     "camera": "iPhone 12",
     "category": "Summits",
     "collectionId": "southern-rockies",
-    "elevation": {
-      "imperial": "14,147",
-      "metric": "4,312"
-    },
+    "elevation": 14147,
     "id": "fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
     "location": {
       "region": "Sawatch Range",
@@ -7403,10 +6581,7 @@ const data = [
     "camera": "iPhone 12",
     "category": "Summits",
     "collectionId": "southern-rockies",
-    "elevation": {
-      "imperial": "14,289",
-      "metric": "4,355"
-    },
+    "elevation": 14289,
     "id": "8e1e0c1f-c391-4bc0-807c-7bdd8d20815b.jpeg",
     "location": {
       "region": "Mosquito Range",
@@ -7430,10 +6605,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Summits",
     "collectionId": "southern-rockies",
-    "elevation": {
-      "imperial": "14,160",
-      "metric": "4,316"
-    },
+    "elevation": 14160,
     "id": "f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
     "location": {
       "region": "Sawatch Range",
@@ -7457,10 +6629,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Summits",
     "collectionId": "southern-rockies",
-    "elevation": {
-      "imperial": "14,367",
-      "metric": "4,379"
-    },
+    "elevation": 14367,
     "id": "b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg",
     "location": {
       "region": "Sawatch Range",
@@ -7484,10 +6653,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "5,652",
-      "metric": "1,723"
-    },
+    "elevation": 5652,
     "id": "135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
     "location": {
       "region": "Saint-Gervais-les-Bains",
@@ -7511,10 +6677,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "5,731",
-      "metric": "1,747"
-    },
+    "elevation": 5731,
     "id": "bcd0580f-84ef-482e-af8c-e72cbe1ffcd8.jpeg",
     "location": {
       "region": "Saint-Gervais-les-Bains",
@@ -7538,10 +6701,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "8,157",
-      "metric": "2,486"
-    },
+    "elevation": 8157,
     "id": "56d3cc07-47c1-40c8-b7ee-483aa01d777c.jpeg",
     "location": {
       "region": "Bourg-Saint-Maurice",
@@ -7565,10 +6725,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "8,013",
-      "metric": "2,442"
-    },
+    "elevation": 8013,
     "id": "5b103c9a-6c03-4f1d-bb80-e6c64cbd63ba.jpeg",
     "location": {
       "region": "Bourg-Saint-Maurice",
@@ -7592,10 +6749,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "9,021",
-      "metric": "2,749"
-    },
+    "elevation": 9021,
     "id": "0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
     "location": {
       "region": "Glacier des lanchettes",
@@ -7619,10 +6773,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "7,595",
-      "metric": "2,315"
-    },
+    "elevation": 7595,
     "id": "6391f8bb-b333-4951-a069-13bf188e132e.jpeg",
     "location": {
       "region": "Glacier des lanchettes",
@@ -7646,10 +6797,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "9,077",
-      "metric": "2,767"
-    },
+    "elevation": 9077,
     "id": "d3aaae8d-df89-48cb-aea9-9abc33f59d6b.jpeg",
     "location": {
       "region": "Glacier des lanchettes",
@@ -7673,10 +6821,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "8,231",
-      "metric": "2,509"
-    },
+    "elevation": 8231,
     "id": "e4cde1a9-8e66-42a7-ad86-24440c73a6ce.jpeg",
     "location": {
       "region": "Courmayeur",
@@ -7700,10 +6845,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "6,437",
-      "metric": "1,962"
-    },
+    "elevation": 6437,
     "id": "488a5815-e763-406d-94e1-5e51ff25cafe.jpeg",
     "location": {
       "region": "Courmayeur",
@@ -7727,10 +6869,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "6,689",
-      "metric": "2,039"
-    },
+    "elevation": 6689,
     "id": "9cefaedf-2e6b-439a-9512-f1f37d2374eb.jpeg",
     "location": {
       "region": "Courmayeur",
@@ -7754,10 +6893,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "6,317",
-      "metric": "1,925"
-    },
+    "elevation": 6317,
     "id": "548fba84-0027-4a6f-b6ec-9c418d2125b4.jpeg",
     "location": {
       "region": "Courmayeur",
@@ -7781,10 +6917,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "6,599",
-      "metric": "2,011"
-    },
+    "elevation": 6599,
     "id": "599ca28e-983c-4f49-8b19-fbed23c3fd1b.jpeg",
     "location": {
       "region": "La Fouly",
@@ -7808,10 +6941,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "8,322",
-      "metric": "2,536"
-    },
+    "elevation": 8322,
     "id": "891cd8a7-97d2-4251-ac34-6c816c0ec570.jpeg",
     "location": {
       "region": "La Fouly",
@@ -7835,10 +6965,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "4,580",
-      "metric": "1,396"
-    },
+    "elevation": 4580,
     "id": "8d209b3b-8d40-49b3-b754-fd91466c9708.jpeg",
     "location": {
       "region": "Champex-Lac",
@@ -7862,10 +6989,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "3,643",
-      "metric": "1,110"
-    },
+    "elevation": 3643,
     "id": "4144a837-c696-4feb-8add-f9a589eb2c5b.jpeg",
     "location": {
       "region": "Champex-Lac",
@@ -7889,10 +7013,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "5,157",
-      "metric": "1,572"
-    },
+    "elevation": 5157,
     "id": "cdbbcf4d-3dd2-44a6-9f2b-7e1f26f9202a.jpeg",
     "location": {
       "region": "Le Peuty",
@@ -7916,10 +7037,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "8,687",
-      "metric": "2,648"
-    },
+    "elevation": 8687,
     "id": "21248df2-d0b9-41d2-9662-b6215c24c298.jpeg",
     "location": {
       "region": "Le Peuty",
@@ -7943,10 +7061,7 @@ const data = [
     "camera": null,
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "7,247",
-      "metric": "2,209"
-    },
+    "elevation": 7247,
     "id": "ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
     "location": {
       "region": "Chamonix-Mont-Blanc",
@@ -7970,10 +7085,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "7,239",
-      "metric": "2,206"
-    },
+    "elevation": 7239,
     "id": "5aa2ad59-cda4-42e9-ba2c-9ee47c88a091.jpeg",
     "location": {
       "region": "Chamonix-Mont-Blanc",
@@ -7997,10 +7109,7 @@ const data = [
     "camera": "ILCE-6000",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "7,732",
-      "metric": "2,357"
-    },
+    "elevation": 7732,
     "id": "0ea4750a-307a-44be-a466-bb081d137d3c.jpeg",
     "location": {
       "region": "Chamonix-Mont-Blanc",
@@ -8024,10 +7133,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "6,237",
-      "metric": "1,901"
-    },
+    "elevation": 6237,
     "id": "7aeffd1f-1df9-4199-a744-2bb83f5d6ed0.jpeg",
     "location": {
       "region": "Chamonix-Mont-Blanc",
@@ -8051,10 +7157,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "8,224",
-      "metric": "2,507"
-    },
+    "elevation": 8224,
     "id": "3faeb9f8-d262-4c12-869f-4470b0dc0574.jpeg",
     "location": {
       "region": "Chamonix-Mont-Blanc",
@@ -8078,10 +7181,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
-    "elevation": {
-      "imperial": "6,244",
-      "metric": "1,903"
-    },
+    "elevation": 6244,
     "id": "8a0d6d12-a40d-47ba-9d09-6b8d5572bb32.jpeg",
     "location": {
       "region": "Chamonix",
@@ -8105,10 +7205,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "6,996",
-      "metric": "2,132"
-    },
+    "elevation": 6996,
     "id": "ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
     "location": {
       "region": "Saint-Gervais-les-Bains",
@@ -8132,10 +7229,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "5,429",
-      "metric": "1,655"
-    },
+    "elevation": 5429,
     "id": "be372999-42b4-404b-bd64-2cf56f843f25.jpeg",
     "location": {
       "region": "Saint-Gervais-les-Bains",
@@ -8159,10 +7253,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "8,191",
-      "metric": "2,496"
-    },
+    "elevation": 8191,
     "id": "10146a42-b18d-4318-bc5b-c32279532e4d.jpeg",
     "location": {
       "region": "Bourg-Saint-Maurice",
@@ -8186,10 +7277,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "7,652",
-      "metric": "2,332"
-    },
+    "elevation": 7652,
     "id": "04e91698-82d1-49be-b823-768e10dc3423.jpeg",
     "location": {
       "region": "Bourg-Saint-Maurice",
@@ -8213,10 +7301,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "8,966",
-      "metric": "2,733"
-    },
+    "elevation": 8966,
     "id": "be9a961c-fc7d-43dc-b466-29a359d1cd12.jpeg",
     "location": {
       "region": "Glacier des lanchettes",
@@ -8240,10 +7325,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "9,012",
-      "metric": "2,747"
-    },
+    "elevation": 9012,
     "id": "7a0ae762-e926-44fe-a2de-660484cca8fc.jpeg",
     "location": {
       "region": "Glacier des lanchettes",
@@ -8267,10 +7349,7 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "7,055",
-      "metric": "2,150"
-    },
+    "elevation": 7055,
     "id": "a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
     "location": {
       "region": "Glacier des lanchettes",
@@ -8294,10 +7373,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "8,176",
-      "metric": "2,492"
-    },
+    "elevation": 8176,
     "id": "9fc630d8-23a0-4ce1-9eb6-ea30088322eb.jpeg",
     "location": {
       "region": "Courmayeur",
@@ -8321,10 +7397,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "6,416",
-      "metric": "1,956"
-    },
+    "elevation": 6416,
     "id": "b2a56d4d-998f-41e4-a4e3-f1d8dc472a23.jpeg",
     "location": {
       "region": "Courmayeur",
@@ -8348,10 +7421,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "6,679",
-      "metric": "2,036"
-    },
+    "elevation": 6679,
     "id": "f1310350-3cb1-4f1b-b591-e08d0971f23b.jpeg",
     "location": {
       "region": "Courmayeur",
@@ -8375,10 +7445,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "6,653",
-      "metric": "2,028"
-    },
+    "elevation": 6653,
     "id": "5b46b0ae-1497-48bd-acd9-54ea4176d0dd.jpeg",
     "location": {
       "region": "Courmayeur",
@@ -8402,10 +7469,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "7,426",
-      "metric": "2,263"
-    },
+    "elevation": 7426,
     "id": "b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg",
     "location": {
       "region": "La Fouly",
@@ -8429,10 +7493,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "8,335",
-      "metric": "2,540"
-    },
+    "elevation": 8335,
     "id": "ea0d6edd-6de0-41a6-a0cf-0b79c2ab931a.jpeg",
     "location": {
       "region": "La Fouly",
@@ -8456,10 +7517,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "4,318",
-      "metric": "1,316"
-    },
+    "elevation": 4318,
     "id": "22400157-4853-4974-856b-86b1bc986ef9.jpeg",
     "location": {
       "region": "Champex-Lac",
@@ -8483,10 +7541,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "6,409",
-      "metric": "1,953"
-    },
+    "elevation": 6409,
     "id": "8305ad08-4815-4121-8ae9-610b25f3925c.jpeg",
     "location": {
       "region": "Le Peuty",
@@ -8510,10 +7565,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "6,469",
-      "metric": "1,972"
-    },
+    "elevation": 6469,
     "id": "6ce63fae-271d-4cdf-a0f6-c090e1c678b4.jpeg",
     "location": {
       "region": "Le Peuty",
@@ -8537,10 +7589,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "4,505",
-      "metric": "1,373"
-    },
+    "elevation": 4505,
     "id": "7169be39-157f-4158-a3c7-fa83503ce67b.jpeg",
     "location": {
       "region": "Chamonix-Mont-Blanc",
@@ -8564,10 +7613,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "7,277",
-      "metric": "2,218"
-    },
+    "elevation": 7277,
     "id": "91e2be29-62d0-4be0-a00a-9ebd9d9dc395.jpeg",
     "location": {
       "region": "Chamonix-Mont-Blanc",
@@ -8591,10 +7637,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "7,750",
-      "metric": "2,362"
-    },
+    "elevation": 7750,
     "id": "03898b5a-74c7-44ff-9784-9dcbfa40c366.jpeg",
     "location": {
       "region": "Chamonix-Mont-Blanc",
@@ -8618,10 +7661,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "6,183",
-      "metric": "1,884"
-    },
+    "elevation": 6183,
     "id": "e6194972-aa41-4e62-9f04-33386c522050.jpeg",
     "location": {
       "region": "Chamonix-Mont-Blanc",
@@ -8645,10 +7685,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "6,166",
-      "metric": "1,879"
-    },
+    "elevation": 6166,
     "id": "132e1a2f-699f-4174-8844-5164fecb3165.jpeg",
     "location": {
       "region": "Les Houches",
@@ -8672,10 +7709,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc-2024",
-    "elevation": {
-      "imperial": "6,136",
-      "metric": "1,870"
-    },
+    "elevation": 6136,
     "id": "827a4bf8-f967-442f-8453-f8f436907a78.jpeg",
     "location": {
       "region": "Les Houches",
@@ -8699,10 +7733,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "472",
-      "metric": "144"
-    },
+    "elevation": 472,
     "id": "75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg",
     "location": {
       "region": "Glasgow",
@@ -8726,10 +7757,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "223",
-      "metric": "68"
-    },
+    "elevation": 223,
     "id": "747eb0e7-6974-4ed6-b192-405ac0b2921e.jpeg",
     "location": {
       "region": "Glasgow",
@@ -8753,10 +7781,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "529",
-      "metric": "161"
-    },
+    "elevation": 529,
     "id": "c4762ec0-727f-475c-a781-1f2a155229ae.jpeg",
     "location": {
       "region": "Glasgow",
@@ -8780,10 +7805,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "1,172",
-      "metric": "357"
-    },
+    "elevation": 1172,
     "id": "4e6508e2-a253-4eec-b184-e00dc4c49137.jpeg",
     "location": {
       "region": "Glasgow",
@@ -8807,10 +7829,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "62",
-      "metric": "19"
-    },
+    "elevation": 62,
     "id": "19db3d7d-c471-4795-8f86-f9822eb9928d.jpeg",
     "location": {
       "region": "Glasgow",
@@ -8834,10 +7853,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "142",
-      "metric": "43"
-    },
+    "elevation": 142,
     "id": "e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg",
     "location": {
       "region": "Inverarnan",
@@ -8861,10 +7877,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "141",
-      "metric": "43"
-    },
+    "elevation": 141,
     "id": "4cbae836-e836-478f-8122-e3eb83942de8.jpeg",
     "location": {
       "region": "Inverarnan",
@@ -8888,10 +7901,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "441",
-      "metric": "134"
-    },
+    "elevation": 441,
     "id": "566b8b5b-0b61-41ae-9ea8-50a8a94c98af.jpeg",
     "location": {
       "region": "Glen Orchy",
@@ -8915,10 +7925,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "1,096",
-      "metric": "334"
-    },
+    "elevation": 1096,
     "id": "b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg",
     "location": {
       "region": "Glen Orchy",
@@ -8942,10 +7949,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "715",
-      "metric": "218"
-    },
+    "elevation": 715,
     "id": "20bc433d-7e8e-48b7-8b66-e9a2052b4e71.jpeg",
     "location": {
       "region": "Glen Orchy",
@@ -8969,10 +7973,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "538",
-      "metric": "164"
-    },
+    "elevation": 538,
     "id": "0875b9ee-128e-403b-83b7-a2b5718bbb33.jpeg",
     "location": {
       "region": "Lochaber",
@@ -8996,10 +7997,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "1,048",
-      "metric": "319"
-    },
+    "elevation": 1048,
     "id": "ff646f60-28e7-4f67-984c-c0f79d66ff17.jpeg",
     "location": {
       "region": "Lochaber",
@@ -9023,10 +8021,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "715",
-      "metric": "218"
-    },
+    "elevation": 715,
     "id": "df8e1220-01e4-40b2-81c9-e7254d9a5958.jpeg",
     "location": {
       "region": "Lochaber",
@@ -9050,10 +8045,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "1,102",
-      "metric": "336"
-    },
+    "elevation": 1102,
     "id": "7fc21efe-eaa8-4e65-bb54-bb9aa2fbfc21.jpeg",
     "location": {
       "region": "Lochaber",
@@ -9077,10 +8069,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "1,019",
-      "metric": "311"
-    },
+    "elevation": 1019,
     "id": "7b2f184a-0718-4ed2-8354-f8734f19660f.jpeg",
     "location": {
       "region": "Lochaber",
@@ -9104,10 +8093,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "1,808",
-      "metric": "551"
-    },
+    "elevation": 1808,
     "id": "191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
     "location": {
       "region": "Lochaber",
@@ -9131,10 +8117,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "819",
-      "metric": "250"
-    },
+    "elevation": 819,
     "id": "8487ff91-7ceb-455b-90cc-2802aabae33b.jpeg",
     "location": {
       "region": "Lochaber",
@@ -9158,10 +8141,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "1,809",
-      "metric": "551"
-    },
+    "elevation": 1809,
     "id": "12874d6b-f438-4744-8e8b-2456cf878a1a.jpeg",
     "location": {
       "region": "Corrour",
@@ -9185,10 +8165,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "1,055",
-      "metric": "322"
-    },
+    "elevation": 1055,
     "id": "07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg",
     "location": {
       "region": "Fort William",
@@ -9212,10 +8189,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "1,095",
-      "metric": "334"
-    },
+    "elevation": 1095,
     "id": "9f643782-1b01-4fb0-b3cc-eb476afb27fd.jpeg",
     "location": {
       "region": "Fort William",
@@ -9239,10 +8213,7 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "683",
-      "metric": "208"
-    },
+    "elevation": 683,
     "id": "edea9c01-5a15-4813-a87c-d74cd4e191f6.jpeg",
     "location": {
       "region": "Fort William",
@@ -9266,10 +8237,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "yellow-river-trail",
-    "elevation": {
-      "imperial": "723",
-      "metric": "220"
-    },
+    "elevation": 723,
     "id": "efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
     "location": {
       "region": "Iowa",
@@ -9295,10 +8263,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "yellow-river-trail",
-    "elevation": {
-      "imperial": "912",
-      "metric": "278"
-    },
+    "elevation": 912,
     "id": "92cfa8cd-806d-4241-b3a1-9da957e6472d.jpeg",
     "location": {
       "region": "Iowa",
@@ -9324,10 +8289,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "yellow-river-trail",
-    "elevation": {
-      "imperial": "967",
-      "metric": "295"
-    },
+    "elevation": 967,
     "id": "a97e4968-9219-4089-ae13-a1e28f44ae0b.jpeg",
     "location": {
       "region": "Iowa",
@@ -9351,10 +8313,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "yellow-river-trail",
-    "elevation": {
-      "imperial": "913",
-      "metric": "278"
-    },
+    "elevation": 913,
     "id": "7d3daf93-3463-4f44-909e-f0d7f609967a.jpeg",
     "location": {
       "region": "Iowa",
@@ -9378,10 +8337,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "yellow-river-trail",
-    "elevation": {
-      "imperial": "639",
-      "metric": "195"
-    },
+    "elevation": 639,
     "id": "7c266117-a4a2-4f6b-95f0-15a562d9a6be.jpeg",
     "location": {
       "region": "Iowa",
@@ -9407,10 +8363,7 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collectionId": "yellow-river-trail",
-    "elevation": {
-      "imperial": "839",
-      "metric": "256"
-    },
+    "elevation": 839,
     "id": "db8b9939-7fe0-43b3-b5ef-d0baea038ef1.jpeg",
     "location": {
       "region": "Iowa",

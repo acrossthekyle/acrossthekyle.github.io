@@ -18,6 +18,7 @@ export default function Back() {
 const styles = tw({
   link: `
     flex items-center gap-2
+    w-fit
     px-2
     text-tiny
     uppercase

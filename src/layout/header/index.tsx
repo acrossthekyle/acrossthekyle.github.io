@@ -42,11 +42,11 @@ export default function Header({ collections }: Props) {
         <span className={styles.version}>
           v0.1701.D
         </span>
-        <Menu
+        {/*<Menu
           collections={collections}
           isActive={isMenuActive}
           onToggle={handleMenuToggle}
-        />
+        />*/}
       </header>
       <div
         className={styles.backdrop(isMenuActive)}

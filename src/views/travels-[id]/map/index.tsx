@@ -1,9 +1,10 @@
 'use client';
 
 import dynamic from 'next/dynamic';
+import { useState } from 'react';
 
 import tw from '@/styles';
-import type { Collection } from '@/types';
+import type { Collection, Landmark } from '@/types';
 
 const Plugin = dynamic(() => import('./leaflet'), {
   ssr: false,
@@ -11,17 +12,50 @@ const Plugin = dynamic(() => import('./leaflet'), {
 
 type Props = {
   collection: Collection;
+  landmarks?: Landmark[];
 };
 
-export default function Map({ collection }: Props) {
+export default function Map({ collection, landmarks }: Props) {
+  const [canRenderLandmarks, setCanRenderLandmarks] = useState(false);
+
+  const handleLandmarks = () => {
+    setCanRenderLandmarks(previous => !previous);
+  };
+
   return (
     <section aria-label="map" className={styles.container}>
-      <Plugin collection={collection} />
-      <span className={styles.coordinates}>
-        {collection.coordinates}
-      </span>
-      <span className={styles.vertical} />
-      <span className={styles.horizontal} />
+      <Plugin
+        canRenderLandmarks={canRenderLandmarks}
+        collection={collection}
+        landmarks={landmarks}
+      />
+      {!canRenderLandmarks && (
+        <>
+          <span className={styles.coordinates}>
+            {collection.coordinates}
+          </span>
+          <span className={styles.vertical} />
+          <span className={styles.horizontal} />
+        </>
+      )}
+      <nav aria-label="supplementary navigation" className={styles.navigation}>
+        {landmarks && (
+          <button
+            className={styles.navigate(canRenderLandmarks)}
+            onClick={handleLandmarks}
+            type="button"
+          >
+            Landmarks
+          </button>
+        )}
+        {/*<button
+          className={styles.navigate}
+          onClick={() => {}}
+          type="button"
+        >
+          Trail
+        </button>*/}
+      </nav>
     </section>
   );
 }
@@ -48,7 +82,7 @@ const styles = tw({
     lg:order-2
   `,
   coordinates: `
-    absolute bottom-16 left-6 z-2
+    absolute bottom-6 right-6 z-2
     flex flex-col gap-0.5 items-start
     uppercase
     leading-[1]
@@ -60,6 +94,7 @@ const styles = tw({
 
     sm:text-xtiny
     sm:top-6
+    sm:left-6
     sm:bottom-auto
   `,
   vertical: `
@@ -80,4 +115,29 @@ const styles = tw({
     dark:bg-(--background)/50
     light:bg-(--foreground)/50
   `,
+  navigation: `
+    absolute bottom-6 left-6 z-2
+    flex gap-2
+  `,
+  navigate: (isActive: boolean) => tw(`
+    flex items-center gap-2
+    px-1.5 pb-1.5 pt-2
+    leading-[0.8]
+    text-tiny text-(--background) dark:text-(--foreground)
+    uppercase
+    tracking-wider
+    rounded-xs
+
+    motion-safe:duration-300
+
+    ${isActive
+      ? 'bg-(--foreground)/50 dark:bg-(--background)/50'
+      : 'bg-(--foreground) dark:bg-(--background)'
+    }
+
+    hover:bg-(--foreground)/50
+    dark:hover:bg-(--background)/50
+
+    sm:text-xtiny
+  `),
 });

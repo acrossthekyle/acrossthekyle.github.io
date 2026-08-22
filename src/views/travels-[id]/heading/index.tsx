@@ -2,7 +2,7 @@ import tw from '@/styles';
 import type { Collection } from '@/types';
 
 import Back from './back';
-import Latest from './latest';
+import Category from './category';
 
 type Props = {
   collection: Collection;
@@ -24,7 +24,7 @@ export default function Heading({ collection }: Props) {
       </h1>
       <nav aria-label="supplementary navigation" className={styles.navigation}>
         <Back />
-        <Latest collection={collection} />
+        <Category collection={collection} />
       </nav>
     </header>
   );
@@ -63,6 +63,7 @@ const styles = tw({
 
     sm:text-[min(4vw,1.75rem)]
     sm:leading-[0.8]
+    sm:pr-0
   `,
   lid: `
     block
@@ -73,7 +74,9 @@ const styles = tw({
     sm:text-xtiny
   `,
   navigation: `
-    flex gap-4
+    flex flex-col gap-4
     mt-6
+
+    sm:flex-row
   `,
 });

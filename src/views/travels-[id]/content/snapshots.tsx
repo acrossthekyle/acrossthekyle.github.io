@@ -19,11 +19,7 @@ export default function Snapshots({ images }: Props) {
   };
 
   return (
-    <article className={styles.container} id="snapshots">
-      <h2 className={styles.header}>
-        <span className={styles.index}>03</span>
-        Snapshots
-      </h2>
+    <article aria-label="snapshots" className={styles.container} id="snapshots">
       <ul className={styles.items(active !== null)}>
         {images.map((image, index) => (
           <Item

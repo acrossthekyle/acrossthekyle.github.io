@@ -12,7 +12,7 @@ const data = [
       "jungle from the finca sachavacayoc lodge",
       "in the tambopata national reserve"
     ],
-    "id": "puerto-maldonado",
+    "id": "finca-sachavacayoc",
     "location": {
       "region": "Tambopata Reserve, Amazon Jungle",
       "country": "Peru",
@@ -60,8 +60,9 @@ const data = [
       "continent": "South America"
     },
     "notes": [
-      "The Salkantay Trek was a short but memorable experience; rugged and beautifully remote. We even had the trail all to ourselves for the first three days before merging with the better-known, and more popular, Inca Trail heading towards Macchu Pichu. This was our first trek in two years and we made sure to take in all the sights and sounds, from the striking turquoise waters of Humantay Lake all the way up through the formidable, snow-capped heights of the Salkantay Pass.",
-      "The sheer variety of the scenery on this trek is absolutely mesmerizing. After conquering the high-altitude mountain passes we descended into farmland before starting up the Inca Trail through lush forests and vibrant, foggy, and misty Cusco rainforest conditions. We saw a bunch of Incan ruins along the way (which we practically had all to ourselves), with the most expansive of course being the infamous and crowded Lost City of the Incas. Staring out at Machu Picchu from the Sun Gate after days of challenging trekking made it an unforgettable experience."
+      "The Salkantay Trek was a short but memorable experience; rugged and beautifully remote. We even had the trail all to ourselves for the first three days before merging with the better-known, and more popular, Inca Trail heading towards Macchu Pichu.",
+      "This was our first trek in two years and we made sure to take in all the sights and sounds, from the striking turquoise waters of Humantay Lake all the way up through the heights of the Salkantay Pass.",
+      "After conquering the high-altitude mountain pass we descended into farmland before starting up the Inca Trail through lush forests and vibrant, foggy, and misty Cusco rainforest conditions. We had many opportunities to privately explore numerous Incan ruins along the way, culminating with a view of Macchu Pichu from the Sun Gate and a guided tour of its expansive and somewhat crowded ruins."
     ],
     "title": [
       "Salkantay",

@@ -6,11 +6,7 @@ type Props = {
 
 export default function Overview({ notes }: Props) {
   return (
-    <article className={styles.container} id="overview">
-      <h2 className={styles.header}>
-        <span className={styles.index}>01</span>
-        Overview
-      </h2>
+    <article aria-label="overview" className={styles.container} id="overview">
       {notes.map((note) => (
         <p className={styles.paragraph} key={note}>
           {note}

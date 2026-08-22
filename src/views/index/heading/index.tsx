@@ -13,16 +13,16 @@ export default function Heading({ collections }: Props) {
     <header className={styles.container}>
       <Location />
       <h1 className={styles.header}>
-        <span>INSPIRED</span>
-        <span>BACKPACKER</span>
-        <span>AND TRAVEL</span>
-        <span>ENTHUSIAST</span>
-        <span>LIVING A</span>
-        <span>CITY-BASED</span>
-        <span>LIFE IN CHICAGO</span>
-        <span>AS A DEVELOPER</span>
-        <span>CRAFTING DIGITAL</span>
-        <span>EXPERIENCES</span>
+        <span>Inspired</span>
+        <span>backpacker</span>
+        <span>and travel</span>
+        <span>enthusiast</span>
+        <span>living a</span>
+        <span>city-based</span>
+        <span>life in Chicago</span>
+        <span>as a developer</span>
+        <span>crafting digital</span>
+        <span>experiences</span>
       </h1>
       <Latest latest={collections[0]} />
     </header>
@@ -47,6 +47,7 @@ const styles = tw({
     text-[min(8vw,1.8rem)]
     leading-[1]
     font-black
+    uppercase
 
     sm:text-[min(4vw,1.75rem)]
     sm:leading-[0.8]

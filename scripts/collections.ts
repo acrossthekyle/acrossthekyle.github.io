@@ -9,10 +9,6 @@ import { reduceCoordinates, write } from './utils';
 
 const input = path.join(process.cwd(), './repository');
 
-function formatNumber(value) {
-  return new Intl.NumberFormat().format(Number(value).toFixed(0));
-};
-
 function uppercaseFirst(value) {
   return String(value).charAt(0).toUpperCase() + String(value).slice(1);
 };
@@ -89,18 +85,24 @@ export async function go() {
 
   const collections = [];
   const images = [];
+  const timelines = [];
+  const landmarks = [];
 
   const files = fs.readdirSync(input).filter((file) => {
     const fullPath = path.join(input, file);
 
-    return fs.statSync(fullPath).isFile() && file !== '.DS_Store';
+    return (
+      fs.statSync(fullPath).isFile() &&
+      file.endsWith('.json') &&
+      file !== '.DS_Store'
+    );
   });
 
   for (const file of files) {
     const data = JSON.parse(fs.readFileSync(`${input}/${file}`, 'utf8'));
 
     if (data.images.length > 0) {
-      const photos = JSON.parse(fs.readFileSync(`${input}/meta/${file.replace('.json', '.photos.json')}`, 'utf8'));
+      const photos = JSON.parse(fs.readFileSync(`${input}/images/${file}`, 'utf8'));
 
       const when = getWhen(data.date);
       const year = data.date[0].split('/')[2];
@@ -136,10 +138,7 @@ export async function go() {
             camera: foundImage.exif?.camera || null,
             category: uppercaseFirst(data.category),
             collectionId: data.id,
-            elevation: {
-              imperial: formatNumber(elevation),
-              metric: formatNumber(elevation / 3.281),
-            },
+            elevation,
             id: foundImage.id.split('/').pop(),
             location,
             notes: notes ? (Array.isArray(notes) ? notes : [notes]) : [],
@@ -150,6 +149,32 @@ export async function go() {
           });
         }
       });
+    }
+
+    if (fs.existsSync(`${input}/timelines/${file}`)) {
+      try {
+        const timeline = JSON.parse(fs.readFileSync(`${input}/timelines/${file}`, 'utf8'));
+
+        timelines.push({
+          collectionId: data.id,
+          ...timeline,
+        });
+      } catch {
+        // do nothing
+      }
+    }
+
+    if (fs.existsSync(`${input}/landmarks/${file}`)) {
+      try {
+        const items = JSON.parse(fs.readFileSync(`${input}/landmarks/${file}`, 'utf8'));
+
+        landmarks.push({
+          collectionId: data.id,
+          items,
+        });
+      } catch {
+        // do nothing
+      }
     }
   }
 
@@ -167,5 +192,13 @@ export async function go() {
       'images.js',
       images.sort((a, b) => new Date(a.when) - new Date(b.when)),
     );
+  }
+
+  if (timelines.length) {
+    write('timelines.js', timelines);
+  }
+
+  if (landmarks.length) {
+    write('landmarks.js', landmarks);
   }
 }

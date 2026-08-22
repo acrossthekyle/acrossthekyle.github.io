@@ -1,14 +1,16 @@
-import type { Stat } from '@/types';
-
 type Props = {
   isSmall?: boolean;
-  value: Stat;
+  value: number;
+};
+
+function formatNumber(value) {
+  return new Intl.NumberFormat().format(Number(value).toFixed(0));
 };
 
 export default function Length({ isSmall, value }: Props) {
   return (
     <>
-      {value['imperial']} {isSmall ? 'ft' : 'miles'}
+      {formatNumber(value)} {isSmall ? 'ft' : 'miles'}
     </>
   );
 }

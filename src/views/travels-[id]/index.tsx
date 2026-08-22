@@ -1,6 +1,6 @@
 import { Header } from '@/layout';
 import tw from '@/styles';
-import type { Collection, Image } from '@/types';
+import type { Collection, Image, Landmark, Timeline } from '@/types';
 
 import Content from './content';
 import Heading from './heading';
@@ -11,6 +11,8 @@ type Props = {
     collection: Collection;
     collections: Collection[];
     images: Image[];
+    landmarks?: Landmark[];
+    timeline?: Timeline[];
   };
 };
 
@@ -23,10 +25,13 @@ export default function View({ data }: Props) {
           <Heading collection={data.collection} />
           <Content
             collection={data.collection}
-            collections={data.collections}
             images={data.images}
+            timeline={data.timeline}
           />
-          <Map collection={data.collection} />
+          <Map
+            collection={data.collection}
+            landmarks={data.landmarks}
+          />
         </article>
       </main>
     </>

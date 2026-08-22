@@ -1,3 +1,4 @@
+import { MoveRight } from 'lucide-react';
 import Link from 'next/link';
 
 import tw from '@/styles';
@@ -40,6 +41,7 @@ export default function Travels({ collections }: Props) {
                         {collection.location.country}
                       </span>
                     </span>
+                    <MoveRight className={styles.icon} />
                   </Link>
                 </li>
               ))}
@@ -94,6 +96,7 @@ const styles = tw({
     w-full
   `,
   link: `
+    group
     relative
     flex flex-col gap-1
     text-base
@@ -126,5 +129,17 @@ const styles = tw({
   `,
   emphasis: `
     font-serif italic
+  `,
+  icon: `
+    absolute top-0 right-0.5
+    w-3 h-3
+    stroke-1
+    opacity-50
+
+    motion-safe:duration-300
+
+    lg:opacity-0
+
+    group-hover:opacity-100
   `,
 });
