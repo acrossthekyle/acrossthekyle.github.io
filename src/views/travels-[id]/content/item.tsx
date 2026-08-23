@@ -7,6 +7,8 @@ import { Ui } from '@/ui';
 type Props = {
   image: Image;
   index: number;
+  isExpanded: boolean;
+  onClick: (index: number) => void;
 };
 
 const STYLES = [

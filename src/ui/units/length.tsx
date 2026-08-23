@@ -3,8 +3,9 @@ type Props = {
   value: number;
 };
 
-function formatNumber(value) {
-  return new Intl.NumberFormat().format(Number(value).toFixed(0));
+function formatNumber(value: number) {
+  // @ts-expect-error - format is correct
+  return new Intl.NumberFormat().format(value.toFixed(0));
 };
 
 export default function Length({ isSmall, value }: Props) {

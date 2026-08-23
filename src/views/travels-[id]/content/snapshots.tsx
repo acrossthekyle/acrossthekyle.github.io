@@ -20,7 +20,7 @@ export default function Snapshots({ images }: Props) {
 
   return (
     <article aria-label="snapshots" className={styles.container} id="snapshots">
-      <ul className={styles.items(active !== null)}>
+      <ul className={styles.items}>
         {images.map((image, index) => (
           <Item
             image={image}
@@ -55,7 +55,7 @@ const styles = tw({
     font-normal
     text-tiny text-current/50
   `,
-  items: (hasActive: boolean) => tw(`
+  items: `
     relative
-  `),
+  `,
 });

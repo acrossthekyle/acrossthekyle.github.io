@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic';
 import { useState } from 'react';
 
 import tw from '@/styles';
-import type { Collection, Landmark } from '@/types';
+import type { Collection, Landmark as LandmarkType } from '@/types';
 
 const Plugin = dynamic(() => import('./leaflet'), {
   ssr: false,
@@ -12,7 +12,7 @@ const Plugin = dynamic(() => import('./leaflet'), {
 
 type Props = {
   collection: Collection;
-  landmarks?: Landmark[];
+  landmarks?: LandmarkType[];
 };
 
 export default function Map({ collection, landmarks }: Props) {

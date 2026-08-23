@@ -1,9 +1,9 @@
 import tw from '@/styles';
-import type { Timeline } from '@/types';
+import type { Timeline as TimelineType } from '@/types';
 import { Ui } from '@/ui';
 
 type Props = {
-  timeline?: Timeline[];
+  timeline?: TimelineType[];
 };
 
 export default function Timeline({ timeline }: Props) {
@@ -46,91 +46,6 @@ export default function Timeline({ timeline }: Props) {
             </p>
           </li>
         ))}
-        {/*<li className={styles.group}>
-          <h3 className={styles.label}>Start</h3>
-          <p className={styles.content}>
-            <span className={styles.title}>
-              Ch'allakancha
-            </span>
-            <span className={styles.data}>12,231 ft</span>
-          </p>
-        </li>
-        <li className={styles.group}>
-          <h3 className={styles.label}>Day 1</h3>
-          <p className={styles.content}>
-            <span className={styles.title}>
-              Ch'allakancha &mdash; Soraypampa
-            </span>
-            <span className={styles.data}>
-              3.1 miles / 3.5 hours / 2,345 ft gained
-            </span>
-          </p>
-        </li>
-        <li className={styles.group}>
-          <h3 className={styles.label}>Side trek</h3>
-          <p className={styles.content}>
-            <span className={styles.title}>
-              Humantay Lake
-            </span>
-            <span className={styles.data}>
-              14,231 ft summit / 2.4 miles / 1.5 hours / 1,154 ft gained
-            </span>
-          </p>
-        </li>
-        <li className={styles.group}>
-          <h3 className={styles.label}>Stage</h3>
-          <p className={styles.content}>
-            <span className={styles.title}>
-              Soraypampa &mdash; Paucarcancha
-            </span>
-            <span className={styles.data}>14.5 miles &mdash; 8 hours</span>
-          </p>
-        </li>
-        <li className={styles.group}>
-          <h3 className={styles.label}>Landmark</h3>
-          <p className={styles.content}>
-            <span className={styles.title}>
-              Salkantay Pass
-            </span>
-            <span className={styles.data}>15,931 ft</span>
-          </p>
-        </li>
-        <li className={styles.group}>
-          <h3 className={styles.label}>Stage</h3>
-          <p className={styles.content}>
-            <span className={styles.title}>
-              Soraypampa &mdash; Paucarcancha
-            </span>
-            <span className={styles.data}>14.5 miles &mdash; 8 hours</span>
-          </p>
-        </li>
-        <li className={styles.group}>
-          <h3 className={styles.label}>Stage</h3>
-          <p className={styles.content}>
-            <span className={styles.title}>
-              Soraypampa &mdash; Paucarcancha
-            </span>
-            <span className={styles.data}>14.5 miles &mdash; 8 hours</span>
-          </p>
-        </li>
-        <li className={styles.group}>
-          <h3 className={styles.label}>Stage</h3>
-          <p className={styles.content}>
-            <span className={styles.title}>
-              Soraypampa &mdash; Paucarcancha
-            </span>
-            <span className={styles.data}>14.5 miles &mdash; 8 hours</span>
-          </p>
-        </li>
-        <li className={styles.group}>
-          <h3 className={styles.label}>End</h3>
-          <p className={styles.content}>
-            <span className={styles.title}>
-              Macchu Pichu
-            </span>
-            <span className={styles.data}>7,837 ft</span>
-          </p>
-        </li>*/}
       </ul>
     </article>
   );

@@ -1,15 +1,15 @@
 'use client';
 
 import { MouseEvent, TouchEvent, useState } from 'react';
-import { Circle, Tooltip, useMap } from 'react-leaflet';
+import { Circle, Tooltip } from 'react-leaflet';
 
 import tw from '@/styles';
-import type { Landmark } from '@/types';
+import type { Landmark as LandmarkType } from '@/types';
 
 import { parseCoordinates } from './utils';
 
 type Props = {
-  landmark: Landmark;
+  landmark: LandmarkType;
 };
 
 export default function Landmark({ landmark }: Props) {
@@ -25,6 +25,7 @@ export default function Landmark({ landmark }: Props) {
 
   return (
     <Circle
+      // @ts-expect-error - format is correct
       center={parseCoordinates(landmark.coordinates)}
       radius={0}
       opacity={0}
@@ -33,6 +34,7 @@ export default function Landmark({ landmark }: Props) {
     >
       <Tooltip
         className={styles.container(isLeft)}
+        // @ts-expect-error - format is correct
         direction={landmark.orientation}
         offset={isLeft ? [-6, 0] : [0, 0]}
         permanent

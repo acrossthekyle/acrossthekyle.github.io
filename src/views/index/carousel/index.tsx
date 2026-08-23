@@ -1,6 +1,5 @@
 'use client';
 
-import { Pause, Play } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { useSwipeable } from 'react-swipeable';
 

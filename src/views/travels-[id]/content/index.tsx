@@ -1,5 +1,5 @@
 import tw from '@/styles';
-import type { Collection, Image, Timeline } from '@/types';
+import type { Collection, Image, Timeline as TimelineType } from '@/types';
 
 import Overview from './overview';
 import Timeline from './timeline';
@@ -8,7 +8,7 @@ import Snapshots from './snapshots';
 type Props = {
   collection: Collection;
   images: Image[];
-  timeline?: Timeline[];
+  timeline?: TimelineType[];
 };
 
 export default function Content({
@@ -20,7 +20,7 @@ export default function Content({
     <section aria-label="content" className={styles.container}>
       <Overview notes={collection.notes} />
       <Timeline timeline={timeline} />
-      <Snapshots collection={collection.id} images={images} />
+      <Snapshots images={images} />
     </section>
   );
 };

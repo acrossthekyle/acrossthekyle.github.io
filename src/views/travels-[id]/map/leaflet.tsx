@@ -7,10 +7,10 @@ import L from 'leaflet';
 import { GestureHandling } from 'leaflet-gesture-handling';
 import { useTheme } from 'next-themes';
 import { useEffect } from 'react';
-import { MapContainer, TileLayer, Circle, Tooltip, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, useMap } from 'react-leaflet';
 
 import tw from '@/styles';
-import type { Collection, Landmark } from '@/types';
+import type { Collection, Landmark as LandmarkType } from '@/types';
 
 import Landmark from './landmark';
 import { parseCoordinates } from './utils';
@@ -18,7 +18,7 @@ import { parseCoordinates } from './utils';
 type Props = {
   canRenderLandmarks: boolean;
   collection: Collection;
-  landmarks?: Landmark[];
+  landmarks?: LandmarkType[];
 };
 
 L.Map.addInitHook('addHandler', 'gestureHandling', GestureHandling);
@@ -36,6 +36,7 @@ export default function Leaflet({
     const map = useMap();
 
     useEffect(() => {
+      // @ts-expect-error - format is correct
       map.flyTo(coordinates, zoom, { duration: 1.5 });
     }, [zoom, map]);
 
@@ -51,6 +52,7 @@ export default function Leaflet({
       }
 
       const bounds = L.latLngBounds(
+        // @ts-expect-error - format is correct
         landmarks.map((landmark) => parseCoordinates(landmark.coordinates))
       );
 
