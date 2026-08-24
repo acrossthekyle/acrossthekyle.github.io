@@ -37,10 +37,10 @@ export default function Timeline({ timeline }: Props) {
                   <> / {point.data.time} hours</>
                 )}
                 {point.data.gain && (
-                  <> / <Ui.Units.Length isSmall value={point.data.gain} /> up</>
+                  <> / up <Ui.Units.Length isSmall value={point.data.gain} /></>
                 )}
                 {point.data.loss && (
-                  <> / <Ui.Units.Length isSmall value={point.data.loss} /> down</>
+                  <> / down <Ui.Units.Length isSmall value={point.data.loss} /></>
                 )}
               </span>
             </p>

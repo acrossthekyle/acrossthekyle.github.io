@@ -63,7 +63,7 @@ export async function go() {
 
         console.log(`--# generating thumb for image ${image.id} #--`);
 
-        imageThumb = await getThumb(image.id);
+        imageThumb = await getThumb(image.src);
       } else {
         imageThumb = image.thumb;
       }

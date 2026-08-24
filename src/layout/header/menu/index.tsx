@@ -1,19 +1,19 @@
 import FocusLock, { AutoFocusInside } from 'react-focus-lock';
 
 import tw from '@/styles';
-import type { Collection } from '@/types';
+import type { Travel } from '@/types';
 
 import Header from './header';
 import Search from './search';
 import Trigger from './trigger';
 
 type Props = {
-  collections: Collection[];
+  travels: Travel[];
   isActive: boolean;
   onToggle: () => void;
 };
 
-export default function Menu({ collections, isActive, onToggle }: Props) {
+export default function Menu({ travels, isActive, onToggle }: Props) {
   return (
     <FocusLock disabled={!isActive}>
       <AutoFocusInside>
@@ -22,7 +22,7 @@ export default function Menu({ collections, isActive, onToggle }: Props) {
       <div className={styles.container(isActive)}>
         <Header onClick={onToggle} />
         <Search
-          collections={collections}
+          travels={travels}
           isActive={isActive}
           onClick={onToggle}
         />

@@ -1,19 +1,19 @@
 import tw from '@/styles';
-import type { Collection } from '@/types';
+import type { Travel } from '@/types';
 
 import About from './about';
 import Connect from './connect';
 import Travels from './travels';
 
 type Props = {
-  collections: Collection[];
+  travels: Travel[];
 };
 
-export default function Content({ collections }: Props) {
+export default function Content({ travels }: Props) {
   return (
     <section aria-label="content" className={styles.container}>
       <About />
-      <Travels collections={collections} />
+      <Travels travels={travels} />
       <Connect />
     </section>
   );

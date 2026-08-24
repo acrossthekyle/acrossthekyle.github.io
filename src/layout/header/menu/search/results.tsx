@@ -4,13 +4,13 @@ import Link from 'next/link';
 import { RefObject } from 'react';
 
 import tw from '@/styles';
-import type { Collection } from '@/types';
+import type { Travel } from '@/types';
 
 type Props = {
   isExpanded: boolean;
   onClick: () => void;
   ref: RefObject<HTMLUListElement | null>;
-  results: Collection[];
+  results: Travel[];
 };
 
 export default function Results({ isExpanded, onClick, ref, results }: Props) {
@@ -30,7 +30,7 @@ export default function Results({ isExpanded, onClick, ref, results }: Props) {
                 onClick={onClick}
               >
                 <span className={styles.title}>
-                  {item.title.join(' ')}
+                  {item.title}
                   <span
                     aria-label={`undertaken in ${item.year}`}
                     className={styles.year}
@@ -40,10 +40,10 @@ export default function Results({ isExpanded, onClick, ref, results }: Props) {
                 </span>
                 <span className={styles.tag}>{item.category}</span>
                 <span className={styles.location}>
-                  <span>{item.location.region}</span>
+                  <span>{item.region}</span>
                   <span aria-hidden="true">&mdash;</span>
                   <span className={styles.emphasis}>
-                    {item.location.country}
+                    {item.country}
                   </span>
                 </span>
               </Link>

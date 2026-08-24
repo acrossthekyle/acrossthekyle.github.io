@@ -1,61 +1,37 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import { useState } from 'react';
 
 import tw from '@/styles';
-import type { Collection, Landmark as LandmarkType } from '@/types';
+import type { Data, Landmark as LandmarkType, Trail } from '@/types';
 
 const Plugin = dynamic(() => import('./leaflet'), {
   ssr: false,
 });
 
 type Props = {
-  collection: Collection;
   landmarks?: LandmarkType[];
+  trail?: Trail[];
+  travel: Data;
 };
 
-export default function Map({ collection, landmarks }: Props) {
-  const [canRenderLandmarks, setCanRenderLandmarks] = useState(false);
-
-  const handleLandmarks = () => {
-    setCanRenderLandmarks(previous => !previous);
-  };
-
+export default function Map({ landmarks, trail, travel }: Props) {
   return (
     <section aria-label="map" className={styles.container}>
       <Plugin
-        canRenderLandmarks={canRenderLandmarks}
-        collection={collection}
+        center={travel.coordinates}
         landmarks={landmarks}
+        trail={trail}
       />
-      {!canRenderLandmarks && (
+      {!landmarks && !trail && (
         <>
           <span className={styles.coordinates}>
-            {collection.coordinates}
+            {travel.coordinates}
           </span>
           <span className={styles.vertical} />
           <span className={styles.horizontal} />
         </>
       )}
-      <nav aria-label="supplementary navigation" className={styles.navigation}>
-        {landmarks && (
-          <button
-            className={styles.navigate(canRenderLandmarks)}
-            onClick={handleLandmarks}
-            type="button"
-          >
-            Landmarks
-          </button>
-        )}
-        {/*<button
-          className={styles.navigate}
-          onClick={() => {}}
-          type="button"
-        >
-          Trail
-        </button>*/}
-      </nav>
     </section>
   );
 }
@@ -115,29 +91,4 @@ const styles = tw({
     dark:bg-(--background)/50
     light:bg-(--foreground)/50
   `,
-  navigation: `
-    absolute bottom-6 left-6 z-2
-    flex gap-2
-  `,
-  navigate: (isActive: boolean) => tw(`
-    flex items-center gap-2
-    px-1.5 pb-1.5 pt-2
-    leading-[0.8]
-    text-tiny text-(--background) dark:text-(--foreground)
-    uppercase
-    tracking-wider
-    rounded-xs
-
-    motion-safe:duration-300
-
-    ${isActive
-      ? 'bg-(--foreground)/50 dark:bg-(--background)/50'
-      : 'bg-(--foreground) dark:bg-(--background)'
-    }
-
-    hover:bg-(--foreground)/50
-    dark:hover:bg-(--background)/50
-
-    sm:text-xtiny
-  `),
 });

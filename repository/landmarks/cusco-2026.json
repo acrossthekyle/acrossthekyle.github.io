@@ -1,0 +1,44 @@
+[
+  {
+    "coordinates": "13.5300° S, 72.0216° W",
+    "label": "HQ",
+    "title": "City of Cusco",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "13.3961° S, 72.0613° W",
+    "label": "Tour",
+    "title": "Chincherro",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "13.3036° S, 72.1567° W",
+    "label": "Tour",
+    "title": "Maras Salt Mines",
+    "orientation": "right"
+  },
+  {
+    "coordinates": "13.3298° S, 72.1997° W",
+    "label": "Ruins",
+    "title": "Moray",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "13.2536° S, 72.2723° W",
+    "label": "Ruins",
+    "title": "Ollantaytambo",
+    "orientation": "right"
+  },
+  {
+    "coordinates": "13.4159° S, 71.8466° W",
+    "label": "Ruins",
+    "title": "Pisac",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "13.5098° S, 71.9842° W",
+    "label": "Ruins",
+    "title": "Sacsayhuaman",
+    "orientation": "right"
+  }
+]

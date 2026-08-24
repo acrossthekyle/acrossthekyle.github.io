@@ -1,19 +1,19 @@
 import { Header } from '@/layout';
 import tw from '@/styles';
-import type { Collection } from '@/types';
+import type { Travel } from '@/types';
 
 import Back from './back';
 
 type Props = {
   data: {
-    collections: Collection[];
+    travels: Travel[];
   };
 };
 
 export default function View({ data }: Props) {
   return (
     <>
-      <Header collections={data.collections} />
+      <Header travels={data.travels} />
       <main className={styles.container}>
         <h1 className={styles.header}>
           <span className={styles.eyebrow}>

@@ -7,7 +7,7 @@ import path from 'path';
 
 import { image } from '../src/utils';
 
-const output = path.join(process.cwd(), './src/cache');
+export const OUTPUT = path.join(process.cwd(), './src/cache');
 
 export async function createDirectory(destination) {
   try {
@@ -34,7 +34,7 @@ export async function writeFile(destination, filename, content, silent = false) 
 export async function write(destination, data, outputOverride = undefined) {
   const json = `const data = ${JSON.stringify(data, null, 2)};\n\r\n\rexport default data;`;
 
-  await writeFile(outputOverride ?? output, destination, json);
+  await writeFile(outputOverride ?? OUTPUT, destination, json);
 };
 
 export function reduceCoordinates(value: string | null, to = 4) {

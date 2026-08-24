@@ -45,10 +45,10 @@ export default function Item({ image, index, isExpanded, onClick }: Props) {
         {isExpanded && (
           <span className={styles.caption}>
             <span className={styles.eyebrow}>
-              {image.when.long[0]}
+              {image.when}
             </span>
             <span className={styles.title}>
-              {image.title || image.location.region}
+              {image.title}
             </span>
             <span className={styles.lid}>
               <Ui.Units.Length isSmall value={image.elevation} />

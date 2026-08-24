@@ -1,30 +1,30 @@
 import tw from '@/styles';
-import type { Collection } from '@/types';
+import type { Data } from '@/types';
 
 import Back from './back';
 import Category from './category';
 
 type Props = {
-  collection: Collection;
+  travel: Data;
 };
 
-export default function Heading({ collection }: Props) {
+export default function Heading({ travel }: Props) {
   return (
     <header className={styles.container}>
       <h1 className={styles.header}>
         <span className={styles.eyebrow}>
-          {collection.location.region} &mdash; {collection.location.country}
+          {travel.region} &mdash; {travel.country}
         </span>
         <span className={styles.title}>
-          {collection.header.join(' ')}
+          {travel.header}
         </span>
         <span className={styles.lid}>
-          {collection.when.long[0]} to {collection.when.long[1]}
+          {travel.when}
         </span>
       </h1>
       <nav aria-label="supplementary navigation" className={styles.navigation}>
         <Back />
-        <Category collection={collection} />
+        <Category travel={travel} />
       </nav>
     </header>
   );

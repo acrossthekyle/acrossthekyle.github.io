@@ -4,18 +4,18 @@ import Fuse from 'fuse.js';
 import { KeyboardEvent, useEffect, useMemo, useRef, useState } from 'react';
 
 import tw from '@/styles';
-import type { Collection } from '@/types';
+import type { Travel } from '@/types';
 
 import Input from './input';
 import Results from './results';
 
 type Props = {
-  collections: Collection[];
+  travels: Travel[];
   isActive: boolean;
   onClick: () => void;
 };
 
-export default function Search({ collections, isActive, onClick }: Props) {
+export default function Search({ travels, isActive, onClick }: Props) {
   const [isExpanded, setIsExpanded] = useState(false);
   const [query, setQuery] = useState('');
   const [isOverflowing, setIsOverflowing] = useState(false);
@@ -24,20 +24,20 @@ export default function Search({ collections, isActive, onClick }: Props) {
   const listRef = useRef<HTMLUListElement>(null);
 
   const fuse = useMemo(() => {
-    return new Fuse(collections, {
-      keys: ['title'],
+    return new Fuse(travels, {
+      keys: ['title', 'region', 'country', 'when'],
       threshold: 0.3,
       ignoreLocation: true,
     });
-  }, [collections]);
+  }, [travels]);
 
   const results = useMemo(() => {
     if (!query.trim()) {
-      return collections;
+      return travels;
     }
 
     return fuse.search(query.trim()).map(result => result.item);
-  }, [collections, query, fuse]);
+  }, [travels, query, fuse]);
 
   useEffect(() => {
     if (!isActive) {

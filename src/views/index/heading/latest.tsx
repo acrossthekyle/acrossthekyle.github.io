@@ -2,10 +2,10 @@ import { MoveRight } from 'lucide-react';
 import Link from 'next/link';
 
 import tw from '@/styles';
-import type { Collection } from '@/types';
+import type { Travel } from '@/types';
 
 type Props = {
-  latest: Collection;
+  latest: Travel;
 };
 
 export default function Latest({ latest }: Props) {
@@ -15,7 +15,7 @@ export default function Latest({ latest }: Props) {
       href={`/travels/${latest.id}`}
     >
       <span className={styles.prefix}>Latest:</span>
-      <span>{latest.title.join(' ')}</span>
+      <span>{latest.title}</span>
       <MoveRight className={styles.icon} />
     </Link>
   );

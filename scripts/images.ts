@@ -18,44 +18,41 @@ export async function go() {
   });
 
   for (const file of files) {
-    const data = JSON.parse(fs.readFileSync(`${input}/${file}`, 'utf8'));
+    console.log(`### processing ${file}`);
 
-    let images = [];
+    if (!fs.existsSync(`${input}/images/${file}`)) {
+      console.log(`!!! wrote images/${file}`);
 
-    if (fs.existsSync(`${input}/images/${file}`)) {
-      images = JSON.parse(fs.readFileSync(`${input}/images/${file}`, 'utf8'));
+      writeFile(`${input}/images`, file, JSON.stringify([], null, 2));
+
+      await wait(100);
     }
 
-    if (data.images.length > 0) {
-      console.log(`--# processing ${data.title.join(' ')} #--`);
+    const collection = JSON.parse(fs.readFileSync(`${input}/${file}`, 'utf8'));
+    const existing = JSON.parse(fs.readFileSync(`${input}/images/${file}`, 'utf8'));
 
-      const updated = [...images];
+    const retainable = [];
 
-      const existingCover = images.find((photo) => photo.type === 'cover');
+    for (const image of existing) {
+      const found = collection.images.find((item) => item.id === image.id);
 
-      if (!existingCover) {
-        updated.push({
-          type: 'cover',
-          id: imagePath(data.cover, data.uploads),
+      if (found) {
+        retainable.push(image);
+      }
+    }
+
+    for (const image of collection.images) {
+      if (!retainable.find((item) => item.id === image.id)) {
+        console.log('!!! new image found: ', image.id);
+        retainable.push({
+          id: image.id,
+          src: imagePath(image.id, collection.uploads),
         });
       }
-
-      const existing = images.filter((photo) => photo.type === 'image');
-
-      for (const image of data.images) {
-        const found = existing.find((item) => item.id === image.id);
-
-        if (!found) {
-          updated.push({
-            type: 'image',
-            id: imagePath(image.id, data.uploads),
-          });
-        }
-      }
-
-      writeFile(`${input}/images`, `${file}`, JSON.stringify(updated, null, 2));
     }
-  }
 
-  await wait(500);
+    writeFile(`${input}/images`, file, JSON.stringify(retainable, null, 2));
+
+    await wait(200);
+  }
 }

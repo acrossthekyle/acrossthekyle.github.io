@@ -2,14 +2,14 @@ import { MoveRight } from 'lucide-react';
 import Link from 'next/link';
 
 import tw from '@/styles';
-import type { Collection } from '@/types';
+import type { Travel } from '@/types';
 
 type Props = {
-  collections: Collection[];
+  travels: Travel[];
 };
 
-export default function Travels({ collections }: Props) {
-  const sorted = [...collections].sort((a, b) => Number(b.year) - Number(a.year));
+export default function Travels({ travels }: Props) {
+  const sorted = [...travels].sort((a, b) => Number(b.year) - Number(a.year));
   const grouped = Map.groupBy(sorted, item => item.year);
   const items = Array.from(grouped.entries());
 
@@ -23,22 +23,22 @@ export default function Travels({ collections }: Props) {
         {items.map((item) => (
           <li className={styles.group} key={item[0]}>
             <h3 className={styles.year}>{item[0]}</h3>
-            <ul className={styles.collections}>
-              {item[1].map((collection) => (
-                <li key={collection.id}>
+            <ul className={styles.travels}>
+              {item[1].map((travel) => (
+                <li key={travel.id}>
                   <Link
                     className={styles.link}
-                    href={`/travels/${collection.id}`}
+                    href={`/travels/${travel.id}`}
                   >
                     <span className={styles.title}>
-                      {collection.title.join(' ')}
+                      {travel.title}
                     </span>
-                    <span className={styles.tag}>{collection.category}</span>
+                    <span className={styles.tag}>{travel.category}</span>
                     <span className={styles.location}>
-                      <span>{collection.location.region}</span>
+                      <span>{travel.region}</span>
                       &mdash;
                       <span className={styles.emphasis}>
-                        {collection.location.country}
+                        {travel.country}
                       </span>
                     </span>
                     <MoveRight className={styles.icon} />
@@ -91,7 +91,7 @@ const styles = tw({
     sm:pb-10.5
     sm:pt-0
   `,
-  collections: `
+  travels: `
     flex flex-col gap-4
     w-full
   `,

@@ -1,6 +1,6 @@
 import { Header } from '@/layout';
 import tw from '@/styles';
-import type { Collection, Image, Landmark, Timeline } from '@/types';
+import type { Data, Image, Landmark, Timeline, Trail, Travel } from '@/types';
 
 import Content from './content';
 import Heading from './heading';
@@ -8,29 +8,31 @@ import Map from './map';
 
 type Props = {
   data: {
-    collection: Collection;
-    collections: Collection[];
     images: Image[];
     landmarks?: Landmark[];
     timeline?: Timeline[];
+    trail?: Trail[];
+    travel: Data;
+    travels: Travel[];
   };
 };
 
 export default function View({ data }: Props) {
   return (
     <>
-      <Header collections={data.collections} />
+      <Header travels={data.travels} />
       <main>
         <article className={styles.container}>
-          <Heading collection={data.collection} />
+          <Heading travel={data.travel} />
           <Content
-            collection={data.collection}
             images={data.images}
             timeline={data.timeline}
+            travel={data.travel}
           />
           <Map
-            collection={data.collection}
             landmarks={data.landmarks}
+            trail={data.trail}
+            travel={data.travel}
           />
         </article>
       </main>

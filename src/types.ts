@@ -1,24 +1,14 @@
-export type Location = {
-  region: string;
-  country: string;
-  continent: string;
-};
+export type Trail = Array<{
+  coordinates: number[];
+  elevation: number;
+}>;
 
 export type Image = {
-  camera: string | null;
-  category: string;
-  collectionId: string;
   elevation: number;
-  id: string;
-  location: Location;
-  notes: string[];
   src: string;
   thumb: string;
   title: string;
-  when: {
-    long: string[];
-    short: string[];
-  };
+  when: string;
 };
 
 export type Timeline = {
@@ -41,24 +31,22 @@ export type Landmark = {
   orientation: string;
 };
 
-export type Cover = {
-  src: string;
-  thumb: string;
+type Base = {
+  category: string;
+  country: string;
+  region: string;
+  title: string;
 };
 
-export type Collection = {
-  category: string;
-  coordinates: string;
-  count: number;
-  cover: Cover;
-  header: string[];
+export type Travel = Base & {
   id: string;
-  location: Location;
-  notes: string[];
-  title: string[];
-  when: {
-    long: string[];
-    short: string[];
-  };
   year: string;
+};
+
+export type Data = Base & {
+  coordinates: string;
+  cover: string;
+  header: string;
+  notes: string[];
+  when: string;
 };

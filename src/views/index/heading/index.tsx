@@ -1,14 +1,14 @@
 import tw from '@/styles';
-import type { Collection } from '@/types';
+import type { Travel } from '@/types';
 
 import Latest from './latest';
 import Location from './location';
 
 type Props = {
-  collections: Collection[];
+  travels: Travel[];
 };
 
-export default function Heading({ collections }: Props) {
+export default function Heading({ travels }: Props) {
   return (
     <header className={styles.container}>
       <Location />
@@ -24,7 +24,7 @@ export default function Heading({ collections }: Props) {
         <span>crafting digital</span>
         <span>experiences</span>
       </h1>
-      <Latest latest={collections[0]} />
+      <Latest latest={travels[0]} />
     </header>
   );
 };

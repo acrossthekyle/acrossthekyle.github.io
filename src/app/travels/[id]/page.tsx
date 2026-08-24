@@ -46,7 +46,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${data.collection.title.join(' ')} ⌁ Travels`,
+    title: `${data.travel.title} ⌁ Travels`,
     description: ``,
     robots,
   };

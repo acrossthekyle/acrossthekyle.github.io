@@ -1,6 +1,6 @@
 import { Header } from '@/layout';
 import tw from '@/styles';
-import type { Collection } from '@/types';
+import type { Travel } from '@/types';
 
 import Carousel from './carousel';
 import Content from './content';
@@ -9,18 +9,18 @@ import Reset from './reset';
 
 type Props = {
   data: {
-    collections: Collection[];
+    travels: Travel[];
   };
 };
 
 export default function View({ data }: Props) {
   return (
     <>
-      <Header collections={data.collections} />
+      <Header travels={data.travels} />
       <main>
         <article className={styles.container}>
-          <Heading collections={data.collections} />
-          <Content collections={data.collections} />
+          <Heading travels={data.travels} />
+          <Content travels={data.travels} />
           <Carousel />
           <Reset />
         </article>

@@ -46,7 +46,9 @@ export default function Landmark({ landmark }: Props) {
           >
             <span className={styles.content(isLeft)}>
               <span className={styles.label}>{landmark.label}</span>
-              <span className={styles.title(isActive)}>: {landmark.title}</span>
+              {!!landmark.title && (
+                <span className={styles.title(isActive)}>: {landmark.title}</span>
+              )}
             </span>
           </div>
         </div>
@@ -71,7 +73,6 @@ const styles = tw({
     w-[500px]
     h-0
     !pointer-events-auto
-    cursor-pointer
     ${isLeft ? 'right-0 justify-end' : 'left-0 justify-start'}
   `),
   inner: `
@@ -80,13 +81,12 @@ const styles = tw({
   content: (isLeft: boolean) => tw(`
     relative
     inline-flex flex-row justify-center
-    ${isLeft ? 'items-start' : 'items-end'}
+    ${isLeft ? 'items-center' : 'items-center'}
     h-5 w-fit
-    pt-1.5 pb-1.5
-    ${isLeft ? 'pr-3 pl-1.5' : 'pl-3 pr-1.5'}
+    px-2
     text-xtiny text-(--background) dark:text-(--foreground)
     font-mono
-    leading-none
+    leading-[0.8]
     tracking-widest
     ${isLeft ? 'rounded-l-sm' : 'rounded-r-sm'}
     bg-(--foreground) dark:bg-(--background)
@@ -120,6 +120,7 @@ const styles = tw({
   title: (isActive: boolean) => tw(`
     relative z-2
     whitespace-nowrap
+    leading-[1]
     overflow-hidden
 
     motion-safe:duration-300

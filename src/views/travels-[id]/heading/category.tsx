@@ -2,20 +2,20 @@ import { MoveRight } from 'lucide-react';
 import Link from 'next/link';
 
 import tw from '@/styles';
-import type { Collection } from '@/types';
+import type { Data } from '@/types';
 
 type Props = {
-  collection: Collection;
+  travel: Data;
 };
 
-export default function Category({ collection }: Props) {
+export default function Category({ travel }: Props) {
   return (
     <Link
       className={styles.link}
-      href={`/travels/tag/${collection.category.toLowerCase()}`}
+      href={`/travels/tag/${travel.category.toLowerCase()}`}
     >
       <span className={styles.prefix}>Category:</span>
-      <span>{collection.category}</span>
+      <span>{travel.category}</span>
       <MoveRight className={styles.icon} />
     </Link>
   );

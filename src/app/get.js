@@ -1,5 +1,7 @@
-import collections from '@/cache/collections';
+import travels from '@/cache/travels';
 
 export async function get() {
-  return collections;
+  return {
+    travels,
+  };
 };

@@ -7,56 +7,69 @@ import L from 'leaflet';
 import { GestureHandling } from 'leaflet-gesture-handling';
 import { useTheme } from 'next-themes';
 import { useEffect } from 'react';
-import { MapContainer, TileLayer, useMap } from 'react-leaflet';
+import {
+  MapContainer,
+  Polyline,
+  TileLayer,
+  useMap,
+} from 'react-leaflet';
 
 import tw from '@/styles';
-import type { Collection, Landmark as LandmarkType } from '@/types';
+import type { Landmark as LandmarkType, Trail } from '@/types';
 
 import Landmark from './landmark';
 import { parseCoordinates } from './utils';
 
 type Props = {
-  canRenderLandmarks: boolean;
-  collection: Collection;
+  center: string;
   landmarks?: LandmarkType[];
+  trail?: Trail[];
 };
 
 L.Map.addInitHook('addHandler', 'gestureHandling', GestureHandling);
 
 export default function Leaflet({
-  canRenderLandmarks,
-  collection,
+  center,
   landmarks,
+  trail,
 }: Props) {
   const { resolvedTheme } = useTheme();
 
-  const coordinates = parseCoordinates(collection.coordinates);
+  const hasLandmarks = (landmarks || []).length > 0;
+  const hasTrail = (trail || []).length > 0;
 
-  function ZoomToCollection({ zoom }: { zoom: number }) {
+  const location = parseCoordinates(center);
+
+  const coordinates = (trail || []).map(chunk => {
+    return chunk.map(segment => segment.coordinates);
+  });
+
+  function Fit() {
     const map = useMap();
 
     useEffect(() => {
-      // @ts-expect-error - format is correct
-      map.flyTo(coordinates, zoom, { duration: 1.5 });
-    }, [zoom, map]);
+      if (hasTrail) {
+        // @ts-expect-error - format is correct
+        const bounds = L.latLngBounds(coordinates);
 
-    return null;
-  };
+        map.fitBounds(bounds, { animate: false });
 
-  function FitLandmarks() {
-    const map = useMap();
-
-    useEffect(() => {
-      if (!canRenderLandmarks || !landmarks || landmarks.length === 0) {
         return;
       }
 
-      const bounds = L.latLngBounds(
-        // @ts-expect-error - format is correct
-        landmarks.map((landmark) => parseCoordinates(landmark.coordinates))
-      );
+      if (hasLandmarks) {
+        const bounds = L.latLngBounds(
+          // @ts-expect-error - format is correct
+          landmarks.map((landmark) => parseCoordinates(landmark.coordinates))
+        );
 
-      map.flyToBounds(bounds, { duration: 1.5 });
+        map.fitBounds(bounds, { padding: [12, 12], animate: false });
+
+        return;
+      }
+
+      // @ts-expect-error - format is correct
+      map.flyTo(location, 4, { duration: 1.5 });
     }, [map]);
 
     return null;
@@ -65,13 +78,13 @@ export default function Leaflet({
   return (
     <MapContainer
       // @ts-expect-error - format is correct
-      center={coordinates}
+      center={location}
       className={styles.container}
       gestureHandling={false}
       scrollWheelZoom={false}
       maxBounds={[[-90, -180], [90, 180]]}
       maxBoundsViscosity={1.0}
-      minZoom={2}
+      minZoom={4}
       zoom={2}
       zoomControl={false}
       dragging={false}
@@ -86,14 +99,18 @@ export default function Leaflet({
         noWrap={true}
         url={`https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png`}
       />
-      {canRenderLandmarks && (landmarks || []).map((landmark) => (
+      {hasLandmarks && (landmarks || []).map((landmark) => (
         <Landmark key={landmark.coordinates} landmark={landmark} />
       ))}
-      {canRenderLandmarks && (landmarks || []).length > 0 ? (
-        <FitLandmarks />
-      ) : (
-        <ZoomToCollection zoom={4} />
-      )}
+      {hasTrail && (trail || []).map((chunk, index) => (
+        <Polyline
+          className={styles.route}
+          key={index}
+          // @ts-expect-error - format is correct
+          positions={chunk.map(segment => segment.coordinates)}
+        />
+      ))}
+      <Fit />
     </MapContainer>
   );
 };
@@ -108,5 +125,9 @@ const styles = tw({
     dark:brightness-85
 
     sm:mask-none
+  `,
+  route: `
+    !pointer-events-none
+    stroke-(--foreground) dark:stroke-(--background)
   `,
 });

@@ -48,6 +48,18 @@ body {
     border: 0 !important;
   }
 
+  .leaflet-control {
+    margin: 0 !important;
+    padding: 0.8rem;
+  }
+
+  .leaflet-control-zoom-in,
+  .leaflet-control-zoom-out {
+    background: transparent !important;
+    border: 0 !important;
+    color: #10100e !important;
+  }
+
   .leaflet-control-attribution {
     visibility: hidden;
   }

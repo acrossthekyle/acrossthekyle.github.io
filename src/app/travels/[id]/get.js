@@ -1,20 +1,37 @@
-import collections from '@/cache/collections';
-import images from '@/cache/images';
-import landmarks from '@/cache/landmarks';
-import timelines from '@/cache/timelines';
+import travels from '@/cache/travels';
 
 export async function get(id) {
-  const index = collections.findIndex(item => item.id.toLowerCase() === id);
+  const data = await import(`../../../cache/travels/${id}/data.js`);
+  const images = await import(`../../../cache/travels/${id}/images.js`);
 
-  if (index < 0) {
-    return null;
+  let landmarks = undefined;
+  let timeline = undefined;
+  let trail = undefined;
+
+  try {
+    landmarks = await import(`../../../cache/travels/${id}/landmarks.js`);
+  } catch {
+    // do nothing
+  }
+
+  try {
+    timeline = await import(`../../../cache/travels/${id}/timeline.js`);
+  } catch {
+    // do nothing
+  }
+
+  try {
+    trail = await import(`../../../cache/travels/${id}/trail.js`);
+  } catch {
+    // do nothing
   }
 
   return {
-    collection: collections[index],
-    collections,
-    images: images.filter((image) => image.collectionId.toLowerCase() === id),
-    landmarks: landmarks.find((landmark) => landmark.collectionId.toLowerCase() === id)?.items,
-    timeline: timelines.find((timeline) => timeline.collectionId.toLowerCase() === id)?.items,
+    images: images.default || images,
+    landmarks: landmarks?.default || landmarks,
+    timeline: timeline?.default || timeline,
+    trail: trail?.default || trail,
+    travel: data.default || data,
+    travels,
   };
 };

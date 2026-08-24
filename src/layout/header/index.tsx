@@ -4,15 +4,15 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 import tw from '@/styles';
-import type { Collection } from '@/types';
+import type { Travel } from '@/types';
 
 import Menu from './menu';
 
 type Props = {
-  collections: Collection[];
+  travels: Travel[];
 };
 
-export default function Header({ collections }: Props) {
+export default function Header({ travels }: Props) {
   const [isMenuActive, setIsMenuActive] = useState(false);
 
   useEffect(() => {
@@ -43,7 +43,7 @@ export default function Header({ collections }: Props) {
           v0.1701.D
         </span>
         <Menu
-          collections={collections}
+          travels={travels}
           isActive={isMenuActive}
           onToggle={handleMenuToggle}
         />

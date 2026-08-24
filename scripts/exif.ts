@@ -64,7 +64,7 @@ export async function go() {
 
         console.log(`--# getting exif for ${image.id} #--`);
 
-        const response = await getExif(image.id);
+        const response = await getExif(image.src);
 
         if (response !== null) {
           const aperture = response.exif?.exif?.ApertureValue;
