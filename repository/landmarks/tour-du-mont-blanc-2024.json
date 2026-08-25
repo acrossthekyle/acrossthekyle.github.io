@@ -1,0 +1,86 @@
+[
+  {
+    "coordinates": "45.8903° N, 6.7929° E",
+    "label": "Terminus",
+    "title": "Les Houches",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "45.8362° N, 6.7469° E",
+    "label": "Refuge",
+    "title": "Auberge le Truc",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "45.7408° N, 6.7037° E",
+    "label": "Refuge",
+    "title": "Croix du Bonhomme",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "45.7502° N, 6.7660° E",
+    "label": "Refuge",
+    "title": "Robert Blanc",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "45.7900° N, 6.9142° E",
+    "label": "Refuge",
+    "title": "Maison Veille",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "45.8468° N, 7.0310° E",
+    "label": "Refuge",
+    "title": "Walter Bonatti",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "45.9330° N, 7.0972° E",
+    "label": "Refuge",
+    "title": "Edelweiss",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "46.0355° N, 7.0965° E",
+    "label": "Refuge",
+    "title": "Bon Abri",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "46.0555° N, 6.9792° E",
+    "label": "Scenic",
+    "title": "Alpage de Bovine",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "46.0581° N, 6.9966° E",
+    "label": "Refuge",
+    "title": "La Forclaz",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "45.9949° N, 6.9244° E",
+    "label": "Refuge",
+    "title": "La Boerne",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "45.9826° N, 6.8863° E",
+    "label": "Lake",
+    "title": "Lac Blanc",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "45.9599° N, 6.8848° E",
+    "label": "Refuge",
+    "title": "La Flegere",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "45.9339° N, 6.8314° E",
+    "label": "Summit",
+    "title": "La Brevant",
+    "orientation": "left"
+  }
+]

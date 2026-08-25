@@ -1,0 +1,68 @@
+{
+  "title": "Itinerary",
+  "items": [
+    {
+      "label": "Arrival",
+      "title": "Puerto Maldonado",
+      "data": {
+        "elevation": 600
+      }
+    },
+    {
+      "label": "Day 1",
+      "title": "River Boat Ride to Lodge",
+      "data": {
+        "time": 3.5
+      }
+    },
+    {
+      "label": "Activity",
+      "title": "Jungle Night Walk",
+      "data": {
+        "time": 1
+      }
+    },
+    {
+      "label": "Day 2",
+      "title": "Exploring the River"
+    },
+    {
+      "label": "Activity",
+      "title": "Sunrise Macaw/Parrot Bird Watching",
+      "data": {
+        "time": 3,
+        "elevation": 590
+      }
+    },
+    {
+      "label": "Activity",
+      "title": "Searching for River Otters",
+      "data": {
+        "time": 2,
+        "elevation": 601
+      }
+    },
+    {
+      "label": "Day 3",
+      "title": "Anacondas and Canopy Tower Sunset"
+    },
+    {
+      "label": "Activity",
+      "title": "Hunting for Anacondas",
+      "data": {
+        "time": 2
+      }
+    },
+    {
+      "label": "Activity",
+      "title": "Sunset views from Canopy Tower",
+      "data": {
+        "elevation": 650
+      }
+    },
+    {
+      "label": "Departure",
+      "title": "Heading home"
+    }
+  ]
+}
