@@ -1,0 +1,64 @@
+const data = [
+  {
+    "label": "Day 1",
+    "title": "Milngavie to Drymen",
+    "data": {
+      "distance": 10.8,
+      "gain": 671,
+      "loss": 723,
+      "time": 4
+    }
+  },
+  {
+    "label": "Day 2",
+    "title": "Drymen to Sallochy",
+    "data": {
+      "distance": 13.2,
+      "gain": 2121,
+      "loss": 2199,
+      "time": 5.2
+    }
+  },
+  {
+    "label": "Day 3",
+    "title": "Sallochy to Bienglas Farm",
+    "data": {
+      "distance": 17.4,
+      "gain": 2926,
+      "loss": 2880,
+      "time": 7.6
+    }
+  },
+  {
+    "label": "Day 4",
+    "title": "Bienglas Farm to Bridge of Orchy",
+    "data": {
+      "distance": 19.3,
+      "gain": 2775,
+      "loss": 2298,
+      "time": 7.1
+    }
+  },
+  {
+    "label": "Day 5",
+    "title": "Bridge of Orchy to Kinlochleven",
+    "data": {
+      "distance": 21.3,
+      "gain": 3335,
+      "loss": 3826,
+      "time": 7.5
+    }
+  },
+  {
+    "label": "Day 6",
+    "title": "Kinlochleven to Fort William",
+    "data": {
+      "distance": 15.9,
+      "gain": 2514,
+      "loss": 2505,
+      "time": 5.7
+    }
+  }
+];
+
+export default data;

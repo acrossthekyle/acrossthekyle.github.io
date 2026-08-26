@@ -41,11 +41,18 @@ export default function Landmark({ landmark }: Props) {
       >
         <div className={styles.outer(isLeft)}>
           <div
-            className={styles.inner}
+            className={styles.inner(!!landmark.title)}
             onClick={handleClick}
           >
-            <span className={styles.content(isLeft)}>
-              <span className={styles.label}>{landmark.label}</span>
+            <span
+              className={styles.content(isLeft, !!landmark.title, isActive)}
+            >
+              <span className={styles.label}>
+                {landmark.label}
+                {!!landmark.title && (
+                  <span className={styles.ellipsis(isActive)}>...</span>
+                )}
+              </span>
               {!!landmark.title && (
                 <span className={styles.title(isActive)}>: {landmark.title}</span>
               )}
@@ -75,15 +82,29 @@ const styles = tw({
     !pointer-events-auto
     ${isLeft ? 'right-0 justify-end' : 'left-0 justify-start'}
   `),
-  inner: `
-    !bg-transparent !border-none !shadow-none !p-0 !absolute !overflow-visible !pointer-events-auto
-  `,
-  content: (isLeft: boolean) => tw(`
+  inner: (hasMore: boolean) => tw(`
+    !bg-transparent
+    !border-none
+    !shadow-none
+    !p-0
+    !absolute
+    !overflow-visible
+    !pointer-events-auto
+
+    ${hasMore && 'cursor-pointer'}
+  `),
+  content: (isLeft: boolean, hasMore: boolean, isActive: boolean) => tw(`
     relative
     inline-flex flex-row justify-center
     ${isLeft ? 'items-center' : 'items-center'}
     h-5 w-fit
-    px-2
+    ${isLeft ? 'pl-2' : 'pl-3'}
+    ${!isActive && isLeft && hasMore && `pr-7`}
+    ${!isActive && isLeft && !hasMore && `pr-3`}
+    ${!isActive && !isLeft && hasMore && `pr-6`}
+    ${!isActive && !isLeft && !hasMore && `pr-2`}
+    ${isActive && isLeft && hasMore && `pr-3`}
+    ${isActive && !isLeft && hasMore && `pr-2`}
     text-xtiny text-(--background) dark:text-(--foreground)
     font-mono
     leading-[0.8]
@@ -91,6 +112,9 @@ const styles = tw({
     ${isLeft ? 'rounded-l-sm' : 'rounded-r-sm'}
     bg-(--foreground) dark:bg-(--background)
     uppercase
+
+    ${hasMore && isLeft && 'group-hover:pr-3'}
+    ${hasMore && !isLeft && 'group-hover:pr-2'}
 
     before:absolute
     ${isLeft ? 'before:-right-1.75' : 'before:-left-1.75'}
@@ -117,13 +141,17 @@ const styles = tw({
   label: `
     relative z-2
   `,
+  ellipsis: (isActive: boolean) => tw(`
+    ${isActive ? 'hidden' : 'inline'}
+    absolute
+
+    group-hover:hidden
+  `),
   title: (isActive: boolean) => tw(`
     relative z-2
     whitespace-nowrap
     leading-[1]
     overflow-hidden
-
-    motion-safe:duration-300
 
     ${isActive ? 'max-w-76 opacity-100' : 'max-w-0 opacity-0'}
 

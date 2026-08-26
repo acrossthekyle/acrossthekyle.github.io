@@ -1,3 +1,5 @@
+import { ArrowDown, ArrowUp, MoveRight } from 'lucide-react';
+
 import tw from '@/styles';
 import type { Timeline as TimelineType } from '@/types';
 import { Ui } from '@/ui';
@@ -18,30 +20,73 @@ export default function Timeline({ timeline }: Props) {
       id="timeline"
     >
       <ul>
-        {timeline.map((point) => (
-          <li className={styles.group} key={point.title}>
+        {timeline.map((point, index) => (
+          <li className={styles.group} key={index}>
             <h3 className={styles.label}>{point.label}</h3>
             <p className={styles.content}>
-              <span className={styles.title}>{point.title}</span>
+              <span className={styles.title}>
+                {point.title.includes(' to ') ? (
+                  <>
+                    {point.title.split(' to ')[0]}
+                    <MoveRight aria-label="to" className={styles.icon} />
+                    {point.title.split(' to ')[1]}
+                  </>
+                ) : (
+                  <>{point.title}</>
+                )}
+              </span>
               <span className={styles.data}>
-                {point.data.elevation && (
-                  <Ui.Units.Length isSmall value={point.data.elevation} />
+                {point.data?.elevation && (
+                  <span className={styles.elevation}>
+                    <Ui.Units.Length isSmall value={point.data.elevation} />
+                  </span>
                 )}
-                {point.data.summit && (
-                  <span><Ui.Units.Length isSmall value={point.data.summit} /> summit / </span>
-                )}
-                {point.data.distance && (
-                  <Ui.Units.Length value={point.data.distance} />
-                )}
-                {point.data.time && (
-                  <> / {point.data.time} hours</>
-                )}
-                {point.data.gain && (
-                  <> / up <Ui.Units.Length isSmall value={point.data.gain} /></>
-                )}
-                {point.data.loss && (
-                  <> / down <Ui.Units.Length isSmall value={point.data.loss} /></>
-                )}
+                <span className={styles.stats}>
+                  {(point.data?.distance || point.data?.time) && (
+                    <span className={styles.velocity}>
+                      {point.data?.distance && (
+                        <span className={styles.stat}>
+                          <Ui.Units.Length value={point.data.distance} />
+                        </span>
+                      )}
+                      {point.data?.time && (
+                        <span className={styles.stat}>
+                          {point.data.time} hrs
+                        </span>
+                      )}
+                    </span>
+                  )}
+                  {(point.data?.gain || point.data?.loss) && (
+                    <span className={styles.change}>
+                      {point.data?.gain && (
+                        <span className={styles.change}>
+                          <ArrowUp
+                            aria-hidden="true"
+                            className={styles.icon}
+                          />
+                          <Ui.Units.Length
+                            isCompact
+                            isSmall
+                            value={point.data.gain}
+                          />
+                        </span>
+                      )}
+                      {point.data?.loss && (
+                        <span className={styles.change}>
+                          <ArrowDown
+                            aria-hidden="true"
+                            className={styles.icon}
+                          />
+                          <Ui.Units.Length
+                            isCompact
+                            isSmall
+                            value={point.data.loss}
+                          />
+                        </span>
+                      )}
+                    </span>
+                  )}
+                </span>
               </span>
             </p>
           </li>
@@ -97,12 +142,37 @@ const styles = tw({
     lg:text-xs
   `,
   title: `
+    flex flex-wrap items-center gap-2
     font-black
+    leading-[0.8]
+  `,
+  icon: `
+    w-2.5 h-2.5
   `,
   data: `
+    flex flex-col gap-1
+    mt-1
     text-xs
     font-mono
 
     sm:text-tiny
+  `,
+  elevation: `
+    font-sans
+    text-xs
+
+    sm:text-tiny
+  `,
+  change: `
+    shrink-0
+    flex items-center gap-1
+    lowercase
+  `,
+  velocity: `
+    shrink-0
+    flex items-center gap-3
+  `,
+  stats: `
+    flex gap-3
   `,
 });

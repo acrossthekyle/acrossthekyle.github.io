@@ -1,0 +1,32 @@
+[
+  {
+    "coordinates": "28.4016° N, 83.7002° E",
+    "label": "Start",
+    "title": "Ghorepani",
+    "orientation": "right"
+  },
+  {
+    "coordinates": "28.4167° N, 83.8182° E",
+    "label": "Village",
+    "title": "Chomrong",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "28.4904° N, 83.8923° E",
+    "label": "Village",
+    "title": "Deurali",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "28.5314° N, 83.8772° E",
+    "label": "Summit",
+    "title": "Basecamp",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "28.5599° N, 83.7599° E",
+    "label": "Peak",
+    "title": "Annapurna I",
+    "orientation": "left"
+  }
+]

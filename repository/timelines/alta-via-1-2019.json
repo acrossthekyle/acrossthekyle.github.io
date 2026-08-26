@@ -1,0 +1,105 @@
+{
+  "title": "Trail",
+  "items": [
+    {
+      "label": "Day 1",
+      "title": "Braies to Biella",
+      "data": {
+        "distance": 5.4,
+        "gain": 4304,
+        "loss": 1564,
+        "time": 5
+      }
+    },
+    {
+      "label": "Day 2",
+      "title": "Biella to Lavarella",
+      "data": {
+        "distance": 8.2,
+        "gain": 2022,
+        "loss": 2951,
+        "time": 5.5
+      }
+    },
+    {
+      "label": "Day 3",
+      "title": "Lavarella to Scotoni",
+      "data": {
+        "distance": 6.3,
+        "gain": 1856,
+        "loss": 2014,
+        "time": 5
+      }
+    },
+    {
+      "label": "Day 4",
+      "title": "Scotoni to Averau",
+      "data": {
+        "distance": 9.7,
+        "gain": 4694,
+        "loss": 3336,
+        "time": 7.7
+      }
+    },
+    {
+      "label": "Day 5",
+      "title": "Averau to Citta de Fume",
+      "data": {
+        "distance": 0.1,
+        "gain": 1599,
+        "loss": 3205,
+        "time": 6.7
+      }
+    },
+    {
+      "label": "Day 6",
+      "title": "Citta de Fume to Tissi",
+      "data": {
+        "distance": 8.4,
+        "gain": 3124,
+        "loss": 2031,
+        "time": 7.7
+      }
+    },
+    {
+      "label": "Day 7",
+      "title": "Tissi to Carestiato",
+      "data": {
+        "distance": 9,
+        "gain": 2532,
+        "loss": 3969,
+        "time": 6
+      }
+    },
+    {
+      "label": "Day 8",
+      "title": "Carestiato to Pramperet",
+      "data": {
+        "distance": 8.2,
+        "gain": 2020,
+        "loss": 1955,
+        "time": 5.7
+      }
+    },
+    {
+      "label": "Day 9",
+      "title": "Pramperet to Pian de Fontana",
+      "data": {
+        "distance": 3.8,
+        "gain": 1768,
+        "loss": 2470,
+        "time": 4
+      }
+    },
+    {
+      "label": "Day 10",
+      "title": "Pian de Fontana to La Pissa",
+      "data": {
+        "distance": 6.8,
+        "gain": 1190,
+        "loss": 5095,
+        "time": 5
+      }
+    }
+  ]
+}

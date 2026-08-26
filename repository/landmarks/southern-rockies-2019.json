@@ -1,0 +1,56 @@
+[
+  {
+    "coordinates": "39.1178° N, 106.4841° W",
+    "label": "Mount Elbert",
+    "title": "",
+    "orientation": "right"
+  },
+  {
+    "coordinates": "39.3972° N, 106.1167° W",
+    "label": "Quandary Peak",
+    "title": "",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "39.0294° N, 106.4833° W",
+    "label": "La Plata Peak",
+    "title": "",
+    "orientation": "right"
+  },
+  {
+    "coordinates": "39.5827° N, 105.6789° W",
+    "label": "Mount Bierstadt",
+    "title": "",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "39.6336° N, 105.8274° W",
+    "label": "Grays Peak",
+    "title": "",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "38.6188° N, 106.2760° W",
+    "label": "Mount Shavano",
+    "title": "",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "39.3293° N, 106.1323° W",
+    "label": "Mount Decalibron",
+    "title": "",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "38.9605° N, 106.3714° W",
+    "label": "Mount Belford",
+    "title": "",
+    "orientation": "right"
+  },
+  {
+    "coordinates": "39.1872° N, 106.4856° W",
+    "label": "Mount Massive",
+    "title": "",
+    "orientation": "right"
+  }
+]

@@ -1,4 +1,4 @@
-[
+const data = [
   {
     "coordinates": "45.8903° N, 6.7929° E",
     "label": "Terminus",
@@ -41,4 +41,6 @@
     "title": "La Brevant",
     "orientation": "left"
   }
-]
+];
+
+export default data;

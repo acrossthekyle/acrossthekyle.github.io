@@ -1,0 +1,118 @@
+const data = [
+  {
+    "label": "Day 1",
+    "title": "Les Houches to Auberge le Truc",
+    "data": {
+      "distance": 9.2,
+      "gain": 4669,
+      "time": 7.5
+    }
+  },
+  {
+    "label": "Day 2",
+    "title": "Auberge le Truc to Refuge de la Croix du Bonhomme",
+    "data": {
+      "distance": 10.5,
+      "gain": 4395,
+      "time": 7
+    }
+  },
+  {
+    "label": "Day 3",
+    "title": "Refuge de la Croix du Bonhomme to Refuge Robert Blanc",
+    "data": {
+      "distance": 7.8,
+      "gain": 3916,
+      "loss": 2900,
+      "time": 7.75
+    }
+  },
+  {
+    "label": "Day 4",
+    "title": "Refuge Robert Blanc to Mason Vielle",
+    "data": {
+      "distance": 11.1,
+      "gain": 2303,
+      "loss": 4922,
+      "time": 7.25
+    }
+  },
+  {
+    "label": "Day 5",
+    "title": "Mason Vielle to Refugio Walter Bonatti",
+    "data": {
+      "distance": 10.4,
+      "gain": 3523,
+      "loss": 3308,
+      "time": 7.2
+    }
+  },
+  {
+    "label": "Day 6",
+    "title": "Refugio Walter Bonatti to Maya Joie",
+    "data": {
+      "distance": 11.9,
+      "gain": 2907,
+      "loss": 4225,
+      "time": 7.25
+    }
+  },
+  {
+    "label": "Day 7",
+    "title": "Maya Joie to Gite Bon Abri",
+    "data": {
+      "distance": 10.2,
+      "loss": 2226,
+      "time": 6.75
+    }
+  },
+  {
+    "label": "Day 8",
+    "title": "Gite Bon Abri to Le Peuty",
+    "data": {
+      "distance": 8.8,
+      "gain": 4044,
+      "loss": 4415,
+      "time": 8.3
+    }
+  },
+  {
+    "label": "Day 9",
+    "title": "Le Peuty to Auberge le Boerne",
+    "data": {
+      "distance": 8.8,
+      "gain": 3723,
+      "loss": 3316,
+      "time": 7.2
+    }
+  },
+  {
+    "label": "Day 10",
+    "title": "Auberge le Boerne to Refuge la Flegere",
+    "data": {
+      "distance": 5.1,
+      "gain": 3136,
+      "time": 6.2
+    }
+  },
+  {
+    "label": "Day 11",
+    "title": "Refuge la Flegere to Refuge Bellachat",
+    "data": {
+      "distance": 6.6,
+      "gain": 2412,
+      "time": 4
+    }
+  },
+  {
+    "label": "Day 12",
+    "title": "Refuge Bellachat to Les Houches",
+    "data": {
+      "distance": 4.5,
+      "loss": 3825,
+      "time": 4
+    }
+  }
+];
+
+export default data;

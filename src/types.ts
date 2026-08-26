@@ -14,7 +14,7 @@ export type Image = {
 export type Timeline = {
   label: string;
   title: string;
-  data: {
+  data?: {
     distance?: number;
     elevation?: number;
     gain?: number;
@@ -29,6 +29,7 @@ export type Landmark = {
   label: string;
   title: string;
   orientation: string;
+  group?: string;
 };
 
 type Base = {

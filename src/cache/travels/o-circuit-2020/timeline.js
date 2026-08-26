@@ -1,0 +1,82 @@
+const data = [
+  {
+    "label": "Day 1",
+    "title": "Welcome Center to Campamento Seron",
+    "data": {
+      "distance": 8.1,
+      "gain": 895,
+      "loss": 779,
+      "time": 3.5
+    }
+  },
+  {
+    "label": "Day 2",
+    "title": "Campamento Seron to Refugio Dickson",
+    "data": {
+      "distance": 11,
+      "gain": 1036,
+      "loss": 920,
+      "time": 4.2
+    }
+  },
+  {
+    "label": "Day 3",
+    "title": "Refugio Dickson to Refugio Los Perros",
+    "data": {
+      "distance": 7.8,
+      "gain": 1429,
+      "time": 4.5
+    }
+  },
+  {
+    "label": "Day 4",
+    "title": "Refugio Los Perros to Refugio Grey",
+    "data": {
+      "distance": 8.6,
+      "gain": 2395,
+      "loss": 3976,
+      "time": 5.25
+    }
+  },
+  {
+    "label": "Day 5",
+    "title": "Refugio Grey to Refugio Paine Grande",
+    "data": {
+      "distance": 6.5,
+      "gain": 906,
+      "loss": 1037,
+      "time": 3.75
+    }
+  },
+  {
+    "label": "Day 6",
+    "title": "Refugio Paine Grande to Refugio Frances",
+    "data": {
+      "distance": 12.4,
+      "gain": 2621,
+      "loss": 2201,
+      "time": 6
+    }
+  },
+  {
+    "label": "Day 7",
+    "title": "Refugio Frances to Refugio Chileno",
+    "data": {
+      "distance": 9.5,
+      "gain": 2064,
+      "loss": 1225,
+      "time": 6.25
+    }
+  },
+  {
+    "label": "Day 8",
+    "title": "Refugio Chileno to Las Torres to Park Entrance",
+    "data": {
+      "distance": 8.8,
+      "loss": 2782,
+      "time": 9.3
+    }
+  }
+];
+
+export default data;

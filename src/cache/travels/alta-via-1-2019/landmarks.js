@@ -1,0 +1,10 @@
+const data = [
+  {
+    "coordinates": "46.5098° N, 12.0412° E",
+    "label": "Landmark",
+    "title": "Cinque Torri",
+    "orientation": "left"
+  }
+];
+
+export default data;

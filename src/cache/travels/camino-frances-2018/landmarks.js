@@ -1,0 +1,16 @@
+const data = [
+  {
+    "coordinates": "42.8437° N, 7.7945° W",
+    "label": "Monument",
+    "title": "Santiago de Compostela",
+    "orientation": "right"
+  },
+  {
+    "coordinates": "42.4396° N, 5.4014° W",
+    "label": "Landmark",
+    "title": "Cruz de Ferro",
+    "orientation": "right"
+  }
+];
+
+export default data;

@@ -1,14 +1,7 @@
 const data = [
   {
-    "label": "Start",
-    "title": "Ch'allakancha",
-    "data": {
-      "elevation": 12025
-    }
-  },
-  {
     "label": "Day 1",
-    "title": "Ch'allakancha — Soraypampa",
+    "title": "Ch'allakancha to Soraypampa",
     "data": {
       "distance": 4.4,
       "gain": 765,
@@ -19,15 +12,15 @@ const data = [
     "label": "Side Trek",
     "title": "Humantay Lake",
     "data": {
+      "elevation": 13960,
       "distance": 2.4,
       "gain": 1154,
-      "time": 1.5,
-      "summit": 13960
+      "time": 1.5
     }
   },
   {
     "label": "Day 2",
-    "title": "Soraypampa — Paucarcancha",
+    "title": "Soraypampa to Paucarcancha",
     "data": {
       "distance": 11,
       "gain": 2499,
@@ -35,15 +28,8 @@ const data = [
     }
   },
   {
-    "label": "Landmark",
-    "title": "Salkantay Pass",
-    "data": {
-      "elevation": 15807
-    }
-  },
-  {
     "label": "Day 3",
-    "title": "Paucarcancha — Wayllabamba",
+    "title": "Paucarcancha to Wayllabamba",
     "data": {
       "distance": 5.8,
       "loss": 3020,
@@ -51,15 +37,8 @@ const data = [
     }
   },
   {
-    "label": "Landmark",
-    "title": "Paucarcancha Incan Ruins",
-    "data": {
-      "elevation": 10301
-    }
-  },
-  {
     "label": "Day 4",
-    "title": "Wayllabamba — Ayapata",
+    "title": "Wayllabamba to Ayapata",
     "data": {
       "distance": 1.6,
       "gain": 1174,
@@ -68,7 +47,7 @@ const data = [
   },
   {
     "label": "Day 5",
-    "title": "Ayapata — Chaquicocha",
+    "title": "Ayapata to Chaquicocha",
     "data": {
       "distance": 6.5,
       "gain": 4122,
@@ -77,29 +56,8 @@ const data = [
     }
   },
   {
-    "label": "Landmark",
-    "title": "Dead Woman's Pass",
-    "data": {
-      "elevation": 13824
-    }
-  },
-  {
-    "label": "Landmark",
-    "title": "Runkuraqay Incan Ruins",
-    "data": {
-      "elevation": 12381
-    }
-  },
-  {
-    "label": "Landmark",
-    "title": "Sayacmarca Incan Ruins",
-    "data": {
-      "elevation": 11878
-    }
-  },
-  {
     "label": "Day 6",
-    "title": "Chaquicocha — Wiñay Wayna",
+    "title": "Chaquicocha to Wiñay Wayna",
     "data": {
       "distance": 5,
       "loss": 3255,
@@ -107,54 +65,12 @@ const data = [
     }
   },
   {
-    "label": "Landmark",
-    "title": "Puyapatamarca Incan Ruins",
-    "data": {
-      "elevation": 11734
-    }
-  },
-  {
-    "label": "Landmark",
-    "title": "Intipata Incan Ruins",
-    "data": {
-      "elevation": 9217
-    }
-  },
-  {
-    "label": "Landmark",
-    "title": "Wiñay Wayna Incan Ruins",
-    "data": {
-      "elevation": 8733
-    }
-  },
-  {
     "label": "Day 7",
-    "title": "Wiñay Wayna — Macchu Pichu",
+    "title": "Wiñay Wayna to Macchu Pichu",
     "data": {
       "distance": 2.7,
       "loss": 1004,
       "time": 1.5
-    }
-  },
-  {
-    "label": "Landmark",
-    "title": "Sun Gate",
-    "data": {
-      "elevation": 8878
-    }
-  },
-  {
-    "label": "Landmark",
-    "title": "Macchu Pichu",
-    "data": {
-      "elevation": 8204
-    }
-  },
-  {
-    "label": "End",
-    "title": "Aguas Calientes",
-    "data": {
-      "elevation": 6690
     }
   }
 ];

@@ -1,4 +1,4 @@
-[
+const data = [
   {
     "coordinates": "45.8903° N, 6.7929° E",
     "label": "Terminus",
@@ -10,6 +10,12 @@
     "label": "Peak",
     "title": "Highest refuge — Robert Blanc",
     "orientation": "right"
+  },
+  {
+    "coordinates": "46.0179° N, 7.0437° E",
+    "label": "Pass",
+    "title": "Fenetre d'Arpette",
+    "orientation": "left"
   },
   {
     "coordinates": "45.7512° N, 6.8077° E",
@@ -24,21 +30,17 @@
     "orientation": "left"
   },
   {
-    "coordinates": "46.0551° N, 7.0025° E",
-    "label": "Scenic",
-    "title": "Alpage de Bovine",
+    "coordinates": "45.9826° N, 6.8863° E",
+    "label": "Lake",
+    "title": "Lac Blanc",
     "orientation": "left"
   },
   {
-    "coordinates": "45.9683° N, 6.8873° E",
-    "label": "Lake",
-    "title": "Lac Blanc",
-    "orientation": "right"
-  },
-  {
-    "coordinates": "45.9291° N, 6.8365° E",
+    "coordinates": "45.9339° N, 6.8314° E",
     "label": "Summit",
     "title": "La Brevant",
     "orientation": "left"
   }
-]
+];
+
+export default data;

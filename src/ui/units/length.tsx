@@ -1,17 +1,21 @@
 type Props = {
+  isCompact?: boolean;
   isSmall?: boolean;
   value: number;
 };
 
-function formatNumber(value: number) {
+function formatNumber(value: number, isCompact?: boolean) {
+  return new Intl.NumberFormat('en', {
+    notation: isCompact ? 'compact' : 'standard',
+    compactDisplay: isCompact ? 'short' : undefined,
   // @ts-expect-error - format is correct
-  return new Intl.NumberFormat().format(value.toFixed(0));
+  }).format(value.toFixed(0));
 };
 
-export default function Length({ isSmall, value }: Props) {
+export default function Length({ isCompact, isSmall, value }: Props) {
   return (
     <>
-      {formatNumber(value)} {isSmall ? 'ft' : 'miles'}
+      {formatNumber(value, isCompact)} {isSmall ? 'ft' : 'mi'}
     </>
   );
 }

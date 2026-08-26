@@ -1,0 +1,111 @@
+const data = [
+  {
+    "label": "Day 1",
+    "title": "Les Houches to Auberge le Truc",
+    "data": {
+      "distance": 10,
+      "gain": 4781,
+      "time": 7.3
+    }
+  },
+  {
+    "label": "Day 2",
+    "title": "Auberge le Truc to Refuge de la Croix du Bonhomme",
+    "data": {
+      "distance": 11.5,
+      "gain": 4455,
+      "loss": 2015,
+      "time": 6.9
+    }
+  },
+  {
+    "label": "Day 3",
+    "title": "Refuge de la Croix du Bonhomme to Refuge Robert Blanc",
+    "data": {
+      "distance": 9.5,
+      "gain": 3988,
+      "loss": 3046,
+      "time": 6.6
+    }
+  },
+  {
+    "label": "Day 4",
+    "title": "Refuge Robert Blanc to Mason Vielle",
+    "data": {
+      "distance": 16,
+      "gain": 3919,
+      "loss": 6461,
+      "time": 8
+    }
+  },
+  {
+    "label": "Day 5",
+    "title": "Mason Vielle to Refugio Walter Bonatti",
+    "data": {
+      "distance": 11.2,
+      "gain": 3587,
+      "loss": 3446,
+      "time": 6.1
+    }
+  },
+  {
+    "label": "Day 6",
+    "title": "Refugio Walter Bonatti to Hotel Edelweiss",
+    "data": {
+      "distance": 13,
+      "gain": 3141,
+      "loss": 4471,
+      "time": 6.1
+    }
+  },
+  {
+    "label": "Day 7",
+    "title": "Hotel Edelweiss to Gite Bon Abri",
+    "data": {
+      "distance": 10,
+      "loss": 2364,
+      "time": 4.5
+    }
+  },
+  {
+    "label": "Day 8",
+    "title": "Gite Bon Abri to Hotel de la Forclaz",
+    "data": {
+      "distance": 7.9,
+      "gain": 2669,
+      "loss": 2405,
+      "time": 4.1
+    }
+  },
+  {
+    "label": "Day 9",
+    "title": "Hotel de la Forclaz to Auberge le Boerne",
+    "data": {
+      "distance": 9.7,
+      "gain": 3672,
+      "loss": 4054,
+      "time": 5.7
+    }
+  },
+  {
+    "label": "Day 10",
+    "title": "Auberge le Boerne to Refuge la Flegere",
+    "data": {
+      "distance": 5.7,
+      "gain": 3388,
+      "time": 3.6
+    }
+  },
+  {
+    "label": "Day 11",
+    "title": "Refuge la Flegere to Les Houches",
+    "data": {
+      "distance": 11.7,
+      "gain": 2899,
+      "loss": 5759,
+      "time": 6.4
+    }
+  }
+];
+
+export default data;

@@ -117,6 +117,7 @@ const styles = tw({
     font-black
   `,
   tag: `
+    capitalize
     text-xs
 
     sm:text-tiny

@@ -1,0 +1,58 @@
+const data = [
+  {
+    "coordinates": "55.9399° N, 4.3229° W",
+    "label": "Start",
+    "title": "Milngavie",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "56.0229° N, 4.3751° W",
+    "label": "Camp",
+    "title": "Drymen",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "56.1272° N, 4.6124° W",
+    "label": "Camp",
+    "title": "Sallochy",
+    "orientation": "right"
+  },
+  {
+    "coordinates": "56.2921° N, 4.6934° W",
+    "label": "Camp",
+    "title": "Bienglas Farm",
+    "orientation": "right"
+  },
+  {
+    "coordinates": "56.5185° N, 4.7730° W",
+    "label": "Camp",
+    "title": "Bridge of Orchy",
+    "orientation": "right"
+  },
+  {
+    "coordinates": "56.7135° N, 4.9624° W",
+    "label": "Camp",
+    "title": "Kinlochleven",
+    "orientation": "right"
+  },
+  {
+    "coordinates": "56.5666° N, 4.6118° W",
+    "label": "Peak",
+    "title": "Glen Etive",
+    "orientation": "right"
+  },
+  {
+    "coordinates": "56.5680° N, 4.8924° W",
+    "label": "Peak",
+    "title": "Stob Ghabhar",
+    "orientation": "left"
+  },
+  {
+    "coordinates": "56.8169° N, 5.1238° W",
+    "label": "End",
+    "title": "Fort William",
+    "orientation": "right"
+  }
+];
+
+export default data;

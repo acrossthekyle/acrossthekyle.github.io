@@ -28,6 +28,7 @@ export default function Map({ landmarks, trail, travel }: Props) {
           <span className={styles.coordinates}>
             {travel.coordinates}
           </span>
+          <span className={styles.circle} />
           <span className={styles.vertical} />
           <span className={styles.horizontal} />
         </>
@@ -73,22 +74,33 @@ const styles = tw({
     sm:left-6
     sm:bottom-auto
   `,
+  circle: `
+    absolute top-1/2 left-1/2 z-2
+    -translate-x-1/2 -translate-y-1/2
+    w-6
+    h-6
+    rounded-full
+    border
+
+    dark:border-(--background)
+    light:border-(--foreground)
+  `,
   vertical: `
     absolute top-1/2 left-1/2 z-2
     -translate-x-1/2 -translate-y-1/2
     w-px
-    h-6
+    h-12
 
-    dark:bg-(--background)/50
-    light:bg-(--foreground)/50
+    dark:bg-(--background)
+    light:bg-(--foreground)
   `,
   horizontal: `
     absolute top-1/2 left-1/2 z-2
     -translate-x-1/2 -translate-y-1/2
-    w-6
+    w-12
     h-px
 
-    dark:bg-(--background)/50
-    light:bg-(--foreground)/50
+    dark:bg-(--background)
+    light:bg-(--foreground)
   `,
 });

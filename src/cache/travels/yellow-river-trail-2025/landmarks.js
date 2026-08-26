@@ -1,4 +1,4 @@
-[
+const data = [
   {
     "coordinates": "43.17102° N, 91.2587° W",
     "label": "TH",
@@ -11,4 +11,6 @@
     "title": "Browns Hollow",
     "orientation": "left"
   }
-]
+];
+
+export default data;

@@ -1,4 +1,4 @@
-[
+const data = [
   {
     "coordinates": "40.0104° N, 87.5732° W",
     "label": "Trailhead",
@@ -11,4 +11,6 @@
     "title": "Site #3",
     "orientation": "left"
   }
-]
+];
+
+export default data;
