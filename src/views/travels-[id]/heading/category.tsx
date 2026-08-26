@@ -12,7 +12,7 @@ export default function Category({ travel }: Props) {
   return (
     <Link
       className={styles.link}
-      href={`/travels/tag/${travel.category.toLowerCase()}`}
+      href={`/?filter=${travel.category.toLowerCase()}#travels`}
     >
       <span className={styles.prefix}>Category:</span>
       <span>{travel.category}</span>

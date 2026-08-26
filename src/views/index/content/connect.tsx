@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <article className={styles.container} id="connect">
       <h2 className={styles.heading}>
-        <span className={styles.index}>03</span>
+        <span className={styles.index}>Social Media / Email</span>
         Connect
       </h2>
       <p className={styles.paragraph}>

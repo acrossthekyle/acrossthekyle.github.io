@@ -8,7 +8,7 @@ export default function About() {
   return (
     <article className={styles.container} id="about">
       <h2 className={styles.header}>
-        <span className={styles.index}>01</span>
+        <span className={styles.index}>Backstory</span>
         About
       </h2>
       <p className={styles.paragraph}>
