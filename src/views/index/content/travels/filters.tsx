@@ -82,8 +82,7 @@ const styles = tw({
 
     motion-safe:duration-300
 
-    group-hover:bg-(--foreground)/12.5
-    group-hover:border-current/12.5
+    group-hover:bg-(--foreground)/5
 
     sm:text-xtiny
   `,
