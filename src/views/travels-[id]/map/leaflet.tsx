@@ -126,6 +126,6 @@ const styles = tw({
   `,
   route: `
     !pointer-events-none
-    stroke-(--foreground) dark:stroke-(--background)
+    stroke-(--foreground)
   `,
 });
