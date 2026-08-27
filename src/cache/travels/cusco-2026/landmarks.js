@@ -1,44 +1,44 @@
 const data = [
   {
     "coordinates": "13.5300° S, 72.0216° W",
-    "label": "HQ",
-    "title": "City of Cusco",
+    "label": "City of Cusco",
+    "title": "",
     "orientation": "left"
   },
   {
     "coordinates": "13.3961° S, 72.0613° W",
-    "label": "Tour",
-    "title": "Chincherro",
+    "label": "Chincherro",
+    "title": "",
     "orientation": "left"
   },
   {
     "coordinates": "13.3036° S, 72.1567° W",
-    "label": "Tour",
-    "title": "Maras Salt Mines",
+    "label": "Maras Salt Mines",
+    "title": "",
     "orientation": "right"
   },
   {
     "coordinates": "13.3298° S, 72.1997° W",
-    "label": "Ruins",
-    "title": "Moray",
+    "label": "Moray",
+    "title": "",
     "orientation": "left"
   },
   {
     "coordinates": "13.2536° S, 72.2723° W",
-    "label": "Ruins",
-    "title": "Ollantaytambo",
+    "label": "Ollantaytambo",
+    "title": "",
     "orientation": "right"
   },
   {
     "coordinates": "13.4159° S, 71.8466° W",
-    "label": "Ruins",
-    "title": "Pisac",
+    "label": "Pisac",
+    "title": "",
     "orientation": "left"
   },
   {
     "coordinates": "13.5098° S, 71.9842° W",
-    "label": "Ruins",
-    "title": "Sacsayhuaman",
+    "label": "Sacsayhuaman",
+    "title": "",
     "orientation": "right"
   }
 ];

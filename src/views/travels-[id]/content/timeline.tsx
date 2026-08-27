@@ -1,4 +1,4 @@
-import { ArrowDown, ArrowUp, MoveRight } from 'lucide-react';
+import { ArrowDown, ArrowUp, MoveRight, Triangle } from 'lucide-react';
 
 import tw from '@/styles';
 import type { Timeline as TimelineType } from '@/types';
@@ -28,65 +28,67 @@ export default function Timeline({ timeline }: Props) {
                 {point.title.includes(' to ') ? (
                   <>
                     {point.title.split(' to ')[0]}
-                    <MoveRight aria-label="to" className={styles.icon} />
+                    <MoveRight
+                      aria-label="to"
+                      className={`${styles.to} ${styles.icon}`}
+                    />
                     {point.title.split(' to ')[1]}
                   </>
                 ) : (
                   <>{point.title}</>
                 )}
-              </span>
-              <span className={styles.data}>
                 {point.data?.elevation && (
                   <span className={styles.elevation}>
+                    <Triangle className={styles.icon} />
                     <Ui.Units.Length isSmall value={point.data.elevation} />
                   </span>
                 )}
-                <span className={styles.stats}>
-                  {(point.data?.distance || point.data?.time) && (
-                    <span className={styles.velocity}>
-                      {point.data?.distance && (
-                        <span className={styles.stat}>
-                          <Ui.Units.Length value={point.data.distance} />
-                        </span>
-                      )}
-                      {point.data?.time && (
-                        <span className={styles.stat}>
-                          {point.data.time} hrs
-                        </span>
-                      )}
-                    </span>
-                  )}
-                  {(point.data?.gain || point.data?.loss) && (
-                    <span className={styles.change}>
-                      {point.data?.gain && (
-                        <span className={styles.change}>
-                          <ArrowUp
-                            aria-hidden="true"
-                            className={styles.icon}
-                          />
-                          <Ui.Units.Length
-                            isCompact
-                            isSmall
-                            value={point.data.gain}
-                          />
-                        </span>
-                      )}
-                      {point.data?.loss && (
-                        <span className={styles.change}>
-                          <ArrowDown
-                            aria-hidden="true"
-                            className={styles.icon}
-                          />
-                          <Ui.Units.Length
-                            isCompact
-                            isSmall
-                            value={point.data.loss}
-                          />
-                        </span>
-                      )}
-                    </span>
-                  )}
-                </span>
+              </span>
+              <span className={styles.data}>
+                {(point.data?.distance || point.data?.time) && (
+                  <span className={styles.velocity}>
+                    {point.data?.distance && (
+                      <span className={styles.stat}>
+                        <Ui.Units.Length value={point.data.distance} />
+                      </span>
+                    )}
+                    {point.data?.time && (
+                      <span className={styles.stat}>
+                        {point.data.time} hrs
+                      </span>
+                    )}
+                  </span>
+                )}
+                {(point.data?.gain || point.data?.loss) && (
+                  <span className={styles.change}>
+                    {point.data?.gain && (
+                      <span className={styles.change}>
+                        <ArrowUp
+                          aria-hidden="true"
+                          className={styles.icon}
+                        />
+                        <Ui.Units.Length
+                          isCompact
+                          isSmall
+                          value={point.data.gain}
+                        />
+                      </span>
+                    )}
+                    {point.data?.loss && (
+                      <span className={styles.change}>
+                        <ArrowDown
+                          aria-hidden="true"
+                          className={styles.icon}
+                        />
+                        <Ui.Units.Length
+                          isCompact
+                          isSmall
+                          value={point.data.loss}
+                        />
+                      </span>
+                    )}
+                  </span>
+                )}
               </span>
             </p>
           </li>
@@ -118,48 +120,48 @@ const styles = tw({
   `,
   group: `
     relative
-    flex
+    flex flex-col
     mb-6
-
-    last:mb-0
-  `,
-  label: `
-    w-30
-    pt-0.75
-    text-xs
-    uppercase
-
-    sm:text-tiny
-    sm:pt-0
-    sm:w-24
-  `,
-  content: `
-    flex flex-col gap-1
-    w-full
     text-base
 
+    last:mb-0
+
     sm:text-sm
-    lg:text-xs
+  `,
+  label: `
+    uppercase
+    whitespace-nowrap
+    text-xs
+    opacity-90
+
+    sm:text-tiny
+  `,
+  content: `
+    flex flex-col
+    w-full
   `,
   title: `
-    flex flex-wrap items-center gap-2
-    font-black
-    leading-[0.8]
+    flex flex-wrap items-center
+    font-bold
+  `,
+  elevation: `
+    flex items-center gap-2
+    font-sans
+    ml-2
+  `,
+  to: `
+    mx-2
   `,
   icon: `
     w-2.5 h-2.5
+    stroke-3
   `,
   data: `
-    flex flex-col gap-1
-    mt-1
-    text-xs
+    flex gap-3
+    mt-0.25
     font-mono
-
-    sm:text-tiny
-  `,
-  elevation: `
-    font-sans
     text-xs
+    opacity-75
 
     sm:text-tiny
   `,
@@ -171,8 +173,5 @@ const styles = tw({
   velocity: `
     shrink-0
     flex items-center gap-3
-  `,
-  stats: `
-    flex gap-3
   `,
 });

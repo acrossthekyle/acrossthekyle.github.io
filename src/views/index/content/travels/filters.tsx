@@ -1,7 +1,7 @@
 'use client';
 
-import { ListFilter, X } from 'lucide-react';
-import { ChangeEvent, useRef, useState } from 'react';
+import { Ellipsis } from 'lucide-react';
+import { ChangeEvent, useRef } from 'react';
 
 import tw from '@/styles';
 
@@ -17,77 +17,52 @@ const FILTERS = [
   'summits',
 ];
 
-export default function Filters({ filterBy, onChange }: Props) {
-  const [isExpanded, setIsExpanded] = useState(false);
+function uppercaseFirst(value: string) {
+  return String(value).charAt(0).toUpperCase() + String(value).slice(1);
+};
 
+export default function Filters({ filterBy, onChange }: Props) {
   const selectRef = useRef<HTMLSelectElement>(null);
 
   const handleToggle = () => {
-    if (window.innerWidth < 1024 && selectRef.current) {
+    if (selectRef.current) {
       try {
         selectRef.current.showPicker();
       } catch {
         selectRef.current.focus();
       }
-      return;
     }
-
-    setIsExpanded(previous => !previous);
   };
 
   const handleSelect = (event: ChangeEvent<HTMLSelectElement>) => {
-    onChange(event.target.value);
+    onChange(event.target.value.toLowerCase());
   };
 
   return (
-    <nav className={styles.filters}>
-      {!isExpanded && (
-        <span className={styles.current}>
-          <span className={styles.prefix}>Viewing:</span> {filterBy}
-        </span>
-      )}
-      {FILTERS.map((filter) => {
-        const canRender = isExpanded ? true : false;
-
-        if (!canRender) {
-          return null;
-        }
-
-        return (
-          <button
-            className={`${styles.filter} ${styles.cta}`}
-            key={filter}
-            onClick={() => onChange(filter)}
-            type="button"
-          >
-            {filter}
-          </button>
-        );
-      })}
+    <nav className={styles.filter}>
       <select
         className={styles.select}
         name="filter"
         onChange={handleSelect}
         ref={selectRef}
         tabIndex={-1}
-        value={filterBy}
+        value={uppercaseFirst(filterBy)}
       >
         {FILTERS.map((filter) => (
           <option key={filter}>
-            {filter}
+            {uppercaseFirst(filter)}
           </option>
         ))}
       </select>
       <button
-        className={`${styles.toggle} ${styles.cta}`}
+        aria-label="toggle filter dropdown"
+        className={styles.toggle}
         onClick={handleToggle}
         type="button"
       >
-        {isExpanded ? (
-          <X className={styles.icon} />
-        ) : (
-          <ListFilter className={styles.icon} />
-        )}
+        <span className={styles.prefix}>Category:</span>
+        {filterBy}
+        <Ellipsis className={styles.icon} />
       </button>
     </nav>
   );
@@ -97,8 +72,8 @@ const styles = tw({
   heading: `
     text-tiny text-current/50
   `,
-  filters: `
-    absolute top-5 right-5 left-16
+  filter: `
+    absolute top-5 right-5 left-16 z-2
     flex items-center justify-end gap-2
     mb-6
 
@@ -106,49 +81,32 @@ const styles = tw({
     lg:top-4.75
     xl:right-5.5
   `,
-  cta: `
-    items-center gap-2
+  toggle: `
+    flex items-center gap-2
     w-fit
-    p-1
+    px-2 py-1
     border border-current/22.5
     rounded-sm
     uppercase
-    text-xtiny
+    text-tiny
     uppercase
     tracking-wider
 
     motion-safe:duration-300
 
     hover:bg-(--foreground)/5
-  `,
-  filter: `
-    hidden
 
-    lg:flex
-  `,
-  current: `
-    flex items-center gap-2
-    w-fit
-    p-1
-    uppercase
-    text-tiny
-    uppercase
-    tracking-wider
+    sm:text-xtiny
   `,
   prefix: `
     font-normal
     text-current/50
   `,
-  toggle: `
-    flex
-  `,
   icon: `
-    w-3 h-3
+    w-2.75 h-2.75
   `,
   select: `
     sr-only
     capitalize
-
-    lg:hidden
   `,
 });

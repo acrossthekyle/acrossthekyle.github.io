@@ -40,21 +40,6 @@ const styles = tw({
     p-6 pb-4
     border-t border-current/12.5
   `,
-  header: `
-    flex flex-row-reverse items-start justify-between
-    mb-6
-    uppercase
-    font-black
-    text-sm
-    tracking-wide
-
-    sm:text-xs
-    lg:text-tiny
-  `,
-  index: `
-    font-normal
-    text-tiny text-current/50
-  `,
   items: `
     relative
   `,

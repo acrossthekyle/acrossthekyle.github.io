@@ -57,17 +57,12 @@ export default function Carousel() {
       {...swipeable}
     >
       <ul className={styles.items}>
-        {IMAGES.map(({ collection, src, title, year }, index) => (
+        {IMAGES.map(({ src, title, year }, index) => (
           <li key={src}>
             <figure className={styles.figure(current === index)}>
-              <Ui.Image
-                className={styles.image}
-                size="large"
-                src={src}
-              />
+              <Ui.Image className={styles.image} size="large" src={src} />
               <figcaption className={styles.caption}>
                 <span className={styles.title}>{title}</span>
-                <span className={styles.collection}>{collection}</span>
                 <span className={styles.year}>{year}</span>
               </figcaption>
             </figure>
@@ -84,7 +79,7 @@ export default function Carousel() {
         />
         <button
           aria-label={`${canAutoPlay ? 'pause' : 'play'} image carousel`}
-          className={styles.pause}
+          className={styles.auto}
           onClick={handlePausePlay}
           type="button"
         >
@@ -135,7 +130,7 @@ const styles = tw({
   `,
   items: `
     relative
-    h-[60svh] w-full
+    h-[80svh] w-full
 
     sm:h-full
   `,
@@ -156,32 +151,28 @@ const styles = tw({
   `,
   caption: `
     absolute bottom-16 left-6 z-2
-    flex flex-col gap-0.5 items-start
-    uppercase
-    leading-[1]
-    text-tiny text-white
+    flex flex-col
+    text-xs text-white
 
     landscape-constrained:text-tiny
 
-    sm:text-xtiny
+    sm:text-tiny
     sm:top-6
     sm:bottom-auto
   `,
   title: `
+    uppercase
     font-black
   `,
-  collection: `
-    italic
-  `,
   year: `
-    font-mono
+    opacity-75
   `,
   navigation: `
     absolute bottom-4 left-0 right-0 z-2
     flex justify-center
   `,
   navigate: `
-    py-2 px-1
+    p-2
   `,
   next: `
     absolute top-0 right-0 bottom-0 z-1
@@ -197,16 +188,15 @@ const styles = tw({
   `,
   pill: (isActive: boolean) => tw(`
     block
-    h-0.75 w-5
+    h-0.75 w-4
     rounded-full
     border border-white/22.5
 
     ${isActive ? 'bg-white' : 'bg-black'}
   `),
-  pause: `
+  auto: `
     absolute bottom-6 left-6 z-4
-    flex items-center gap-2
-    px-1.5 pb-1.5 pt-2
+    p-2
     leading-[0.8]
     text-tiny
     uppercase

@@ -1,21 +1,14 @@
 import { Header } from '@/layout';
 import tw from '@/styles';
-import type { Travel } from '@/types';
 import { Ui } from '@/ui';
 import { image } from '@/utils';
 
 import Back from './back';
 
-type Props = {
-  data: {
-    travels: Travel[];
-  };
-};
-
-export default function View({ data }: Props) {
+export default function View() {
   return (
     <>
-      <Header travels={data.travels} />
+      <Header />
       <main>
         <article className={styles.container}>
           <header className={styles.header}>

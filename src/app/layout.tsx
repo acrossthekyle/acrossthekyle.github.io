@@ -24,13 +24,13 @@ export const metadata: Metadata = {
 const sans = Geist({
   display: 'swap',
   subsets: ['latin'],
-  variable: '--font-sans',
+  variable: '--font-geist',
 });
 
 const serif = Playfair_Display({
   display: 'swap',
   subsets: ['latin'],
-  variable: '--font-serif',
+  variable: '--font-playfair',
 });
 
 export default async function RootLayout({ children }: PropsWithChildren) {

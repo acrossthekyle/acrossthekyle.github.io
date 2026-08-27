@@ -97,7 +97,7 @@ export default function Leaflet({
         attribution="Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ"
         key={resolvedTheme}
         noWrap={true}
-        url={`https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png`}
+        url={`https://{s}.basemaps.cartocdn.com/${resolvedTheme}_nolabels/{z}/{x}/{y}{r}.png?key=cb1_2bqa_1_f831d7c3d90199580464a9de`}
       />
       {hasLandmarks && (landmarks || []).map((landmark) => (
         <Landmark key={landmark.coordinates} landmark={landmark} />
@@ -121,8 +121,6 @@ const styles = tw({
     h-full w-full
     mask-t-from-90% mask-t-to-100%
     grayscale
-
-    dark:brightness-85
 
     sm:mask-none
   `,

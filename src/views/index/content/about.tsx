@@ -35,11 +35,12 @@ const styles = tw({
     tracking-wide
 
     sm:text-xs
-    lg:text-tiny
   `,
   index: `
     font-normal
-    text-tiny text-current/50
+    text-xs text-current/50
+
+    sm:text-tiny
   `,
   paragraph: `
     w-full
@@ -49,7 +50,6 @@ const styles = tw({
     last:mb-0
 
     sm:text-sm
-    lg:text-xs
     lg:max-w-2/3
   `,
   link: `

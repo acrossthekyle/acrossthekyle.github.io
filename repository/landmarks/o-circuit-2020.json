@@ -1,32 +1,32 @@
 [
   {
-    "coordinates": "50.9636° S, 72.8736° W",
+    "coordinates": "50.9736° S, 72.8836° W",
     "label": "Terminus",
-    "title": "Park Entrance",
+    "title": "",
     "orientation": "left"
   },
   {
     "coordinates": "50.8166° S, 73.2102° W",
-    "label": "Peak",
-    "title": "Cerro Stokes",
+    "label": "Cerro Stokes Peak",
+    "title": "",
     "orientation": "right"
   },
   {
-    "coordinates": "50.9523° S, 73.2042° W",
-    "label": "Glaciar",
-    "title": "Grey",
-    "orientation": "right"
+    "coordinates": "50.9523° S, 73.2047° W",
+    "label": "Glaciar Grey",
+    "title": "",
+    "orientation": "left"
   },
   {
-    "coordinates": "50.9835° S, 73.0533° W",
-    "label": "Lookout",
-    "title": "Valle del Frances",
-    "orientation": "right"
+    "coordinates": "50.9825° S, 73.0563° W",
+    "label": "Valle del Frances",
+    "title": "",
+    "orientation": "left"
   },
   {
-    "coordinates": "50.9419° S, 72.9504° W",
-    "label": "Monument",
-    "title": "Las Torres",
+    "coordinates": "50.9399° S, 72.9484° W",
+    "label": "Las Torres",
+    "title": "",
     "orientation": "left"
   }
 ]

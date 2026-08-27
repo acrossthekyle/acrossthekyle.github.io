@@ -1,6 +1,6 @@
 const data = [
   {
-    "label": "08/31/2019",
+    "label": "Aug 2019",
     "title": "Mount Elbert",
     "data": {
       "elevation": 14426,
@@ -10,7 +10,7 @@ const data = [
     }
   },
   {
-    "label": "09/01/2019",
+    "label": "Sept 2019",
     "title": "Quandary Peak",
     "data": {
       "elevation": 14230,
@@ -20,7 +20,7 @@ const data = [
     }
   },
   {
-    "label": "09/04/2020",
+    "label": "Sept 2020",
     "title": "La Plata Peak",
     "data": {
       "elevation": 14375,
@@ -30,7 +30,7 @@ const data = [
     }
   },
   {
-    "label": "09/05/2020",
+    "label": "Sept 2020",
     "title": "Mount Bierstadt",
     "data": {
       "elevation": 14070,
@@ -40,7 +40,7 @@ const data = [
     }
   },
   {
-    "label": "09/06/2020",
+    "label": "Sept 2020",
     "title": "Grays Peak",
     "data": {
       "elevation": 14259,
@@ -50,7 +50,7 @@ const data = [
     }
   },
   {
-    "label": "09/07/2021",
+    "label": "Sept 2021",
     "title": "Mount Shavano",
     "data": {
       "elevation": 14147,
@@ -60,7 +60,7 @@ const data = [
     }
   },
   {
-    "label": "09/09/2021",
+    "label": "Sept 2021",
     "title": "Mount Decalibron",
     "data": {
       "elevation": 14289,
@@ -70,7 +70,7 @@ const data = [
     }
   },
   {
-    "label": "09/09/2022",
+    "label": "Sept 2022",
     "title": "Mount Belford",
     "data": {
       "elevation": 14160,
@@ -80,7 +80,7 @@ const data = [
     }
   },
   {
-    "label": "09/11/2022",
+    "label": "Sept 2022",
     "title": "Mount Massive",
     "data": {
       "elevation": 14367,

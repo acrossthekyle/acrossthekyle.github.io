@@ -32,12 +32,14 @@ export default function Items({ filterBy, travels }: Props) {
               <li key={travel.id}>
                 <Link className={styles.link} href={`/travels/${travel.id}`}>
                   <span className={styles.title}>{travel.title}</span>
-                  <span className={styles.category}>{travel.category}</span>
                   <span className={styles.location}>
                     <span>{travel.region}</span>
-                    <span aria-hidden="true">&mdash;</span>
+                    <span className={styles.dash} aria-hidden="true">
+                      &mdash;
+                    </span>
                     <span className={styles.emphasis}>{travel.country}</span>
                   </span>
+                  <span className={styles.category}>{travel.category}</span>
                   <MoveRight className={styles.icon} />
                 </Link>
               </li>
@@ -60,13 +62,14 @@ const styles = tw({
   year: `
     sticky top-4 z-10
     self-start
-    w-16
-    pb-13 pt-0.75
-    text-sm
+    w-17.25
+    pb-12 pt-0.75
+    text-base
+    font-extralight
 
-    sm:text-xs
-    sm:pb-10.5
+    sm:pb-10
     sm:pt-0
+    sm:text-sm
   `,
   travels: `
     flex flex-col gap-4
@@ -75,7 +78,7 @@ const styles = tw({
   link: `
     group
     relative
-    flex flex-col gap-1
+    flex flex-col
     text-base
 
     before:absolute
@@ -88,28 +91,26 @@ const styles = tw({
     hover:before:opacity-100
 
     sm:text-sm
-    lg:text-xs
   `,
   title: `
     font-black
   `,
+  location: `
+    pr-6
+  `,
+  dash: `
+    mx-1
+  `,
   category: `
     capitalize
-    text-xs
-
-    sm:text-tiny
-  `,
-  location: `
-    flex flex-wrap gap-1
-    text-sm
-
-    sm:text-xs
+    opacity-60 font-light
   `,
   emphasis: `
     font-serif italic
   `,
   icon: `
-    absolute top-0 right-0.5
+    absolute top-1/2 right-0.5
+    -translate-y-1/2
     w-3 h-3
     stroke-1
     opacity-50

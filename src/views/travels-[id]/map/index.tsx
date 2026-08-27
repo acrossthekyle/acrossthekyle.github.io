@@ -41,8 +41,10 @@ const styles = tw({
   container: `
     relative z-0 -top-0.25
     col-span-1 order-1
-    h-[60svh] w-full
+    h-[80svh] w-full
     border-current/12.5
+
+    landscape-constrained:h-dvh
 
     sm:fixed
     sm:top-0

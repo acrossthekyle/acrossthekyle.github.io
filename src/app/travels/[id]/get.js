@@ -1,5 +1,3 @@
-import travels from '@/cache/travels';
-
 export async function get(id) {
   const data = await import(`../../../cache/travels/${id}/data.js`);
   const images = await import(`../../../cache/travels/${id}/images.js`);
@@ -32,6 +30,5 @@ export async function get(id) {
     timeline: timeline?.default || timeline,
     trail: trail?.default || trail,
     travel: data.default || data,
-    travels,
   };
 };

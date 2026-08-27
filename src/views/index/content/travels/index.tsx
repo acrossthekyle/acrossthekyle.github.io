@@ -58,13 +58,12 @@ const styles = tw({
   `,
   heading: `
     flex items-start
-    mb-4
+    mb-6
     uppercase
     font-black
     text-sm
     tracking-wide
 
     sm:text-xs
-    lg:text-tiny
   `,
 });

@@ -44,15 +44,8 @@ export default function Item({ image, index, isExpanded, onClick }: Props) {
         />
         {isExpanded && (
           <span className={styles.caption}>
-            <span className={styles.eyebrow}>
-              {image.when}
-            </span>
-            <span className={styles.title}>
-              {image.title}
-            </span>
-            <span className={styles.lid}>
-              <Ui.Units.Length isSmall value={image.elevation} />
-            </span>
+            <span className={styles.title}>{image.title}</span>
+            <span className={styles.lid}>{image.when}</span>
           </span>
         )}
       </button>
@@ -73,6 +66,7 @@ const styles = tw({
     absolute left-1/2 -translate-x-1/2
     overflow-hidden
     rounded-xs
+    text-left
 
     ${isExpanded
       ? 'w-full h-61.75 z-1'
@@ -90,22 +84,18 @@ const styles = tw({
     group-hover:grayscale-0
   `),
   caption: `
-    absolute inset-4
-    flex flex-col justify-end gap-1
+    absolute left-4 bottom-4
+    flex flex-col
+    text-xs text-white
     uppercase
-    leading-[0.8]
-    text-tiny text-white text-left
     whitespace-nowrap
-  `,
-  eyebrow: `
-    italic
-    text-xtiny
+
+    sm:text-tiny
   `,
   title: `
     font-black
   `,
   lid: `
-    font-mono
-    text-xtiny
+    opacity-75
   `,
 });

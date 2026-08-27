@@ -16,7 +16,7 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <>
-      <Header travels={data.travels} />
+      <Header />
       <main>
         <article className={styles.container}>
           <Heading travels={data.travels} />

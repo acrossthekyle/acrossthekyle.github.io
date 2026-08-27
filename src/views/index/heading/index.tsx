@@ -45,11 +45,11 @@ const styles = tw({
     flex flex-col justify-end
     mt-auto
     text-[min(8vw,1.8rem)]
-    leading-[1]
-    font-black
+    leading-[0.8]
+    font-black font-geist
     uppercase
 
-    sm:text-[min(4vw,1.75rem)]
-    sm:leading-[0.8]
+    sm:text-[min(4vw,1.9rem)]
+    lg:text-[min(3vw,2rem)]
   `,
 });

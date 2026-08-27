@@ -8,7 +8,7 @@ const data = [
   {
     "coordinates": "40.0069° N, 87.5344° W",
     "label": "Camp",
-    "title": "Site #3",
+    "title": "",
     "orientation": "left"
   }
 ];

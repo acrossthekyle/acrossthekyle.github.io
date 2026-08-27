@@ -56,14 +56,13 @@ const styles = tw({
   `,
   title: `
     block
-    pr-18
+    pr-6
     text-[min(8vw,1.75rem)]
-    leading-[1]
-    font-black
+    leading-[0.8]
+    font-black font-geist
 
-    sm:text-[min(4vw,1.75rem)]
-    sm:leading-[0.8]
-    sm:pr-0
+    sm:text-[min(4vw,1.9rem)]
+    lg:text-[min(3vw,2rem)]
   `,
   lid: `
     block
@@ -74,9 +73,10 @@ const styles = tw({
     sm:text-xtiny
   `,
   navigation: `
-    flex flex-col gap-4
+    flex flex-col gap-2
     mt-6
 
-    sm:flex-row
+    xs:flex-row
+    xs:gap-4
   `,
 });

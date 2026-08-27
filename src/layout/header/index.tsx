@@ -4,15 +4,10 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 import tw from '@/styles';
-import type { Travel } from '@/types';
 
 import Menu from './menu';
 
-type Props = {
-  travels: Travel[];
-};
-
-export default function Header({ travels }: Props) {
+export default function Header() {
   const [isMenuActive, setIsMenuActive] = useState(false);
 
   useEffect(() => {
@@ -42,11 +37,7 @@ export default function Header({ travels }: Props) {
         <span className={styles.version}>
           v0.1701.D
         </span>
-        <Menu
-          travels={travels}
-          isActive={isMenuActive}
-          onToggle={handleMenuToggle}
-        />
+        <Menu isActive={isMenuActive} onToggle={handleMenuToggle} />
       </header>
       <div
         className={styles.backdrop(isMenuActive)}
@@ -73,7 +64,7 @@ const styles = tw({
   inner: `
     px-1 pt-0.5 pb-0.75
     rounded-xs
-    font-medium
+    font-medium font-geist
     text-xs text-(--background)
     bg-(--foreground)
     tracking-wide
@@ -92,12 +83,10 @@ const styles = tw({
   `,
   backdrop: (isMenuActive: boolean) => tw(`
     absolute top-0 left-0 right-0
-    bg-(--background)
+    bg-(--background)/95
 
     motion-safe:duration-300
 
     ${isMenuActive ? 'h-[200svh] opacity-100 z-40' : 'h-svh opacity-0 -z-1'}
-
-    sm:bg-(--background)/90
   `),
 });

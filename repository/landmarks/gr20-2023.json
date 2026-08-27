@@ -1,20 +1,20 @@
 [
   {
     "coordinates": "42.3794° N, 8.9355° E",
-    "label": "Peak",
-    "title": "Monte Cinto — Highest point",
+    "label": "Monte Cinto",
+    "title": "",
     "orientation": "right"
   },
   {
     "coordinates": "42.2559° N, 8.9201° E",
-    "label": "Lake",
-    "title": "Lac de Niño",
+    "label": "Lac de Niño",
+    "title": "",
     "orientation": "right"
   },
   {
     "coordinates": "42.1420° N, 9.0735° E",
-    "label": "Sight",
-    "title": "Cloud Inversion",
+    "label": "Cloud Inversion",
+    "title": "",
     "orientation": "left"
   }
 ]

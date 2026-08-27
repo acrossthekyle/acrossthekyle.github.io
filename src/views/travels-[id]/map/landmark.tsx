@@ -105,12 +105,12 @@ const styles = tw({
     ${!isActive && !isLeft && !hasMore && `pr-2`}
     ${isActive && isLeft && hasMore && `pr-3`}
     ${isActive && !isLeft && hasMore && `pr-2`}
-    text-xtiny text-(--background) dark:text-(--foreground)
+    text-xtiny text-(--background)
     font-mono
     leading-[0.8]
     tracking-widest
     ${isLeft ? 'rounded-l-sm' : 'rounded-r-sm'}
-    bg-(--foreground) dark:bg-(--background)
+    bg-(--foreground)
     uppercase
 
     ${hasMore && isLeft && 'group-hover:pr-3'}
@@ -124,7 +124,6 @@ const styles = tw({
     ${isLeft ? 'before:rotate-225' : 'before:rotate-45'}
     before:rounded-bl-sm
     before:bg-(--foreground)
-    dark:before:bg-(--background)
 
     after:absolute
     after:z-1
@@ -136,7 +135,7 @@ const styles = tw({
     after:-translate-y-1/2
     after:translate-x-3
     after:rounded-full
-    after:bg-white
+    after:bg-(--background)
   `),
   label: `
     relative z-2

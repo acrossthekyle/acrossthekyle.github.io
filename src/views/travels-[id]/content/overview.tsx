@@ -23,21 +23,6 @@ const styles = tw({
 
     lg:border-t-0
   `,
-  header: `
-    flex flex-row-reverse items-start justify-between
-    mb-6
-    uppercase
-    font-black
-    text-sm
-    tracking-wide
-
-    sm:text-xs
-    lg:text-tiny
-  `,
-  index: `
-    font-normal
-    text-tiny text-current/50
-  `,
   paragraph: `
     w-full
     text-base
@@ -46,7 +31,6 @@ const styles = tw({
     last:mb-0
 
     sm:text-sm
-    lg:text-xs
     lg:max-w-2/3
   `,
 });

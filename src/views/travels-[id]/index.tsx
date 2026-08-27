@@ -1,6 +1,6 @@
 import { Header } from '@/layout';
 import tw from '@/styles';
-import type { Data, Image, Landmark, Timeline, Trail, Travel } from '@/types';
+import type { Data, Image, Landmark, Timeline, Trail } from '@/types';
 
 import Content from './content';
 import Heading from './heading';
@@ -13,14 +13,13 @@ type Props = {
     timeline?: Timeline[];
     trail?: Trail[];
     travel: Data;
-    travels: Travel[];
   };
 };
 
 export default function View({ data }: Props) {
   return (
     <>
-      <Header travels={data.travels} />
+      <Header />
       <main>
         <article className={styles.container}>
           <Heading travel={data.travel} />

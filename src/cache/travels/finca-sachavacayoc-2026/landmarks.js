@@ -8,25 +8,25 @@ const data = [
   {
     "coordinates": "13.0084° S, 69.5143° W",
     "label": "Clay Lick",
-    "title": "Macaw/Parrot Watching",
+    "title": "",
     "orientation": "right"
   },
   {
     "coordinates": "12.7915° S, 69.3534° W",
     "label": "Tres Chimbadas Lake",
-    "title": "Searching for River Otters",
+    "title": "",
     "orientation": "left"
   },
   {
     "coordinates": "12.8489° S, 69.3878° W",
     "label": "Oxbow Lake",
-    "title": "Hunting for the Anaconda",
+    "title": "",
     "orientation": "left"
   },
   {
     "coordinates": "12.8624° S, 69.3675° W",
     "label": "Canopy Tower",
-    "title": "Sunset over the jungle",
+    "title": "",
     "orientation": "left"
   }
 ];
