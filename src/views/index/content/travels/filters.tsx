@@ -1,7 +1,7 @@
 'use client';
 
-import { Ellipsis } from 'lucide-react';
-import { ChangeEvent, useRef } from 'react';
+import { ChevronDown } from 'lucide-react';
+import { ChangeEvent } from 'react';
 
 import tw from '@/styles';
 
@@ -22,18 +22,6 @@ function uppercaseFirst(value: string) {
 };
 
 export default function Filters({ filterBy, onChange }: Props) {
-  const selectRef = useRef<HTMLSelectElement>(null);
-
-  const handleToggle = () => {
-    if (selectRef.current) {
-      try {
-        selectRef.current.showPicker();
-      } catch {
-        selectRef.current.focus();
-      }
-    }
-  };
-
   const handleSelect = (event: ChangeEvent<HTMLSelectElement>) => {
     onChange(event.target.value.toLowerCase());
   };
@@ -44,7 +32,6 @@ export default function Filters({ filterBy, onChange }: Props) {
         className={styles.select}
         name="filter"
         onChange={handleSelect}
-        ref={selectRef}
         tabIndex={-1}
         value={uppercaseFirst(filterBy)}
       >
@@ -55,14 +42,14 @@ export default function Filters({ filterBy, onChange }: Props) {
         ))}
       </select>
       <button
-        aria-label="toggle filter dropdown"
+        aria-hidden="true"
         className={styles.toggle}
-        onClick={handleToggle}
+        onClick={() => { /* noop */ }}
         type="button"
       >
         <span className={styles.prefix}>Category:</span>
-        {filterBy}
-        <Ellipsis className={styles.icon} />
+        <span className={styles.current}>{filterBy}</span>
+        <ChevronDown className={styles.icon} />
       </button>
     </nav>
   );
@@ -73,40 +60,46 @@ const styles = tw({
     text-tiny text-current/50
   `,
   filter: `
-    absolute top-5 right-5 left-16 z-2
+    group
+    absolute top-5 right-5 right-5 z-2
     flex items-center justify-end gap-2
     mb-6
 
     lg:gap-1
     lg:top-4.75
-    xl:right-5.5
   `,
   toggle: `
     flex items-center gap-2
     w-fit
     px-2 py-1
     border border-current/22.5
-    rounded-sm
+    rounded-xs
     uppercase
     text-tiny
     uppercase
     tracking-wider
+    bg-transparent
 
     motion-safe:duration-300
 
-    hover:bg-(--foreground)/5
+    group-hover:bg-(--foreground)/12.5
+    group-hover:border-current/12.5
 
     sm:text-xtiny
   `,
   prefix: `
     font-normal
-    text-current/50
+  `,
+  current: `
+    font-bold
   `,
   icon: `
-    w-2.75 h-2.75
+    w-3.5 h-3.5
   `,
   select: `
-    sr-only
-    capitalize
+    absolute top-0 right-0
+    w-full
+    opacity-0
+    cursor-pointer
   `,
 });
