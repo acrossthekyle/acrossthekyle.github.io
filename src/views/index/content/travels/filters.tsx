@@ -48,7 +48,7 @@ export default function Filters({ filterBy, onChange }: Props) {
         type="button"
       >
         <span className={styles.prefix}>Category:</span>
-        <span className={styles.current}>{filterBy}</span>
+        {filterBy}
         <ChevronDown className={styles.icon} />
       </button>
     </nav>
@@ -88,12 +88,11 @@ const styles = tw({
   `,
   prefix: `
     font-normal
-  `,
-  current: `
-    font-bold
+    text-current/50
   `,
   icon: `
     w-3.5 h-3.5
+    stroke-1
   `,
   select: `
     absolute top-0 right-0
