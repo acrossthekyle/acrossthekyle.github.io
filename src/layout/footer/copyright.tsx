@@ -1,16 +1,6 @@
-'use client';
-
-import { usePathname } from 'next/navigation';
-
 import tw from '@/styles';
 
 export default function Copyright() {
-  const pathname = usePathname();
-
-  if (pathname.includes('img')) {
-    return null
-  }
-
   return (
     <p className={styles.container}>
       Words + images + code copyrighted since 2011

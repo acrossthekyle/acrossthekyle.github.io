@@ -5,7 +5,6 @@ import { Geist, Playfair_Display } from 'next/font/google';
 import { ThemeProvider } from 'next-themes';
 import { PropsWithChildren, Suspense } from 'react';
 
-import ViewContext from '@/contexts/view';
 import { Body, Footer } from '@/layout';
 
 export const metadata: Metadata = {
@@ -35,16 +34,18 @@ const serif = Playfair_Display({
 
 export default async function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html className={`${sans.variable} ${serif.variable} h-full`} lang="en-US" suppressHydrationWarning>
+    <html
+      className={`${sans.variable} ${serif.variable} h-full`}
+      lang="en-US"
+      suppressHydrationWarning
+    >
       <Suspense fallback={null}>
-        <ViewContext>
-          <Body>
-            <ThemeProvider>
-              {children}
-              <Footer />
-            </ThemeProvider>
-          </Body>
-        </ViewContext>
+        <Body>
+          <ThemeProvider>
+            {children}
+            <Footer />
+          </ThemeProvider>
+        </Body>
       </Suspense>
     </html>
   );

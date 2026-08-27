@@ -5,7 +5,6 @@ import type { Travel } from '@/types';
 import Carousel from './carousel';
 import Content from './content';
 import Heading from './heading';
-import Reset from './reset';
 
 type Props = {
   data: {
@@ -22,7 +21,6 @@ export default function View({ data }: Props) {
           <Heading travels={data.travels} />
           <Content travels={data.travels} />
           <Carousel />
-          <Reset />
         </article>
       </main>
     </>

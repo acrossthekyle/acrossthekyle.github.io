@@ -1,7 +1,6 @@
 'use client';
 
 import { useTheme } from 'next-themes';
-import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 
 import tw from '@/styles';
@@ -10,8 +9,6 @@ export default function Theme() {
   const [mounted, setMounted] = useState(false);
 
   const { resolvedTheme, setTheme } = useTheme();
-
-  const pathname = usePathname();
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -28,7 +25,7 @@ export default function Theme() {
     }
   };
 
-  if (!mounted || pathname.includes('img')) {
+  if (!mounted) {
     return null
   }
 
