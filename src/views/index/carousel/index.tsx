@@ -142,10 +142,8 @@ const styles = tw({
     ${isActive ? 'opacity-100 z-1' : 'opacity-0 z-0'}
   `),
   image: `
-    grayscale brightness-70
+    grayscale
     mask-t-from-80% mask-t-to-100%
-
-    dark:brightness-80
 
     sm:mask-none
   `,
