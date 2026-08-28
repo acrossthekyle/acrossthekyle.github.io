@@ -38,11 +38,13 @@ const styles = tw({
   bar: `
     block
     absolute
-    h-px
+    h-[2px]
     bg-(--foreground)
     rounded-sm
 
     motion-safe:duration-300
+
+    lg:h-px
   `,
   first: (isActive: boolean) => tw(`
     w-full

@@ -61,6 +61,16 @@ const data = [
   },
   {
     "label": "Day 7",
+    "title": "Khicho Ice Lake",
+    "data": {
+      "elevation": 15157,
+      "distance": 5,
+      "gain": 3823,
+      "time": 5
+    }
+  },
+  {
+    "label": "Day 8",
     "title": "Manang to Tilicho Lake",
     "data": {
       "distance": 8.9,
@@ -70,7 +80,7 @@ const data = [
     }
   },
   {
-    "label": "Day 8",
+    "label": "Day 9",
     "title": "Tilicho Lake to Khangsar",
     "data": {
       "distance": 10.3,
@@ -80,7 +90,7 @@ const data = [
     }
   },
   {
-    "label": "Day 9",
+    "label": "Day 10",
     "title": "Khangsar to Phedi",
     "data": {
       "distance": 10.5,
@@ -90,7 +100,7 @@ const data = [
     }
   },
   {
-    "label": "Day 10",
+    "label": "Day 11",
     "title": "Phedi to Ranipauwa",
     "data": {
       "distance": 9,
@@ -100,7 +110,7 @@ const data = [
     }
   },
   {
-    "label": "Day 11",
+    "label": "Day 12",
     "title": "Ranipauwa to Marpha",
     "data": {
       "distance": 15,
@@ -110,7 +120,7 @@ const data = [
     }
   },
   {
-    "label": "Day 12",
+    "label": "Day 13",
     "title": "Marpha to Ghasa",
     "data": {
       "distance": 17.6,
@@ -120,7 +130,7 @@ const data = [
     }
   },
   {
-    "label": "Day 13",
+    "label": "Day 14",
     "title": "Ghasa to Ghorepani",
     "data": {
       "distance": 19.9,

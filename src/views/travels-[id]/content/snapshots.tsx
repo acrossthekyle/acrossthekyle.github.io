@@ -38,7 +38,6 @@ export default function Snapshots({ images }: Props) {
 const styles = tw({
   container: `
     p-6 pb-4
-    border-t border-current/12.5
   `,
   items: `
     relative

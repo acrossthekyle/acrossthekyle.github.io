@@ -61,19 +61,19 @@ const styles = tw({
   `,
   filter: `
     group
-    absolute top-5 right-5 right-5 z-2
+    absolute top-6 right-6 z-2
     flex items-center justify-end gap-2
     mb-6
 
     lg:gap-1
-    lg:top-4.75
+    lg:top-6
   `,
   toggle: `
     flex items-center gap-2
     w-fit
-    px-2 py-1
+    px-3 py-1
     border border-current/22.5
-    rounded-xs
+    rounded-full
     uppercase
     text-tiny
     uppercase

@@ -19,80 +19,86 @@ export default function Timeline({ timeline }: Props) {
       className={styles.container}
       id="timeline"
     >
-      <ul>
-        {timeline.map((point, index) => (
-          <li className={styles.group} key={index}>
-            <h3 className={styles.label}>{point.label}</h3>
-            <p className={styles.content}>
-              <span className={styles.title}>
-                {point.title.includes(' to ') ? (
-                  <>
-                    {point.title.split(' to ')[0]}
-                    <MoveRight
-                      aria-label="to"
-                      className={`${styles.to} ${styles.icon}`}
-                    />
-                    {point.title.split(' to ')[1]}
-                  </>
-                ) : (
-                  <>{point.title}</>
-                )}
-                {point.data?.elevation && (
-                  <span className={styles.elevation}>
-                    <Triangle className={styles.icon} />
-                    <Ui.Units.Length isSmall value={point.data.elevation} />
-                  </span>
-                )}
-              </span>
-              <span className={styles.data}>
-                {(point.data?.distance || point.data?.time) && (
-                  <span className={styles.velocity}>
-                    {point.data?.distance && (
-                      <span className={styles.stat}>
-                        <Ui.Units.Length value={point.data.distance} />
+      <ul className={styles.items}>
+        {timeline.map((point, index) => {
+          const hasStats = point.data !== undefined;
+
+          return (
+            <li className={styles.group} key={index}>
+              <h3 className={styles.label}>{point.label}</h3>
+              <p className={styles.content}>
+                <span className={styles.title}>
+                  {point.title.includes(' to ') ? (
+                    <>
+                      {point.title.split(' to ')[0]}
+                      <MoveRight
+                        aria-label="to"
+                        className={`${styles.to} ${styles.icon}`}
+                      />
+                      {point.title.split(' to ')[1]}
+                    </>
+                  ) : (
+                    <span className={styles.single}>{point.title}</span>
+                  )}
+                  {point.data?.elevation && (
+                    <span className={styles.elevation}>
+                      <Triangle className={styles.icon} />
+                      <Ui.Units.Length isSmall value={point.data.elevation} />
+                    </span>
+                  )}
+                </span>
+                {hasStats && (
+                  <span className={styles.data}>
+                    {(point.data?.distance || point.data?.time) && (
+                      <span className={styles.velocity}>
+                        {point.data?.distance && (
+                          <span className={styles.stat}>
+                            <Ui.Units.Length value={point.data.distance} />
+                          </span>
+                        )}
+                        {point.data?.time && (
+                          <span className={styles.stat}>
+                            {point.data.time} hrs
+                          </span>
+                        )}
                       </span>
                     )}
-                    {point.data?.time && (
-                      <span className={styles.stat}>
-                        {point.data.time} hrs
-                      </span>
-                    )}
-                  </span>
-                )}
-                {(point.data?.gain || point.data?.loss) && (
-                  <span className={styles.change}>
-                    {point.data?.gain && (
+                    {(point.data?.gain || point.data?.loss) && (
                       <span className={styles.change}>
-                        <ArrowUp
-                          aria-hidden="true"
-                          className={styles.icon}
-                        />
-                        <Ui.Units.Length
-                          isCompact
-                          isSmall
-                          value={point.data.gain}
-                        />
-                      </span>
-                    )}
-                    {point.data?.loss && (
-                      <span className={styles.change}>
-                        <ArrowDown
-                          aria-hidden="true"
-                          className={styles.icon}
-                        />
-                        <Ui.Units.Length
-                          isCompact
-                          isSmall
-                          value={point.data.loss}
-                        />
+                        {point.data?.gain && (
+                          <span className={styles.change}>
+                            <ArrowUp
+                              aria-hidden="true"
+                              className={styles.icon}
+                            />
+                            <Ui.Units.Length
+                              isCompact
+                              isSmall
+                              value={point.data.gain}
+                            />
+                          </span>
+                        )}
+                        {point.data?.loss && (
+                          <span className={styles.change}>
+                            <ArrowDown
+                              aria-hidden="true"
+                              className={styles.icon}
+                            />
+                            <Ui.Units.Length
+                              isCompact
+                              isSmall
+                              value={point.data.loss}
+                            />
+                          </span>
+                        )}
                       </span>
                     )}
                   </span>
                 )}
-              </span>
-            </p>
-          </li>
-        ))}
+              </p>
+            </li>
+          );
+        })}
       </ul>
     </article>
   );
@@ -100,8 +106,7 @@ export default function Timeline({ timeline }: Props) {
 
 const styles = tw({
   container: `
-    p-6
-    border-t border-current/12.5
+    p-6 py-2
   `,
   header: `
     flex flex-row-reverse items-start justify-between
@@ -118,21 +123,32 @@ const styles = tw({
     font-normal
     text-tiny text-current/50
   `,
+  items: `
+    xs:grid
+    xs:grid-cols-[max-content_1fr]
+    xs:gap-y-4
+  `,
   group: `
     relative
     flex flex-col
-    mb-6
     text-base
+    mb-4
 
     last:mb-0
 
+    xs:grid
+    xs:grid-cols-subgrid
+    xs:col-span-2
+    xs:items-start
+    xs:gap-x-4
+    xs:mb-0
     sm:text-sm
   `,
   label: `
+    pt-1 pr-2
     uppercase
     whitespace-nowrap
-    text-xs
-    opacity-90
+    text-xs text-current/75
 
     sm:text-tiny
   `,
@@ -142,12 +158,13 @@ const styles = tw({
   `,
   title: `
     flex flex-wrap items-center
-    font-bold
+  `,
+  single: `
+    mr-2
   `,
   elevation: `
     flex items-center gap-2
     font-sans
-    ml-2
   `,
   to: `
     mx-2

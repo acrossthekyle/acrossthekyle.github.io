@@ -41,7 +41,7 @@ export default function Header() {
       </header>
       <div
         className={styles.backdrop(isMenuActive)}
-        onClick={handleMenuToggle}
+        onClick={() => setIsMenuActive(false)}
         role="presentation"
       />
     </>
@@ -62,8 +62,8 @@ const styles = tw({
     p-2 pt-1
   `,
   inner: `
-    px-1 pt-0.5 pb-0.75
-    rounded-xs
+    px-2 pt-0.5 pb-0.75
+    rounded-full
     font-medium font-geist
     text-xs text-(--background)
     bg-(--foreground)

@@ -50,7 +50,7 @@ const styles = tw({
     last:mb-0
 
     sm:text-sm
-    lg:max-w-2/3
+    md:max-w-2/3
   `,
   link: `
     inline-flex items-center

@@ -12,7 +12,7 @@ export default function Links({ isActive, onClick }: Props) {
   return (
     <nav
       aria-label="site supplementary navigation"
-      className={styles.navigation}
+      className={styles.container}
     >
       <ul className={styles.items}>
         <li>
@@ -34,18 +34,6 @@ export default function Links({ isActive, onClick }: Props) {
           >
             <span className={styles.prefix}>Drop me an</span>
             Email
-            <ArrowUpRight className={styles.icon} />
-          </Link>
-        </li>
-        <li>
-          <Link
-            className={`${styles.link(isActive)} ${styles.github}`}
-            onClick={onClick}
-            href="https://github.com/acrossthekyle/acrossthekyle.github.io"
-            target="_blank"
-          >
-            <span className={styles.prefix}>View code on</span>
-            Github
             <ArrowUpRight className={styles.icon} />
           </Link>
         </li>
@@ -73,16 +61,30 @@ export default function Links({ isActive, onClick }: Props) {
             <ArrowUpRight className={styles.icon} />
           </Link>
         </li>
+        <li>
+          <Link
+            className={`${styles.link(isActive)} ${styles.github}`}
+            onClick={onClick}
+            href="https://github.com/acrossthekyle/acrossthekyle.github.io"
+            target="_blank"
+          >
+            <span className={styles.prefix}>View code on</span>
+            Github
+            <ArrowUpRight className={styles.icon} />
+          </Link>
+        </li>
       </ul>
     </nav>
   );
 };
 
 const styles = tw({
-  navigation: `
+  container: `
     flex flex-col items-end
-    mt-10
+    mt-12
     p-6
+
+    sm:mt-10
   `,
   items: `
     flex flex-col items-end gap-6
@@ -91,27 +93,31 @@ const styles = tw({
     uppercase
     tracking-wider
 
+    landscape-constrained:gap-4
+
     sm:text-xtiny
   `,
   link: (isActive: boolean) => tw(`
     relative
     flex items-center gap-2
     w-fit
-    px-3 py-1
+    px-4 py-1
     text-xs
     uppercase
     tracking-wider
     border border-current/22.5
-    rounded-xs
+    bg-(--background)
+    rounded-full
     pointer-events-auto
     ${isActive ? 'right-0 opacity-100' : 'right-20 opacity-0'}
 
     motion-safe:duration-300
 
-    hover:bg-(--foreground)/5
+    hover:bg-(--foreground)/2.5
+    hover:dark:bg-(--foreground)/5
 
     sm:text-tiny
-    sm:px-2
+    sm:px-3
     sm:py-0
   `),
   prefix: `
@@ -124,17 +130,27 @@ const styles = tw({
   `,
   index: `
     delay-100
+
+    lg:delay-0
   `,
   email: `
     delay-130
+
+    lg:delay-0
   `,
   github: `
     delay-160
+
+    lg:delay-0
   `,
   instagram: `
     delay-190
+
+    lg:delay-0
   `,
   linkedin: `
     delay-220
+
+    lg:delay-0
   `,
 })

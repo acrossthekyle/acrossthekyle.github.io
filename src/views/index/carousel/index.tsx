@@ -194,13 +194,13 @@ const styles = tw({
   `),
   auto: `
     absolute bottom-6 left-6 z-4
-    p-2
+    px-3 py-2
     leading-[0.8]
     text-tiny
     uppercase
     tracking-wider
     bg-(--background)
-    rounded-xs
+    rounded-full
 
     motion-safe:duration-300
 

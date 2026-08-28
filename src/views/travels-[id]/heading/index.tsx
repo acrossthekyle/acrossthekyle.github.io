@@ -37,7 +37,8 @@ const styles = tw({
     h-svh
     p-6
 
-    duration-300
+    landscape-constrained:h-auto
+    landscape-constrained:mt-14
 
     lg:border-r
     lg:border-current/12.5
@@ -49,8 +50,8 @@ const styles = tw({
   eyebrow: `
     block
     mb-2
-    font-mono
     text-tiny
+    tracking-wide
 
     sm:text-xtiny
   `,
@@ -67,10 +68,10 @@ const styles = tw({
   lid: `
     block
     mt-2
-    text-tiny
+    text-xs
     tracking-widest
 
-    sm:text-xtiny
+    sm:text-tiny
   `,
   navigation: `
     flex flex-col gap-2

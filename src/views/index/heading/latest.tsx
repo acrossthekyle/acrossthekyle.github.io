@@ -26,12 +26,12 @@ const styles = tw({
     flex items-center gap-2
     w-fit
     mt-6
-    px-2
+    px-3
     text-tiny
     uppercase
     tracking-wider
     border border-current/22.5
-    rounded-xs
+    rounded-full
 
     motion-safe:duration-300
 

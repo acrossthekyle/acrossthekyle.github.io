@@ -42,7 +42,6 @@ const styles = tw({
     relative z-0 -top-0.25
     col-span-1 order-1
     h-[80svh] w-full
-    border-current/12.5
 
     landscape-constrained:h-dvh
 
@@ -53,6 +52,7 @@ const styles = tw({
     sm:w-1/2
     sm:h-svh
     sm:border-l
+    sm:border-current/12.5
     lg:relative
     lg:top-auto
     lg:right-auto

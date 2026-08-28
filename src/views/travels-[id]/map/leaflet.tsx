@@ -120,6 +120,7 @@ const styles = tw({
     relative z-1
     h-full w-full
     mask-t-from-90% mask-t-to-100%
+    mask-b-from-90% mask-b-to-100%
     grayscale
 
     sm:mask-none

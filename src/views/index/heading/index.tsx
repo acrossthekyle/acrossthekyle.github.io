@@ -36,7 +36,7 @@ const styles = tw({
     h-svh
     p-6 pt-16
 
-    landscape-constrained:pt-13
+    landscape-constrained:h-auto
 
     lg:border-r
     lg:border-current/12.5
@@ -48,6 +48,8 @@ const styles = tw({
     leading-[0.8]
     font-black font-geist
     uppercase
+
+    landscape-constrained:pt-6
 
     sm:text-[min(4vw,1.9rem)]
     lg:text-[min(3vw,2rem)]

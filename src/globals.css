@@ -26,7 +26,7 @@
 
 [data-theme="dark"] {
   --background: #000000;
-  --foreground: #ffffe3;
+  --foreground: #ffffff;
 }
 
 body {
@@ -48,18 +48,6 @@ body {
 
   .leaflet-bar {
     border: 0 !important;
-  }
-
-  .leaflet-control {
-    margin: 0 !important;
-    padding: 0.8rem;
-  }
-
-  .leaflet-control-zoom-in,
-  .leaflet-control-zoom-out {
-    background: transparent !important;
-    border: 0 !important;
-    color: #10100e !important;
   }
 
   .leaflet-control-attribution {
@@ -86,15 +74,5 @@ body {
 
   .leaflet-tooltip:before {
     display: none;
-  }
-
-  .leaflet-gesture-handling-scroll-warning:after,
-  .leaflet-gesture-handling-touch-warning:after {
-    background: transparent;
-    color: var(--foreground);
-    font-size: 0.5rem;
-    font-weight: 300;
-    text-align: center;
-    text-transform: uppercase;
   }
 }

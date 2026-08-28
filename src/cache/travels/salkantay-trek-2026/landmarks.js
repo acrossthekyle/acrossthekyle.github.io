@@ -19,7 +19,7 @@ const data = [
   },
   {
     "coordinates": "13.2402° S, 72.4874° W",
-    "label": "Dead Woman's Pass",
+    "label": "Warmiwañusqa Pass",
     "title": "",
     "orientation": "left"
   },

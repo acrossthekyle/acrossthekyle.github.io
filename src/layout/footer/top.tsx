@@ -17,7 +17,9 @@ export default function Top() {
       onClick={handleOnClick}
       type="button"
     >
-      Back to top
+      <span className={styles.inner}>
+        Back to top
+      </span>
     </button>
   );
 };
@@ -27,12 +29,17 @@ const styles = tw({
     py-4
     flex items-center justify-center
     w-full
-    text-tiny text-center
-    uppercase
-    rounded-xs
-    border-t border-current/12.5
 
     sm:w-1/2
     lg:hidden
+  `,
+  inner: `
+    px-3 py-1
+    text-tiny text-center
+    uppercase
+    rounded-full
+    border border-current/12.5
+
+    sm:text-xtiny
   `,
 });

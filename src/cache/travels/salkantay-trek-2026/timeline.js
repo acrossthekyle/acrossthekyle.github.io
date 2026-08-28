@@ -28,6 +28,13 @@ const data = [
     }
   },
   {
+    "label": "High Point",
+    "title": "Salkantay Pass",
+    "data": {
+      "elevation": 15795
+    }
+  },
+  {
     "label": "Day 3",
     "title": "Paucarcancha to Wayllabamba",
     "data": {
@@ -53,6 +60,13 @@ const data = [
       "gain": 4122,
       "loss": 3228,
       "time": 5.5
+    }
+  },
+  {
+    "label": "High Point",
+    "title": "Warmiwañusqa Pass",
+    "data": {
+      "elevation": 13828
     }
   },
   {
