@@ -5,7 +5,7 @@ import View from '@/views/404';
 
 export default async function NotFound() {
   return (
-    <Suspense fallback={<Ui.Loaders.Fallback />}>
+    <Suspense fallback={<Ui.Loaders.Spinner />}>
       <View />
     </Suspense>
   );

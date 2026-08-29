@@ -62,7 +62,7 @@ export default async function Page({ params }: Props) {
   }
 
   return (
-    <Suspense fallback={<Ui.Loaders.Fallback />}>
+    <Suspense fallback={<Ui.Loaders.Spinner />}>
       <View data={data} />
     </Suspense>
   );

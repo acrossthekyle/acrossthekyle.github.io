@@ -34,6 +34,17 @@ describe('styles', () => {
       expect(result.text).toBe('text-white');
     });
 
+    it('cleans string values within an object with a function', () => {
+      const result = tw({
+        container: '  bg-blue-500  flex  ',
+        text: (isFoo) => `${isFoo ? 'text-black false' : 'text-white'}`,
+      });
+
+      expect(result.container).toBe('bg-blue-500 flex');
+      expect(result.text(true)).toBe('text-black');
+      expect(result.text(false)).toBe('text-white');
+    });
+
     it('joins and cleans array values within an object', () => {
       expect(tw({
         button: ['btn', 'btn-primary', '  p-4  ']

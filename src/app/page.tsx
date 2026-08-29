@@ -9,7 +9,7 @@ export default async function Page() {
   const data = await get();
 
   return (
-    <Suspense fallback={<Ui.Loaders.Fallback />}>
+    <Suspense fallback={<Ui.Loaders.Spinner />}>
       <View data={data} />
     </Suspense>
   );

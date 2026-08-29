@@ -2,7 +2,7 @@ import tw from '@/styles';
 import type { Travel } from '@/types';
 
 import Latest from './latest';
-import Location from './location';
+import Space from './space';
 
 type Props = {
   travels: Travel[];
@@ -11,7 +11,7 @@ type Props = {
 export default function Heading({ travels }: Props) {
   return (
     <header className={styles.container}>
-      <Location />
+      <Space />
       <h1 className={styles.header}>
         <span>Inspired</span>
         <span>backpacker</span>

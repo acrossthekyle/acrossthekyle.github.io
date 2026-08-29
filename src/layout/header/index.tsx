@@ -1,49 +1,24 @@
 'use client';
 
-import Link from 'next/link';
-import { useEffect, useState } from 'react';
-
 import tw from '@/styles';
 
+import Anchor from './anchor';
+import Backdrop from './backdrop';
 import Menu from './menu';
+import { useModel } from './model';
+import Version from './version';
 
 export default function Header() {
-  const [isMenuActive, setIsMenuActive] = useState(false);
-
-  useEffect(() => {
-    if (isMenuActive) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'auto';
-    }
-
-    return () => {
-      document.body.style.overflow = 'auto';
-    };
-  }, [isMenuActive]);
-
-  const handleMenuToggle = () => {
-    setIsMenuActive((previous) => !previous)
-  };
+  const { handleOnClick, handleOnToggle, isMenuActive } = useModel();
 
   return (
     <>
       <header className={styles.container}>
-        <Link aria-label="acrossthekyle.com" className={styles.anchor} href="/">
-          <span className={styles.inner}>
-            @acrossthekyle
-          </span>
-        </Link>
-        <span className={styles.version}>
-          v0.1701.D
-        </span>
-        <Menu isActive={isMenuActive} onToggle={handleMenuToggle} />
+        <Anchor />
+        <Version />
+        <Menu isActive={isMenuActive} onToggle={handleOnToggle} />
       </header>
-      <div
-        className={styles.backdrop(isMenuActive)}
-        onClick={() => setIsMenuActive(false)}
-        role="presentation"
-      />
+      <Backdrop isActive={isMenuActive} onClick={handleOnClick} />
     </>
   );
 };
@@ -58,35 +33,4 @@ const styles = tw({
     sm:w-1/2
     lg:w-1/3
   `,
-  anchor: `
-    p-2 pt-1
-  `,
-  inner: `
-    px-2 pt-0.5 pb-0.75
-    rounded-full
-    font-medium font-geist
-    text-xs text-(--background)
-    bg-(--foreground)
-    tracking-wide
-
-    sm:text-tiny
-    lg:tracking-normal
-  `,
-  version: `
-    inline-block
-    ml-2
-    text-tiny
-    font-mono
-    leading-[0.8]
-
-    sm:text-xtiny
-  `,
-  backdrop: (isMenuActive: boolean) => tw(`
-    absolute top-0 left-0 right-0
-    bg-(--background)/95
-
-    motion-safe:duration-300
-
-    ${isMenuActive ? 'h-[200svh] opacity-100 z-40' : 'h-svh opacity-0 -z-1'}
-  `),
 });

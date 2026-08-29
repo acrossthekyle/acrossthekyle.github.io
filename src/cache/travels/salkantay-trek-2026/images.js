@@ -115,14 +115,14 @@ const data = [
     "elevation": 13824,
     "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/11/49fb3f0d-6008-45f4-bbfe-8ae283dfe93b.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAjEAACAgAFBAMAAAAAAAAAAAAAAQIRAxIhMWETIjJRQXGh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAB/8QAGBEBAQADAAAAAAAAAAAAAAAAAAEREiH/2gAMAwEAAhEDEQA/AI9RPZMlGpeJnTJ579oewaRoUo4atu36RbHFhKN3XDMK4OqTTsNuSkw2yxorZWDPFqS31+QXF1TGKy5ntwWdkUpJN/YASMtptPXk553ok1+gE1BAAk//2Q==",
-    "title": "Dead Womens Pass",
+    "title": "Warmiwañusqa Pass",
     "when": "July 2026"
   },
   {
     "elevation": 13824,
     "src": "https://ik.imagekit.io/acrossthekyle/uploads/2026/07/11/5249fa3c-a1eb-4e14-8242-9331bf38d874.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAEDAgT/xAAfEAACAgIDAQEBAAAAAAAAAAAAAQIRAyESMVEiQXH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/ANNrRbT7VMV7ZJRqL9CWmyOrxtXa2SUsUVbZ54yk5OMWqKob+mmx6HMc5cjn18x8BoscX+t/wBpxvTJNvg17oACzxYlGbeq6orx8ZcouvUAScpKUqbegASf/2Q==",
-    "title": "Dead Womens Pass",
+    "title": "Warmiwañusqa Pass",
     "when": "July 2026"
   },
   {

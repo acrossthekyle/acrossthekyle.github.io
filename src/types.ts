@@ -11,17 +11,19 @@ export type Image = {
   when: string;
 };
 
+export type TimelineData = {
+  distance?: number;
+  elevation?: number;
+  gain?: number;
+  loss?: number;
+  summit?: number;
+  time?: number;
+};
+
 export type Timeline = {
   label: string;
   title: string;
-  data?: {
-    distance?: number;
-    elevation?: number;
-    gain?: number;
-    loss?: number;
-    summit?: number;
-    time?: number;
-  };
+  data?: TimelineData;
 };
 
 export type Landmark = {

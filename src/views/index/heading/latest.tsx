@@ -10,10 +10,7 @@ type Props = {
 
 export default function Latest({ latest }: Props) {
   return (
-    <Link
-      className={styles.link}
-      href={`/travels/${latest.id}`}
-    >
+    <Link className={styles.link} href={`/travels/${latest.id}`}>
       <span className={styles.prefix}>Latest:</span>
       <span>{latest.title}</span>
       <MoveRight className={styles.icon} />
