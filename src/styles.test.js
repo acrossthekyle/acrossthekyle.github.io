@@ -37,7 +37,7 @@ describe('styles', () => {
     it('cleans string values within an object with a function', () => {
       const result = tw({
         container: '  bg-blue-500  flex  ',
-        text: (isFoo) => `${isFoo ? 'text-black false' : 'text-white'}`,
+        text: (isFoo) => tw(`${isFoo ? 'text-black false' : 'text-white'}`),
       });
 
       expect(result.container).toBe('bg-blue-500 flex');

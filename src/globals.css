@@ -34,10 +34,6 @@ body {
     cursor: pointer;
   }
 
-  button[disabled] {
-    cursor: default;
-  }
-
   img {
     height: 100%;
     object-fit: cover;
