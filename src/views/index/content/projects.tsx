@@ -30,7 +30,7 @@ export default function Projects() {
         A personal budgeting application. Check out a demo <External url="https://project-basalt.demos.acrossthekyle.com">here</External>.
       </Paragraph>
       <Paragraph>
-        <Copy value="demo">
+        <Copy value="username">
           <code className={styles.code}>username</code>
         </Copy>
         {' '}
