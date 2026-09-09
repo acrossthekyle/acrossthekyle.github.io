@@ -3,7 +3,7 @@ import tw from '@/styles';
 import {
   Article,
   External,
-  Heading,
+  Header,
   Paragraph,
   Prefix,
 } from './components';
@@ -11,10 +11,10 @@ import {
 export default function Connect() {
   return (
     <Article className={styles.container} id="connect">
-      <Heading>
+      <Header>
         <Prefix>Social Media / Email</Prefix>
         Connect
-      </Heading>
+      </Header>
       <Paragraph>
         Sometimes I post stuff on <External url="https://instagram.com/acrossthekyle?ref=acrossthekyle.com"> Instagram </External>, but the best way to get in touch is via <External url="mailto:hello@acrossthekyle.com">email</External>.
       </Paragraph>

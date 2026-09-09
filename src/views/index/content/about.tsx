@@ -1,7 +1,7 @@
 import {
   Article,
   External,
-  Heading,
+  Header,
   Paragraph,
   Prefix,
 } from './components';
@@ -9,10 +9,10 @@ import {
 export default function About() {
   return (
     <Article id="about">
-      <Heading>
+      <Header>
         <Prefix>Backstory</Prefix>
         About
-      </Heading>
+      </Header>
       <Paragraph>
         After spending hundreds of days and thousands of miles walking through forests, over mountains, and across entire countries, I'm still always seeking the next adventure – from the heights of the Himalayas in Nepal to the windswept expanses of Patagonia.
       </Paragraph>
