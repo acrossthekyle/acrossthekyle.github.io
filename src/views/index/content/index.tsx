@@ -3,6 +3,7 @@ import type { Travel } from '@/types';
 
 import About from './about';
 import Connect from './connect';
+import Projects from './projects';
 import Travels from './travels';
 
 type Props = {
@@ -14,6 +15,7 @@ export default function Content({ travels }: Props) {
     <section aria-label="content" className={styles.container}>
       <About />
       <Travels travels={travels} />
+      <Projects />
       <Connect />
     </section>
   );

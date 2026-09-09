@@ -1,3 +1,5 @@
+import tw from '@/styles';
+
 import {
   Article,
   External,
@@ -8,7 +10,7 @@ import {
 
 export default function Connect() {
   return (
-    <Article id="connect">
+    <Article className={styles.container} id="connect">
       <Heading>
         <Prefix>Social Media / Email</Prefix>
         Connect
@@ -19,3 +21,9 @@ export default function Connect() {
     </Article>
   );
 };
+
+const styles = tw({
+  container: `
+    border-t border-current/12.5
+  `,
+});

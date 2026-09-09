@@ -1,15 +1,17 @@
 import tw from '@/styles';
 
 type Props = {
+  className?: string;
   id: string;
 };
 
 export default function Article({
   children,
+  className = '',
   id,
 }: React.PropsWithChildren<Props>) {
   return (
-    <article className={styles.container} id={id}>
+    <article className={`${styles.container} ${className}`.trim()} id={id}>
       {children}
     </article>
   );
