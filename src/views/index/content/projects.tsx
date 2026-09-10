@@ -24,7 +24,7 @@ export default function Projects() {
       </Heading>
       <Ui.Image
         className={styles.image}
-        src={image('8bb8c466-87d8-4e65-9469-8a04b5f5bd9e', 'projects', 'png')}
+        src={image('92d518ef-fb31-4cbf-8907-368668d278db', 'projects', 'png')}
       />
       <Paragraph>
         A personal budgeting application. Check out a demo <External url="https://project-basalt.demos.acrossthekyle.com">here</External>.
