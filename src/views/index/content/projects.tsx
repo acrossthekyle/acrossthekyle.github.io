@@ -55,7 +55,7 @@ const styles = tw({
   code: `
     inline-block
     px-1.5 py-0.75
-    bg-(--foreground)/22.5
+    bg-(--foreground)/7.5 dark:bg-(--foreground)/17.5
     rounded-md
     text-sm
 
