@@ -4,7 +4,6 @@ import { image } from '@/utils';
 
 import {
   Article,
-  Copy,
   External,
   Header,
   Heading,
@@ -27,16 +26,7 @@ export default function Projects() {
         src={image('92d518ef-fb31-4cbf-8907-368668d278db', 'projects', 'png')}
       />
       <Paragraph>
-        A personal budgeting application. Check out a demo <External url="https://project-basalt.demos.acrossthekyle.com">here</External>.
-      </Paragraph>
-      <Paragraph>
-        <Copy value="username">
-          <code className={styles.code}>username</code>
-        </Copy>
-        {' '}
-        <Copy value="password">
-          <code className={styles.code}>password</code>
-        </Copy>
+        A personal budgeting application. Check out a read-only demo <External url="https://project-basalt.demos.acrossthekyle.com">here</External>.
       </Paragraph>
     </Article>
   );
