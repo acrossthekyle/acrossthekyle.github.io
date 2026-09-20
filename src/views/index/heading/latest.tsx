@@ -43,4 +43,4 @@ const styles = tw({
     w-3
     stroke-1
   `,
-})
+});

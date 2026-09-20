@@ -2,6 +2,7 @@ import tw from '@/styles';
 import type { Travel } from '@/types';
 
 import Latest from './latest';
+import Scroll from './scroll';
 import Space from './space';
 
 type Props = {
@@ -25,12 +26,14 @@ export default function Heading({ travels }: Props) {
         <span>experiences</span>
       </h1>
       <Latest latest={travels[0]} />
+      <Scroll />
     </header>
   );
 };
 
 const styles = tw({
   container: `
+    relative
     col-span-1 order-0
     flex flex-col
     h-svh
