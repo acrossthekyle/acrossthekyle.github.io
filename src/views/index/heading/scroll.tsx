@@ -36,15 +36,13 @@ export default function Scroll() {
 
 const styles = tw({
   container: `
-    fixed bottom-18 right-4 z-0
+    absolute bottom-18 right-4 z-0
     flex flex-col-reverse items-center gap-2
     pointer-events-none
     select-none
 
-    sm:left-1/2
-    sm:right-auto
+    sm:right-6
     sm:bottom-6
-    sm:-translate-x-11
     lg:hidden
   `,
   text: `
