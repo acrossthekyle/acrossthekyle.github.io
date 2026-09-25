@@ -4,7 +4,6 @@ import { image } from '@/utils';
 
 import {
   Article,
-  External,
   Header,
   Heading,
   Paragraph,
@@ -26,7 +25,7 @@ export default function Projects() {
         src={image('8ce510ae-6cb7-456f-853d-908aa15df594', 'projects', 'png')}
       />
       <Paragraph>
-        A personal budgeting application. Check out a read-only demo <External url="https://project-basalt.demos.acrossthekyle.com">here</External>.
+        A personal finance web application with 10-year forecast and month-by-month budgeting.
       </Paragraph>
     </Article>
   );
