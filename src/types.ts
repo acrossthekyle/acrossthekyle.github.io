@@ -4,11 +4,11 @@ export type Trail = Array<{
 }>;
 
 export type Image = {
-  elevation: number;
+  elevation?: number;
   src: string;
-  thumb: string;
+  thumb?: string;
   title: string;
-  when: string;
+  when?: string;
 };
 
 export type TimelineData = {

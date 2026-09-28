@@ -9,7 +9,9 @@ export default function Caption({ image }: Props) {
   return (
     <span className={styles.container}>
       <span className={styles.title}>{image.title}</span>
-      <span className={styles.sub}>{image.when}</span>
+      {image.when && (
+        <span className={styles.sub}>{image.when}</span>
+      )}
     </span>
   );
 };

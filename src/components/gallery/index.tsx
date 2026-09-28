@@ -48,6 +48,5 @@ export default function Snapshots({ images }: Props) {
 const styles = tw({
   container: `
     relative
-    p-6 pb-4
   `,
 });

@@ -64,6 +64,6 @@ export default function Timeline({ timeline }: Props) {
 
 const styles = tw({
   container: `
-    px-6 py-2
+    pb-8 pt-2
   `,
 });

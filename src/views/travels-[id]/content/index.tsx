@@ -1,9 +1,9 @@
+import { Gallery } from '@/components';
 import tw from '@/styles';
 import type { Data, Image, Timeline as TimelineType } from '@/types';
 
 import Overview from './overview';
 import Timeline from './timeline';
-import Snapshots from './snapshots';
 
 type Props = {
   images: Image[];
@@ -20,7 +20,7 @@ export default function Content({
     <section aria-label="content" className={styles.container}>
       <Overview notes={travel.notes} />
       <Timeline timeline={timeline} />
-      <Snapshots images={images} />
+      <Gallery images={images} />
     </section>
   );
 };
@@ -29,6 +29,7 @@ const styles = tw({
   container: `
     flex flex-col
     col-span-1 order-2
+    px-6 pb-4
 
     sm:order-1
     lg:overflow-y-auto
