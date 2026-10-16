@@ -2,7 +2,6 @@ import { Gallery } from '@/components';
 
 import {
   Article,
-  External,
   Header,
   Heading,
   Paragraph,
@@ -21,7 +20,7 @@ export default function Projects() {
         Basalt
       </Heading>
       <Paragraph>
-        A personal finance web application with month-by-month budgeting and future forecasting. Check out a read-only demo <External url="https://project-basalt.demos.acrossthekyle.com">here</External>.
+        A personal finance web application with month-by-month budgeting and future forecasting.
       </Paragraph>
       <Gallery images={BASALT_IMAGES} />
     </Article>
