@@ -1,5 +1,5 @@
 const data = {
-  "lastUpdated": "Oct 16th 2026"
+  "lastUpdated": "Oct 21st 2026"
 };
 
 export default data;

@@ -3,11 +3,19 @@ import type { Image } from '@/types';
 
 type Props = {
   image: Image;
+  isExpanded: boolean;
 };
 
-export default function Caption({ image }: Props) {
+export default function Caption({ image, isExpanded }: Props) {
   return (
-    <span className={styles.container}>
+    <span
+      className={
+        [
+          styles.container,
+          !isExpanded && styles.overlayed,
+          isExpanded && styles.inlayed,
+        ].filter(Boolean).join(' ')}
+    >
       <span className={styles.title}>{image.title}</span>
       {image.when && (
         <span className={styles.sub}>{image.when}</span>
@@ -18,18 +26,32 @@ export default function Caption({ image }: Props) {
 
 const styles = tw({
   container: `
-    absolute left-4 bottom-4
+    absolute left-4 bottom-4 right-4
     flex flex-col
-    text-xs text-white
+    text-xs
     uppercase
-    whitespace-nowrap
+
+    landscape-constrained:!text-white
 
     sm:text-tiny
   `,
   title: `
     font-black
+    truncate
+    pr-12
   `,
   sub: `
     opacity-75
+  `,
+  overlayed: `
+    text-white
+  `,
+  inlayed: `
+    px-0
+
+    landscape-constrained:px-0
+
+    md:px-8
+    lg:px-20
   `,
 });

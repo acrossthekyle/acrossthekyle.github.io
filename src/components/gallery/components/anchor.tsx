@@ -3,22 +3,26 @@
 import tw from '@/styles';
 
 type Props = {
-  index: number;
   isExpanded: boolean;
-  onClick: (index: number) => void;
+  onClick: () => void;
 };
 
 export default function Anchor({
   children,
-  index,
   isExpanded,
   onClick,
 }: React.PropsWithChildren<Props>) {
   return (
     <button
       aria-label="expand image"
-      className={styles.container(isExpanded)}
-      onClick={() => onClick(index)}
+      className={
+        [
+          styles.container,
+          !isExpanded && styles.fit,
+          isExpanded && styles.fill,
+        ].filter(Boolean).join(' ')}
+      disabled={isExpanded}
+      onClick={onClick}
       type="button"
     >
       {children}
@@ -27,16 +31,22 @@ export default function Anchor({
 };
 
 const styles = tw({
-  container: (isExpanded: boolean) => tw(`
+  container: `
     group
-    absolute left-1/2 -translate-x-1/2
-    overflow-hidden
-    rounded-xs
     text-left
 
-    ${isExpanded
-      ? 'w-full h-61.75 z-1'
-      : 'inset-0 w-full h-30 z-0'
-    }
-  `),
+    disabled:!cursor-default
+  `,
+  fit: `
+    absolute inset-0 z-0
+  `,
+  fill: `
+    w-full h-full
+    px-4
+
+    landscape-constrained:px-0
+
+    md:px-12
+    lg:px-24
+  `,
 });

@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 type Props = {
   index: number;
-  isExpanded: boolean;
+  isActive: boolean;
 };
 
 const STYLES = [
@@ -21,18 +21,18 @@ const STYLES = [
 export default function Item({
   children,
   index,
-  isExpanded,
+  isActive,
 }: React.PropsWithChildren<Props>) {
   return (
-    <li className={styles.container(index, isExpanded)}>
+    <li className={styles.container(index, isActive)}>
       {children}
     </li>
   );
 };
 
 const styles = tw({
-  container: (index: number, isExpanded: boolean) => tw(`
-    ${isExpanded ? 'z-50 mb-31.75' : 'relative z-0'}
+  container: (index: number, isActive: boolean) => tw(`
+    ${isActive ? 'z-50 mb-31.75' : 'relative z-0'}
     inline-block
     h-30
     ${STYLES[index % STYLES.length]}

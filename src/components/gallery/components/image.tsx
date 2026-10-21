@@ -4,13 +4,22 @@ import Ui from '@/ui';
 
 type Props = {
   image: Image;
+  isActive: boolean;
   isExpanded: boolean;
 };
 
-export default function Image({ image, isExpanded }: Props) {
+export default function Image({ image, isActive, isExpanded }: Props) {
   return (
     <Ui.Image
-      className={styles.container(isExpanded)}
+      className={
+        [
+          styles.container,
+          isActive && styles.active,
+          !isActive && styles.stale,
+          isExpanded && styles.expanded,
+        ].filter(Boolean).join(' ')
+      }
+      size={isExpanded ? 'large' : undefined}
       src={image.src}
       thumb={image.thumb}
     />
@@ -18,11 +27,19 @@ export default function Image({ image, isExpanded }: Props) {
 };
 
 const styles = tw({
-  container: (isExpanded: boolean) => tw(`
-    ${isExpanded ? 'grayscale-0' : 'grayscale'}
-
+  container: `
     motion-safe:duration-500
 
     group-hover:grayscale-0
-  `),
+  `,
+  active: `
+    grayscale-0
+  `,
+  stale: `
+    grayscale
+  `,
+  expanded: `
+    aspect-video
+    !h-auto
+  `,
 });

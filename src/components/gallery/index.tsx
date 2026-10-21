@@ -8,8 +8,11 @@ import { useModel } from './model';
 import {
   Item,
   ItemAnchor,
+  ItemAnchorClose,
   ItemAnchorImage,
   ItemAnchorImageCaption,
+  ItemAnchorImageExpand,
+  ItemInner,
 } from './components';
 
 type Props = {
@@ -17,26 +20,44 @@ type Props = {
 };
 
 export default function Snapshots({ images }: Props) {
-  const { active, handleOnClick } = useModel();
+  const { active, expanded, handleOnClick, handleOnExpand } = useModel();
 
   return (
     <article aria-label="snapshots" className={styles.container} id="snapshots">
       <ul className="relative">
         {images.map((image, index) => {
-          const isExpanded = index === active;
+          const isActive = index === active;
+          const isExpanded = index === expanded;
 
           return (
-            <Item index={index} isExpanded={isExpanded} key={image.src}>
-              <ItemAnchor
-                index={index}
-                isExpanded={isExpanded}
-                onClick={() => handleOnClick(index)}
-              >
-                <ItemAnchorImage image={image} isExpanded={isExpanded} />
-                {isExpanded && (
-                  <ItemAnchorImageCaption image={image} />
-                )}
-              </ItemAnchor>
+            <Item index={index} isActive={isActive} key={image.src}>
+              <ItemInner isActive={isActive} isExpanded={isExpanded}>
+                <ItemAnchor
+                  isExpanded={isExpanded}
+                  onClick={() => handleOnClick(index)}
+                >
+                  <ItemAnchorClose
+                    isActive={isActive}
+                    isExpanded={isExpanded}
+                  />
+                  <ItemAnchorImage
+                    image={image}
+                    isActive={isActive}
+                    isExpanded={isExpanded}
+                  />
+                  {isActive && (
+                    <ItemAnchorImageCaption
+                      image={image}
+                      isExpanded={isExpanded}
+                    />
+                  )}
+                </ItemAnchor>
+                <ItemAnchorImageExpand
+                  isActive={isActive}
+                  isExpanded={isExpanded}
+                  onClick={() => handleOnExpand(index)}
+                />
+              </ItemInner>
             </Item>
           );
         })}
