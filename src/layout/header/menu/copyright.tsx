@@ -1,28 +1,21 @@
 import tw from '@/styles';
 
-type Props = {
-  isActive: boolean;
-};
-
-export default function Copyright({ isActive }: Props) {
+export default function Copyright() {
   return (
-    <p className={styles.container(isActive)}>
-      Words + images + code copyrighted since 2011
+    <p className={styles.container}>
+      Made by a web developer. From Chicago with love.
     </p>
   );
 };
 
-const styles = {
-  container: (isActive: boolean) => tw(`
-    absolute bottom-6 left-6 z-5
-    text-xtiny
-    font-thin
-    uppercase
-    tracking-widest
-    leading-[0]
-    ${isActive ? 'opacity-100' : 'opacity-0'}
+const styles = tw({
+  container: `
+    absolute bottom-0 left-6 right-6 z-5
+    text-xs text-center
+    font-medium
 
-    motion-safe:duration-300
-    motion-safe:delay-300
-  `),
-};
+    sm:bottom-6
+    sm:text-tiny
+    lg:text-xs
+  `,
+});

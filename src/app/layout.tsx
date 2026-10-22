@@ -1,7 +1,7 @@
 import '../globals.css';
 
 import type { Metadata } from 'next';
-import { Geist, Playfair_Display } from 'next/font/google';
+import { Geist } from 'next/font/google';
 import { ThemeProvider } from 'next-themes';
 import { PropsWithChildren, Suspense } from 'react';
 
@@ -26,16 +26,10 @@ const sans = Geist({
   variable: '--font-geist',
 });
 
-const serif = Playfair_Display({
-  display: 'swap',
-  subsets: ['latin'],
-  variable: '--font-playfair',
-});
-
 export default async function RootLayout({ children }: PropsWithChildren) {
   return (
     <html
-      className={`${sans.variable} ${serif.variable} h-full`}
+      className={`${sans.variable} h-full`}
       lang="en-US"
       suppressHydrationWarning
     >

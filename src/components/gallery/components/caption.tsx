@@ -1,4 +1,4 @@
-import tw from '@/styles';
+import tw, { cs } from '@/styles';
 import type { Image } from '@/types';
 
 type Props = {
@@ -10,11 +10,12 @@ export default function Caption({ image, isExpanded }: Props) {
   return (
     <span
       className={
-        [
+        cs(
           styles.container,
           !isExpanded && styles.overlayed,
           isExpanded && styles.inlayed,
-        ].filter(Boolean).join(' ')}
+        )
+      }
     >
       <span className={styles.title}>{image.title}</span>
       {image.when && (

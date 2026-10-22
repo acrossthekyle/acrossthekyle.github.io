@@ -5,7 +5,11 @@ export function clean(string) {
     .replace(/(\r\n|\n|\r)/gm, '')
     .replace(/\s+/g, ' ')
     .trim();
-}
+};
+
+export function cs(...params) {
+  return params.filter(Boolean).join(' ');
+};
 
 export default function tw(styles) {
   if (typeof styles === 'string') {

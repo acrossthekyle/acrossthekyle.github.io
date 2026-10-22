@@ -2,6 +2,7 @@ import FocusLock, { AutoFocusInside } from 'react-focus-lock';
 
 import tw from '@/styles';
 
+import Colophon from './colophon';
 import Copyright from './copyright';
 import Header from './header';
 import Links from './links';
@@ -18,11 +19,12 @@ export default function Menu({ isActive, onToggle }: Props) {
       <AutoFocusInside>
         <Trigger isActive={isActive} onClick={onToggle} />
       </AutoFocusInside>
-      <div className={styles.container(isActive)}>
+      <section aria-label="menu" className={styles.container(isActive)}>
         <Header />
         <Links isActive={isActive} onClick={onToggle} />
-        <Copyright isActive={isActive} />
-      </div>
+        <Colophon />
+        <Copyright />
+      </section>
     </FocusLock>
   );
 };
@@ -32,7 +34,8 @@ const styles = tw({
     absolute right-0 top-0 z-50
     flex flex-col
     w-full h-dvh
-    pointer-events-none
+    border-r border-current/12.5
+    bg-(--background)
 
     ${isActive ? 'translate-x-0' : `
       -translate-x-full invisible transition-[visibility]

@@ -18,6 +18,7 @@ export function useModel() {
   };
 
   return {
+    current: resolvedTheme,
     handleOnClick,
     isMounted,
   };

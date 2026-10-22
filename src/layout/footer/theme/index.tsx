@@ -1,11 +1,13 @@
 'use client';
 
+import { MoonStar, Sun } from 'lucide-react';
+
 import tw from '@/styles';
 
 import { useModel } from './model';
 
 export default function Theme() {
-  const { handleOnClick, isMounted } = useModel();
+  const { current, handleOnClick, isMounted } = useModel();
 
   if (!isMounted) {
     return null
@@ -18,14 +20,18 @@ export default function Theme() {
       title="Toggle theme"
       type="button"
     >
-      <span className={styles.circle} />
+      {current === 'light' ? (
+        <MoonStar className={styles.icon} />
+      ) : (
+        <Sun className={styles.icon} />
+      )}
     </button>
   );
 };
 
 const styles = tw({
   container: `
-    absolute bottom-3 right-1 z-20
+    absolute bottom-3 right-0 z-20
     p-4
     flex items-center
     text-(--foreground)
@@ -38,12 +44,11 @@ const styles = tw({
     sm:top-1
     sm:bottom-auto
   `,
-  circle: `
-    w-4 h-4
-    rounded-full
-    bg-(--foreground)
+  icon: `
+    size-5
+    stroke-1 dark:stroke-2
+    fill-(--foreground)/50 dark:fill-(--foreground)
 
-    dark:border
-    dark:border-(--background)/40
+    lg:size-4
   `,
 });

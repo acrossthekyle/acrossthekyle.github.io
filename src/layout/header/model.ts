@@ -6,6 +6,20 @@ export function useModel() {
   const [isMenuActive, setIsMenuActive] = useState(false);
 
   useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setIsMenuActive(false);
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
+
+  useEffect(() => {
     document.body.style.overflow = isMenuActive ? 'hidden' : 'auto';
 
     return () => {
@@ -14,7 +28,7 @@ export function useModel() {
   }, [isMenuActive]);
 
   const handleOnToggle = () => {
-    setIsMenuActive((previous) => !previous);
+    setIsMenuActive(previous => !previous);
   };
 
   const handleOnClick = () => {

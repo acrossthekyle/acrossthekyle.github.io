@@ -1,6 +1,6 @@
 'use client';
 
-import tw from '@/styles';
+import tw, { cs } from '@/styles';
 
 type Props = {
   isExpanded: boolean;
@@ -16,11 +16,12 @@ export default function Anchor({
     <button
       aria-label="expand image"
       className={
-        [
+        cs(
           styles.container,
           !isExpanded && styles.fit,
           isExpanded && styles.fill,
-        ].filter(Boolean).join(' ')}
+        )
+      }
       disabled={isExpanded}
       onClick={onClick}
       type="button"

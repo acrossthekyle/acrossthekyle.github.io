@@ -17,33 +17,30 @@ export default function Icon({ isActive }: Props) {
 const styles = tw({
   container: `
     relative
-    w-6 h-6
+    w-10 h-10
   `,
   bar: `
     block
     absolute
-    h-[2px]
+    h-px
     bg-(--foreground)
-    rounded-sm
 
     motion-safe:duration-300
-
-    lg:h-px
   `,
   first: (isActive: boolean) => tw(`
-    w-full
-    ${isActive ? 'top-3' : 'top-1.5'}
+    ${isActive ? 'w-10' : 'w-full'}
+    ${isActive ? 'top-1/2 -translate-y-1/2 right-0' : 'top-1.5'}
     ${isActive ? 'rotate-45' : 'rotate-0'}
   `),
   middle: (isActive: boolean) => tw(`
-    top-3
+    top-3.5
     w-1/2
     ${isActive ? 'right-full' : 'right-0'}
     ${isActive ? 'opacity-0' : 'opacity-100'}
   `),
   last: (isActive: boolean) => tw(`
-    ${isActive ? 'w-full' : 'w-2/3'}
-    ${isActive ? 'top-3' : 'top-4.5 right-0'}
+    ${isActive ? 'w-10' : 'w-2/3'}
+    ${isActive ? 'top-1/2 -translate-y-1/2' : 'top-5.5 right-0'}
     ${isActive ? '-rotate-45' : 'rotate-0'}
   `),
 });

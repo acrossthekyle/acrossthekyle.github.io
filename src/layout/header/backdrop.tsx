@@ -20,10 +20,13 @@ export default function Backdrop({ isActive, onClick }: Props) {
 const styles = {
   container: (isActive: boolean) => tw(`
     absolute top-0 left-0 right-0
-    bg-(--background)/95
+    backdrop-blur-sm
+    bg-(--background)
 
     motion-safe:duration-300
 
     ${isActive ? 'h-[200svh] opacity-100 z-40' : 'h-svh opacity-0 -z-1'}
+
+    sm:bg-transparent
   `),
 };

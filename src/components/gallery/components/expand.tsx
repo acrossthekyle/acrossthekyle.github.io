@@ -2,7 +2,7 @@
 
 import { Maximize, Minimize } from 'lucide-react';
 
-import tw from '@/styles';
+import tw, { cs } from '@/styles';
 
 type Props = {
   isActive: boolean;
@@ -18,12 +18,12 @@ export default function Expand({
   return (
     <button
       className={
-        [
+        cs(
           styles.container,
           isActive && styles.active,
           !isActive && styles.stale,
           isExpanded && styles.inset,
-        ].filter(Boolean).join(' ')
+        )
       }
       onClick={onClick}
       title={`${isActive ? 'Minimize' : 'View'} fullscreen image`}

@@ -1,4 +1,4 @@
-import tw from '@/styles';
+import tw, { cs } from '@/styles';
 import type { Image } from '@/types';
 import Ui from '@/ui';
 
@@ -12,12 +12,12 @@ export default function Image({ image, isActive, isExpanded }: Props) {
   return (
     <Ui.Image
       className={
-        [
+        cs(
           styles.container,
           isActive && styles.active,
           !isActive && styles.stale,
           isExpanded && styles.expanded,
-        ].filter(Boolean).join(' ')
+        )
       }
       size={isExpanded ? 'large' : undefined}
       src={image.src}

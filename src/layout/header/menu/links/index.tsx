@@ -1,9 +1,12 @@
 import tw from '@/styles';
+import { pad } from '@/utils';
 
-import Anchor from './anchor';
+import {
+  Anchor,
+  Number,
+  Text,
+} from './components';
 import { LINKS } from './constants';
-import Icon from './icon';
-import Prefix from './prefix';
 
 type Props = {
   isActive: boolean;
@@ -19,13 +22,11 @@ export default function Links({ isActive, onClick }: Props) {
             <Anchor
               index={index}
               isActive={isActive}
-              isExternal={link.isExternal}
               onClick={onClick}
               url={link.url}
             >
-              <Prefix>{link.prefix}</Prefix>
-              {link.label}
-              <Icon isExternal={link.isExternal} />
+              <Number>{pad(index + 1)}</Number>
+              <Text>{link.label}</Text>
             </Anchor>
           </li>
         ))}
@@ -37,20 +38,14 @@ export default function Links({ isActive, onClick }: Props) {
 const styles = tw({
   container: `
     flex flex-col items-end
-    mt-12
-    p-6
+    mt-16
+    pr-7
 
-    sm:mt-10
+    sm:mt-26
   `,
   items: `
     flex flex-col items-end gap-6
-    text-xs
-    font-semibold
-    uppercase
-    tracking-wider
 
     landscape-constrained:gap-4
-
-    sm:text-xtiny
   `,
 })

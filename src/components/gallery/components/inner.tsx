@@ -1,6 +1,6 @@
 'use client';
 
-import tw from '@/styles';
+import tw, { cs } from '@/styles';
 
 type Props = {
   isActive: boolean;
@@ -15,12 +15,12 @@ export default function Inner({
   return (
     <div
       className={
-        [
+        cs(
           styles.container,
           !isActive && styles.stale,
           isActive && !isExpanded && styles.active,
           isExpanded && styles.expanded,
-        ].filter(Boolean).join(' ')
+        )
       }
     >
       {children}
