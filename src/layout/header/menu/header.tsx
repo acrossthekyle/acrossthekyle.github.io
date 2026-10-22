@@ -8,7 +8,7 @@ export default function Header() {
       <span className={styles.prefix}>
         <Asterisk className={styles.icon} />
         <span className={styles.availability}>
-          Open for any<br />collaborations or offers
+          Open for<br />collaborations
         </span>
       </span>
       <span className={styles.suffix}>
@@ -20,22 +20,20 @@ export default function Header() {
 
 const styles = tw({
   container: `
-    flex items-center justify-between
-    p-4 pt-5 pr-24
+    flex items-center justify-between gap-4
+    p-4 pr-24
   `,
   prefix: `
-    flex items-center
+    flex items-center gap-1
   `,
   icon: `
-    size-10
+    shrink-0
+    size-8
     stroke-1
   `,
   availability: `
     text-xs
     font-light
-
-    sm:text-tiny
-    xl:text-xs
   `,
   suffix: `
     relative

@@ -8,7 +8,7 @@ export default function Colophon() {
       </h3>
       <ul className={styles.items}>
         <li className={styles.item}>
-          <h4 className={styles.heading}>Dev. & Design</h4>
+          <h4 className={styles.heading}>Engineering</h4>
           <p className={styles.content}>Kyle</p>
         </li>
         <li className={styles.item}>
@@ -17,7 +17,7 @@ export default function Colophon() {
         </li>
         <li className={styles.item}>
           <h4 className={styles.heading}>Images</h4>
-          <p className={styles.content}>Via iPhone</p>
+          <p className={styles.content}>iPhone</p>
         </li>
         <li className={styles.item}>
           <h4 className={styles.heading}>Framework</h4>
@@ -33,20 +33,16 @@ const styles = tw({
     flex gap-14
     w-full
     p-6
-    mt-12
-
-    sm:mt-30
   `,
   header: `
     flex flex-col gap-1
   `,
   title: `
-    uppercase
     tracking-tight
     text-sm
   `,
   items: `
-    grid grid-cols-2 gap-x-7 gap-y-6
+    grid grid-cols-2 gap-x-8 gap-y-6
   `,
   item: `
     flex flex-col gap-0.5

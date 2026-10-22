@@ -10,11 +10,11 @@ export default function Copyright() {
 
 const styles = tw({
   container: `
-    absolute bottom-0 left-6 right-6 z-5
     text-xs text-center
-    font-medium
+    font-light
 
-    sm:bottom-6
+    sm:font-medium
+    sm:pb-6
     sm:text-tiny
     lg:text-xs
   `,

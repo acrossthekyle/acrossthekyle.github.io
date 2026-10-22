@@ -3,6 +3,7 @@ import { pad } from '@/utils';
 
 import {
   Anchor,
+  Label,
   Number,
   Text,
 } from './components';
@@ -25,8 +26,11 @@ export default function Links({ isActive, onClick }: Props) {
               onClick={onClick}
               url={link.url}
             >
-              <Number>{pad(index + 1)}</Number>
-              <Text>{link.label}</Text>
+              <span>
+                <Number>{pad(index + 1)}</Number>
+                <Text>{link.title}</Text>
+              </span>
+              <Label>{link.label}</Label>
             </Anchor>
           </li>
         ))}
@@ -38,13 +42,12 @@ export default function Links({ isActive, onClick }: Props) {
 const styles = tw({
   container: `
     flex flex-col items-end
-    mt-16
     pr-7
 
-    sm:mt-26
+    landscape-constrained:pr-20
   `,
   items: `
-    flex flex-col items-end gap-6
+    flex flex-col items-end gap-10
 
     landscape-constrained:gap-4
   `,

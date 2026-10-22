@@ -17,7 +17,7 @@ export default function Icon({ isActive }: Props) {
 const styles = tw({
   container: `
     relative
-    w-10 h-10
+    w-8 h-8
   `,
   bar: `
     block
@@ -28,7 +28,7 @@ const styles = tw({
     motion-safe:duration-300
   `,
   first: (isActive: boolean) => tw(`
-    ${isActive ? 'w-10' : 'w-full'}
+    ${isActive ? 'w-8' : 'w-full'}
     ${isActive ? 'top-1/2 -translate-y-1/2 right-0' : 'top-1.5'}
     ${isActive ? 'rotate-45' : 'rotate-0'}
   `),
@@ -39,7 +39,7 @@ const styles = tw({
     ${isActive ? 'opacity-0' : 'opacity-100'}
   `),
   last: (isActive: boolean) => tw(`
-    ${isActive ? 'w-10' : 'w-2/3'}
+    ${isActive ? 'w-8' : 'w-2/3'}
     ${isActive ? 'top-1/2 -translate-y-1/2' : 'top-5.5 right-0'}
     ${isActive ? '-rotate-45' : 'rotate-0'}
   `),

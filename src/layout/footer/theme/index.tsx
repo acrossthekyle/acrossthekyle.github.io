@@ -47,7 +47,7 @@ const styles = tw({
   icon: `
     size-5
     stroke-1 dark:stroke-2
-    fill-(--foreground)/50 dark:fill-(--foreground)
+    fill-(--foreground)/50 dark:fill-(--foreground)/50
 
     lg:size-4
   `,

@@ -31,14 +31,19 @@ export default function Menu({ isActive, onToggle }: Props) {
 
 const styles = tw({
   container: (isActive: boolean) => tw(`
-    absolute right-0 top-0 z-50
-    flex flex-col
+    absolute right-0 top-0 bottom-0 z-50
+    flex flex-col justify-between gap-8
     w-full h-dvh
-    border-r border-current/12.5
     bg-(--background)
 
-    ${isActive ? 'translate-x-0' : `
-      -translate-x-full invisible transition-[visibility]
-    `}
+    sm:border-r
+    sm:border-current/12.5
+
+    landscape-constrained:overflow-y-auto
+
+    ${isActive
+      ? `translate-x-0`
+      : `-translate-x-full invisible transition-[visibility]`
+    }
   `),
 });

@@ -38,7 +38,7 @@ const styles = tw({
   link: (isActive: boolean, index: number) => tw(`
     group
     relative
-    flex items-center
+    flex flex-col items-end gap-1
     w-fit
     ${isActive ? 'right-0 opacity-100' : 'right-20 opacity-0'}
 

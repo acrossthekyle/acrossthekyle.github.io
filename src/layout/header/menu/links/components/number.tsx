@@ -11,7 +11,7 @@ const styles = tw({
     inline-block
     mr-3
     text-sm
-    font-semibold
-    tracking-tighter
+    font-light font-geist
+    tracking-tight
   `,
 })

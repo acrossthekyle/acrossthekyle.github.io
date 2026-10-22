@@ -8,13 +8,12 @@ export default function Text({ children }: React.PropsWithChildren) {
 
 const styles = tw({
   container: `
-    text-4xl
+    text-[min(8vw,1.8rem)]
+    leading-[0.8]
+    font-black font-geist
     uppercase
-    font-black
-    tracking-tighter
 
-    motion-safe:duration-300
-
-    group-hover:font-semibold
+    sm:text-[min(4vw,1.9rem)]
+    lg:text-[min(3vw,2rem)]
   `,
 })

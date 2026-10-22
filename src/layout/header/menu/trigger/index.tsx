@@ -1,6 +1,6 @@
 'use client';
 
-import tw, { cs } from '@/styles';
+import tw from '@/styles';
 
 import Icon from './icon';
 
@@ -13,12 +13,7 @@ export default function Trigger({ isActive, onClick }: Props) {
   return (
     <button
       aria-label="toggle menu"
-      className={
-        cs(
-          styles.container,
-          !isActive && styles.nudge,
-        )
-      }
+      className={styles.container}
       onClick={onClick}
       type="button"
     >
@@ -29,13 +24,8 @@ export default function Trigger({ isActive, onClick }: Props) {
 
 const styles = tw({
   container: `
-    absolute right-3 top-3 z-100
+    absolute right-4 top-3 z-100
     flex justify-center items-end
     p-2
-
-    motion-safe:duration-300
-  `,
-  nudge: `
-    right-4
   `,
 });
