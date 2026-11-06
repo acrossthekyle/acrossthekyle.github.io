@@ -5,7 +5,7 @@ import Ui from '@/ui';
 
 type Props = {
   type: string;
-  value?: number;
+  value?: number | string;
 };
 
 type ContainerProps = {
@@ -32,7 +32,7 @@ export default function Stat({ type, value }: Props) {
     return (
       <Container className={styles.push}>
         <Triangle aria-hidden="true" className={styles.icon} />
-        <Ui.Units.Length isSmall value={value} />
+        <Ui.Units.Length isSmall value={value as number} />
       </Container>
     );
   }
@@ -40,7 +40,7 @@ export default function Stat({ type, value }: Props) {
   if (type === 'distance') {
     return (
       <Container>
-        <Ui.Units.Length value={value} />
+        <Ui.Units.Length value={value as number} />
       </Container>
     );
   }
@@ -57,7 +57,7 @@ export default function Stat({ type, value }: Props) {
     return (
       <Container>
         <ArrowUp aria-hidden="true" className={styles.icon} />
-        <Ui.Units.Length isCompact isSmall value={value} />
+        <Ui.Units.Length isCompact isSmall value={value as number} />
       </Container>
     );
   }
@@ -66,7 +66,15 @@ export default function Stat({ type, value }: Props) {
     return (
       <Container>
         <ArrowDown aria-hidden="true" className={styles.icon} />
-        <Ui.Units.Length isCompact isSmall value={value} />
+        <Ui.Units.Length isCompact isSmall value={value as number} />
+      </Container>
+    );
+  }
+
+  if (type === 'notes') {
+    return (
+      <Container className={styles.normalcase}>
+        {value}
       </Container>
     );
   }
@@ -89,5 +97,8 @@ const styles = tw({
   `,
   push: `
     ml-1.25
+  `,
+  normalcase: `
+    normal-case
   `,
 });

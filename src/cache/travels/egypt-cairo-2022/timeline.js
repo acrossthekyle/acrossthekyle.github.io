@@ -1,0 +1,44 @@
+const data = [
+  {
+    "label": "Dec 29th",
+    "title": "Giza Plateau",
+    "data": {
+      "notes": "Entering the Great Pyramid + Sphinx"
+    }
+  },
+  {
+    "label": "Dec 30th",
+    "title": "Dahshur",
+    "data": {
+      "notes": "Bent Pyramid"
+    }
+  },
+  {
+    "label": "Dec 30th",
+    "title": "Saqqarra",
+    "data": {
+      "notes": "Step Pyramid"
+    }
+  },
+  {
+    "label": "Dec 30th",
+    "title": "Memphis",
+    "data": {
+      "notes": "Museum of artifacts"
+    }
+  },
+  {
+    "label": "Dec 31st",
+    "title": "Cultural History Museum of Egypt"
+  },
+  {
+    "label": "Dec 31st",
+    "title": "Cairo Bazaar"
+  },
+  {
+    "label": "Jan 1st",
+    "title": "Cairo Museum of Egypt"
+  }
+];
+
+export default data;

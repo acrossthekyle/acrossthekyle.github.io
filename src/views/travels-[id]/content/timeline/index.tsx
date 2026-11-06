@@ -52,6 +52,10 @@ export default function Timeline({ timeline }: Props) {
                     type="loss"
                     value={point.data?.loss}
                   />
+                  <ListItemContentStatsStat
+                    type="notes"
+                    value={point.data?.notes}
+                  />
                 </ListItemContentStats>
               )}
             </ListItemContent>
@@ -64,6 +68,6 @@ export default function Timeline({ timeline }: Props) {
 
 const styles = tw({
   container: `
-    pb-8 pt-2
+    pb-2 pt-6
   `,
 });

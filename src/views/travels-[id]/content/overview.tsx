@@ -18,10 +18,7 @@ export default function Overview({ notes }: Props) {
 
 const styles = tw({
   container: `
-    pb-4 pt-2
-
-    lg:pb-6
-    lg:pt-6
+    pt-6
   `,
   paragraph: `
     w-full

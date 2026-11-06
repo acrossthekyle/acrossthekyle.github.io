@@ -8,9 +8,9 @@ export default function Coordinates({ value }: Props) {
   return (
     <>
       <span className={styles.coordinates}>{value}</span>
-      <span className={`${styles.marker} ${styles.circle}`} />
-      <span className={`${styles.marker} ${styles.line} ${styles.vertical}`} />
-      <span className={`${styles.marker} ${styles.line} ${styles.horizontal}`} />
+      <span className={`${styles.marker} ${styles.circle} ${styles.ring}`} />
+      <span className={`${styles.marker} ${styles.circle} ${styles.inner}`} />
+      <span className={`${styles.marker} ${styles.circle} ${styles.outer}`} />
     </>
   );
 }
@@ -24,8 +24,8 @@ const styles = tw({
     text-tiny
     font-mono
 
-    dark:text-(--background)
-    light:text-(--foreground)
+    dark:text-(--foreground)
+    light:text-(--background)
 
     sm:text-xtiny
     sm:top-6
@@ -33,27 +33,27 @@ const styles = tw({
     sm:bottom-auto
   `,
   marker: `
-    absolute top-1/2 left-1/2 z-2
+    absolute top-1/2 left-1/2
     -translate-x-1/2 -translate-y-1/2
   `,
-  line: `
-    dark:bg-(--background)
-    light:bg-(--foreground)
-  `,
   circle: `
-    w-6 h-6
     rounded-full
+  `,
+  ring: `
+    z-10
+    size-6
     border
-
-    dark:border-(--background)
-    light:border-(--foreground)
+    bg-(--background)
+    opacity-50
   `,
-  vertical: `
-    w-px
-    h-12
+  outer: `
+    z-5
+    size-9.5
+    bg-current/32.5
   `,
-  horizontal: `
-    w-12
-    h-px
+  inner: `
+    z-15
+    size-2.25
+    bg-current/80
   `,
 });

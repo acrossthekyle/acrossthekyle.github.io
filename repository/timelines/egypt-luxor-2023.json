@@ -1,0 +1,31 @@
+{
+  "title": "Sights",
+  "items": [
+    {
+      "label": "Jan 2nd",
+      "title": "Luxor Riverwalk"
+    },
+    {
+      "label": "Jan 3rd",
+      "title": "Exploring the West Bank of Luxor",
+      "data": {
+        "notes": "Memnon Colossi, Valley of the Kings, Valley of the Queens, Hatshepsut's Temple, Habu Temple"
+      }
+    },
+    {
+      "label": "Jan 4th",
+      "title": "Mummification Museum"
+    },
+    {
+      "label": "Jan 4th",
+      "title": "Sunrise hot air balloon ride over Luxor Valley"
+    },
+    {
+      "label": "Jan 4th",
+      "title": "Exploring the East Bank of Luxor",
+      "data": {
+        "notes": "Luxor Temple, The Avenue of Sphinxes, Karnak Temple Complex"
+      }
+    }
+  ]
+}

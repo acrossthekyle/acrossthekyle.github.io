@@ -74,9 +74,17 @@ const data = [
   {
     "category": "destination",
     "country": "Egypt",
-    "id": "egypt-2022",
-    "region": "Northern and Central Region",
-    "title": "Cairo + Luxor",
+    "id": "egypt-luxor-2023",
+    "region": "Central Region",
+    "title": "Egypt Part II: Luxor",
+    "year": "2023"
+  },
+  {
+    "category": "destination",
+    "country": "Egypt",
+    "id": "egypt-cairo-2022",
+    "region": "Northern Region",
+    "title": "Egypt Part I: Cairo",
     "year": "2022"
   },
   {

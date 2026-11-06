@@ -16,7 +16,7 @@ export default function Toggle({ filterBy }: Props) {
     >
       <span className={styles.prefix}>Category:</span>
       {filterBy}
-      <ChevronDown className={styles.icon} />
+      <ChevronDown aria-hidden="true" className={styles.icon} />
     </button>
   );
 };
@@ -28,7 +28,6 @@ const styles = tw({
     px-3 py-1
     border border-current/22.5
     rounded-full
-    uppercase
     text-tiny
     uppercase
     tracking-wider

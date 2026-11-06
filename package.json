@@ -11,7 +11,8 @@
     "e2e": "npx playwright test",
     "e2e:start": "next build && next start",
     "test": "jest",
-    "prepare": "husky"
+    "prepare": "husky",
+    "reboot": "npm run data && npm run dev"
   },
   "dependencies": {
     "leaflet": "1.9.4",

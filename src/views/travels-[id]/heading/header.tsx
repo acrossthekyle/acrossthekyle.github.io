@@ -1,13 +1,17 @@
 import tw from '@/styles';
 import type { Data } from '@/types';
 
+import Jump from './jump';
+
 type Props = {
+  hasTimeline: boolean;
   travel: Data;
 };
 
-export default function Header({ travel }: Props) {
+export default function Header({ hasTimeline, travel }: Props) {
   return (
     <h1 className={styles.container}>
+      <Jump hasTimeline={hasTimeline} />
       <span className={styles.eyebrow}>
         {travel.region} <span aria-hidden="true">&mdash;</span> {travel.country}
       </span>
@@ -21,6 +25,7 @@ const styles = tw({
   container: `
     flex flex-col justify-end gap-1
     uppercase
+    mt-auto
   `,
   eyebrow: `
     block

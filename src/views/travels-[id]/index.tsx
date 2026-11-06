@@ -22,7 +22,10 @@ export default function View({ data }: Props) {
       <Header />
       <main>
         <article className={styles.container}>
-          <Heading travel={data.travel} />
+          <Heading
+            hasTimeline={data.timeline !== undefined}
+            travel={data.travel}
+          />
           <Content
             images={data.images}
             timeline={data.timeline}

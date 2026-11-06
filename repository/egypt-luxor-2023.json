@@ -1,21 +1,20 @@
 {
   "date": [
-    "12/29/2022",
+    "1/2/2023",
     "1/6/2023"
   ],
-  "timestamp": "1672304400",
+  "timestamp": "1672653600",
   "title": [
-    "Cairo",
-    "+ Luxor"
+    "Egypt Part II: Luxor"
   ],
   "location": {
-    "region": "Northern and Central Region",
+    "region": "Central Region",
     "country": "Egypt",
     "continent": "Africa"
   },
   "category": "destination",
   "type": "vacation",
-  "coordinates": "30.033333° N, 31.233334° E",
+  "coordinates": "25.6872° N, 32.6396° E",
   "cover": "9799718c-81f7-460d-9f0a-7ddd2dffb060",
   "notes": [
     "We decided to ring in the new year by doing something special, and chose to visit Cairo, and Luxor, in Egypt. This was one of the more interesting vacations/experiences I've had.",
@@ -23,120 +22,10 @@
   ],
   "header": [
     "experiencing the history",
-    "of ancient egypt",
-    "in the cities of",
-    "cairo and luxor"
+    "of luxor in egypt"
   ],
   "uploads": "2022/12/28",
   "images": [
-    {
-      "id": "b645dadb-e6b9-41ef-a797-8ea11c0de22c",
-      "title": "Pyramids of Giza",
-      "location": {
-        "region": "Giza",
-        "country": "Egypt",
-        "continent": "Africa"
-      },
-      "date": "12/29/2022",
-      "elevation": 95,
-      "notes": ""
-    },
-    {
-      "id": "4a450c11-fa71-4501-83de-95cf248aeecc",
-      "title": "Pyramid of Menkaure",
-      "location": {
-        "region": "Giza Plateau",
-        "country": "Egypt",
-        "continent": "Africa"
-      },
-      "date": "12/29/2022",
-      "elevation": 215,
-      "notes": ""
-    },
-    {
-      "id": "20b4a5e3-bdde-4eee-a650-46a368ab6767",
-      "title": "Pyramid of Khafre",
-      "location": {
-        "region": "Giza Plateau",
-        "country": "Egypt",
-        "continent": "Africa"
-      },
-      "date": "12/29/2022",
-      "elevation": 209,
-      "notes": ""
-    },
-    {
-      "id": "b3275967-68fd-4c69-ad40-df15b2a697b5",
-      "title": "The Sphinx",
-      "location": {
-        "region": "Giza Plateau",
-        "country": "Egypt",
-        "continent": "Africa"
-      },
-      "date": "12/29/2022",
-      "elevation": 50,
-      "notes": ""
-    },
-    {
-      "id": "d9a7b01b-5915-493c-8c25-5a8ebd77ac58",
-      "title": "Bent Pyramid",
-      "location": {
-        "region": "Saqqara",
-        "country": "Egypt",
-        "continent": "Africa"
-      },
-      "date": "12/30/2022",
-      "elevation": 185,
-      "notes": ""
-    },
-    {
-      "id": "fe1acec1-a2b8-4d00-9e2f-7a42c4431323",
-      "title": "Temple ruins",
-      "location": {
-        "region": "Saqqara",
-        "country": "Egypt",
-        "continent": "Africa"
-      },
-      "date": "12/30/2022",
-      "elevation": 48,
-      "notes": ""
-    },
-    {
-      "id": "4b67e6e3-2592-4aca-9074-dc6e6c3ff668",
-      "title": "Red Pyramid",
-      "location": {
-        "region": "Saqqara",
-        "country": "Egypt",
-        "continent": "Africa"
-      },
-      "date": "12/30/2022",
-      "elevation": 171,
-      "notes": ""
-    },
-    {
-      "id": "2db07918-d67a-41a1-a2e1-e65e051343ca",
-      "title": "Step Pyramid",
-      "location": {
-        "region": "Dahshur",
-        "country": "Egypt",
-        "continent": "Africa"
-      },
-      "date": "12/30/2022",
-      "elevation": 196,
-      "notes": ""
-    },
-    {
-      "id": "0826806c-c673-49a1-a9ae-79cfa77633e4",
-      "title": "Tower of Cairo",
-      "location": {
-        "region": "Cairo",
-        "country": "Egypt",
-        "continent": "Africa"
-      },
-      "date": "12/30/2022",
-      "elevation": 100,
-      "notes": ""
-    },
     {
       "id": "4613d11e-789b-4962-a169-f5057946ecd6",
       "title": "Sphinx avenue",
@@ -375,18 +264,6 @@
       },
       "date": "01/04/2023",
       "elevation": 310,
-      "notes": ""
-    },
-    {
-      "id": "a8f4fb49-5258-464a-8731-f4a95ae8e417",
-      "title": "Cairo Sunset",
-      "location": {
-        "region": "Luxor",
-        "country": "Egypt",
-        "continent": "Africa"
-      },
-      "date": "01/05/2023",
-      "elevation": 69,
       "notes": ""
     }
   ]

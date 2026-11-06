@@ -18,6 +18,7 @@ export type TimelineData = {
   loss?: number;
   summit?: number;
   time?: number;
+  notes?: string;
 };
 
 export type Timeline = {

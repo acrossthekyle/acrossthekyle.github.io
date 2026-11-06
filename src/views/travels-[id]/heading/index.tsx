@@ -5,13 +5,14 @@ import Header from './header';
 import Navigation from './navigation';
 
 type Props = {
+  hasTimeline: boolean;
   travel: Data;
 };
 
-export default function Heading({ travel }: Props) {
+export default function Heading({ hasTimeline, travel }: Props) {
   return (
     <header className={styles.container}>
-      <Header travel={travel} />
+      <Header hasTimeline={hasTimeline} travel={travel} />
       <Navigation travel={travel} />
     </header>
   );
