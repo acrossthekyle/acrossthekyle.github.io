@@ -67,9 +67,8 @@ const styles = tw({
   inset: `
     !right-1.5
 
-    landscape-constrained:!right-4
+    landscape-constrained:!right-3.5
 
-    md:!right-9.5
-    lg:!right-21.5
+    md:!right-3.5
   `,
 });

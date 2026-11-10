@@ -17,7 +17,16 @@ export default function Caption({ image, isExpanded }: Props) {
         )
       }
     >
-      <span className={styles.title}>{image.title}</span>
+      <span
+        className={
+          cs(
+            styles.title,
+            isExpanded && styles.centered,
+          )
+        }
+      >
+        {image.title}
+      </span>
       {image.when && (
         <span className={styles.sub}>{image.when}</span>
       )}
@@ -41,6 +50,9 @@ const styles = tw({
     truncate
     pr-12
   `,
+  centered: `
+    !pr-0
+  `,
   sub: `
     opacity-75
   `,
@@ -48,11 +60,6 @@ const styles = tw({
     text-white
   `,
   inlayed: `
-    px-0
-
-    landscape-constrained:px-0
-
-    md:px-8
-    lg:px-20
+    text-center
   `,
 });
