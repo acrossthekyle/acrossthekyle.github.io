@@ -1,6 +1,6 @@
 'use client';
 
-import { Copy, CopyCheck } from 'lucide-react';
+import { Check, Copy } from 'lucide-react';
 
 import { useCopy } from '@/hooks/useCopy';
 import tw from '@/styles';
@@ -23,7 +23,7 @@ export default function Clipboard({
     >
       {children}
       {isCopied ? (
-        <CopyCheck className={styles.icon} />
+        <Check className={styles.icon} />
       ) : (
         <Copy className={styles.icon} />
       )}
