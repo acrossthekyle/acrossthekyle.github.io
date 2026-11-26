@@ -31,6 +31,10 @@ export default function Projects() {
         <Copy value="password">
           <code className={styles.code}>password</code>
         </Copy>
+        {' '}
+        <Copy value="123456">
+          <code className={styles.code}>otp</code>
+        </Copy>
       </Paragraph>
     </Article>
   );
